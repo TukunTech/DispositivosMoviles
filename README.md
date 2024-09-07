@@ -74,6 +74,19 @@ En Domain-Driven Design (DDD), el concepto de “Ubiquitous Language” se refie
 - **Sesión de Monitoreo (Monitoring Session)**: El periodo de tiempo durante el cual los signos vitales del paciente son recolectados y analizados por el sistema.
 - **Umbral de Alarma (Alarm Threshold)**: Valores límite predefinidos para los signos vitales que, si se exceden, activan una alerta en el sistema.
 
+### 4.1.2 Web Style Guidelines. 
+
+Desarrollaremos una aplicación altamente adaptable que se ajustará a cualquier dispositivo tecnológico sin comprometer el diseño del contenido. La aplicación será **responsive**, garantizando una experiencia óptima en smartphones, tablets y ordenadores, y respetará las heurísticas de usabilidad para asegurar una interfaz intuitiva y eficiente. Cada tipo de dispositivo será considerado cuidadosamente para que el contenido esté estructurado de manera óptima y coherente en todas las plataformas.
+
+
+
+Utilizaremos el **patrón Z** para guiar la interacción del usuario de manera efectiva. Este enfoque comenzará en la esquina superior izquierda, donde se ubicará nuestra marca o logo, lo que ayudará a reforzar nuestra identidad visual desde el primer contacto. Desde allí, el usuario se desplazará hacia la derecha para explorar opciones clave como “Nosotros”, “Servicios”, “Planes” y “Noticias”. A continuación, el usuario se moverá verticalmente hacia abajo, interactuando con el contenido principal de la aplicación. Finalmente, en la parte inferior se encontrarán enlaces a nuestras redes sociales y otros medios de contacto, completando así un recorrido fluido y organizado por toda la aplicación.
+
+
+
+El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosamente seleccionada para motivar al usuario a seguir interactuando con la plataforma, teniendo en cuenta el contraste adecuado para evitar el cansancio visual de los posibles clientes. Además, utilizaremos **sombras** y **espacios bien definidos** que no solo mejorarán la lectura de la información, sino que también limitarán el contenido para evitar abrumar al usuario. Prestaremos especial atención a la distribución de los espacios para delimitar claramente las áreas, asegurando una experiencia de navegación fluida y agradable. Para ello se emplearán algunos de los siguientes elementos:
+
+
 
 ## 4.2.1. Organization Systems
 
