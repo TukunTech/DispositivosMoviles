@@ -441,8 +441,34 @@ Para todos los segmentos, se ofrecerá un centro de ayuda con una barra de búsq
 ---
 
 Este formato asegura que cada segmento objetivo tenga acceso a herramientas de búsqueda adaptadas a sus necesidades específicas, mejorando la experiencia del usuario y facilitando el acceso rápido a información crítica.
-## 4.3. Landing Page UI Design.
 
+### 4.2.5. Navigation Systems. FABIO
+A continuación, se presentarán los sistemas de navegación que facilitarán a nuestros usuarios desplazarse por las diferentes secciones de contenido o información disponibles.
+
+_**Sección Landing Page:**_
+Tal y como se describió en el Labeling Systems, el Landing Page cuenta con 4 headings: “Nosotros”, “Servicios”, “Planes” y “Noticias”. Las secciones se encuentran ubicadas como un menú global de forma horizontal a lo largo de la parte superior del Landing page. La información se organizó en cuatro secciones para evitar que el cliente tenga que desplazarse hacia abajo usando la barra de desplazamiento vertical y enfrentarse a un exceso de contenido. Esto facilita la navegación por nuestro sitio. La idea es que primero explore el Home, donde encontrará la información más importante y llamativa, para luego continuar navegando por el resto del menú de izquierda a derecha.
+
+_**Sección Web Application:**_
+Se optó por mantener un diseño muy similar al usado en el Landing Page, de modo que las secciones también se encuentran ubicadas como un menú global de forma horizontal a lo largo de la parte superior. A continuación se dará una breve descripción de la información que se puede visualizar en cada una de las secciones según el usuario logueado.
+
+- Login Adulto Mayor:
+	- Home: Sección a la que se accede automáticamente al iniciar sesión. Presenta las opciones de panel de signos vitales, perfil adulto mayor, números de emergencia, recordatorios, soporte técnico y citas.
+	- Panel SV: Muestra un resumen en tiempo real de los signos vitales del usuario, con gráficos y alertas que indican cualquier cambio significativo en su salud
+	- Perfil de Adulto Mayor: Contiene información detallada del paciente, incluyendo su medicación preexistente, para una gestión personalizada de su salud.
+	- Números de emergencia: Proporciona acceso rápido a números de contacto de emergencia, incluyendo servicios médicos, familiares o cuidadores designados, para una respuesta inmediata en caso de cualquier alerta crítica.
+	- Recordatorios: Permite configurar y gestionar recordatorios para la toma de medicamentos, asegurando que el usuario cumpla con su plan de cuidado.
+	- Soporte Técnico: Ofrece asistencia y solución de problemas técnicos, con opciones para contactar al equipo de soporte a través de chat o llamada telefónica.
+
+- Login Clínica:
+	- Home: Sección a la que se accede automáticamente al iniciar sesión. Presenta las opciones de Pacientes Postoperatorios, Pacientes UCI, Registro, Pacientes, Médicos y Citas.
+	- Pacientes Postoperatorios: Lista y detalles de los pacientes que están en recuperación tras una cirugía, con acceso a sus datos de monitoreo.
+	- Pacientes UCI: Lista y detalles de los pacientes que están en recuperación tras una cirugía, con acceso a sus datos de monitoreo.
+	- Registro: Permite registrar doctores y nuevos pacientes, y actualizar información existente.
+	- Pacientes: Vista general de todos los pacientes, incluyendo información básica.
+	- Médicos: Vista general de todos los médicos, incluyendo información básica.
+	- Citas: Sección para gestionar y agendar o reagendar citas.
+
+## 4.3. Landing Page UI Design.
 Las Landing Pages son herramientas diseñadas para transformar a los visitantes en posibles clientes, utilizando elementos como mensajes atractivos e información relevante sobre el producto, entre otros. Por esta razón, se optó por emplear esta estrategia, y se creó una versión preliminar tanto para dispositivos móviles como para computadoras.
 
 Para la versión de computadora, se diseñaron ventanas con opciones claramente especificadas que facilitan la comprensión del usuario, acompañadas de descripciones detalladas de cada función del sitio web para evitar cualquier dificultad. Además, la barra de navegación se ha colocado en una posición fija, de manera que esté siempre accesible, permitiendo al usuario navegar cómodamente por la Landing Page.
