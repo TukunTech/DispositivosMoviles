@@ -33,7 +33,7 @@ Estoy actualmente en el quinto ciclo de mi carrera en Ingeniería de Software. D
 ![Bravo Gavilano, Jorge Rafael](./Nosotros-img/Rafael.png)
 
 ## 1.2. Solution Profile 
-**Procut Name** Se decidió llamar a nuestro producto “TukunTech”, inspirado en el sonido “tukun”, que imita el latido del corazón, el pulso rítmico que simboliza la vida y la salud. Este sonido, asociado con el latido cardíaco, refleja el enfoque principal de nuestra aplicación: el monitoreo de signos vitales. Así como el “tukun” del corazón es esencial para la vida, nuestra aplicación es fundamental para la vigilancia y cuidado continuo de los pacientes.
+**Product Name** Se decidió llamar a nuestro producto “TukunTech”, inspirado en el sonido “tukun”, que imita el latido del corazón, el pulso rítmico que simboliza la vida y la salud. Este sonido, asociado con el latido cardíaco, refleja el enfoque principal de nuestra aplicación: el monitoreo de signos vitales. Así como el “tukun” del corazón es esencial para la vida, nuestra aplicación es fundamental para la vigilancia y cuidado continuo de los pacientes.
 El sufijo “Tech” subraya la innovación tecnológica que nuestra empresa aporta al sector salud. TukunTech combina la esencia de la vida, representada por el latido del corazón, con soluciones tecnológicas avanzadas, creando una herramienta integral para hospitales y clínicas.
 Elegimos este nombre porque captura la esencia de lo que hacemos: utilizar la tecnología para monitorear y cuidar la vida, uniendo ciencia y humanidad en una plataforma que mejora la atención médica.
 
