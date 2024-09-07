@@ -84,6 +84,20 @@ Con este análisis, podemos identificar el FODA, es decir, las fortalezas, oport
 Pero, ¿cómo identificamos a nuestros principales competidores? Es necesario estudiar el mercado e identificar las soluciones tecnológicas más utilizadas por hospitales, clínicas, y otras instituciones de salud que priorizan la eficiencia y precisión en el monitoreo de pacientes. Con este análisis, se concluyó que los principales competidores son: aquellos que ofrecen sistemas de monitoreo tradicionales, soluciones fragmentadas que requieren intervención manual, y plataformas que carecen de integración en tiempo real.
 ![Análisis competitivo](./imgs%20cuadros/Analisis%20competitivo.png)
 
+### 2.1.2. Estrategias y tácticas frente a competidores.
+Basándonos en las necesidades de la empresa, buscamos estrategias concretas para su adecuado desarrollo y el de sus clientes, promoviendo de esta manera una matriz FODA para realizar un análisis interno y externo efectivo.
+
+| TukunTech    | _Fortalezas_     | _Debilidades_      |
+| :----------- |:------------:| ------------:|
+|         | - **Integración con IoT:** Tukun ofrece una integración fluida con IoT, lo que permite el monitoreo remoto en tiempo real y la centralización de datos. |
+| - **Análisis avanzado en tiempo real:** Utiliza algoritmos avanzados para detectar anomalías y alertar al personal médico de manera inmediata, mejorando la proactividad en la atención médica. |
+| - **Accesibilidad para médicos:** Permite a los doctores realizar evaluaciones médicas básicas en tiempo real, accediendo a datos actualizados y proporcionando recomendaciones instantáneas. |
+| - **Compatibilidad con sistemas existentes:** Tukun está diseñado para integrarse fácilmente con las infraestructuras actuales de las clínicas, optimizando la eficiencia y precisión en la gestión del cuidado de los pacientes. |
+        | - **Foco inicial limitado:** Aunque se centra en cuidados intensivos, postoperatorios y adultos mayores, podría ser percibido como limitado en su alcance a otras áreas médicas que también podrían beneficiarse del monitoreo IoT. |
+  | - **Dependencia de la infraestructura IoT:** Requiere una infraestructura IoT robusta, lo cual podría ser un desafío en entornos clínicos con tecnología menos avanzada. |
+  | - **Curva de aprendizaje:** La implementación de una nueva plataforma puede requerir tiempo de capacitación para el personal médico, lo que podría ser una barrera inicial. |
+
+
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas. FABIO
 En esta parte, presentamos las preguntas que hemos diseñado para llevar a cabo las entrevistas con los dos grupos de usuarios a los que nos dirigimos. Es importante mencionar que las preguntas son de formato abierto, lo que nos permitirá recopilar información valiosa para comprender mejor cómo abordar los desafíos que enfrentan nuestros usuarios objetivo.
