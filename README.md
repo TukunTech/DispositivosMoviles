@@ -430,33 +430,44 @@ Figma: https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F
 A continuación, se describirán los criterios esenciales para las decisiones de interacción en relación con la Arquitectura de la Información de nuestra aplicación. Estos criterios abarcan los elementos de la interfaz y los principios que se aplican a ellos. Es importante destacar que, aunque la estructura general de la  aplicación será consistente, se podrán observar algunas diferencias en los detalles visuales.
 
 Botones / Tarjetas menú principal
+
   Cada segmento objetivo cuenta con su propio menú principal con sus propios botones. Esto se tomó en cuenta debido a las diferentes necesidades que hay entre los 2 segmentos.
 
 Listas
+
   Hay diversas secciones dentro de la Aplicación Web que utilizan listas, entre ellas están: lista de pacientes, lista de médicos. Para realizar la elección de las siguientes listas nos basamos en lo siguiente:
   -  Principio de las elecciones: Este principio establece que mientras más opciones se presenten al usuario, más difícil será para ellos tomar una decisión rápida y efectiva. Por esta razón, nuestras listas están diseñadas para ofrecer solo la información esencial en cada contexto. Esto facilita la toma de decisiones y        evita que los usuarios se sientan abrumados. 
 
   -  Principio del crecimiento: Este principio se basa en la capacidad de las listas para escalar a medida que la base de datos crece. Hemos diseñado nuestras listas con la flexibilidad de adaptarse a un número creciente de registros sin sacrificar la usabilidad. Esto incluye paginación o carga dinámica de datos a medida       que el usuario se desplaza hacia abajo, asegurando que la aplicación siga siendo ágil y fácil de usar, independientemente de la cantidad de datos que contenga.
 
 Etiquetas
+
   En nuestra aplicación contamos con etiquetas que apoyan la identificación de secciones específicas dentro de este.
   -  Cada sección/ventana de nuestra aplicación se puede identificar por sí sola, nuestras etiquetas permiten a nuestros usuarios estar correctamente guiados, así mismo sabiendo donde se encuentran y que sigue a continuación
 Menús
+ 
   En nuestra aplicación, los menús están diseñados de acuerdo con las necesidades específicas de los diferentes segmentos de usuarios, como médicos, personal de la clínica, y familiares de los pacientes. Cada segmento cuenta con un menú principal personalizado, que permite una navegación rápida y eficiente hacia las         funciones más relevantes para ellos.
+Menús Personalizados por Segmento de Usuarios
 
-   1. Segmento de médicos:
-      -Acceso directo a las listas de pacientes y detalles médicos.
-      -Opciones para gestionar citas, actualizar tratamientos, y revisar signos vitales.
-      -Menú claro y accesible, que prioriza la eficiencia y la toma rápida de decisiones clínicas.
-      
-  2. Segmento de administradores de clínicas:
-      -Enfoque en la gestión operativa, con accesos directos a reportes, asignación de recursos, y monitoreo general del sistema.
-      -Menú que permite la supervisión de múltiples áreas y el ajuste de configuraciones del sistema en tiempo real.
-      
-  3. Segmento de familiares:
-      -Acceso simplificado a la información de salud de sus seres queridos, con opciones para monitoreo en tiempo real y notificaciones personalizadas.
-      -Menú intuitivo que permite la comunicación directa con el personal médico en caso de emergencias.
-      -El diseño de estos menús no solo busca la facilidad de uso, sino también garantizar que los usuarios se sientan seguros y confiados al navegar por la aplicación, con todas las funciones clave accesibles con un par de clics.
+Segmento 1: Encargados de Adultos Mayores
+  - Acceso directo a información de salud:
+    Los encargados pueden visualizar en tiempo real los signos vitales de sus seres queridos y recibir notificaciones personalizadas.
+  - Opciones de comunicación:
+    El menú incluye un acceso directo a herramientas de comunicación con el personal médico en caso de emergencias.
+  - Navegación simplificada:
+    Todo está diseñado para que los usuarios puedan acceder a las funciones clave con facilidad, asegurando una experiencia sin complicaciones.
+
+Segmento 2: Personal Médico y Pacientes Postoperatorios UCI en Clínicas Privadas
+  - Gestión médica integral:
+    El menú está optimizado para permitir a los médicos gestionar listas de pacientes, citas, tratamientos y revisar signos vitales de manera rápida y eficiente.
+  - Reportes y análisis en tiempo real:
+    Los médicos pueden acceder a informes detallados y realizar ajustes de tratamiento basados en los datos en tiempo real.
+  - Prioridad a la toma de decisiones clínicas:
+    El diseño del menú favorece la rapidez y precisión en la toma de decisiones, minimizando el número de clics necesarios para acceder a funciones críticas.
+
+
+
+
 
 
 Acceso al Prototyping 
