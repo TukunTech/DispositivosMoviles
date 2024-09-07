@@ -403,7 +403,7 @@ La gestión de código fuente, también conocida como **SCM** (Source Code Manag
 
 **Organización:https://github.com/TukunTech**
 
-**Landing Page:**
+**Landing Page: https://tukuntech.github.io/DesarrolloOP-SW57/**
 
 ![Repositorios](./imgs%20Software%20Configuration%20Management/Source-Code-Management1.JPG)
 
