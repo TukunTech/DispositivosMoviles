@@ -223,5 +223,5 @@ Tiene la función de examinar los artefactos y el comportamiento del software, a
 
 ## 5.2.1.7. Software Deployment Evidence for Sprint Review.
 En esta sección, se redactará el proceso de implementación del software en un entorno de producción. Asimismo, se mostrarán los hitos clave que servirán para el despliegue del proyecto y la disponibilidad de este para los usuarios finales. 
-![Software Deployment Evidence for Sprint Review](./imgs$20Software$20Configuration$20Management/Software$20Deployment$20Evidence$20for$20Sprint$20Review.png)
+![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Software%20Deployment%20Evidence%20for%20Sprint%20Review.png)
 
