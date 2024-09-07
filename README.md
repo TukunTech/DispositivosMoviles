@@ -264,9 +264,11 @@ Por todo lo mencionado, se seleccionó el siguiente tipo de letra:
 - _**Colors**_
 El color es un elemento muy trascendental en cualquier campo del diseño, incluido el diseño web y de aplicaciones móviles. Los colores establecen estados de ánimo a las personas. Usar los colores correctos no solo lleva a los usuarios a diferentes sitios web, sino que también ayuda a fortalecer la marca.
   -_Brand Colors_
-  ![brandColors](./Imgs%20-%20Guidelines/Brand%20colors.png)
+  ![brandColors](./Imgs%20-%20Guidelines/Brand%20color.png)
+  
   -_State Colors_
-  ![stateColors](./Imgs%20-%20Guidelines/State%20colors.png)
+  ![stateColors](./Imgs%20-%20Guidelines/State%20Colors.png)
+  
   -_Grey Colors_
   ![greyColors](./Imgs%20-%20Guidelines/Gray%20Color.png)
 
