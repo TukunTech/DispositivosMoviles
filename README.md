@@ -23,5 +23,10 @@ Plan Familiar: Enfocado en usuarios individuales que necesitan monitorear la sal
 Ambos planes tendrán diferentes estructuras de costos y se ofrecerán en un modelo de suscripción mensual, adaptado a las necesidades de cada tipo de usuario.
 
 ## 2.3.3. User Journey Mapping.
-**Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
-![User Journey Mapping](./imgs Journey Mapping/segmento 1.png)
+## User Journey Mapping
+
+### Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales
+![Segmento 1](./imgs%20Journey%20Mapping/segmento%201.png)
+### Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
+![Segmento 2](./imgs%20Journey%20Mapping/segmento%202.png)
+
