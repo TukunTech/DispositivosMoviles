@@ -459,6 +459,29 @@ Para todos los segmentos, se ofrecerá un centro de ayuda con una barra de búsq
 ---
 
 Este formato asegura que cada segmento objetivo tenga acceso a herramientas de búsqueda adaptadas a sus necesidades específicas, mejorando la experiencia del usuario y facilitando el acceso rápido a información crítica.
+### 4.4.3. Web Applications User Flow Diagrams.
+
+Segmento objetivo 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
+
+Se evidencia el recorrido para la creación de una cuenta nueva en el sistema 
+![User flow 1]()
+
+Se evidencia el recorrido para la edición del perfil del usuario
+![User flow 2]()
+
+Se evidencia el recorrido para acceder a los contactos de emergencia
+![User flow 3]()
+
+Segmento objetivo 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
+
+Se evidencia el recorrido para acceder al registro de un nuevo médico
+![user flow 4]()
+
+Se evidencia el recorrido para reagendar una cita médica
+![user flow 5]()
+
+Se evidencia el recorrido para agregar una nota a un paciente:
+![User flow 6]()
 
 ### 4.2.5. Navigation Systems. FABIO
 A continuación, se presentarán los sistemas de navegación que facilitarán a nuestros usuarios desplazarse por las diferentes secciones de contenido o información disponibles.
