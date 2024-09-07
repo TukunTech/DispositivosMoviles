@@ -245,7 +245,7 @@ En esta sección, se presentará la evidencia del progreso y desarrollo del soft
 
 ![Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Development%20Evidence%20for%20Sprint%20Review.png)
 
-##5.2.1.6. Services Documentation Evidence for Sprint Review.
+## 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Aquí se presentará la documentación relacionada con los servicios de atención médica ofrecidos a través de la plataforma. Esto puede incluir perfiles de profesionales de salud, detalles sobre los paquetes disponibles.
 
 ![Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Evidence%20for%20Sprint%20Review.png)
