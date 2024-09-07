@@ -636,7 +636,7 @@ En el presente diagrama se detalla cómo los médicos y enfermeros interactúan 
 - El sistema de **pasarela de pago** para la gestión de transacciones.
 - El servicio de **notificaciones push** **Firebase Cloud Messaging (FCM)** para enviar alertas y actualizaciones en tiempo real a los dispositivos móviles de los profesionales de la salud.
 
-![Context Diagram](./imgs%20Domain%20Driven%20Design/Software-Architecture-Context-Diagram.JPG)
+![Context Diagram](./imgs%20Domain%20Driven%20Design/Software-Architecture-Context-Diagram.PNG)
 
 
 ### 4.6.2. Software Architecture Container Diagrams.
