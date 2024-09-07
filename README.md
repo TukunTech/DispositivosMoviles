@@ -204,7 +204,8 @@ Esta herramienta permitió desarrollar el modelo de nuestro proyecto de manera d
 
 - **[Miro](https://miro.com/app/dashboard/)**: Es una pizarra digital colaborativa en línea, que puede ser usada para la investigación, la ideación, la creación de lluvias de ideas, mapas mentales y una variedad de otras actividades colaborativas.  
 - **[Figma](https://www.figma.com/design/)**: Es una herramienta de prototipo web y editor de gráficos vectorial.  
-- **[Structurizr](https://structurizr.com/)**: Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución.  
+- **[Structurizr](https://structurizr.com/)**: Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución.
+- **[Trello](https://trello.com/es)**: Es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos.
 
 ### Software Development
 Es una estructura aplicada al desarrollo de software. Se utilizó para el proceso de desarrollo de la aplicación, cada uno de ellos se enfocan en diferentes actividades que tienen lugar durante el proceso.
