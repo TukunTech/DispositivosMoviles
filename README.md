@@ -83,10 +83,10 @@ El problema identificado radica en la falta de una solución integrada y continu
   El problema identificado es la falta de una solución integrada para el monitoreo continuo y en tiempo real de signos vitales en pacientes críticos, lo que genera ineficiencias y tiempos de respuesta prolongados en la atención médica.
 
 - **When - ¿Cuánto sucede el problema?**  
-  El problema ocurre durante el monitoreo de pacientes que requieren atención médica constante, como adultos mayores, pacientes postoperatorios y en cuidados intensivos, donde la capacidad de respuesta rápida es crucial.
+  El problema ocurre durante el monitoreo de pacientes que requieren atención médica constante, como adultos mayores, pacientes postoperatorios o en cuidados intensivos, donde la capacidad de respuesta rápida es crucial.
 
 - **Where - ¿Dónde surge el problema?**  
-  El problema surge en hospitales, clínicas, y hogares donde se utilizan sistemas de monitoreo tradicionales que no están integrados ni automatizados, afectando la capacidad de monitoreo en tiempo real.
+  El problema surge en clínicas, y hogares donde se utilizan sistemas de monitoreo tradicionales que no están integrados ni automatizados, afectando la capacidad de monitoreo en tiempo real.
 
 - **Who - ¿Quiénes son afectados por el problema?**  
   Los principales afectados son los pacientes en situaciones críticas que necesitan monitoreo constante, el personal médico que debe realizar supervisión manual, y las clínicas que enfrentan ineficiencias en la gestión de cuidados.
@@ -102,7 +102,7 @@ El problema identificado radica en la falta de una solución integrada y continu
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
-El estado actual en el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y pacientes en cuidados intensivos se ha centrado principalmente en la utilización de dispositivos tradicionales que requieren la intervención manual del personal médico para la recolección y análisis de datos. Estos sistemas suelen ser fragmentados y no ofrecen una integración fluida entre los diferentes equipos de monitoreo, lo cual limita la eficiencia y la capacidad de respuesta en tiempo real.
+El estado actual en el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios o pacientes en cuidados intensivos se ha centrado principalmente en la utilización de dispositivos tradicionales que requieren la intervención manual del personal médico para la recolección y análisis de datos. Estos sistemas suelen ser fragmentados y no ofrecen una integración fluida entre los diferentes equipos de monitoreo, lo cual limita la eficiencia y la capacidad de respuesta en tiempo real.
 
 Lo que los productos y servicios existentes no logran abordar es la falta de una solución integrada entre los dispositivos que aproveche la tecnología IoT para ofrecer un monitoreo continuo y en tiempo real de los signos vitales de los pacientes. Los sistemas actuales a menudo son estáticos y no permiten una supervisión centralizada ni la capacidad de analizar datos en tiempo real de manera efectiva.
 
