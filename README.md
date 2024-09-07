@@ -22,6 +22,23 @@ Plan Familiar: Enfocado en usuarios individuales que necesitan monitorear la sal
 
 Ambos planes tendrán diferentes estructuras de costos y se ofrecerán en un modelo de suscripción mensual, adaptado a las necesidades de cada tipo de usuario.
 
+### 1.2.2 Lean UX Process
+
+#### 1.2.2.1 Lean UX Problem Statements
+
+
+El estado actual en el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y pacientes en cuidados intensivos se ha centrado principalmente en la utilización de dispositivos tradicionales que requieren la intervención manual del personal médico para la recolección y análisis de datos. Estos sistemas suelen ser fragmentados y no ofrecen una integración fluida entre los diferentes equipos de monitoreo, lo cual limita la eficiencia y la capacidad de respuesta en tiempo real.
+
+Lo que los productos y servicios existentes no logran abordar es la falta de una solución integrada entre los dispositivos que aproveche la tecnología IoT para ofrecer un monitoreo continuo y en tiempo real de los signos vitales de los pacientes. Los sistemas actuales a menudo son estáticos y no permiten una supervisión centralizada ni la capacidad de analizar datos en tiempo real de manera efectiva.
+
+Nuestro producto abordará esta brecha mediante el desarrollo de una plataforma de monitoreo de signos vitales basada en IoT. Este sistema integrará una red de dispositivos inteligentes capaces de medir continuamente signos vitales como la frecuencia cardíaca, la presión arterial y la oxigenación en sangre. Los datos se transmitirán en tiempo real a una plataforma centralizada, donde serán procesados y analizados utilizando algoritmos avanzados para detectar anomalías y alertar al personal médico de manera inmediata. Además de los servicios de monitoreo, nuestra solución permitirá a los doctores realizar evaluaciones médicas básicas en tiempo real, accediendo a los datos actualizados de los pacientes para proporcionar recomendaciones y ajustes instantáneos. Esta integración fluida con los sistemas existentes en las clínicas mejorará tanto la eficiencia en la gestión del cuidado de los pacientes como la precisión en la toma de decisiones, permitiendo una atención médica más proactiva y personalizada.
+
+Inicialmente, centraremos nuestra atención en los cuidados intensivos y post-operatorios, así como en el monitoreo en tiempo real de adultos mayores que desean modernizar sus infraestructuras de seguimiento y optimizar la calidad de la atención al paciente. Estas clínicas son el entorno ideal para implementar nuestra solución, dada la necesidad de mejorar el manejo de pacientes con condiciones crónicas y la eficiencia en la supervisión diaria.
+
+Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta ante cambios críticos en los signos vitales, un aumento en la satisfacción del personal médico por la facilidad de uso del sistema y una mejora general en la calidad del cuidado proporcionado a los pacientes, medido a través de métricas de rendimiento y feedback de los usuarios.
+
+
+
 ## 2.3.3. User Journey Mapping.
 
 ### Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales
