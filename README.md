@@ -459,7 +459,29 @@ Sección Membresía:
 Sección Noticias:
 [CAPTURA 1]
 
-Figma: https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0
+Figma: 
+[https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0)
+
+### 4.3.1. Landing Page Wireframe.
+En esta sección se presentarán los wireframes de la versión de escritorio del Landing Page. Es fundamental identificar claramente los distintos tipos de componentes presentes en los diseños.
+#### Desktop Web Browser
+En esta primera parte, se presenta la página de inicio de la plataforma web. Se incluyen botones para que el usuario tenga acceso a otras páginas de nuestro sitio web. En el pie de página, se visualizan las opciones que te llevan a los diversos apartados.
+ ![inicio](./Imgs%20-%20Landing%20Page%20Wireframe/inicio.png)
+ 
+- Sección Nosotros:
+  ![nosotros](./Imgs%20-%20Landing%20Page%20Wireframe/nosotros.png)
+  
+- Sección Servicios:
+  ![servicios](./Imgs%20-%20Landing%20Page%20Wireframe/servicios.png)
+
+- Sección Membresía:
+  ![membresia](./Imgs%20-%20Landing%20Page%20Wireframe/membresia.png)
+
+- Sección Noticias:
+  ![noticias](./Imgs%20-%20Landing%20Page%20Wireframe/noticias.png)
+
+Figma:
+[https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0 ](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0 )
 
 ### 4.3.2. Landing Page Mock-up. 
 ![landing-page-mock-up](./img%20landing%20page%20mock-up/landing.png)
