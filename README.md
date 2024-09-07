@@ -156,7 +156,12 @@ _**Evaluación del problema:**_
 - ¿Te interesaría utilizar una aplicación web para mejorar la gestión de la atención a tus pacientes y la comunicación dentro de tu equipo médico? ¿Qué ventajas crees que podría ofrecer?
 - ¿Confías en que el personal médico adoptaría eficazmente una aplicación web para mejorar la comunicación y el monitoreo de los pacientes? ¿Crees que se verían mejoras en la calidad del cuidado en un corto plazo?
 
+### 2.3.1. User Persona
+**Segmento 1**: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
+![User persona 1](./user%20personas/user1.png)
 
+**Segmento 2**: Personal médico y pacientes postoperatorios UCI de clínicas privadas 
+![User persona 2](./user%20personas/user2.png)
 ### 2.3.3. User Journey Mapping.
 ### Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 ![Segmento 1](./imgs%20Journey%20Mapping/segmento%201.png)
@@ -520,6 +525,7 @@ Figma:
 
 ### 4.3.2. Landing Page Mock-up. 
 ![landing-page-mock-up](./img%20landing%20page%20mock-up/landing.png)
+Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1)
 ## 4.4. Web Applications UX/UI Design.
 
 ### 4.4.1. Web Applications Wireframes.
