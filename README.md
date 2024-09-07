@@ -117,6 +117,15 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 -**Segmento Adulto Mayores**
 ![Segmento-2_To-be](./imgs%20Scenario%20Mapping/Segmento%202%20-%20To%20be.png)
 
+## 3.3. Impact Mapping
+
+### Segmento 1
+**Encargado de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
+
+### Segmento 2
+**Personal médico y pacientes postoperatorios UCI de clínicas privadas**
+
+
 ## 3.4. Product Backlog.
 
 | Orden | User Story ID | Título                                    | Descripción                                                                                                                                     | Story Points |
