@@ -598,7 +598,6 @@ Figma:
 ![Diagrama actualizar la información de un paciente](./Imgs%20User%20Goal%20Diagram/goal11.png)
 
 ### 4.4.3. Web Applications User Flow Diagrams.
-
 Segmento objetivo 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 
 Se evidencia el recorrido para la creación de una cuenta nueva en el sistema 
