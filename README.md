@@ -416,26 +416,26 @@ En el caso de utilizar HTML, CSS y/o JavaScript se utilizará un espaciado antes
 ## **HTML**
 Es un lenguaje de marcado que define la estructura de una página web, este cuenta con funciones que determinan el comportamiento del contenido de la página. Para el proyecto empleamos HTML5, y las pautas para el correcto uso del lenguaje de programación son las siguientes:
 
--Declare Document Type
--Blank Lines
--Quote Attribute Values
--Multimedia Fallback
--Never Skip the Element
+- Declare Document Type
+- Blank Lines
+- Quote Attribute Values
+- Multimedia Fallback
+- Never Skip the Element
 
 ## **CSS**
 Es un lenguaje de marcado que permite definir y mejorar la presentación visual de un documento HTML, las pautas para el correcto uso del lenguaje de programación son las siguientes:
--Shorthand Properties
--Declaration Stops
--Property Name Stops
--Declaration Block Separation
--CSS Quotation Marks
+- Shorthand Properties
+- Declaration Stops
+- Property Name Stops
+- Declaration Block Separation
+- CSS Quotation Marks
 
 # **JavaScript**
 Es un lenguaje que otorga la posibilidad de establecer acciones para ser utilizadas al momento de ejecutar el navegador web,  las pautas para el correcto uso del lenguaje de programación son las siguientes:
--Spaces around operators
--Simple Statement’s End
--Beginning and End of a Function
--Object Rules
+- Spaces around operators
+- Simple Statement’s End
+- Beginning and End of a Function
+- Object Rules
 
 
 ## 5.2.1.3. Development Evidence for Sprint Review. 
