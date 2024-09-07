@@ -320,7 +320,7 @@ El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosam
 
 ![Elementos Grandes](./web-style-guidelines-img/elem-grandes.JPG)
 
-
+## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems
 
 #### Segmento 1: Monitoreo de adultos mayores
@@ -712,7 +712,7 @@ Tratamientos: Almacena la información relacionada con los tratamientos prescrit
 
 Exámenes: Es responsable de registrar los exámenes médicos que se realizan a los pacientes. Cada registro de exámenes incluye información sobre el tipo de examen, los resultados, y la fecha en la que se realizó. Los exámenes están vinculados a una consulta específica, lo que permite al sistema rastrear qué exámenes se realizaron durante una consulta y su relevancia para el diagnóstico o tratamiento del paciente.
 
-
+## 4.8. Database Design. 
 ### 4.8.1. Database Diagram
 ![DataBaseDiagram](./img2/data%20base%20diagram.png)
 
