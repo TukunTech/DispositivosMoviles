@@ -716,7 +716,8 @@ Exámenes: Es responsable de registrar los exámenes médicos que se realizan a 
 ### 4.8.1. Database Diagram
 ![DataBaseDiagram](./img2/data%20base%20diagram.png)
 
-
+# Capítulo V: Product Implementation, Validation & Deployment
+## 5.1. Software Configuration Management. 
 ### 5.1.1. Software Development Environment Configuration
 En esta sección se describirán los links de las aplicaciones que fueron utilizadas para el proyecto.  
 Para ello se clasificará en las siguientes secciones:
