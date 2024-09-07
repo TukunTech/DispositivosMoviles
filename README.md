@@ -1,34 +1,34 @@
 # DesarrolloOP-SW57 
 
 ## 1.1. Startup Profile
-## 1.1.1. Descripción de la Startup 
+### 1.1.1. Descripción de la Startup 
 Actualmente, el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y en cuidados intensivos se realiza con dispositivos tradicionales que requieren intervención manual y ofrecen sistemas fragmentados, limitando la eficiencia y la capacidad de respuesta en tiempo real.
 Nuestra startup aborda este desafío con una plataforma IoT innovadora que integra dispositivos inteligentes para medir continuamente la frecuencia cardíaca, la presión arterial y la oxigenación en sangre. Los datos se transmiten en tiempo real a una plataforma centralizada, donde algoritmos avanzados detectan anomalías y alertan al personal médico de inmediato. Además, la plataforma permite a los doctores hacer evaluaciones médicas en tiempo real y ajustar tratamientos de manera instantánea.
 Nos enfocamos en cuidados intensivos, postoperatorios y en el monitoreo de adultos mayores que desean modernizar su seguimiento médico. Nuestra solución mejora la eficiencia, precisión y calidad de la atención, reduciendo tiempos de respuesta y optimizando la gestión del cuidado.
 
-## 1.1.2. Team Member Profiles
+### 1.1.2. Team Member Profiles
 
-### Nicolich Alvis, Fabio Maurizio
+#### Nicolich Alvis, Fabio Maurizio
 Soy estudiante de Ingeniería de Software, actualmente en mi quinto ciclo. Me considero responsable, proactivo y con buenas habilidades de liderazgo. Estoy comprometido a trabajar en equipo para asegurar que nuestro proyecto sea impecable. Aportaré todo lo que esté en mis manos.
 
 ![Nicolich Alvis, Fabio Maurizio](./Nosotros-img/Fabio.png)
 
-### Soto Zorrilla, Oscar Eduardo
+#### Soto Zorrilla, Oscar Eduardo
 Soy estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas. Me caracterizo por mi adaptabilidad a diversas situaciones y por superar desafíos. Además, tengo conocimientos en C++, HTML, CSS, JavaScript y Python, lo que me permite trabajar en diversos proyectos tecnológicos.
 
 ![Soto Zorrilla, Oscar Eduardo](./Nosotros-img/Oscar.jpg)
 
-### Maraza Pedemonte, Erick
+#### Maraza Pedemonte, Erick
 Soy estudiante de Ingeniería de Software con habilidades en programación en lenguajes como C++ y Python. Mi enfoque dedicado a los proyectos que me apasionan me impulsa a explorar nuevas fronteras en mi carrera. Estas habilidades me permiten desarrollar una amplia gama de aplicaciones y soluciones, y estoy comprometido a seguir aprendiendo y aplicando estas habilidades para resolver desafíos creativos en el mundo del desarrollo de software.
 
 ![Maraza Pedemonte, Erick](./Nosotros-img/Erick.png)
 
-### Palomares Chavez, Adriana Giovanna
+#### Palomares Chavez, Adriana Giovanna
 Soy Adriana Palomares, tengo 20 años y actualmente estudio Ingeniería de Software en UPC. Me gusta explorar nuevas tecnologías, especialmente lenguajes de programación. También me apasionan los animales, particularmente los perros.
 
 ![Palomares Chavez, Adriana Giovanna](./Nosotros-img/Adri.png)
 
-### Bravo Gavilano, Jorge Rafael
+#### Bravo Gavilano, Jorge Rafael
 Estoy actualmente en el quinto ciclo de mi carrera en Ingeniería de Software. Disfruto de jugar videojuegos e ir al gimnasio en mi tiempo libre. Me considero una persona responsable y enfocada en siempre realizar un buen trabajo. Estoy interesado en aprender sobre inteligencia artificial y programación web.
 
 ![Bravo Gavilano, Jorge Rafael](./Nosotros-img/Rafael.png)
@@ -49,9 +49,9 @@ Plan Familiar: Enfocado en usuarios individuales que necesitan monitorear la sal
 
 Ambos planes tendrán diferentes estructuras de costos y se ofrecerán en un modelo de suscripción mensual, adaptado a las necesidades de cada tipo de usuario.
 
-### 1.2.2 Lean UX Process
+### 1.2.2. Lean UX Process
 
-#### 1.2.2.1 Lean UX Problem Statements
+#### 1.2.2.1. Lean UX Problem Statements
 
 
 El estado actual en el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y pacientes en cuidados intensivos se ha centrado principalmente en la utilización de dispositivos tradicionales que requieren la intervención manual del personal médico para la recolección y análisis de datos. Estos sistemas suelen ser fragmentados y no ofrecen una integración fluida entre los diferentes equipos de monitoreo, lo cual limita la eficiencia y la capacidad de respuesta en tiempo real.
@@ -65,14 +65,14 @@ Inicialmente, centraremos nuestra atención en los cuidados intensivos y post-op
 Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta ante cambios críticos en los signos vitales, un aumento en la satisfacción del personal médico por la facilidad de uso del sistema y una mejora general en la calidad del cuidado proporcionado a los pacientes, medido a través de métricas de rendimiento y feedback de los usuarios.
 
 ## 2.1. Competidores.
-## 2.1.1. Análisis competitivo.
+### 2.1.1. Análisis competitivo.
 ¿Cómo identificar a nuestros principales competidores?
 Con este análisis, podemos identificar el FODA, es decir, las fortalezas, oportunidades, debilidades y amenazas de nuestros competidores en el campo del monitoreo de signos vitales en adultos mayores, pacientes postoperatorios, y pacientes en cuidados intensivos. Asimismo, se evalúa su participación en el mercado y se identifican las estrategias que podemos desarrollar para que nuestra plataforma basada en IoT se destaque y obtenga una posición fuerte en el sector.
 Pero, ¿cómo identificamos a nuestros principales competidores? Es necesario estudiar el mercado e identificar las soluciones tecnológicas más utilizadas por hospitales, clínicas, y otras instituciones de salud que priorizan la eficiencia y precisión en el monitoreo de pacientes. Con este análisis, se concluyó que los principales competidores son: aquellos que ofrecen sistemas de monitoreo tradicionales, soluciones fragmentadas que requieren intervención manual, y plataformas que carecen de integración en tiempo real.
 ![Análisis competitivo](./imgs%20cuadros/Analisis%20competitivo.png)
 
 
-## 2.3.3. User Journey Mapping.
+### 2.3.3. User Journey Mapping.
 
 ### Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 ![Segmento 1](./imgs%20Journey%20Mapping/segmento%201.png)
@@ -80,7 +80,7 @@ Pero, ¿cómo identificamos a nuestros principales competidores? Es necesario es
 ![Segmento 2](./imgs%20Journey%20Mapping/segmento%202.png)
 
 
-### 2.3.5 As-is Scenario Mapping. OSCAR
+### 2.3.5. As-is Scenario Mapping. OSCAR
 
 En esta sección, se describen las fases clave del proceso actual de monitoreo de signos vitales para nuestros usuarios objetivo, detallando cómo el personal médico afronta las tareas diarias, sus pensamientos y sentimientos en cada etapa. Este análisis nos permitirá identificar de manera más clara las áreas críticas de mejora y qué soluciones son las más adecuadas para optimizar su experiencia y satisfacer sus necesidades de forma eficiente.
 
@@ -94,7 +94,7 @@ Miro: [https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2T
 
 
 
-### 2.4 Ubiquitous Language.
+## 2.4. Ubiquitous Language.
 
 En Domain-Driven Design (DDD), el concepto de “Ubiquitous Language” se refiere a la práctica de utilizar un vocabulario común y consistente entre todos los miembros del equipo, incluidos desarrolladores, expertos en el dominio y partes interesadas. Este enfoque busca prevenir malentendidos y mejorar la comunicación dentro del equipo, asegurando que todos tengan una comprensión clara y unificada del dominio del problema.
 
@@ -182,9 +182,9 @@ El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosam
 ![Elementos Grandes](./web-style-guidelines-img/elem-grandes.JPG)
 
 
-## 4.2.1. Organization Systems
+### 4.2.1. Organization Systems
 
-### Segmento 1: Monitoreo de adultos mayores
+#### Segmento 1: Monitoreo de adultos mayores
 
 **Jerárquica**:
 
@@ -192,7 +192,7 @@ El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosam
 
 - **Notificaciones**: Los tres segmentos recibirán notificaciones organizadas en un formato matricial, donde se podrán ver alertas, recordatorios y mensajes, categorizados por relevancia.
 
-### Segmento 2: Pacientes de cuidados intensivos
+#### Segmento 2: Pacientes de cuidados intensivos
 
 **Jerárquica**:
 
@@ -262,55 +262,55 @@ La optimización para motores de búsqueda (SEO, por sus siglas en inglés) es l
 
 
 
-## 4.2.4. Searching Systems
-
-### Lista de pacientes
-El equipo de médicos podrá buscar pacientes específicos en su base de datos mediante filtros. Esta información se mostrará en lista con datos breves como su nombre, edad y última atención.
-
-### Gestión de citas
-El equipo médico tendrá acceso a funciones para agendar y administrar citas de pacientes a través de herramientas como calendarios y filtros. Las listas se mostrarán en orden cronológico de atención. Si el paciente no puede asistir o se necesita reagendar la cita, el usuario puede hacerlo fácilmente.
-
-En esta sección, describiremos los sistemas de búsqueda implementados en nuestra plataforma para garantizar que los usuarios, tanto el personal médico como los pacientes, puedan acceder de manera eficiente a la información que necesitan, evitando que se sientan abrumados por la cantidad de datos disponibles.
-
-### Segmento 1: Adultos mayores
-
-#### Historial de signos vitales
-Los cuidadores de adultos mayores podrán buscar y revisar el historial de sus signos vitales a lo largo del tiempo. Para facilitar la búsqueda, se implementará un sistema de filtrado por fecha, permitiendo seleccionar un rango de tiempo específico (por ejemplo, la última semana, el último mes o un período personalizado). Los datos filtrados se mostrarán en un formato de lista cronológica, con una vista previa de los valores clave. Al hacer clic en un registro, se desplegará información detallada, incluyendo gráficos de tendencias y notas adicionales del personal médico.
-
-#### Consejos de salud personalizados
-La sección de consejos de salud personalizada permitirá a los usuarios buscar recomendaciones específicas mediante palabras clave (por ejemplo, "hipertensión", "diabetes", etc.). Los resultados se mostrarán categorizados por tópicos relevantes, y los usuarios podrán ordenar las recomendaciones por fecha de publicación o relevancia. Cada entrada mostrará un resumen inicial, con la opción de expandir para ver el contenido completo.
-
-### Segmento 2: Pacientes postoperatorios
-
-#### Panel de monitoreo de pacientes
-Los profesionales de la salud podrán utilizar una barra de búsqueda para localizar rápidamente a un paciente postoperatorio en particular. Para mejorar la precisión, el sistema ofrecerá filtros avanzados que incluyen el nombre del paciente, su número de identificación y el tipo de cirugía realizada. Los resultados se presentarán en una lista organizada cronológicamente por la fecha de la última intervención. Además, cada entrada mostrará un resumen del estado actual del paciente, con acceso directo a su panel de signos vitales.
-
-#### Alta médica
-Durante el proceso de alta médica, el sistema permitirá buscar y filtrar informes previos del paciente, tales como observaciones médicas y programaciones de citas de seguimiento. Los usuarios podrán utilizar filtros basados en la fecha del informe o el tipo de observación. Los resultados se mostrarán en una lista estructurada, destacando los informes más recientes o relevantes en la parte superior. Esto permitirá al personal médico asegurar que todos los requisitos de seguimiento estén cumplidos antes de proceder con el alta del paciente.
-
-### Segmento 3: Pacientes en cuidados intensivos
+### 4.2.4. Searching Systems
 
 #### Lista de pacientes
 El equipo de médicos podrá buscar pacientes específicos en su base de datos mediante filtros. Esta información se mostrará en lista con datos breves como su nombre, edad y última atención.
 
-#### Monitoreo en tiempo real
+#### Gestión de citas
+El equipo médico tendrá acceso a funciones para agendar y administrar citas de pacientes a través de herramientas como calendarios y filtros. Las listas se mostrarán en orden cronológico de atención. Si el paciente no puede asistir o se necesita reagendar la cita, el usuario puede hacerlo fácilmente.
+
+En esta sección, describiremos los sistemas de búsqueda implementados en nuestra plataforma para garantizar que los usuarios, tanto el personal médico como los pacientes, puedan acceder de manera eficiente a la información que necesitan, evitando que se sientan abrumados por la cantidad de datos disponibles.
+
+#### Segmento 1: Adultos mayores
+
+##### Historial de signos vitales
+Los cuidadores de adultos mayores podrán buscar y revisar el historial de sus signos vitales a lo largo del tiempo. Para facilitar la búsqueda, se implementará un sistema de filtrado por fecha, permitiendo seleccionar un rango de tiempo específico (por ejemplo, la última semana, el último mes o un período personalizado). Los datos filtrados se mostrarán en un formato de lista cronológica, con una vista previa de los valores clave. Al hacer clic en un registro, se desplegará información detallada, incluyendo gráficos de tendencias y notas adicionales del personal médico.
+
+##### Consejos de salud personalizados
+La sección de consejos de salud personalizada permitirá a los usuarios buscar recomendaciones específicas mediante palabras clave (por ejemplo, "hipertensión", "diabetes", etc.). Los resultados se mostrarán categorizados por tópicos relevantes, y los usuarios podrán ordenar las recomendaciones por fecha de publicación o relevancia. Cada entrada mostrará un resumen inicial, con la opción de expandir para ver el contenido completo.
+
+#### Segmento 2: Pacientes postoperatorios
+
+##### Panel de monitoreo de pacientes
+Los profesionales de la salud podrán utilizar una barra de búsqueda para localizar rápidamente a un paciente postoperatorio en particular. Para mejorar la precisión, el sistema ofrecerá filtros avanzados que incluyen el nombre del paciente, su número de identificación y el tipo de cirugía realizada. Los resultados se presentarán en una lista organizada cronológicamente por la fecha de la última intervención. Además, cada entrada mostrará un resumen del estado actual del paciente, con acceso directo a su panel de signos vitales.
+
+##### Alta médica
+Durante el proceso de alta médica, el sistema permitirá buscar y filtrar informes previos del paciente, tales como observaciones médicas y programaciones de citas de seguimiento. Los usuarios podrán utilizar filtros basados en la fecha del informe o el tipo de observación. Los resultados se mostrarán en una lista estructurada, destacando los informes más recientes o relevantes en la parte superior. Esto permitirá al personal médico asegurar que todos los requisitos de seguimiento estén cumplidos antes de proceder con el alta del paciente.
+
+#### Segmento 3: Pacientes en cuidados intensivos
+
+##### Lista de pacientes
+El equipo de médicos podrá buscar pacientes específicos en su base de datos mediante filtros. Esta información se mostrará en lista con datos breves como su nombre, edad y última atención.
+
+##### Monitoreo en tiempo real
 En la unidad de cuidados intensivos, el personal médico podrá buscar pacientes específicos utilizando una barra de búsqueda. Los resultados estarán organizados jerárquicamente, priorizando aquellos pacientes con signos vitales fuera de los rangos normales o con alertas críticas activas. Además, se incluirá un filtro para clasificar a los pacientes por condición médica o por la gravedad de su estado.
 
-#### Historial de intervenciones
+##### Historial de intervenciones
 Los médicos tendrán acceso a un sistema de búsqueda dentro del historial de intervenciones realizadas en pacientes de cuidados intensivos. Este sistema permitirá filtrar por tipo de intervención, fecha o resultados esperados. Los datos se mostrarán en una lista, con la opción de expandir cada entrada para ver detalles adicionales y notas médicas, facilitando así la revisión de los tratamientos aplicados y la planificación de futuras intervenciones.
 
-### Funcionalidades compartidas para todos los segmentos
+#### Funcionalidades compartidas para todos los segmentos
 
-#### Centro de ayuda y documentación
+##### Centro de ayuda y documentación
 Para todos los segmentos, se ofrecerá un centro de ayuda con una barra de búsqueda que permite a los usuarios encontrar rápidamente respuestas a preguntas frecuentes y documentación sobre el uso de la plataforma. Los resultados estarán categorizados por tópicos (por ejemplo, "uso de dispositivos", "interpretación de datos", "configuración de alertas"), y se presentarán en orden de relevancia o fecha de actualización.
 
 ---
 
 Este formato asegura que cada segmento objetivo tenga acceso a herramientas de búsqueda adaptadas a sus necesidades específicas, mejorando la experiencia del usuario y facilitando el acceso rápido a información crítica.
 
-# 4.4. Web Applications UX/UI Design.
+## 4.4. Web Applications UX/UI Design.
 
-## 4.4.1. Web Applications Wireframes.
+### 4.4.1. Web Applications Wireframes.
 ![1](./imgs%20Landing%20Page%20Wireframe/1.png)
 ![2](./imgs%20Landing%20Page%20Wireframe/2.png)
 ![3](./imgs%20Landing%20Page%20Wireframe/3.png)
@@ -318,7 +318,7 @@ Este formato asegura que cada segmento objetivo tenga acceso a herramientas de b
 ![5](./imgs%20Landing%20Page%20Wireframe/5.png)
 ![6](./imgs%20Landing%20Page%20Wireframe/6.png)
 
-## 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams
 
 
 **Diagrama 1**
@@ -397,9 +397,9 @@ Este formato asegura que cada segmento objetivo tenga acceso a herramientas de b
 ![Mock-ups segmento 2](./img2/mokuop2.png)
 
 
-### 4.6 Domain-Driven Software Architecture
+## 4.6 Domain-Driven Software Architecture
 
-#### 4.6.1 Software Architecture Context Diagram. 
+### 4.6.1 Software Architecture Context Diagram. 
 
 En el presente diagrama se detalla cómo los médicos y enfermeros interactúan con nuestro sistema de software y con sistemas externos, incluyendo:
 
@@ -410,25 +410,25 @@ En el presente diagrama se detalla cómo los médicos y enfermeros interactúan 
 ![Context Diagram](./imgs%20Domain%20Driven%20Design/Software-Architecture-Context-Diagram.JPG)
 
 
-## 4.6.2. Software Architecture Container Diagrams.
+### 4.6.2. Software Architecture Container Diagrams.
 ![ContainerDiagram](./imgs%20Domain%20Driven%20Design/Software%20Architecture%20Container%20Diagrams.png)
 
 ## 4.7. Software Object-Oriented Design
-## 4.7.1. Class Diagrams. 
+### 4.7.1. Class Diagrams. 
 ![Class Diagrams](./Software%20Object-Oriented%20Design/Diagram%20class.drawio.png)
-## 4.7.2. Class Dictionary. 
+### 4.7.2. Class Dictionary. 
 
 
-## 4.8.1. Database Diagram
+### 4.8.1. Database Diagram
 ![DataBaseDiagram](./img2/data%20base%20diagram.png)
 
 
-## 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration
 
 En esta sección se describirán los links de las aplicaciones que fueron utilizadas para el proyecto.  
 Para ello se clasificará en las siguientes secciones:
 
-### Product UX/UI Design
+#### Product UX/UI Design
 Esta herramienta permitió desarrollar el modelo de nuestro proyecto de manera digital.
 
 - **[Miro](https://miro.com/app/dashboard/)**: Es una pizarra digital colaborativa en línea, que puede ser usada para la investigación, la ideación, la creación de lluvias de ideas, mapas mentales y una variedad de otras actividades colaborativas.  
@@ -436,7 +436,7 @@ Esta herramienta permitió desarrollar el modelo de nuestro proyecto de manera d
 - **[Structurizr](https://structurizr.com/)**: Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución.
 - **[Trello](https://trello.com/es)**: Es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos.
 
-### Software Development
+#### Software Development
 Es una estructura aplicada al desarrollo de software. Se utilizó para el proceso de desarrollo de la aplicación, cada uno de ellos se enfocan en diferentes actividades que tienen lugar durante el proceso.
 
 - **[Github](https://github.com/TukunTech/DesarrolloOP-SW57)**: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git.  
@@ -446,7 +446,7 @@ Es una estructura aplicada al desarrollo de software. Se utilizó para el proces
 - **[CSS](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)**: Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​ Este lenguaje se utilizará para la implementación del diseño de nuestro proyecto.  
 - **[JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)**: Es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás.  
 
-### Software Deployment
+#### Software Deployment
 Tiene la función de examinar los artefactos y el comportamiento del software, asimismo lo pone en prueba y lo verifica.
 
 - **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
@@ -511,16 +511,16 @@ Proporciona una manera clara y consistente de numerar versiones de software para
 - **perf**: Cuando hay mejoras de rendimiento.
 - **revert**: Revertir al commit anterior.
 
-## 5.1.3. Source Code Style Guide & Conventions.
+### 5.1.3. Source Code Style Guide & Conventions.
 En esta sección se mostrarán las convenciones y estilos que se emplearán en la creación del proyecto. A continuación, se van a mencionar las reglas y recomendaciones generales que tendremos en cuenta para el desarrollo.
 
-## **Nomenclatura General**
+#### **Nomenclatura General**
 Se le designarán términos en inglés al nombre de las variables, variables, objetos, elementos y funciones que se utilicen. Además, no se usarán mayúsculas porque de acuerdo con W3Schools (s.f.), la mezcla de estas con las letras minúsculas luce desagradable y el uso exclusivo de minúsculas otorga mayor legibilidad al código.
 
-## **Sangría**
+#### **Sangría**
 En el caso de utilizar HTML, CSS y/o JavaScript se utilizará un espaciado antes de cada línea dentro de un bloque. Este espacio debe ser de dos y según W3Schools (s.f.) no se debe utilizar la tecla “TAB”.
 
-## **HTML**
+#### **HTML**
 Es un lenguaje de marcado que define la estructura de una página web, este cuenta con funciones que determinan el comportamiento del contenido de la página. Para el proyecto empleamos HTML5, y las pautas para el correcto uso del lenguaje de programación son las siguientes:
 
 - Declare Document Type
@@ -529,7 +529,7 @@ Es un lenguaje de marcado que define la estructura de una página web, este cuen
 - Multimedia Fallback
 - Never Skip the Element
 
-## **CSS**
+#### **CSS**
 Es un lenguaje de marcado que permite definir y mejorar la presentación visual de un documento HTML, las pautas para el correcto uso del lenguaje de programación son las siguientes:
 - Shorthand Properties
 - Declaration Stops
@@ -537,14 +537,14 @@ Es un lenguaje de marcado que permite definir y mejorar la presentación visual 
 - Declaration Block Separation
 - CSS Quotation Marks
 
-# **JavaScript**
+#### **JavaScript**
 Es un lenguaje que otorga la posibilidad de establecer acciones para ser utilizadas al momento de ejecutar el navegador web,  las pautas para el correcto uso del lenguaje de programación son las siguientes:
 - Spaces around operators
 - Simple Statement’s End
 - Beginning and End of a Function
 - Object Rules
 
-## 5.2.1.2. Sprint Backlog 1. 
+#### 5.2.1.2. Sprint Backlog 1. 
 
 En esta primera iteración, tuvimos como objetivo implementar el diseño de nuestra Landing Page mediante la utilización de Visual Studio Code. Es decir, todas las secciones deben estar terminadas al finalizar el Sprint, ya sea **About**, **Servicios**, **Noticias** o **Contáctanos**.
 
@@ -561,23 +561,23 @@ En esta primera iteración, tuvimos como objetivo implementar el diseño de nues
 
 
 
-## 5.2.1.3. Development Evidence for Sprint Review. 
+#### 5.2.1.3. Development Evidence for Sprint Review. 
 En esta sección, se presentará la evidencia del progreso y desarrollo del software. Se incluirán detalles sobre las características específicas que se han implementado durante el sprint actual, destacando cualquier avance significativo en la plataforma.
 
 ![Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Development%20Evidence%20for%20Sprint%20Review.png)
 
-### 5.2.1.5 Execution Evidence for Sprint Review. OSCAR
+#### 5.2.1.5 Execution Evidence for Sprint Review. OSCAR
 
 En esta sección se abordará el progreso del desarrollo durante el sprint, detallando la ejecución de la aplicación. Se analizará cómo los usuarios han interactuado con la plataforma, incluyendo su experiencia de usuario, comentarios y cualquier inconveniente que hayan encontrado. Además, se resaltan las mejoras implementadas en términos de usabilidad y diseño de la interfaz. Durante este período, también se mostrarán los commits realizados, permitiendo visualizar el avance técnico y las contribuciones del equipo en tiempo real.
 
 
 
-## 5.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Aquí se presentará la documentación relacionada con los servicios de atención médica ofrecidos a través de la plataforma. Esto puede incluir perfiles de profesionales de salud, detalles sobre los paquetes disponibles.
 
 ![Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Evidence%20for%20Sprint%20Review.png)
 
-## 5.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 En esta sección, se redactará el proceso de implementación del software en un entorno de producción. Asimismo, se mostrarán los hitos clave que servirán para el despliegue del proyecto y la disponibilidad de este para los usuarios finales. 
 ![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Software%20Deployment%20Evidence%20for%20Sprint%20Review.png)
 
