@@ -1,4 +1,4 @@
-# DesarrolloOP-SW57
+![image](https://github.com/user-attachments/assets/ba8ee72a-2e64-40ec-a7cf-dc441cb0f53b)# DesarrolloOP-SW57
 
 ## 1.1. Startup Profile
 ## 1.1.1. Descripción de la Startup 
@@ -118,6 +118,56 @@ Para todos los segmentos, se ofrecerá un centro de ayuda con una barra de búsq
 ---
 
 Este formato asegura que cada segmento objetivo tenga acceso a herramientas de búsqueda adaptadas a sus necesidades específicas, mejorando la experiencia del usuario y facilitando el acceso rápido a información crítica.
+
+
+
+## 4.4.2. Web Applications Wireflow Diagrams
+
+
+**Diagrama 1**
+**User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Pacientes postoperatorios” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
+[Diagrama de panel pacientes postoperatorios](./Imgs User Goal Diagram/goal1.png)
+
+**Diagrama 2**
+**User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes UCI.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes UCI. En el inicio tendrá que seleccionar el botón de “Pacientes UCI” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
+
+**Diagrama 3**
+**User Goal**: Como usuario deseo registrar nuevos médicos en el sistema.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para registrar nuevos médicos en el proyecto. En el inicio tendrá que seleccionar el botón de “Registrar”, luego tendrá que seleccionar “Equipo Médico”, finalmente tenemos el registro médico y el usuario debe completar los datos correspondientes.
+
+**Diagrama 4**
+**User Goal**: Como usuario deseo registrar nuevos pacientes en el sistema.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para registrar nuevos pacientes en el proyecto. En el inicio tendrá que seleccionar el botón de “Registrar”, luego en la sección “Registros” tendrá que seleccionar “Pacientes”, finalmente tenemos el registro de pacientes y el usuario debe completar los datos correspondientes.
+
+**Diagrama 5**
+**User Goal**: Como usuario deseo visualizar la lista de pacientes.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la lista de pacientes en el proyecto. En el inicio tendrá que seleccionar el botón de “Pacientes”, luego se nos mostrará la información de todos los pacientes registrados.
+
+**Diagrama 6**
+**User Goal**: Como usuario deseo agendar una cita en el proyecto.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para agendar una cita en el proyecto. En el inicio tendrá que seleccionar el botón de “Citas”, luego se nos mostrará la sección “Citas” en donde el usuario debe seleccionar el botón “Agendar citas”.
+
+**Diagrama 7**
+**User Goal**: Como usuario deseo reagendar una cita en el proyecto.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para reagendar una cita en el proyecto. En el inicio tendrá que seleccionar el botón de “Citas”, luego se nos mostrará la sección “Citas” en donde el usuario debe seleccionar el botón “Reagendar citas”, se le mostrará la sección para que el usuario ingrese el DNI del paciente para luego seleccionar el botón “Buscar” en el sistema, después se mostrará la información de la cita donde se modifica la fecha y el médico de ser necesario, finalmente se selecciona el botón “Guardar” para actualizar la información en el sistema.
+
+**Diagrama 8**
+**User Goal**: Como usuario deseo visualizar la lista de médicos en el sistema.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la lista de doctores en el sistema. En el inicio tendrá que seleccionar el botón de “Médicos”, luego se nos mostrará la sección “Doctores” en donde el usuario podrá visualizar la lista de doctores registrados en el sistema.
+
+**Diagrama 9**
+**User Goal**: Como usuario deseo añadir notas al historial de un paciente.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para añadir notas al historial de un paciente. En el inicio tendrá que seleccionar el botón de “Pacientes”, luego se nos mostrará la sección “Lista Pacientes” en donde el usuario podrá visualizar la lista de pacientes registrados en el sistema, deberá seleccionar un paciente y se mostrará la ventana “Historial del Paciente” donde el usuario podrá visualizar la información del paciente, además de añadir una nota en el historial del paciente. Se debe ingresar en el recuadro input y finalmente el usuario debe seleccionar el botón “Guardar”.
+
+**Diagrama 10**
+**User Goal**: Como usuario deseo recibir notificación de los pacientes en estado crítico.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la notificación de un paciente en estado crítico. En el inicio tendrá que seleccionar el botón “Pacientes UCI” y una vez en este, en la parte superior de la plataforma se visualizarán los pacientes en estado crítico.
+
+**Diagrama 11**
+**User Goal**: Como usuario deseo actualizar la información de un paciente.  
+**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para actualizar la información de un paciente. En el inicio tendrá que seleccionar el botón “Pacientes” y visualizará una lista donde se encuentran los pacientes. En esta lista se debe seleccionar un paciente y se mostrará la información de este con su historial. Después se debe seleccionar el botón “Actualizar”, en la ventana emergente actualizar la información y finalmente seleccionar el botón “Actualizar”.
 
 
 ## 4.6.2 Software Architecture Container Diagrams.
