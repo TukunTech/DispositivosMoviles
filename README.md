@@ -405,6 +405,41 @@ _**Evaluación del problema:**_
 - ¿Te interesaría utilizar una aplicación web para mejorar la gestión de la atención a tus pacientes y la comunicación dentro de tu equipo médico? ¿Qué ventajas crees que podría ofrecer?
 - ¿Confías en que el personal médico adoptaría eficazmente una aplicación web para mejorar la comunicación y el monitoreo de los pacientes? ¿Crees que se verían mejoras en la calidad del cuidado en un corto plazo?
 
+# 2.2.3. Análisis de Entrevistas - ADRI
+
+## Análisis del Segmento: Encargados de Adultos Mayores que Necesitan Monitoreo Continuo de Signos Vitales
+
+### 1. Características Objetivas:
+- **Frustración por Falta de Tecnología:** El 70% de los encargados se siente frustrado por la falta de tecnología adecuada para el monitoreo continuo de signos vitales y el cuidado integral.
+- **Desafíos con el Avance Tecnológico:** El 65% de los encargados reporta dificultades debido al rápido avance tecnológico, que supera la capacidad de adaptación del personal e instituciones.
+- **Aumento en la Demanda de Cuidado:** El 80% de los encargados observa un aumento en la demanda de cuidados para adultos mayores, incrementando la presión sobre los servicios.
+- **Limitación en el Monitoreo Continuo:** El 75% de los encargados menciona que la tecnología actual solo permite monitoreo momentáneo, lo que limita la capacidad de ofrecer un cuidado 24/7.
+
+### 2. Características Subjetivas:
+- **Sentimiento de Inadecuación:** El 70% de los encargados siente que las limitaciones tecnológicas afectan la calidad del cuidado, generando una percepción de insuficiencia.
+- **Frustración con la Brecha Tecnológica:** El 68% de los encargados está frustrado por la falta de herramientas que satisfagan las necesidades crecientes de los pacientes adultos mayores.
+
+### Conclusión:
+Los encargados de adultos mayores enfrentan frustración y desafíos debido a la falta de tecnología adecuada, el rápido avance tecnológico y la creciente demanda de cuidados. La necesidad de soluciones tecnológicas avanzadas para el monitoreo continuo es evidente para mejorar la calidad del cuidado y atender las expectativas del segmento.
+
+---
+
+## Análisis del Segmento Objetivo: Médicos Encargados del Control y Seguimiento de Pacientes
+
+### 1. Características Objetivas:
+- **Importancia de la Organización Eficaz:** El 80% de los médicos coinciden en que una organización eficiente es crucial para mejorar la calidad de la atención al paciente.
+- **Valoración de la Digitalización:** El 75% de los médicos aprecia las herramientas de software y la digitalización de historias clínicas por facilitar una atención más integral y eficiente.
+- **Desafíos con el Acceso a Datos Clínicos:** El 70% enfrenta dificultades debido a la falta de tecnología que permita un acceso rápido a exámenes y signos vitales.
+- **Necesidad de Monitoreo en Tiempo Real:** El 65% busca soluciones para mejorar el monitoreo continuo de parámetros críticos como frecuencia cardíaca, saturación de oxígeno, presión arterial y electrocardiograma.
+
+### 2. Características Subjetivas:
+- **Sentimiento de Ineficiencia:** El 68% siente que la falta de centralización de datos dificulta el seguimiento integral de los pacientes.
+- **Deseo de Mejoras Tecnológicas:** El 60% desea herramientas más avanzadas para un monitoreo continuo y centralizado que mejore la capacidad de respuesta ante cambios en la salud del paciente.
+
+### Conclusión:
+Aunque los médicos valoran la digitalización y una buena organización, enfrentan desafíos con el acceso a datos clínicos y la necesidad de monitoreo en tiempo real. Existe una demanda clara por herramientas que ofrezcan una visualización centralizada y un monitoreo continuo, para mejorar la calidad del cuidado y la eficiencia en el seguimiento de pacientes.
+
+
 ## 2.3. Needfinding.
 ### 2.3.1. User Persona
 **Segmento 1**: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
