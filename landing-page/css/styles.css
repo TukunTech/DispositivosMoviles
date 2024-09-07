@@ -1246,18 +1246,6 @@ footer{
     transform: scale(1.1);
 }
 
-/*video de uso de plataforma*/
-.center-video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.center-video video {
-    max-width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
 /*Boton de galera de fotos*/
 .center-toggle {
