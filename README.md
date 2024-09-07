@@ -122,8 +122,12 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 ### Segmento 1
 **Encargado de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 
+![Impact Map Segmento 1](./img-impact-map/Impact_map_1.png)
+
 ### Segmento 2
 **Personal médico y pacientes postoperatorios UCI de clínicas privadas**
+
+![Impact Map Segmento 1](./img-impact-map/Impact_map_2.png)
 
 
 ## 3.4. Product Backlog.
