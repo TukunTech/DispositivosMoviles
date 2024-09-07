@@ -348,6 +348,63 @@ Tiene la función de examinar los artefactos y el comportamiento del software, a
 
 - **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
 
+### 5.1.2 Source Code Management
+
+La gestión de código fuente, también conocida como **SCM** (Source Code Management) en inglés, es una práctica crucial en el desarrollo de software. Su propósito es registrar y controlar las modificaciones que los miembros del equipo hacen en los repositorios de código a lo largo del ciclo de vida del proyecto. Este sistema permite rastrear los cambios introducidos por cada desarrollador, asegurando que todas las contribuciones estén documentadas y gestionadas de manera eficiente. En este caso, utilizaremos **GitHub** como la plataforma para implementar el control de versiones y garantizar una colaboración fluida entre los integrantes del equipo.
+
+#### Organización:
+
+**Landing Page:**
+
+En este proyecto, implementaremos **GitFlow** como la estrategia principal para la gestión de ramas y el control de versiones. GitFlow es un modelo estructurado que facilita la organización del desarrollo, permitiendo a los equipos trabajar en múltiples funcionalidades de manera simultánea y ordenada. Con GitFlow, seguiremos un flujo de trabajo definido que incluye ramas dedicadas para el desarrollo, las nuevas funcionalidades, las versiones de lanzamiento y las correcciones rápidas. Esta metodología nos permitirá mantener un control claro sobre el proceso de desarrollo, asegurando que las funcionalidades se integren de manera efectiva y minimizando los conflictos durante las fusiones.
+
+Como se indicó anteriormente, gracias a GitFlow se trabajará con **branches** (ramas) para realizar el desarrollo de manera progresiva. A continuación, se describirán las ramas que se emplearán y la función específica de cada una.
+
+- **Main Branches**: Son las ramas principales que estructuran y organizan el flujo de trabajo del desarrollo del proyecto. Las dos main branches fundamentales en GitFlow son:
+  - **Main**: La rama `main` es la línea principal de desarrollo y representa el estado estable del proyecto. Esta rama contiene el código que está listo para ser liberado o desplegado en producción. En GitFlow, `main` se mantiene siempre en un estado estable, lo que significa que solo se fusionan en ella cambios que han sido completamente probados y aprobados.
+  - **Develop**: La rama `develop` sirve como la base de desarrollo en curso. Es donde se integran todas las nuevas características y mejoras antes de que estén listas para ser lanzadas. En GitFlow, las ramas de **feature** (funcionalidades) se derivan de `develop` y, una vez completadas y probadas, se fusionan de nuevo en `develop`, preparándose para un eventual lanzamiento. Cuando el código en `develop` alcanza un punto estable y se decide liberar una nueva versión, se fusiona en `main` y se crea una nueva rama **release**.
+
+- **Support Branches**: Las ramas de soporte son aquellas que apoyan el desarrollo principal y permiten gestionar distintas etapas y necesidades del proyecto de manera efectiva. Estas ramas se crean temporalmente y cumplen funciones específicas antes de ser fusionadas o eliminadas. Las principales support branches en GitFlow son:
+  - **Feature Branches**: Las `feature branches` se crean a partir de la rama `develop` y se utilizan para desarrollar nuevas funcionalidades o mejoras.
+  - **Release Branches**: Las `release branches` se crean a partir de `develop` cuando el proyecto alcanza un estado en el que se considera listo para una nueva versión.
+  - **Hotfix Branches**: Las `hotfix branches` se crean a partir de `main` cuando es necesario corregir un error crítico en producción.
+
+#### Conventional Commits:
+
+La especificación de **Conventional Commits** es una convención sencilla que se aplica a los “commits”. Este proporciona un conjunto claro de reglas para crear un historial de confirmaciones explícito. Esta convención se complementa con **Semantic Versioning** (SemVer), al describir las características, correcciones y cambios incompatibles realizados en los mensajes de confirmación.
+
+- **Estructura:**
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+
+#### Semantic Versioning:
+
+Proporciona una manera clara y consistente de numerar versiones de software para comunicar la naturaleza de los cambios realizados en cada nueva versión. La idea principal de SemVer es que los números de versión reflejan el tipo y el alcance de las modificaciones introducidas, lo que facilita la gestión de dependencias y la interoperabilidad entre diferentes versiones de un software.
+
+- **Esquema de versiones:**
+- **MAJOR**: Se incrementa cuando se realizan cambios incompatibles en la API.
+- **MINOR**: Se incrementa cuando se añaden nuevas funcionalidades de manera compatible con versiones anteriores.
+- **PATCH**: Se incrementa cuando se realizan correcciones de errores compatibles con versiones anteriores.
+
+- **Tipos de Commits:**
+- **feat**: Cuando se añade nueva funcionalidad.
+- **fix**: Cuando se arregla un error.
+- **chore**: Tareas rutinarias no específicas.
+- **test**: Al añadir o arreglar tests.
+- **docs**: Al modificar sólo documentación.
+- **build**: Cuando el cambio afecta al compilado del proyecto.
+- **ci**: Cuando el cambio afecta a ficheros de configuración y scripts.
+- **style**: Cambios en la organización del código que no afectan la funcionalidad.
+- **refactor**: Cambio en el código que no corrige errores, pero mejora el código.
+- **perf**: Cuando hay mejoras de rendimiento.
+- **revert**: Revertir al commit anterior.
+
+
+
 ## 5.2.1.3. Development Evidence for Sprint Review. 
 En esta sección, se presentará la evidencia del progreso y desarrollo del software. Se incluirán detalles sobre las características específicas que se han implementado durante el sprint actual, destacando cualquier avance significativo en la plataforma.
 
