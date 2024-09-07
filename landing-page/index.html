@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+     <!-- Meta Tags -->
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Monitorea en tiempo real los signos vitales de pacientes mediante una aplicación avanzada y equipos IoT. Detecta y responde rápidamente a emergencias médicas con alertas automáticas y análisis predictivo.">
+     <meta name="keywords" content="monitoreo de signos vitales, IoT, aplicación de salud, monitoreo en tiempo real, alertas médicas, análisis predictivo, salud digital, telemedicina, seguimiento de pacientes, salud conectada">
+     <meta name="author" content="TukunTech">
+     
+     <!-- Open Graph / Facebook -->
+     <meta property="og:type" content="website">
+     <meta property="og:title" content="Monitoreo en Tiempo Real de Signos Vitales con IoT">
+     <meta property="og:description" content="Mantén el control de la salud de tus pacientes con nuestra aplicación de monitoreo de signos vitales en tiempo real mediante dispositivos IoT.">
+     <meta property="og:url" content="URL">
+     <meta property="og:image" content="URL">
+     
+     <!-- SEO Tags -->
+     <title>TukunTech</title>
+     <link rel="canonical" href="https://www.TukunTech.com/monitoreo-signos-vitales">
+     <link rel="alternate" hreflang="es" href="https://www.TukunTech.com/monitoreo-signos-vitales">
+ 
+
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="logo">
+                        <a data-target="#Home"><img src="assets/logo.png" alt="TukunTech"></a>
+                    </div>
+                    <div class="menu-container">
+                        <ul class="menu">
+                            <li><a data-target="#about-us">Nosotros</a></li>
+                            <li><a data-target="#services">Servicios</a></li>
+                            <li><a data-target="#Suscripcion">Planes</a></li>
+                            <li><a data-target="#blogs">Noticias</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/flanding.png">
+                </div>
+            </div>
+        </nav>    
+    </header>
+    <main>
+        <div data-content id="Home" class="active">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="left">
+                            <h1>Cuidalos, <span>Cambia sus vidas</span></h1>
+                            <p>Entra a la comunidad más grande de pet-lovers y disfruta de sus beneficios.</p>
+                            <a data-target="#Suscripcion"> 
+                                <span >Descubre más </span>
+                                <span class="material-symbols-outlined">
+                                    trending_flat
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery">
+                    <div class="gallery-item">
+                        <img src="assets/ritmo-cardiaco.png" alt="Ritmo Cardiaco">
+                        <span class="label">Pulso</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/monitores-signos-vitales.png" alt="Monitores">
+                        <span class="label">Monitores</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/posoperacion.png" alt="PostOperatorios">
+                        <span class="label">PostOperatorios</span>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="assets/monitoreando.png" alt="Control Continuo">
+                        <span class="label">Control Continuo</span>
+                    </div>
+            </div>
+            </div>
+            <div class="Services">
+                <h2 class="separator">
+                    Nuestros Servicios
+                </h2>
+            
+                <div class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <ul class="carousel">
+                      <li class="card">
+                        <div class="img1"><img src="assets/cardiologia.png" alt="img" draggable="false"></div>
+                        <h2>Monitoreo Inteligente</h2>
+                        <span>TukunTech usa IoT para monitorear signos vitales en tiempo real, detectando anomalías y enviando alertas al personal médico de inmediato.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/cirugiae.png" alt="img" draggable="false"></div>
+                        <h2>Monitoreo a Domicilio</h2>
+                        <span>TukunTech ofrece monitoreo a domicilio, permitiendo a los pacientes recibir atención médica continua y enviar sus signos vitales a nuestro sistema, con vigilancia constante de profesionales de la salud.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/cirugiage.png" alt="img" draggable="false"></div>
+                        <h2>Monitoreo en Clínicas</h2>
+                        <span>Optimiza el cuidado en tu clínica con TukunTech. Nuestro sistema centraliza los datos de los pacientes en tiempo real, mejorando la toma de decisiones y la respuesta ante emergencias.</span>
+                      </li>
+                      <li class="card">
+                        <div class="img1"><img src="assets/bascula.png" alt="img" draggable="false"></div>
+                        <h2>Equipos de Última Generación</h2>
+                        <span>En TukunTech, ofrecemos equipos médicos avanzados para un monitoreo preciso y continuo de signos vitales, asegurando datos fiables para mejorar el cuidado de los pacientes.</span>
+                      </li>
+                    </ul>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                  </div>
+        
+                <div class="view-more">
+                    <button data-target="#services">Ver más</button>
+                </div>
+            </div>
+        
+            <div class="blogs">
+                <h2 class="separator">
+                    Últimos Artículos
+                </h2>
+            
+                <div class="wrapper">
+                    <ul class="carousel">
+                      <li class="card">
+                        <div class="img"><img src="assets/blog1.png" alt="img" draggable="false"></div>
+                        <h2>¿Qué tener en cuenta si vas a llevar a tu perro a un restaurante pet-friendly?</h2>
+                        <span>¿Te ha pasado que quieres ir a comer a algún lugar fuera de tu casa,
+                             pero no quieres dejar a tu engreído solo? O simplemente, ¿te gustaría estar en......</span>
+                      </li>
+                      <li class="card">
+                        <div class="img"><img src="assets/blog2.png" alt="img" draggable="false"></div>
+                        <h2>Nuestros gatos en otoño, cómo les afecta y cómo cuidarlos</h2>
+                        <span>Llegó el otoño, y sin duda el cambio de estación genera un
+                             cambio en nuestro ánimo. Para nosotros puede ser una época feliz ...</span>
+                      </li>
+                      <li class="card">
+                        <div class="img"><img src="assets/blog3.png" alt="img" draggable="false"></div>
+                        <h2>De compras con Milaneso… en Sodimac!!</h2>
+                        <span>Cuántas veces has salido y has dejado a tu mascohijo en casa para
+                             hacer compras con su carita de ¡no te vayas!!! Felizmente ahora ya podemos llevarlos con nosotros ...</span>
+                      </li>
+                    </ul>
+                  </div>
+            
+                <div class="view-more">
+                    <button data-target="#blogs">Ir al Blog</button>
+                </div>
+            </div>
+        
+            <div class="work">
+                <div class="content-work">
+                    <h1>Aqui no se que poner, es donde invitamos a trabajar a gente xd</h1>
+                    <button>Trabaja con nosotros</button>
+                </div>
+                <div class="image-container">
+                    <img src="assets/work.png" alt="Veterinario con perro">
+                </div>
+            </div> 
+        </div>
+        <div data-content id="about-us">
+            <div class="About-us">
+                <h1>Nosotros</h1>
+                <p>En TukunTech, estamos comprometidos con la salud y 
+                    seguridad de los pacientes más vulnerables. Nuestro 
+                    sistema d emonitoreo avanzado te ofrece tranquilidad al 
+                    garantizar un seguimiento continuo y preciso de los singos 
+                    vitales de tus seres queridos, tanto en el hogar como 
+                    en el hospital. Con tecnología de vanguardia, proporcionamos 
+                    alertas en tiempo real para que el personal médico 
+                    pueda actuar rápidamente en caso de emergencia.
+                    Nuestro enfoque integral no solo optimiza la atencion 
+                    médica sino que tambien reduce la carga de trabajo 
+                    manual del personal médico, permitiendo una 
+                    gestion mas eficiente y una amyor calidad de atención. 
+                    Con TukunTech, puedes confiar en que cada paciente está 
+                    recibiendo el cuidado que merece, las 24 horas del
+                     día, los 7 dias de la semana.</p>
+            </div>
+            <div class="main-content">
+                <div class="vision-container">
+                    <div class="vision-content">
+                        <h2>Visión</h2>
+                        <p>Ser la solución líder en monitoreo de salud basado en IoT, transformando la manera enq ue se brinda atención médica al proporcionar una vigilancia continua, precisa y proactiva que empodera a los profesionales de la salud para salvar vidas, mejorar la calidad de atención y reducir la dependencia de metodos tradicionales en todo el mundo.</p>
+                    </div>
+                    <div class="mision-contacto-container">
+                        <div class="mision-content">
+                            <h2>Misión</h2>
+                            <p>Mejorar la calidad de atencion médica meidante un monitoreo de signos vitales continuo y preciso, facilitando respuestas rápidas y brindando tranquilidad a pacientes, familias y profesionales de salud.</p>
+                        </div>
+                        <div class="boton-contacto">
+                            <a href="#">
+                                <button><span>Contáctanos</span> <img src="assets/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon"></button>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="team-section">
+                    <h1>Nuestro equipo</h1>
+                    <div class="team-container">
+                        <div class="team-member">
+                            <img src="assets/Adri.png" alt="Francesca Nicole Bances Torres">
+                            <h2>Adriana </h2>
+                            <p>Bla bla bla</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="assets/Alissa.png" alt="Alissa Zúñiga Alvarez">
+                            <h2>Rafael </h2>
+                            <p>Bla bla bla</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="assets/Marsi.png" alt="Marsi Valeria Figueroa Larragán">
+                            <h2>Erick</h2>
+                            <p>Bla bla bla</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="assets/Axel.png" alt="Axel Yamir Patrona Rojas">
+                            <h2>Fabio</h2>
+                            <p>Bla bla bla</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="assets/Diego.png" alt="Diego Eduardo Ballón Villar">
+                            <h2>Oscar</h2>
+                            <p>Bla bla bla</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-content id="Suscripcion">
+            <div class="hero">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="left">
+                            <h1>Nuestros <br><span> Planes</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="planes">
+                <h2 class="separator">
+                    Planes
+                </h2>
+                <div class="plans-container">
+                    <div class="plan-card">
+                        <div class="badge">Más Vendido</div>
+                        <h2>Plan Individual</h2>
+                        <p class="price">$ <span>300</span></p>
+                        <p class="description">Plan monitoreo continuo 1</p>
+                        <p class="validity">Válido por un mes</p>
+                        <button class="btn">Comprar</button>
+                        <ul class="features">
+                            <li>Proporciona monitoreo personalizado de signos vitales en tiempo real.</li>
+                            <li>Acceso a 4 citas médicas con un especialista</li>
+                            <li>Brinda reportes detallados de la monitorización registrada</li>
+                        </ul>
+                    </div>
+                    <div class="plan-card">
+                        <h2>Plan Duo</h2>
+                        <p class="price">$ <span>500</span></p>
+                        <p class="description">Plan monitoreo continuo 2</p>
+                        <p class="validity">Válido por un mes</p>
+                        <button class="btn">Comprar</button>
+                        <ul class="features">
+                            <li>Proporciona monitoreo personalizado de signos vitales en tiempo real</li>
+                            <li>Acceso a 10 citas médicas con un especialista</li>
+                            <li>Brinda reportes detallados de la monitorización registrada por separado</li>
+                        </ul>
+                    </div>
+                    <div class="plan-card">
+                        <h2>Plan Organización</h2>
+                        <p class="price">$ <span>25000</span></p>
+                        <p class="description">Plan monitoreo empresarial</p>
+                        <p class="validity">Válido por un año</p>
+                        <button class="btn">Comprar</button>
+                        <ul class="features">
+                            <li>Permite el monitoreo de múltiples pacientes o empleados con una administración centralizada</li>
+                            <li>Incluye integración con sistemas médicos, alertas automatizadas, informes grupales y acceso a citas médicas para todo el equipo</li>
+                            <li>Brinda reportes detallados de la monitorización registrada</li>
+                        </ul>
+                    </div>
+                </div>
+           </div>
+        </div>  
+        <div data-content id="services">
+            <div class="services-content">
+                <h1>Servicios</h1>
+                <div class="icons-servicios">
+                    <div class="icon_corazon">
+                        <img src="assets/icon_corazon.png" alt="Corazón">
+                    </div>
+                    <div class="icon_servicio">
+                        <img src="assets/icon_servicio.png" alt="Salud">
+                    </div>
+                    <div class="icon_veterinario">
+                        <img src="assets/icon_veterinario.png" alt="Doctor">
+                    </div>
+                </div>
+                <div class="services-button">
+                    <button class="services-button-cita">
+                        <a data-target="#Agenda-cita"> 
+                            <span>¡Agenda una cita!</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="main-services-content">
+                <div class="service_citas">
+                    <div class="content_left">
+                        <h2>Monitoreo Inteligente</h2>
+                        <p>En TukunTech, aprovechamos la tecnología IoT para ofrecer un monitoreo inteligente y en tiempo real de los signos vitales de los pacientes. Nuestro sistema detecta anomalías automáticamente y envía alertas instantáneas al personal médico, garantizando una respuesta y servicio excepcional.</p>
+                    </div>
+                    <img src="assets/citas.png" alt="Citas">
+                </div>
+                <div class="service_grooming">
+                    <img src="assets/grooming.png" alt="Grooming">
+                    <div class="content_right">
+                        <h2>Monitoreo a Domicilio</h2>
+                        <p>Lleva la tranqulidad del hospital a tu hogar con nuestro servicio d monitoreo a domicilio. TukunTech permite que los pacientes reciban atencion médica constante sin salir de casa, con dispositivos que miden y transmiten sus signos vitales a nuestro sistema central. Las familias pueden estar seguras de que sus seres queridos están siendo monitoreados por profesionales de la salud en todo momento.</p>
+                    </div>
+                </div>
+                <div class="service_servicios">
+                    <div class="content_left">
+                        <h2>Monitoreo en Clínicas</h2>
+                        <p>Optimiza la eficiencia y la calidad del cuidado en tu clínica con nuestro sistema de monitoreo en tiempo real. TukunTech centraliza los datos de todos los pacientes, facilitando la toma de decisiones médicas infomadas y mejorando la respuesta ante situaciones críticas.</p>
+                    </div>
+                    <img src="assets/servicios.png" alt="Servicios especializados de salud">
+                </div>
+                <div class="service_cirugia">
+                    <img src="assets/cirugia.png" alt="Cirugía">
+                    <div class="content_right">
+                        <h2>Equipos de Última Generación</h2>
+                        <p>Contamos con equipos médicos más avanzados del mercado, diseñados para ofrecer un monitoreo preciso y constrante de los signos vitales. En TukunTech, trabajamos con dispositivos de última generacion que aseguran una recopilación de datos fiable y continua, proporcionando a los profesionales de la salud la información necesaria para cuidar mejor a sus pacientes.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div data-content id="Agenda-cita">
+            <div class="hero">
+                <div class="container">
+                    <div class="form-container">
+                        <form class="appointment-form">
+                            <h2>Reservar Cita</h2>
+                            <label for="pet-type">Datos:</label>
+                            <input type="text" id="pet-type" name="pet-type" placeholder="Nombre y Apellido" required>
+        
+                            <label>Plan:</label>
+                            <select id="plan" name="plan">
+                                <option value="individual">Plan Individual</option>
+                                <option value="duo">Plan Duo</option>
+                                <option value="org">Plan Organización</option>
+                            </select>
+
+                            <label for="date">Fecha:</label>
+                            <input type="date" id="date" name="date" required>
+        
+                            <label for="email">Correo:</label>
+                            <input type="email" id="email" name="email" placeholder="Correo" required>
+        
+                            <button type="submit">Registrar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-content id="blogs">
+            <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="left">
+                        <h1><span>Noticias</span></h1>
+                        <p>Tukun... Tukun...</p>
+                    </div>
+                </div>
+            </div>     
+            </div>   
+            <div class="blogs-posts">
+                <h2 class="separator" style="color:#000; margin-top: 300px;">
+                    Noticias Destacadas
+                </h2> 
+                <div class="posts">
+                    <a href="#">
+                    <img src="assets/blog4.png" alt="blog1" data-target="#blog1">
+                    <p>Los monitores de signos vitales pueden ser manuales o automáticos</p>
+                    <h4>En el ámbito de la salud, la monitorización continua de los signos vitales es esencial para evaluar la salud y el bienestar de los pacientes...</h4>
+                    </a>
+                </div>
+                <div class="posts">
+                    <a href="#">
+                    <img src="assets/blog2.png" alt="blog2">
+                    <p>El rol de los monitores de signos vitales para prevenir las crisis hospitalarias posoperatorias</p>
+                    <h4>Los monitores de signos vitales son herramientas que pueden hacer una gran diferencia en los resultados hospitalarios posoperatorios de los pacientes ...</h4>
+                    </a>
+                </div>
+                <div class="posts">
+                    <a href="#">
+                    <img src="assets/blog1.png" alt="blog3">
+                    <p>Monitorización de pacientes</p>
+                    <h4>Estos dispositivos se utilizan en diversos entornos médicos, como quirófanos, unidades de cuidados intensivos y salas generales...</h4>
+                    </a>
+                </div>
+                <div class="posts">
+                    <a href="#">
+                    <img src="assets/blog3.png" alt="blog4">
+                    <p>Clínica fortalece Sala de Recuperación con adquisición de monitores de signos vitales de última generación</p>
+                    <h4>Se adquirió cinco nuevos monitores multiparámetros que permiten a los especialistas leer la frecuencia respiratoria y cardiaca con total precisión ...</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div data-content id="questions">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="left">
+                        <h1><span>¿Tienes alguna duda?</span></h1>
+                        <p>Dudas comunes entre nuestros usuarios</p>
+                    </div>
+                </div>
+            </div>      
+            <div class="questions">
+                <h2 class="separator" style="color:#29A7BD; margin-top: 250px;">
+                    Preguntas frecuentes
+                </h2> 
+                <div class="contenedor-acordeon">
+                    <div class="acordeon">
+                        <input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+                        <label for="btn-acordeon1">
+                            ¿Cómo funciona la plataforma de monitoreo de signos vitales basada en IoT?
+                        </label>
+                        <div class="contenido-acordeon">
+                            <p>Nuestra plataforma utiliza una red de dispositivos inteligentes que miden continuamente signos vitales como la frecuencia cardíaca, la presión arterial y la oxigenación en sangre. Estos dispositivos están conectados a través de tecnología IoT y transmiten datos en tiempo real a una plataforma centralizada. Allí, los datos se procesan y analizan mediante algoritmos avanzados para detectar anomalías. Cuando se identifican cambios críticos en los signos vitales, el sistema envía alertas inmediatas al personal médico para una rápida intervención. Además, la plataforma permite a los médicos realizar evaluaciones y ajustes basados en datos actualizados al instante.</p>
+                        </div>
+                    </div>
+                    <div class="acordeon">
+                     <input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+                     <label for="btn-acordeon2">
+                        ¿Qué ventajas ofrece su solución en comparación con los sistemas tradicionales de monitoreo de signos vitales?
+                     </label>
+                     <div class="contenido-acordeon">
+                         <p>Nuestra solución supera las limitaciones de los sistemas tradicionales al proporcionar una integración fluida entre dispositivos y una supervisión centralizada en tiempo real. A diferencia de los sistemas fragmentados y estáticos que requieren intervención manual, nuestro sistema automatiza la recolección y el análisis de datos, mejorando la eficiencia y la capacidad de respuesta. La integración con tecnología IoT permite una monitorización continua y permite detectar anomalías de manera temprana, lo que facilita una atención médica más proactiva y personalizada. Además, la plataforma centralizada mejora la precisión en la toma de decisiones y optimiza la gestión del cuidado de los pacientes.</p>
+                     </div>
+                 </div>
+                 <div class="acordeon">
+                     <input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+                     <label for="btn-acordeon3">
+                         ¿Qué tipo de clínicas y entornos son ideales para implementar esta solución?
+                     </label>
+                     <div class="contenido-acordeon">
+                         <p>Nuestra solución está diseñada especialmente para entornos críticos como unidades de cuidados intensivos, clínicas postoperatorias y para el monitoreo de adultos mayores que buscan una atención más avanzada. Estos entornos se benefician enormemente de una solución integrada y en tiempo real debido a la necesidad de monitoreo constante y de respuestas rápidas ante cambios en los signos vitales. Las clínicas que manejan condiciones crónicas o requieren una supervisión diaria precisa encontrarán nuestra plataforma particularmente útil para mejorar la calidad del cuidado y la eficiencia en la gestión de pacientes.</p>
+                     </div>
+                 </div>
+                 <div class="acordeon">
+                     <input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+                     <label for="btn-acordeon4">
+                         ¿Cómo se integra la plataforma con los sistemas existentes en las clínicas?
+                     </label>
+                     <div class="contenido-acordeon">
+                         <p>Nuestra plataforma está diseñada para integrarse de manera fluida con los sistemas de gestión de pacientes y de atención médica ya existentes en las clínicas. Utilizamos interfaces estándar y protocolos de comunicación para asegurar una compatibilidad eficiente con las infraestructuras tecnológicas actuales. Durante el proceso de implementación, trabajamos estrechamente con el personal técnico de las clínicas para adaptar la integración a sus sistemas específicos, garantizando que la transición sea lo más sencilla posible y que se mantenga la continuidad en la gestión del cuidado de los pacientes. Esta integración permite que los datos de monitoreo se incorporen fácilmente a los registros médicos electrónicos y otros sistemas utilizados por el personal médico, mejorando la coordinación y la calidad de la atención.</p>
+                     </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div data-content id="blog1">
+            <div class="hero-image">
+                <img src="assets/blog1-content.png" style="width: 690px;">
+            </div>
+            <div class="description">
+                <a href="#">
+                    <img src="assets/return.png" alt="retorno" data-target="#blogs">
+                </a>
+                <h4>Publicado por: Dr. José Martinez</h4>
+                <h4>Publicado el 12/02/2024</h4>
+            </div>
+            <div class="publication">
+                <h1 class="description-tittle">
+                    Diferencias entre perro de asistencia, de terapia y de apoyo emocional
+                </h1>
+                <p class="description-content" style="text-align: justify">
+                    En el fascinante universo canino, existen términos que van más allá de la simple compañía y nos 
+                    adentran en un mundo de apoyo, consuelo y servicio. Los perros de asistencia y los perros de terapia 
+                    son dos ejemplos emblemáticos de cómo nuestros amigos de cuatro patas pueden desempeñar roles significativos en la vida de las personas.
+                    Los perros de asistencia, también conocidos como perros de servicio, son verdaderos héroes cotidianos. Estos compañeros peludos están especialmente entrenados para brindar ayuda práctica y emocional a personas con discapacidades físicas, sensoriales, cognitivas o de salud mental. Desde guiar a personas ciegas con seguridad a través de entornos desconocidos hasta alertar a individuos con diabetes sobre cambios en sus niveles de azúcar en sangre, su dedicación y habilidades son impresionantes. Para aquellos que enfrentan barreras en su vida diaria, estos perros no solo ofrecen asistencia física, sino también un profundo sentido de independencia y conexión emocional.
+                    Por otro lado, los perros de terapia se destacan por su capacidad para traer consuelo, alegría y apoyo emocional en momentos de necesidad. Ya sea en hospitales, hogares de ancianos, escuelas o centros de rehabilitación, estos caninos trabajan incansablemente para aliviar el estrés, fomentar la interacción social y levantar el ánimo de quienes los rodean. Su presencia calmante y su afecto incondicional tienen un impacto transformador en la vida de pacientes, estudiantes y personas en situaciones difíciles. A través de sesiones de lectura, visitas a pacientes hospitalizados o simplemente abrazos reconfortantes, estos perros demuestran una vez más el poder del vínculo humano-animal.
+                    En resumen, los perros de asistencia y de terapia desempeñan roles únicos pero igualmente importantes en nuestra sociedad. Ya sea proporcionando ayuda práctica a aquellos que lo necesitan o brindando consuelo en tiempos de adversidad, su presencia es un recordatorio constante del impacto positivo que los animales pueden tener en nuestras vidas. Como compañeros leales y aliados en el camino, los perros continúan inspirándonos, enseñándonos y enriqueciendo nuestras vidas de maneras inimaginables.
+                </p>
+                <div class="comments">
+                    <div class="description-tittle">
+                        <h3 style="color:#29A7BD; margin-top: 140px">
+                            Comentarios
+                        </h3>
+                    <p><a>Publicar</a></p>
+                    <div class="respuesta">
+                        <h2>Usuario1223</h2><h3>¡Me encanta cómo está escrito! Es fácil de entender desde el principio y no me pierdo en ningún momento.</h3>
+                    </div>
+                    <div class="respuesta">
+                        <h2>Usuario02932</h2><h3>Me hizo sentirme emocionado y agradecido por el trabajo de estos perros. Es increíble cómo pueden marcar la diferencia en la vida de las personas.</h3>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div data-content id="Contacto" class="contact-form-container">
+        <div class="contact-form">
+            <form>
+                <h2>Contáctanos</h2>
+                <label for="consulta">Ingrese su nombre</label>
+                <textarea id="consulta" name="nombre" required></textarea>
+                <label for="email">Ingrese su email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="consulta">Ingrese su consulta</label>
+                <textarea id="consulta" name="consulta" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container-footer">
+            <div class="row">
+                <div class="col-social">
+                    <img src="assets/logo.png" alt="" class="logo">
+                    <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+               
+                <div class="col">
+                    <h3 data-target="#Contacto">Contactanos</h3>
+                    <div class="links">
+                    <a href="#"><i class="fa-regular fa-envelope"></i> info@tukuntech.pe</a>
+                    <a href="#">Inscripción</a>
+                    <a data-target="#questions">Preguntas Frecuentes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form">
+                <p>© 2024 TukunTech | Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="backToTop" class="back-to-top" onclick="scrollToTop()">
+        <i class='bx bx-up-arrow-alt'></i>
+    </button>  
+
+    <div class="whatsapp-container">
+        <a href="#" class="whatsapp-button">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <div class="whatsapp-text">
+            <p>¿Necesitas ayuda?<br>¡Escríbenos!</p>
+        </div>
+    </div>    
+</body>
+</html>
