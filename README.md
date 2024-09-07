@@ -417,6 +417,19 @@ En el presente diagrama se detalla cómo los médicos y enfermeros interactúan 
 ### 4.7.1. Class Diagrams. 
 ![Class Diagrams](./Software%20Object-Oriented%20Design/Diagram%20class.drawio.png)
 ### 4.7.2. Class Dictionary. 
+Pacientes: Representa a los pacientes dentro del sistema. Esta clase contiene toda la información personal y médica básica de un paciente, como su nombre, apellido,DNI,edad,género y grupo sanguíneo.Además, almacena información relevante relacionada con el seguro médico incluyendo el número de póliza y detalles de alergias.También se incluyen los datos de contacto de emergencia para que se pueda contactar rápidamente en caso de necesidad
+
+Médicos:Contiene información sobre los profesionales médicos en el sistema, incluye datos personales, como el nombre, apellido y DNI del médico, junto con detalles específicos de su carrera profesional, como su especialización, número de colegiatura (CMP), y nacionalidad. Esta clase es crucial para asociar médicos con consultas y citas permitiendo un seguimiento preciso de las interacciones entre médicos y pacientes.
+
+Consultas: Representa una interacción o consulta médica entre un médico y un paciente. Contiene detalles sobre el médico y el paciente involucrados en la consulta, así como la fecha y una descripción de lo discutido o diagnosticado durante la consulta. Esta clase permite rastrear el historial de interacciones entre el personal médico y los pacientes dentro del sistema.
+
+SignosVitales:Es responsable de almacenar los datos vitales de los pacientes en diferentes momentos. Esta clase captura información clave como la frecuencia cardíaca (bpm), presión arterial (sistólica y diastólica), saturación de oxígeno (spo2), y la temperatura corporal. Cada registro de signos vitales está vinculado a un paciente específico a través de su ID y tiene una marca de tiempo que indica cuándo se tomaron las mediciones.
+
+Citas: Gestiona las citas programadas entre los pacientes y los médicos. Esta almacena información sobre la fecha, hora y tipo de cita. También contiene el método de pago que el paciente utilizará para la cita. Las citas están vinculadas a un paciente y un médico específicos, permitiendo una programación eficiente dentro del sistema.
+
+Tratamientos: Almacena la información relacionada con los tratamientos prescritos a los pacientes. Cada tratamiento está asociado a un paciente y a una consulta específica, e incluye una descripción del tratamiento, así como las fechas de inicio y fin del mismo. Esta clase permite a los médicos y al sistema rastrear el progreso del tratamiento y asegurar que los pacientes sigan las prescripciones adecuadamente.
+
+Exámenes: Es responsable de registrar los exámenes médicos que se realizan a los pacientes. Cada registro de exámenes incluye información sobre el tipo de examen, los resultados, y la fecha en la que se realizó. Los exámenes están vinculados a una consulta específica, lo que permite al sistema rastrear qué exámenes se realizaron durante una consulta y su relevancia para el diagnóstico o tratamiento del paciente.
 
 
 ### 4.8.1. Database Diagram
