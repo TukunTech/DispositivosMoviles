@@ -464,24 +464,24 @@ Este formato asegura que cada segmento objetivo tenga acceso a herramientas de b
 Segmento objetivo 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 
 Se evidencia el recorrido para la creación de una cuenta nueva en el sistema 
-![User flow 1]()
+![User flow 1](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%201.png)
 
 Se evidencia el recorrido para la edición del perfil del usuario
-![User flow 2]()
+![User flow 2](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%202.png)
 
 Se evidencia el recorrido para acceder a los contactos de emergencia
-![User flow 3]()
+![User flow 3](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%203.png)
 
 Segmento objetivo 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
 
 Se evidencia el recorrido para acceder al registro de un nuevo médico
-![user flow 4]()
+![user flow 4](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%204.png)
 
 Se evidencia el recorrido para reagendar una cita médica
-![user flow 5]()
+![user flow 5](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%205.png)
 
 Se evidencia el recorrido para agregar una nota a un paciente:
-![User flow 6]()
+![User flow 6](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%206.png)
 
 ### 4.2.5. Navigation Systems. FABIO
 A continuación, se presentarán los sistemas de navegación que facilitarán a nuestros usuarios desplazarse por las diferentes secciones de contenido o información disponibles.
