@@ -612,9 +612,9 @@ En esta sección, se presentará la evidencia del progreso y desarrollo del soft
 #### 5.2.1.5 Execution Evidence for Sprint Review. OSCAR
 
 En esta sección se abordará el progreso del desarrollo durante el sprint, detallando la ejecución de la aplicación. Se analizará cómo los usuarios han interactuado con la plataforma, incluyendo su experiencia de usuario, comentarios y cualquier inconveniente que hayan encontrado. Además, se resaltan las mejoras implementadas en términos de usabilidad y diseño de la interfaz. Durante este período, también se mostrarán los commits realizados, permitiendo visualizar el avance técnico y las contribuciones del equipo en tiempo real.
-[Muestra 1](./img-evidence-sprint/Evidence-for-Sprint-Review1.JPG)
+![Muestra 1](./img-evidence-sprint/Evidence-for-Sprint-Review1.JPG)
 
-[Muestra 2](./img-evidence-sprint/Evidence-for-Sprint-Review2.JPG)
+![Muestra 2](./img-evidence-sprint/Evidence-for-Sprint-Review2.JPG)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Aquí se presentará la documentación relacionada con los servicios de atención médica ofrecidos a través de la plataforma. Esto puede incluir perfiles de profesionales de salud, detalles sobre los paquetes disponibles.
