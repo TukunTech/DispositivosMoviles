@@ -259,24 +259,29 @@ A continuación se presenta el logo de TukunTech:
 La tipografía juega un papel clave en la organización y estructuración del lenguaje visual en todas las plataformas que se desarrollarán para satisfacer las principales características de la aplicación. Una buena tipografía por sí sola puede definir casi toda la estética de un sitio web y aplicativo móvil. Así mismo, se trata de hacer más llevadero el proceso de diseño y no utilizar elementos que puedan ralentizar la carga de la web. 
 
 Por todo lo mencionado, se seleccionó el siguiente tipo de letra:
+
 ![typography](./Imgs%20-%20Guidelines/font.png)
 
 - _**Colors**_
 El color es un elemento muy trascendental en cualquier campo del diseño, incluido el diseño web y de aplicaciones móviles. Los colores establecen estados de ánimo a las personas. Usar los colores correctos no solo lleva a los usuarios a diferentes sitios web, sino que también ayuda a fortalecer la marca.
-  -_Brand Colors_
+  -_Brand Colors:_
+  
   ![brandColors](./Imgs%20-%20Guidelines/Brand%20color.png)
   
-  -_State Colors_
+  -_State Colors:_
+  
   ![stateColors](./Imgs%20-%20Guidelines/State%20Colors.png)
   
-  -_Grey Colors_
+  -_Grey Colors:_
+  
   ![greyColors](./Imgs%20-%20Guidelines/Gray%20Color.png)
 
-- _**Spacing**_
+- _**Spacing:**_
 El uso del espacio es crucial en cualquier diseño. Una buena distribución del espacio mejora la legibilidad del texto, separa las imágenes de otros elementos y ofrece a los usuarios una sensación de "descanso" a la vista. Esto contribuye a que la página se perciba menos saturada, evitando que resulte molesta o abrumadora. El espaciado se aplica entre gráficos, columnas, imágenes, texto, bordes y otros componentes, aportando equilibrio y fluidez al diseño. Además, es una manera efectiva de organizar el contenido y dirigir la atención del usuario hacia puntos clave.
+
 ![spacing](./Imgs%20-%20Guidelines/Spacing.png)
 
-- _**Tone & Language**_
+- _**Tone & Language:**_
   - _Color Primario:_ Simboliza calma y confianza, sensaciones importantes vinculadas a la salud. Al utilizar la aplicación, el contratante percibirá este color como amigable y relajante.
   - _Color Secundario:_ Tiene un efecto relajante sobre la vista y la mente. Este color transmite tranquilidad y sobre todo un contraste pacífico con el primario.
   - _Gris:_ Representa sencillez y es comúnmente utilizado cuando se quiere colocar textos largos a modo de explicación.
