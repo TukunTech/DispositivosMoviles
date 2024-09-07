@@ -132,6 +132,41 @@ El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosam
 
 Esta estructura asegura que cada segmento objetivo tenga acceso a la información de manera organizada y adaptada a sus necesidades específicas, facilitando la eficiencia del sistema y la experiencia del usuario.
 
+### 4.2.3 SEO Tags and Meta Tags 
+
+La optimización para motores de búsqueda (SEO, por sus siglas en inglés) es la práctica de mejorar la cantidad y calidad del tráfico a un sitio web mediante resultados orgánicos en los motores de búsqueda.
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Monitorea en tiempo real los signos vitales de pacientes mediante una aplicación avanzada y equipos IoT. Detecta y responde rápidamente a emergencias médicas con alertas automáticas y análisis predictivo.">
+    <meta name="keywords" content="monitoreo de signos vitales, IoT, aplicación de salud, monitoreo en tiempo real, alertas médicas, análisis predictivo, salud digital, telemedicina, seguimiento de pacientes, salud conectada">
+    <meta name="author" content="TukunTech">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Monitoreo en Tiempo Real de Signos Vitales con IoT">
+    <meta property="og:description" content="Mantén el control de la salud de tus pacientes con nuestra aplicación de monitoreo de signos vitales en tiempo real mediante dispositivos IoT.">
+    <meta property="og:url" content="https://www.TukunTech.com/monitoreo-signos-vitales">
+    <meta property="og:image" content="https://www.TukunTech.com/images/monitoreo-vitales-og-image.jpg">
+    
+    <!-- SEO Tags -->
+    <title>Monitoreo en Tiempo Real de Signos Vitales | Salud IoT | Tu Empresa</title>
+    <link rel="canonical" href="https://www.TukunTech.com/monitoreo-signos-vitales">
+    <link rel="alternate" hreflang="es" href="https://www.TukunTech.com/monitoreo-signos-vitales">
+
+</head>
+<body>
+    <!-- Landing Page -->
+</body>
+</html>
+
+
+
 ## 4.2.4. Searching Systems
 
 ### Lista de pacientes
