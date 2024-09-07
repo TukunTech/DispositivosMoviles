@@ -109,6 +109,38 @@ Nuestro producto abordará esta brecha mediante el desarrollo de una plataforma 
 Inicialmente, centraremos nuestra atención en los cuidados intensivos y post-operatorios, así como en el monitoreo en tiempo real de adultos mayores que desean modernizar sus infraestructuras de seguimiento y optimizar la calidad de la atención al paciente. Estas clínicas son el entorno ideal para implementar nuestra solución, dada la necesidad de mejorar el manejo de pacientes con condiciones crónicas y la eficiencia en la supervisión diaria.
 
 Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta ante cambios críticos en los signos vitales, un aumento en la satisfacción del personal médico por la facilidad de uso del sistema y una mejora general en la calidad del cuidado proporcionado a los pacientes, medido a través de métricas de rendimiento y feedback de los usuarios.
+#### 1.2.2.2. Lean UX Assumptions
+**Business Outcomes**
+
+- Mejorar la rapidez con la que el personal médico puede reaccionar ante emergencias detectadas por el sistema.
+- Conseguir que las clínicas implementen el sistema de manera continua, integrándose como parte esencial de su proceso de monitoreo.
+- Mantener relaciones a largo plazo con clínicas y proveedores de equipos médicos mediante la satisfacción constante de sus necesidades con el sistema.
+- Generar ingresos recurrentes a través de la venta de suscripciones, servicios y hardware, en colaboración con proveedores de equipos médicos.
+- Ayudar a las clínicas a reducir costos operativos al disminuir la dependencia de la supervisión manual del personal médico.
+- Facilitar la optimización del tiempo del personal médico, permitiéndoles centrarse en tareas críticas al reducir las tareas manuales y repetitivas.
+- Ampliar la presencia del sistema en nuevas áreas geográficas y segmentos del sector de salud, como hogares de personas mayores y proveedores de equipos médicos.
+- Asegurar altos niveles de satisfacción entre clínicas, personal médico y proveedores de equipos, lo que fomentará la lealtad y recomendaciones.
+- Minimizar la cantidad de eventos críticos no detectados a tiempo en clínicas y hogares gracias al monitoreo continuo.
+- Lograr que los pacientes y sus familias confíen en el sistema percibiendo una mejora significativa en la atención médica que reciben.
+
+**Users**
+
+- Público adulto mayor o personas con necesidad de monitoreo de signos vitales
+- Clínicas privadas
+
+**User Outcomes**
+
+- **Monitoreo Continuo con Alertas Inmediatas**: Se mejora la seguridad del paciente al proporcionar monitoreo constante y alertas inmediatas en caso de emergencia.
+  
+- **Reducción de Ansiedad Familiar**: Se disminuye la ansiedad asociada con la atención médica mediante el monitoreo continuo y una respuesta médica rápida.
+  
+- **Eficiencia en Tareas Diarias**: Se optimiza la eficiencia en las tareas diarias del personal médico mediante un sistema intuitivo y fácil de usar.
+  
+- **Decisiones Informadas y Oportunas**: Se facilitan decisiones más informadas y oportunas al proporcionar acceso inmediato a datos actualizados.
+  
+- **Valor para Proveedores de Equipos Médicos**: Se incrementa el valor para los proveedores de equipos médicos, lo que fomenta nuevas colaboraciones.
+  
+- **Visibilidad del Rendimiento del Sistema**: Se proporciona visibilidad completa sobre el rendimiento del sistema, facilitando la toma de decisiones operativas en las clínicas.
 
 #### 1.2.2.4. Lean UX Canvas.
 ![Lean Ux](./Imgs%20-%20Lean%20UX%20Canvas/Ux%20canvas.png) 
