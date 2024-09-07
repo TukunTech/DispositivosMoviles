@@ -263,7 +263,15 @@ Para todos los segmentos, se ofrecerá un centro de ayuda con una barra de búsq
 
 Este formato asegura que cada segmento objetivo tenga acceso a herramientas de búsqueda adaptadas a sus necesidades específicas, mejorando la experiencia del usuario y facilitando el acceso rápido a información crítica.
 
+# 4.4. Web Applications UX/UI Design.
 
+## 4.4.1. Web Applications Wireframes.
+![1](./imgs%20Landing%20Page%20Wireframe/1.png)
+![2](./imgs%20Landing%20Page%20Wireframe/2.png)
+![3](./imgs%20Landing%20Page%20Wireframe/3.png)
+![4](./imgs%20Landing%20Page%20Wireframe/4.png)
+![5](./imgs%20Landing%20Page%20Wireframe/5.png)
+![6](./imgs%20Landing%20Page%20Wireframe/6.png)
 
 ## 4.4.2. Web Applications Wireflow Diagrams
 
