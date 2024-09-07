@@ -145,30 +145,44 @@ Sabremos que hemos tenido éxito cuando observemos una reducción significativa 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 *Hypothesis Statement #1*
 
-**Creemos que** lograremos mejorar la rapidez con la que el personal médico puede reaccionar ante emergencias detectadas por el sistema
+**Creemos que** lograremos mejorar la rapidez con la que el personal médico puede reaccionar 
+ante emergencias detectadas por el sistema
+
 **Si** las clínicas privadas
+
 **Obtienen** acceso inmediato a datos actualizados y alertas en tiempo real
+
 **Con** una plataforma integrada de monitoreo de signos vitales basada en IoT.
 
 *Hypothesis Statement #2*
 
-**Creemos que** lograremos conseguir que las clínicas implementen el sistema de manera continua, integrándose como parte esencial de su proceso de monitoreo
+**Creemos que** lograremos conseguir que las clínicas implementen el sistema de manera continua, 
+integrándose como parte esencial de su proceso de monitoreo
+
 **Si** el personal médico
+
 **Obtiene** una herramienta fácil de usar e intuitiva que mejora su eficiencia diaria
+
 **Con** un sistema centralizado y automatizado de monitoreo continuo.
 
 *Hypothesis Statement #3*
 
 **Creemos que** lograremos mantener relaciones a largo plazo con clínicas y proveedores de equipos médicos mediante la satisfacción constante de sus necesidades con el sistema
+
 **Si** las clínicas privadas
+
 **Obtienen** una solución confiable que optimiza la atención al paciente y reduce costos operativos
+
 **Con** un sistema de monitoreo continuo que integra hardware y software adaptado a sus necesidades.
 
 *Hypothesis Statement #4*
 
 **Creemos que** lograremos generar ingresos recurrentes a través de la venta de suscripciones, servicios y hardware, en colaboración con proveedores de equipos médicos
+
 **Si** las clínicas privadas
+
 **Obtienen** una solución integral que se actualiza continuamente y que mejora la eficiencia operativa
+
 **Con** un modelo de suscripción que incluye soporte técnico y actualizaciones periódicas.
 
 *Hypothesis Statement #5*
@@ -181,36 +195,51 @@ Obtienen una reducción en la necesidad de supervisión constante por parte del 
 *Hypothesis Statement #6*
 
 **Creemos que** lograremos facilitar la optimización del tiempo del personal médico, permitiéndoles centrarse en tareas críticas al reducir las tareas manuales y repetitivas
+
 **Si** el personal médico
+
 **Obtiene** más tiempo para concentrarse en la atención crítica del paciente
+
 **Con** un sistema que automatiza la recolección y análisis de datos de signos vitales.
 
 *Hypothesis Statement #7*
 
 **Creemos que** lograremos ampliar la presencia del sistema en nuevas áreas geográficas y segmentos del sector de salud, como hogares de personas mayores y proveedores de equipos médicos
+
 **Si** las clínicas privadas
+
 **Obtienen** una solución flexible que puede ser adaptada a diferentes entornos y necesidades
+
 **Con** un sistema de monitoreo escalable y fácil de implementar en diversas localidades.
 
 *Hypothesis Statement #8*
 
 **Creemos que** lograremos asegurar altos niveles de satisfacción entre clínicas, personal médico y proveedores de equipos, lo que fomentará la lealtad y recomendaciones
+
 **Si** los usuarios
+
 **Obtienen** una experiencia positiva y consistente con el uso del sistema
+
 **Con** un sistema intuitivo, confiable y que ofrece soporte continuo.
 
 *Hypothesis Statement #9*
 
 **Creemos que** lograremos minimizar la cantidad de eventos críticos no detectados a tiempo en clínicas y hogares gracias al monitoreo continuo
+
 **Si** los pacientes y sus familias
+
 **Obtienen** la tranquilidad de un monitoreo constante y una respuesta inmediata ante emergencias
+
 **Con** un sistema de monitoreo continuo que envía alertas en tiempo real.
 
 *Hypothesis Statement #10*
 
 **Creemos que** lograremos que los pacientes y sus familias confíen en el sistema percibiendo una mejora significativa en la atención médica que reciben
+
 **Si** los pacientes
+
 **Obtienen** un monitoreo constante que mejora la percepción de seguridad y calidad del cuidado
+
 **Con** una solución de monitoreo IoT que garantiza la supervisión y alerta inmediata ante cualquier anomalía.
 
 #### 1.2.2.4. Lean UX Canvas.
