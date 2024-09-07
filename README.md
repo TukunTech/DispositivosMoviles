@@ -839,3 +839,8 @@ Aquí se presentará la documentación relacionada con los servicios de atenció
 En esta sección, se redactará el proceso de implementación del software en un entorno de producción. Asimismo, se mostrarán los hitos clave que servirán para el despliegue del proyecto y la disponibilidad de este para los usuarios finales. 
 ![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Software%20Deployment%20Evidence%20for%20Sprint%20Review.png)
 
+#### 5.2.1.8. Team Collaboration Insights during Sprint.
+Se ofrecerá información detallada sobre la colaboración y la comunicación entre los miembros del equipo de desarrollo a lo largo del sprint. Esto abarcará la coordinación de actividades, la resolución de inconvenientes y la gestión de las tareas asignadas. Además, se resaltarán las lecciones aprendidas y las áreas donde se puede mejorar la colaboración.
+
+![Team Collaboration Insights](./Imgs%20-%20Team%20Collaboration%20Insights%20during%20Sprint/captura%20dc.png)
+
