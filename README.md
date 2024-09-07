@@ -994,13 +994,13 @@ Se evidencia el recorrido para acceder a los contactos de emergencia
 Segmento objetivo 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
 
 Se evidencia el recorrido para acceder al registro de un nuevo médico
-![user flow 4](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%204.png)
+![user flow 4](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/user%20flow%204.png)
 
 Se evidencia el recorrido para reagendar una cita médica
-![user flow 5](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%205.png)
+![user flow 5](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/user%20flow%205.png)
 
 Se evidencia el recorrido para agregar una nota a un paciente:
-![User flow 6](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%206.png)
+![User flow 6](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/user%20flow%206.png)
 
 ## 4.4.2. Web Applications Mock-ups.
 **Segmento Objetivo Cuidadores de Adultos Mayores**
