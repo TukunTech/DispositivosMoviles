@@ -861,7 +861,8 @@ Lo que nos redirige al Landing Page desplegado:
 
 ![landing](Img%20-%20Software%20Deployment%20Configuration/foto%20landing.png)
 
-
+# 5.2. Landing Page, Services & Applications Implementation.
+### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1.
 ![Sprint Planning 1](./img%20sprint%20planning/planning%201.png)
 
