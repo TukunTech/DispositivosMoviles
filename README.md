@@ -127,7 +127,7 @@ Este formato asegura que cada segmento objetivo tenga acceso a herramientas de b
 **Diagrama 1**
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Pacientes postoperatorios” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
-.[Diagrama de panel pacientes postoperatorios](./Imgs%20User%20Goal%20Diagram/goal1.png)
+![Diagrama de panel pacientes postoperatorios](./Imgs%20User%20Goal%20Diagram/goal1.png)
 
 **Diagrama 2**
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes UCI.  
