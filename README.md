@@ -237,6 +237,10 @@ Tiene la función de examinar los artefactos y el comportamiento del software, a
 ## 5.2.1.3. Development Evidence for Sprint Review. 
 En esta sección, se presentará la evidencia del progreso y desarrollo del software. Se incluirán detalles sobre las características específicas que se han implementado durante el sprint actual, destacando cualquier avance significativo en la plataforma.
 
+
+##5.2.1.6. Services Documentation Evidence for Sprint Review.
+Aquí se presentará la documentación relacionada con los servicios de atención médica ofrecidos a través de la plataforma. Esto puede incluir perfiles de profesionales de salud, detalles sobre los paquetes disponibles.
+
 ![Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Evidence%20for%20Sprint%20Review.png)
 
 ## 5.2.1.7. Software Deployment Evidence for Sprint Review.
