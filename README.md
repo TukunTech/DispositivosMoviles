@@ -21,3 +21,7 @@ Plan Clínico: Diseñado específicamente para clínicas y hospitales, este plan
 Plan Familiar: Enfocado en usuarios individuales que necesitan monitorear la salud de un adulto mayor en el entorno familiar. Este plan proporciona herramientas esenciales de monitoreo, permitiendo a las familias estar informadas sobre los signos vitales de sus seres queridos de manera sencilla y accesible.
 
 Ambos planes tendrán diferentes estructuras de costos y se ofrecerán en un modelo de suscripción mensual, adaptado a las necesidades de cada tipo de usuario.
+
+##2.3.3. User Journey Mapping.
+**Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
+![User Journey Mapping](./imgs Journey Mapping/segmento 1)
