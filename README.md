@@ -47,7 +47,7 @@ Plan Clínico: Diseñado específicamente para clínicas y hospitales, este plan
 Plan Familiar: Enfocado en usuarios individuales que necesitan monitorear la salud de un adulto mayor en el entorno familiar. Este plan proporciona herramientas esenciales de monitoreo, permitiendo a las familias estar informadas sobre los signos vitales de sus seres queridos de manera sencilla y accesible.
 
 Ambos planes tendrán diferentes estructuras de costos y se ofrecerán en un modelo de suscripción mensual, adaptado a las necesidades de cada tipo de usuario.
-### 1.2.1 Antecedentes y problemática
+### 1.2.1. Antecedentes y problemática
 **Descripción de la problemática**
 
 El problema identificado radica en la falta de una solución integrada y continua para el monitoreo de signos vitales en pacientes, especialmente en adultos mayores, pacientes postoperatorios y en cuidados intensivos. Los sistemas actuales dependen de dispositivos tradicionales que requieren intervención manual, lo que genera ineficiencias y una capacidad de respuesta limitada ante situaciones críticas. Además, estos sistemas no están integrados entre sí, lo que dificulta la supervisión centralizada y el análisis en tiempo real, afectando la calidad de la atención médica.
