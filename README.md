@@ -969,6 +969,11 @@ En esta sección, se presentará la evidencia del progreso y desarrollo del soft
 
 ![Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Development%20Evidence%20for%20Sprint%20Review.png)
 
+### 5.2.14. Testing Suite Evidence for Sprint Review. 
+En este apartado se presentará un informe de las pruebas efectuadas durante el sprint. Se incluirán detalles sobre las pruebas funcionales, de rendimiento y de seguridad realizadas para asegurar la calidad del software. También se mostrarán los resultados obtenidos y se mencionarán las correcciones o mejoras aplicadas a partir de los hallazgos.
+
+![Testing Suite Evidence for Sprint Review](./Imgs%20-%20Testing%20Suite%20Evidence%20for%20Sprint%20Review/captura.png)
+
 #### 5.2.1.5 Execution Evidence for Sprint Review. OSCAR
 En esta sección se abordará el progreso del desarrollo durante el sprint, detallando la ejecución de la aplicación. Se analizará cómo los usuarios han interactuado con la plataforma, incluyendo su experiencia de usuario, comentarios y cualquier inconveniente que hayan encontrado. Además, se resaltan las mejoras implementadas en términos de usabilidad y diseño de la interfaz. Durante este período, también se mostrarán los commits realizados, permitiendo visualizar el avance técnico y las contribuciones del equipo en tiempo real.
 ![Muestra 1](./img-evidence-sprint/Evidence-for-Sprint-Review1.JPG)
