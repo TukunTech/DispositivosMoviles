@@ -77,7 +77,7 @@ En esta parte, presentamos las preguntas que hemos diseñado para llevar a cabo 
 
 **Listado de preguntas Segmento Objetivo 1 – Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 
-_Información Personal:_
+_**Información Personal:**_
 
 - ¿Cuál es su nombre?
 - ¿Cuál es su edad?
@@ -95,7 +95,7 @@ _**Personalidad, aspecto emocional y habilidades del usuario:**_
 - ¿Te sientes cómodo usando aplicaciones móviles, software o redes sociales para tu salud y bienestar? ¿Te ha resultado complicado aprender a utilizar estas herramientas?
 - ¿Consideras que es esencial que los servicios de salud se adapten a las tecnologías digitales? ¿Qué beneficios crees que esto trae para ti?
 
-<u>**Evaluación del problema:**</u>
+_**Evaluación del problema:**_
 
 - Desde tu experiencia en equipos de salud o atención, ¿cuáles crees que son los principales desafíos en cuanto a organización y eficiencia en el cuidado de la salud que se enfrenta con frecuencia?
 - ¿Qué prácticas o herramientas piensas que podrían ayudar a mejorar la coordinación y atención en el cuidado de la salud, ya sea en un entorno presencial o mediante tecnología?
@@ -106,7 +106,7 @@ _**Personalidad, aspecto emocional y habilidades del usuario:**_
 - ¿Confías en que el uso de una herramienta digital sería de uso amigable y sencillo de entender para aplicarlo en el servicio brindado? ¿Crees que verías beneficios en la calidad de tu atención en poco tiempo?
 
 **Listado de preguntas Segmento Objetivo 2 – Personal médico y pacientes postoperatorios UCI de clínicas privadas** 
-<u>**Información Personal:**</u>
+_**Información Personal:**_
 
 - ¿Cuál es su nombre?
 - ¿Cuál es su edad?
@@ -114,7 +114,7 @@ _**Personalidad, aspecto emocional y habilidades del usuario:**_
 - ¿En qué ciudad resides?
 - ¿Cuál es su ocupación profesional? ¿se encuentra laborando en la actualidad?
 
-<u>**Personalidad, aspecto emocional y habilidades del usuario:**</u>
+_**Personalidad, aspecto emocional y habilidades del usuario:**_
 
 -¿Hay algún lema o principio que sientas que refleja tu enfoque profesional en la atención médica?
 -¿Podrías describir algunas de las cualidades, fortalezas o áreas de mejora que consideras fundamentales en tu práctica médica?
@@ -124,7 +124,7 @@ _**Personalidad, aspecto emocional y habilidades del usuario:**_
 -¿Te sientes cómodo utilizando aplicaciones y software para mejorar la gestión de la salud de tus pacientes? ¿Has encontrado desafíos en aprender a usar nuevas herramientas tecnológicas en tu práctica?
 -¿Piensas que la adopción de tecnologías digitales es crucial para mejorar la atención médica? ¿Qué ventajas ves para ti y tus pacientes al integrar estas tecnologías?
 
-<u>**Evaluación del problema:**</u>
+_**Evaluación del problema:**_
 
 - Desde tu experiencia en equipos de atención médica, ¿cuáles consideras que son los principales desafíos en la organización y eficiencia del cuidado de los pacientes que enfrentas con frecuencia?
 - ¿Qué herramientas o prácticas crees que podrían optimizar la coordinación y atención de los pacientes, ya sea en un entorno clínico presencial o a través de soluciones tecnológicas?
