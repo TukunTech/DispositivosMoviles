@@ -58,9 +58,10 @@ Pero, ¿cómo identificamos a nuestros principales competidores? Es necesario es
 En esta sección, se describen las fases clave del proceso actual de monitoreo de signos vitales para nuestros usuarios objetivo, detallando cómo el personal médico afronta las tareas diarias, sus pensamientos y sentimientos en cada etapa. Este análisis nos permitirá identificar de manera más clara las áreas críticas de mejora y qué soluciones son las más adecuadas para optimizar su experiencia y satisfacer sus necesidades de forma eficiente.
 
 **Segmento Pacientes Post-Operatorios y UCI**
-
+![Segmento-1_To-be](./imgs%20Scenario%20Mapping/as-is-map-seg-post-uci.JPG)
 
 **Segmento Adulto Mayores**
+![Segmento-1_To-be](./imgs%20Scenario%20Mapping/as-is-map-seg-adult.JPG)
 
 Miro: [https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2TjZ0YjVSbzR2Q09lV1FFc3E4OXgzNWhlbEZUNzRrd3ZBVnwzNDU4NzY0NTMyNjIyNzQxMzMyfDI=?share_link_id=200676430964](https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2TjZ0YjVSbzR2Q09lV1FFc3E4OXgzNWhlbEZUNzRrd3ZBVnwzNDU4NzY0NTMyNjIyNzQxMzMyfDI=?share_link_id=200676430964)
 
