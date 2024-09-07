@@ -37,6 +37,12 @@ Inicialmente, centraremos nuestra atención en los cuidados intensivos y post-op
 
 Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta ante cambios críticos en los signos vitales, un aumento en la satisfacción del personal médico por la facilidad de uso del sistema y una mejora general en la calidad del cuidado proporcionado a los pacientes, medido a través de métricas de rendimiento y feedback de los usuarios.
 
+## 2.1. Competidores.
+## 2.1.1. Análisis competitivo.
+¿Cómo identificar a nuestros principales competidores?
+Con este análisis, podemos identificar el FODA, es decir, las fortalezas, oportunidades, debilidades y amenazas de nuestros competidores en el campo del monitoreo de signos vitales en adultos mayores, pacientes postoperatorios, y pacientes en cuidados intensivos. Asimismo, se evalúa su participación en el mercado y se identifican las estrategias que podemos desarrollar para que nuestra plataforma basada en IoT se destaque y obtenga una posición fuerte en el sector.
+Pero, ¿cómo identificamos a nuestros principales competidores? Es necesario estudiar el mercado e identificar las soluciones tecnológicas más utilizadas por hospitales, clínicas, y otras instituciones de salud que priorizan la eficiencia y precisión en el monitoreo de pacientes. Con este análisis, se concluyó que los principales competidores son: aquellos que ofrecen sistemas de monitoreo tradicionales, soluciones fragmentadas que requieren intervención manual, y plataformas que carecen de integración en tiempo real.
+
 
 
 ## 2.3.3. User Journey Mapping.
