@@ -586,7 +586,8 @@ Es un lenguaje que otorga la posibilidad de establecer acciones para ser utiliza
 - Simple Statement’s End
 - Beginning and End of a Function
 - Object Rules
-
+#### 5.2.1.1. Sprint Planning 1.
+![Sprint Planning 1](./img%20sprint%20planning/planning%201.png)
 #### 5.2.1.2. Sprint Backlog 1. 
 
 En esta primera iteración, tuvimos como objetivo implementar el diseño de nuestra Landing Page mediante la utilización de Visual Studio Code. Es decir, todas las secciones deben estar terminadas al finalizar el Sprint, ya sea **About**, **Servicios**, **Noticias** o **Contáctanos**.
