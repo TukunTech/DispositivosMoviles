@@ -308,7 +308,7 @@ Para todos los segmentos, se ofrecerá un centro de ayuda con una barra de búsq
 
 Este formato asegura que cada segmento objetivo tenga acceso a herramientas de búsqueda adaptadas a sus necesidades específicas, mejorando la experiencia del usuario y facilitando el acceso rápido a información crítica.
 ### 4.3.2. Landing Page Mock-up. 
-![landing-page-mock-up](./imgs%20landing%20page%20mock-up/landing.png)
+![landing-page-mock-up](./img%20landing%20page%20mock-up/landing.png)
 ## 4.4. Web Applications UX/UI Design.
 
 ### 4.4.1. Web Applications Wireframes.
