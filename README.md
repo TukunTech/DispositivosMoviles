@@ -46,6 +46,19 @@ Sabremos que hemos tenido éxito cuando observemos una reducción significativa 
 ### Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
 ![Segmento 2](./imgs%20Journey%20Mapping/segmento%202.png)
 
+
+### 2.3.5 As-is Scenario Mapping. OSCAR
+
+En esta sección, se describen las fases clave del proceso actual de monitoreo de signos vitales para nuestros usuarios objetivo, detallando cómo el personal médico afronta las tareas diarias, sus pensamientos y sentimientos en cada etapa. Este análisis nos permitirá identificar de manera más clara las áreas críticas de mejora y qué soluciones son las más adecuadas para optimizar su experiencia y satisfacer sus necesidades de forma eficiente.
+
+**Segmento Pacientes Post-Operatorios y UCI**
+
+
+**Segmento Adulto Mayores**
+
+Miro: [https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2TjZ0YjVSbzR2Q09lV1FFc3E4OXgzNWhlbEZUNzRrd3ZBVnwzNDU4NzY0NTMyNjIyNzQxMzMyfDI=?share_link_id=200676430964](https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2TjZ0YjVSbzR2Q09lV1FFc3E4OXgzNWhlbEZUNzRrd3ZBVnwzNDU4NzY0NTMyNjIyNzQxMzMyfDI=?share_link_id=200676430964)
+
+
 ## 4.2.1. Organization Systems
 
 ### Segmento 1: Monitoreo de adultos mayores
