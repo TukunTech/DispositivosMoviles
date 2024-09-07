@@ -404,8 +404,37 @@ _**Evaluación del problema:**_
 - ¿Consideras que una herramienta digital que facilite la monitorización de signos vitales podría mejorar la calidad de la atención que ofreces? ¿Por qué?
 - ¿Te interesaría utilizar una aplicación web para mejorar la gestión de la atención a tus pacientes y la comunicación dentro de tu equipo médico? ¿Qué ventajas crees que podría ofrecer?
 - ¿Confías en que el personal médico adoptaría eficazmente una aplicación web para mejorar la comunicación y el monitoreo de los pacientes? ¿Crees que se verían mejoras en la calidad del cuidado en un corto plazo?
+### 2.2.2. Registro de entrevistas
+Entrevistado 1 #: Segmento 1
+Nombre y Apellidos: Miriam Zorilla
+Edad: 50
+Evidencias de reunión:
+![entrevista 1](./imgs%20entrevista/entrevista1.png)
+URL:
+[https://www.canva.com/design/DAGQBsbxBN0/R_YFYeckkGyQdmnA7XVk0Q/edit?utm_content=DAGQBsbxBN0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGQBsbxBN0/R_YFYeckkGyQdmnA7XVk0Q/edit?utm_content=DAGQBsbxBN0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Tiempo: 13:10 min
+Resumen de Entrevista:
+La entrevistada comenta que el personal de salud, especialmente quienes están en contacto directo con los pacientes, experimenta una gran frustración debido a la falta de herramientas tecnológicas adecuadas que les permitan mejorar la calidad del servicio. Señala que, a medida que la tecnología avanza a un ritmo acelerado, el sector salud parece rezagado en la implementación de soluciones que realmente apoyen al personal médico en su labor diaria. Esto se vuelve particularmente evidente en el caso del cuidado de adultos mayores, donde las necesidades son más urgentes debido a la dependencia constante de los cuidadores.
 
-# 2.2.3. Análisis de Entrevistas - ADRI
+La entrevistada enfatiza que, aunque se utilizan equipos médicos para monitorear signos vitales, estos dispositivos suelen realizar análisis de manera momentánea en lugar de ofrecer una supervisión continua las 24 horas del día. Este enfoque intermitente impide un monitoreo eficaz y proactivo, lo que podría mejorar la respuesta ante situaciones críticas. Según ella, una tecnología que permitiera un control constante y en tiempo real de parámetros clave, como la frecuencia cardíaca, la saturación de oxígeno y otros signos vitales, sería esencial para optimizar el trato a los pacientes, especialmente aquellos en situación de mayor vulnerabilidad, como los adultos mayores.
+
+Este tipo de herramientas no solo facilitaría el trabajo del personal médico, sino que también podría reducir la carga emocional y la ansiedad que experimentan al no disponer de la información necesaria en tiempo real para tomar decisiones rápidas y efectivas.
+
+Entrevistado #2: Segmento 2
+Nombre y Apellidos: Oscar Soto
+Edad: 56
+Segmento: Personal médico
+Evidencias de reunión:
+![entrevista 2](./imgs%20entrevista/entrevista2.png)
+URL: [https://www.canva.com/design/DAGQCZuG4go/-yk4rxl6NNQv74Ng4TJj0g/edit?utm_content=DAGQCZuG4go&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGQCZuG4go/-yk4rxl6NNQv74Ng4TJj0g/edit?utm_content=DAGQCZuG4go&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Tiempo: 13:53 min
+Resumen de Entrevista:
+El entrevistado, un médico encargado del control y seguimiento de pacientes, destaca la importancia de una organización eficaz en los servicios médicos, señalando que sin ella no es posible mejorar la calidad de la atención al paciente. Mencionó sentirse cómodo utilizando herramientas de software, y subrayó que la digitalización de las historias clínicas ha facilitado una atención más integral y eficiente. Sin embargo, identifica como principal desafío la falta de tecnología que permita un acceso rápido y fácil a exámenes de laboratorio y signos vitales. Además, considera que una herramienta que centralice la visualización de estos datos sería de gran utilidad. Específicamente, le gustaría contar con funcionalidades para monitorear en tiempo real la frecuencia cardíaca, saturación de oxígeno, presión arterial y electrocardiograma, elementos clave para el control inmediato de la salud del paciente.
+
+
+
+
+### 2.2.3. Análisis de Entrevistas - ADRI
 
 ## Análisis del Segmento: Encargados de Adultos Mayores que Necesitan Monitoreo Continuo de Signos Vitales
 
