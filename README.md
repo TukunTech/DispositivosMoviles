@@ -346,7 +346,7 @@ _**Evaluación del problema:**_
 ![User persona 1](./user%20personas/user1.png)
 
 **Segmento 2**: Personal médico y pacientes postoperatorios UCI de clínicas privadas 
-![User persona 2](./user%20personas/user2.png)
+![User persona 2](./user%20personas/user3.png)
 ### 2.3.3. User Journey Mapping.
 ### Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 ![Segmento 1](./imgs%20Journey%20Mapping/segmento%201.png)
