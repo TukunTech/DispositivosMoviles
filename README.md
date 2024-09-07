@@ -697,7 +697,7 @@ El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosam
 ![Elementos Grandes](./web-style-guidelines-img/elem-grandes.JPG)
 
 ## 4.2. Information Architecture.
-### 4.2.1. Organization Systems
+### 4.2.1. Organization Systems.
 
 #### Segmento 1: Monitoreo de adultos mayores
 
@@ -759,8 +759,7 @@ En la Plataforma Web contamos con 6 "headings" con fuente **QuickSand** ubicados
 - **Médicos**: Sección donde se puede apreciar el listado de doctores, sus rubros y datos.
 - **Citas**: Sección donde los pacientes podrán programar o reprogramar sus citas con su médico designado.
 
-### 4.2.3 SEO Tags and Meta Tags 
-
+### 4.2.3 SEO Tags and Meta Tags.
 La optimización para motores de búsqueda (SEO, por sus siglas en inglés) es la práctica de mejorar la cantidad y calidad del tráfico a un sitio web mediante resultados orgánicos en los motores de búsqueda.
 
 ```html
@@ -794,9 +793,7 @@ La optimización para motores de búsqueda (SEO, por sus siglas en inglés) es l
 ```
 
 
-
 ### 4.2.4. Searching Systems
-
 #### Lista de pacientes
 El equipo de médicos podrá buscar pacientes específicos en su base de datos mediante filtros. Esta información se mostrará en lista con datos breves como su nombre, edad y última atención.
 
