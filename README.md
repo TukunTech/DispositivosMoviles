@@ -359,6 +359,24 @@ El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosam
 ---
 
 Esta estructura asegura que cada segmento objetivo tenga acceso a la información de manera organizada y adaptada a sus necesidades específicas, facilitando la eficiencia del sistema y la experiencia del usuario.
+### 4.2.2. Labeling Systems
+A continuación, presentaremos el sistema de etiquetado que nos permitirá dar a los visitantes de nuestra Landing page un vistazo de lo que ofrecemos con una sola palabra.
+
+La Landing page cuenta con 4 "headings" con fuente **QuickSand** ubicados en la parte superior de la misma.
+
+- **Servicios**: Sección seleccionada por defecto donde los usuarios observarán los distintos servicios que ofrecemos.
+- **Noticias**: Sección donde el usuario observará noticias nuevas relacionada a la plataforma.
+- **Nosotros**: Sección donde el usuario podrá conocer más sobre nuestro equipo, misión, y los servicios que ofrecemos.
+- **Membresía**: Sección donde el usuario podrá visualizar e informarse de los diferentes paquetes de membresías con su respectivo precio.
+
+En la Plataforma Web contamos con 6 "headings" con fuente **QuickSand** ubicados en la parte superior derecha.
+
+- **Pacientes postoperatorios**: Sección seleccionada donde se encuentran los signos vitales de los pacientes en postoperatorio.
+- **Pacientes UCI**: Sección seleccionada donde se encuentran los signos vitales de los pacientes en cuidados intensivos (UCI).
+- **Registro**: Sección donde se pueden registrar pacientes y doctores dentro de la plataforma web.
+- **Pacientes**: Sección donde se puede apreciar el listado de pacientes registrados y sus datos.
+- **Médicos**: Sección donde se puede apreciar el listado de doctores, sus rubros y datos.
+- **Citas**: Sección donde los pacientes podrán programar o reprogramar sus citas con su médico designado.
 
 ### 4.2.3 SEO Tags and Meta Tags 
 
