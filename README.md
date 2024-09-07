@@ -89,6 +89,38 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 -**Segmento Adulto Mayores**
 ![Segmento-2_To-be](./imgs%20Scenario%20Mapping/Segmento%202%20-%20To%20be.png)
 
+## 3.4. Product Backlog.
+
+| Orden | User Story ID | Título                                    | Descripción                                                                                                                                     | Story Points |
+|-------|---------------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 01    | US01          | Visualización de pacientes postoperatorios | Como médico, quiero visualizar la sección de pacientes postoperatorios para ver el estado de los pacientes bajo mi cuidado.                      | 3            |
+| 02    | US02          | Visualización de pacientes UCI             | Como médico de cuidados intensivos, quiero acceder a la sección de pacientes UCI, para monitorear a los pacientes en estado crítico.             | 3            |
+| 03    | US03          | Registro de médicos                       | Como administrador de la plataforma, quiero poder registrar nuevos médicos en el sistema, para que puedan utilizar la plataforma.                | 5            |
+| 04    | US04          | Registro de pacientes                     | Como administrador o médico, quiero registrar un nuevo paciente en la plataforma, para hacer seguimiento de su historial clínico.                | 5            |
+| 05    | US05          | Agregar historial clínico                 | Como médico, quiero poder agregar el historial clínico de un paciente registrado, para documentar su progreso y estado de salud.                 | 8            |
+| 06    | US06          | Visualización de lista de pacientes        | Como médico o administrador, quiero visualizar la lista completa de pacientes, para acceder rápidamente a sus datos y estado.                   | 8            |
+| 07    | US07          | Agendar una cita                          | Como médico, quiero agendar una cita para un paciente, para planificar su próxima consulta o procedimiento.                                      | 5            |
+| 08    | US08          | Reagendar una cita                        | Como médico o paciente, quiero reagendar una cita existente, para actualizar la fecha y hora en caso de cambios.                                | 3            |
+| 09    | US09          | Actualización de datos clínicos           | Como médico, quiero poder actualizar los datos personales o clínicos de un paciente, para mantener su información al día.                        | 5            |
+| 10    | US10          | Gestión de médicos                        | Como administrador, quiero ver una lista de todos los médicos registrados, para gestionar el personal médico en la plataforma.                   | 5            |
+| 11    | US11          |                                           |                                                                                                                                                 |              |
+| 12    | US12          | Agregar notas al historial clínico         | Como médico, quiero agregar notas al historial de un paciente durante la cita, para documentar observaciones importantes antes o después.        | 3            |
+| 13    | US13          | Notificaciones de signos vitales          | Como médico, quiero recibir notificaciones automáticas cuando los signos vitales de un paciente estén fuera de los rangos normales,              | 5            |
+| 14    | US14          | Creación de cuenta HTML                   | Como trabajador médico que adquirió el producto, quiero poder tener mi cuenta en la aplicación web, para utilizar la plataforma.                 | 8            |
+| 15    | US15          | Inicio de sesión HTML                     | Como trabajador médico registrado en la plataforma, quiero poder iniciar sesión en la aplicación web, para acceder a mis funciones como médico.  | 3            |
+| 16    | US16          | Acceso a "Nosotros" HTML                  | Como visitante del sitio web, quiero acceder a la sección "Nosotros", para conocer más sobre la misión y visión de la empresa.                  | 2            |
+| 17    | US17          | Acceso a "Servicios" HTML                 | Como visitante del sitio web, quiero acceder a la sección "Servicios", para conocer los diferentes servicios ofrecidos por la empresa.           | 2            |
+| 18    | US18          | Acceso a "Noticias" HTML                  | Como visitante del sitio web, quiero acceder a la sección "Noticias", para conocer las novedades y actualizaciones de la empresa.                | 2            |
+| 19    | US19          | Acceso a "Contacto" HTML                  | Como visitante del sitio web, quiero acceder a la sección "Contacto", para comunicarse con la empresa y solicitar más información.               | 2            |
+| 20    | US20          | Envío de formulario de contacto            | Como visitante interesado en los servicios de la empresa, quiero completar el formulario de contacto, para enviar mis datos y solicitar asistencia. | 2         |
+| 21    | US21          | Estructura básica del landing page HTML    | Como parte del equipo de TukunTech, quiero crear la estructura básica del landing page usando HTML, para asegurar las secciones definidas.      | 3            |
+| 22    | US22          | Aplicar estilos al landing page CSS        | Como desarrollador de TukunTech, quiero aplicar estilos visuales al landing page usando CSS, para darle un diseño atractivo y coherente.        | 3            |
+| 23    | US23          | Implementar navegación en Home            | Como desarrollador de TukunTech, quiero implementar una navegación funcional en la sección Home, para permitir a los usuarios desplazarse.      | 5            |
+| 24    | US24          | Navegación a "Nosotros"                   | Como desarrollador de TukunTech, quiero implementar la navegación a la sección "Nosotros", para que los usuarios puedan conocer más sobre la empresa. | 2         |
+| 25    | US25          | Mostrar los servicios                     | Como desarrollador de TukunTech, quiero mostrar y estructurar los servicios ofrecidos en la plataforma, para que los usuarios puedan conocer nuestras ofertas. | 3      |
+| 26    | US26          | Noticias y actualizaciones                | Como desarrollador de TukunTech, quiero integrar una sección para mostrar noticias y actualizaciones recientes, para mantener a los usuarios informados. | 2  |
+| 27    | US27          | Formulario de contacto                    | Como desarrollador de TukunTech, quiero crear un formulario de contacto, para que los usuarios puedan comunicarse con la empresa fácilmente.    | 3            |
+
 
 ### 4.1.2 Web Style Guidelines. 
 
