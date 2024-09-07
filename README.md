@@ -80,6 +80,16 @@ En Domain-Driven Design (DDD), el concepto de “Ubiquitous Language” se refie
 - **Sesión de Monitoreo (Monitoring Session)**: El periodo de tiempo durante el cual los signos vitales del paciente son recolectados y analizados por el sistema.
 - **Umbral de Alarma (Alarm Threshold)**: Valores límite predefinidos para los signos vitales que, si se exceden, activan una alerta en el sistema.
 
+## Capítulo III: Requirements Specification
+### 3.1. To-Be Scenario Mapping. 
+En esta sección, se detallan las fases principales del proceso optimizado de monitoreo de signos vitales utilizando nuestra solución para los usuarios objetivo. Se explica cómo la automatización de las tareas rutinarias cambia la dinámica tanto para los pacientes como para el personal médico, permitiéndoles enfocarse en decisiones basadas en datos en tiempo real. 
+
+-**Segmento Pacientes Post-Operatorios y UCI**
+![Segmento-1_To-be](./imgs%20Scenario%20Mapping/Segmento%201%20-%20To%20be.png)
+-**Segmento Adulto Mayores**
+![Segmento-2_To-be](./imgs%20Scenario%20Mapping/Segmento%202%20-%20To%20be.png)
+
+
 ### 4.1.2 Web Style Guidelines. 
 
 Desarrollaremos una aplicación altamente adaptable que se ajustará a cualquier dispositivo tecnológico sin comprometer el diseño del contenido. La aplicación será **responsive**, garantizando una experiencia óptima en smartphones, tablets y ordenadores, y respetará las heurísticas de usabilidad para asegurar una interfaz intuitiva y eficiente. Cada tipo de dispositivo será considerado cuidadosamente para que el contenido esté estructurado de manera óptima y coherente en todas las plataformas.
