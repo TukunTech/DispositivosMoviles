@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/ba8ee72a-2e64-40ec-a7cf-dc441cb0f53b)# DesarrolloOP-SW57
+# DesarrolloOP-SW57
 
 ## 1.1. Startup Profile
 ## 1.1.1. Descripción de la Startup 
@@ -127,7 +127,7 @@ Este formato asegura que cada segmento objetivo tenga acceso a herramientas de b
 **Diagrama 1**
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Pacientes postoperatorios” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
-[Diagrama de panel pacientes postoperatorios](./Imgs User Goal Diagram/goal1.png)
+.[Diagrama de panel pacientes postoperatorios](./Imgs%20User%20Goal%20Diagram/goal1.png)
 
 **Diagrama 2**
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes UCI.  
