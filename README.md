@@ -473,30 +473,6 @@ Las Landing Pages son herramientas diseñadas para transformar a los visitantes 
 
 Para la versión de computadora, se diseñaron ventanas con opciones claramente especificadas que facilitan la comprensión del usuario, acompañadas de descripciones detalladas de cada función del sitio web para evitar cualquier dificultad. Además, la barra de navegación se ha colocado en una posición fija, de manera que esté siempre accesible, permitiendo al usuario navegar cómodamente por la Landing Page.
 
-### 4.3.1. Landing Page Wireframe. 
-
-En esta sección se presentarán los wireframes de la versión de escritorio del Landing Page. Es fundamental identificar claramente los distintos tipos de componentes presentes en los diseños.
-
-Desktop Web Browser
-
-En esta primera parte, se presenta la página de inicio de la plataforma web. Se incluyen botones para que el usuario tenga acceso a otras páginas de nuestro sitio web. En el pie de página, se visualizan las opciones que te llevan a los diversos apartados.
-[CAPTURA ]
-
-Sección Nosotros:
-[CAPTURA ]
-
-Sección Servicios:
-[CAPTURA ]
-
-Sección Membresía:
-[CAPTURA 1]
-
-Sección Noticias:
-[CAPTURA 1]
-
-Figma: 
-[https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0)
-
 ### 4.3.1. Landing Page Wireframe.
 En esta sección se presentarán los wireframes de la versión de escritorio del Landing Page. Es fundamental identificar claramente los distintos tipos de componentes presentes en los diseños.
 
