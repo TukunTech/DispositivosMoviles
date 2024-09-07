@@ -60,6 +60,10 @@ Inicialmente, centraremos nuestra atención en los cuidados intensivos y post-op
 
 Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta ante cambios críticos en los signos vitales, un aumento en la satisfacción del personal médico por la facilidad de uso del sistema y una mejora general en la calidad del cuidado proporcionado a los pacientes, medido a través de métricas de rendimiento y feedback de los usuarios.
 
+#### 1.2.2.4. Lean UX Canvas.
+![Lean Ux](./Imgs%20-%20Lean%20UX%20Canvas/Ux%20canvas.png) 
+[https://miro.com/welcomeonboard/aklDcDhiZEk1dUNITHIyOGlXTFVWbVQxYlhTem43QlhNQk4wMXNnNmgyRWNlQmc4NmQzN0NyRUZKMXRpN2ZXWnwzMDc0NDU3MzY2NzgwNzg1NjA4fDI=?share_link_id=261999757744](https://miro.com/welcomeonboard/aklDcDhiZEk1dUNITHIyOGlXTFVWbVQxYlhTem43QlhNQk4wMXNnNmgyRWNlQmc4NmQzN0NyRUZKMXRpN2ZXWnwzMDc0NDU3MzY2NzgwNzg1NjA4fDI=?share_link_id=261999757744)
+
 ## 1.3. Segmentos objetivo.
 De acuerdo a Vásquez (2010), “los médicos dependen cada vez más de los equipos electromédicos para lograr un diagnóstico certero y eficaz. Los equipos electromédicos son una herramienta fundamental para obtener diagnósticos y así brindar tratamientos adecuados a los pacientes”. Esto evidencia la posibilidad de poder integrar nuestro producto con las tecnologías existentes, de modo que se mejore la experiencia de usuario y el servicio ofrecido. 
 Así mismo, los pacientes en las Unidades de Cuidados Intensivos (UCI) dependen de dispositivos médicos, como monitores de signos vitales, desfibriladores y sistemas de monitoreo centralizado, para su diagnóstico y tratamiento. Se ha discutido la complejidad de estos equipos en las UCIs y la crucial importancia de conectar a los pacientes a ellos (Vásquez, 2010).
@@ -69,10 +73,6 @@ Los pacientes adultos mayores debido a su avanzada edad se le dificulta la reali
 
 Por todo lo mencionado, se establecen los dos segmentos objetivos que serán abordados a lo largo del proyecto:
 **Segmento 1:** Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
-
-**User Goal:** Como paciente, deseo registrarme:
-
-**User Goal:** Como paciente, deseo iniciar sesión:
 
 **Segmento 2:** Personal médico y pacientes postoperatorios UCI de clínicas privadas 
 
