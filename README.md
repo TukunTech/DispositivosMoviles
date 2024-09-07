@@ -428,21 +428,21 @@ Figma: https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F
 
 ## 4.5. Web Aplications Prototyping.
 A continuación, se describirán los criterios esenciales para las decisiones de interacción en relación con la Arquitectura de la Información de nuestra aplicación. Estos criterios abarcan los elementos de la interfaz y los principios que se aplican a ellos. Es importante destacar que, aunque la estructura general de la  aplicación será consistente, se podrán observar algunas diferencias en los detalles visuales.
+
 Botones / Tarjetas menú principal
   Cada segmento objetivo cuenta con su propio menú principal con sus propios botones. Esto se tomó en cuenta debido a las diferentes necesidades que hay entre los 2 segmentos.
+
 Listas
   Hay diversas secciones dentro de la Aplicación Web que utilizan listas, entre ellas están: lista de pacientes, lista de médicos. Para realizar la elección de las siguientes listas nos basamos en lo siguiente:
-  -Principio de las elecciones: Este principio establece que mientras más opciones se presenten al usuario, más difícil será para ellos tomar una decisión rápida y efectiva. Por esta razón, nuestras listas están diseñadas para ofrecer solo la información esencial en cada contexto. Esto facilita la toma de decisiones y        evita que los usuarios se sientan abrumados. 
+  -  Principio de las elecciones: Este principio establece que mientras más opciones se presenten al usuario, más difícil será para ellos tomar una decisión rápida y efectiva. Por esta razón, nuestras listas están diseñadas para ofrecer solo la información esencial en cada contexto. Esto facilita la toma de decisiones y        evita que los usuarios se sientan abrumados. 
 
--  Principio del crecimiento: Este principio se basa en la capacidad de las listas para escalar a medida que la base de datos crece. Hemos diseñado nuestras listas con la flexibilidad de adaptarse a un número creciente de registros sin sacrificar la usabilidad. Esto incluye paginación o carga dinámica de datos a medida       que el usuario se desplaza hacia abajo, asegurando que la aplicación siga siendo ágil y fácil de usar, independientemente de la cantidad de datos que contenga.
+  -  Principio del crecimiento: Este principio se basa en la capacidad de las listas para escalar a medida que la base de datos crece. Hemos diseñado nuestras listas con la flexibilidad de adaptarse a un número creciente de registros sin sacrificar la usabilidad. Esto incluye paginación o carga dinámica de datos a medida       que el usuario se desplaza hacia abajo, asegurando que la aplicación siga siendo ágil y fácil de usar, independientemente de la cantidad de datos que contenga.
 
 Etiquetas
-En nuestra aplicación contamos con etiquetas que apoyan la identificación de secciones específicas dentro de este.
-Cada sección/ventana de nuestra aplicación se puede identificar por sí sola, nuestras etiquetas permiten a nuestros usuarios estar correctamente guiados, así mismo sabiendo donde se encuentran y que sigue a continuación
+  En nuestra aplicación contamos con etiquetas que apoyan la identificación de secciones específicas dentro de este.
+  -  Cada sección/ventana de nuestra aplicación se puede identificar por sí sola, nuestras etiquetas permiten a nuestros usuarios estar correctamente guiados, así mismo sabiendo donde se encuentran y que sigue a continuación
 Menús
-En nuestra aplicación, los menús están diseñados de acuerdo con las necesidades específicas de los diferentes segmentos de usuarios, como médicos, personal de la clínica, y familiares de los pacientes. Cada segmento cuenta con un menú principal personalizado, que permite una navegación rápida y eficiente hacia las funciones más relevantes para ellos.
-
-
+  En nuestra aplicación, los menús están diseñados de acuerdo con las necesidades específicas de los diferentes segmentos de usuarios, como médicos, personal de la clínica, y familiares de los pacientes. Cada segmento cuenta con un menú principal personalizado, que permite una navegación rápida y eficiente hacia las         funciones más relevantes para ellos.
 
    1. Segmento de médicos:
       -Acceso directo a las listas de pacientes y detalles médicos.
