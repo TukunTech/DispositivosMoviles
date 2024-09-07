@@ -42,7 +42,7 @@ Sabremos que hemos tenido éxito cuando observemos una reducción significativa 
 ¿Cómo identificar a nuestros principales competidores?
 Con este análisis, podemos identificar el FODA, es decir, las fortalezas, oportunidades, debilidades y amenazas de nuestros competidores en el campo del monitoreo de signos vitales en adultos mayores, pacientes postoperatorios, y pacientes en cuidados intensivos. Asimismo, se evalúa su participación en el mercado y se identifican las estrategias que podemos desarrollar para que nuestra plataforma basada en IoT se destaque y obtenga una posición fuerte en el sector.
 Pero, ¿cómo identificamos a nuestros principales competidores? Es necesario estudiar el mercado e identificar las soluciones tecnológicas más utilizadas por hospitales, clínicas, y otras instituciones de salud que priorizan la eficiencia y precisión en el monitoreo de pacientes. Con este análisis, se concluyó que los principales competidores son: aquellos que ofrecen sistemas de monitoreo tradicionales, soluciones fragmentadas que requieren intervención manual, y plataformas que carecen de integración en tiempo real.
-
+![Análisis competitivo](./imgs%20cuadros/Analisis%20competitivo.png)
 
 
 ## 2.3.3. User Journey Mapping.
