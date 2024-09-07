@@ -379,6 +379,8 @@ Como se indicó anteriormente, gracias a GitFlow se trabajará con **branches** 
   - **Release Branches**: Las `release branches` se crean a partir de `develop` cuando el proyecto alcanza un estado en el que se considera listo para una nueva versión.
   - **Hotfix Branches**: Las `hotfix branches` se crean a partir de `main` cuando es necesario corregir un error crítico en producción.
 
+![Ramas de publicación](./imgs%20Software%20Configuration%20Management/Source-Code-Management2.JPG)
+
 #### Conventional Commits:
 
 La especificación de **Conventional Commits** es una convención sencilla que se aplica a los “commits”. Este proporciona un conjunto claro de reglas para crear un historial de confirmaciones explícito. Esta convención se complementa con **Semantic Versioning** (SemVer), al describir las características, correcciones y cambios incompatibles realizados en los mensajes de confirmación.
