@@ -59,6 +59,22 @@ En esta sección, se describen las fases clave del proceso actual de monitoreo d
 Miro: [https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2TjZ0YjVSbzR2Q09lV1FFc3E4OXgzNWhlbEZUNzRrd3ZBVnwzNDU4NzY0NTMyNjIyNzQxMzMyfDI=?share_link_id=200676430964](https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2TjZ0YjVSbzR2Q09lV1FFc3E4OXgzNWhlbEZUNzRrd3ZBVnwzNDU4NzY0NTMyNjIyNzQxMzMyfDI=?share_link_id=200676430964)
 
 
+
+### 2.4 Ubiquitous Language.
+
+En Domain-Driven Design (DDD), el concepto de “Ubiquitous Language” se refiere a la práctica de utilizar un vocabulario común y consistente entre todos los miembros del equipo, incluidos desarrolladores, expertos en el dominio y partes interesadas. Este enfoque busca prevenir malentendidos y mejorar la comunicación dentro del equipo, asegurando que todos tengan una comprensión clara y unificada del dominio del problema.
+
+- **Paciente (Patient)**: El usuario o persona cuyo estado de salud se está monitoreando.
+- **Signos Vitales (Vital Signs)**: Conjunto de métricas médicas que se monitorean, incluyendo:
+  - **Frecuencia Cardíaca (Heart Rate)**
+  - **Presión Arterial (Blood Pressure)**
+  - **Saturación de Oxígeno (Oxygen Saturation)**
+  - **Temperatura Corporal (Body Temperature)**
+- **Dispositivo IoT (IoT Device)**: Equipos conectados (como pulseras inteligentes o sensores) que recopilan datos de los signos vitales del paciente y los envían a la aplicación.
+- **Sesión de Monitoreo (Monitoring Session)**: El periodo de tiempo durante el cual los signos vitales del paciente son recolectados y analizados por el sistema.
+- **Umbral de Alarma (Alarm Threshold)**: Valores límite predefinidos para los signos vitales que, si se exceden, activan una alerta en el sistema.
+
+
 ## 4.2.1. Organization Systems
 
 ### Segmento 1: Monitoreo de adultos mayores
