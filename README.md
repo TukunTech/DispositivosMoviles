@@ -293,6 +293,20 @@ Este formato asegura que cada segmento objetivo tenga acceso a herramientas de b
 
 ![Mock-ups segmento 2](./img2/mokuop2.png)
 
+
+### 4.6 Domain-Driven Software Architecture
+
+#### 4.6.1 Software Architecture Context Diagram. 
+
+En el presente diagrama se detalla cómo los médicos y enfermeros interactúan con nuestro sistema de software y con sistemas externos, incluyendo:
+
+- El servicio de correos de **Microsoft Exchange** para la gestión de correos electrónicos.
+- El sistema de **pasarela de pago** para la gestión de transacciones.
+- El servicio de **notificaciones push** **Firebase Cloud Messaging (FCM)** para enviar alertas y actualizaciones en tiempo real a los dispositivos móviles de los profesionales de la salud.
+
+
+
+
 ## 4.6.2. Software Architecture Container Diagrams.
 ![ContainerDiagram](./imgs%20Domain%20Driven%20Design/Software%20Architecture%20Container%20Diagrams.png)
 
