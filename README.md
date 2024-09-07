@@ -199,9 +199,12 @@ Este formato asegura que cada segmento objetivo tenga acceso a herramientas de b
 
 ![Mock-ups segmento 2](./img2/mokuop2.png)
 
-
 ## 4.6.2 Software Architecture Container Diagrams.
 ![ContainerDiagram](./imgs%20Domain%20Driven%20Design/Software%20Architecture%20Container%20Diagrams.png)
+
+## 4.8.1. Database Diagram
+![DataBaseDiagram](./img2/data%20base%20diagram.png)
+
 
 ## 5.1.1. Software Development Environment Configuration
 
