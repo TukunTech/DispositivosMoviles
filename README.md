@@ -449,11 +449,11 @@ En nuestra aplicación, los menús están diseñados de acuerdo con las necesida
       -Opciones para gestionar citas, actualizar tratamientos, y revisar signos vitales.
       -Menú claro y accesible, que prioriza la eficiencia y la toma rápida de decisiones clínicas.
       
-  2.Segmento de administradores de clínicas:
+  2. Segmento de administradores de clínicas:
       -Enfoque en la gestión operativa, con accesos directos a reportes, asignación de recursos, y monitoreo general del sistema.
       -Menú que permite la supervisión de múltiples áreas y el ajuste de configuraciones del sistema en tiempo real.
       
-  3.Segmento de familiares:
+  3. Segmento de familiares:
       -Acceso simplificado a la información de salud de sus seres queridos, con opciones para monitoreo en tiempo real y notificaciones personalizadas.
       -Menú intuitivo que permite la comunicación directa con el personal médico en caso de emergencias.
       -El diseño de estos menús no solo busca la facilidad de uso, sino también garantizar que los usuarios se sientan seguros y confiados al navegar por la aplicación, con todas las funciones clave accesibles con un par de clics.
