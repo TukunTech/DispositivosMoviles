@@ -464,8 +464,9 @@ Figma:
 
 ### 4.3.1. Landing Page Wireframe.
 En esta sección se presentarán los wireframes de la versión de escritorio del Landing Page. Es fundamental identificar claramente los distintos tipos de componentes presentes en los diseños.
-#### Desktop Web Browser
-En esta primera parte, se presenta la página de inicio de la plataforma web. Se incluyen botones para que el usuario tenga acceso a otras páginas de nuestro sitio web. En el pie de página, se visualizan las opciones que te llevan a los diversos apartados.
+
+- Desktop Web Browser
+  En esta primera parte, se presenta la página de inicio de la plataforma web. Se incluyen botones para que el usuario tenga acceso a otras páginas de nuestro sitio web. En el pie de página, se visualizan las opciones que te llevan a los diversos apartados.
 
 ![inicio](./Imgs%20-%20Landing%20Page%20Wireframe/inicio.png)
  
@@ -772,7 +773,33 @@ Es un lenguaje que otorga la posibilidad de establecer acciones para ser utiliza
 - Simple Statement’s End
 - Beginning and End of a Function
 - Object Rules
-  
+
+### 5.1.4. Software Deployment Configuration.
+Tal como se ha indicado anteriormente, la gestión de nuestro código fuente se llevará a cabo a través de GitHub. Además, se empleará GitHub Pages para la publicación y el despliegue de la página. Cada sección del Landing Page creada estará disponible en el siguiente enlace: [https://tukuntech.github.io/DesarrolloOP-SW57/](https://tukuntech.github.io/DesarrolloOP-SW57/)
+
+El despliegue de la Landing Page de TukunTech fue posible gracias al uso de las siguientes tecnologías:
+  - **Git:** Sistema de control de versiones diseñado para garantizar la eficiencia y compatibilidad, el cual facilitó el trabajo en equipo durante el desarrollo de la Landing Page.
+  - **GitHub:** Plataforma para el desarrollo colaborativo.
+  - **Git Flow:** Herramienta que nos permitió controlar el progreso de cada integrante en el desarrollo de la Landing Page.
+  - **GitHub Pages:** Servicio de GitHub que nos permitió alojar la Landing Page de manera efectiva.
+
+Los pasos realizados fueron los siguientes:
+1) Acceder al repositorio de la página. Como se ha utilizado GitHub, debemos dirigirnos al repositorio creado en esta plataforma para publicar la Landing Page desarrollada por el equipo. Desde allí, se procede a configurar el enlace de la página en la sección de Settings.
+
+![captura1](Img%20-%20Software%20Deployment%20Configuration/captura%201.png)
+
+
+2) Acceder a la opción pages y configurar las opciones para obtener el link o vínculo del Landing Page
+
+![captura2](Img%20-%20Software%20Deployment%20Configuration/captura%202.png)
+
+
+Tras realizar el paso anterior, se obtuvo el siguiente link: [https://tukuntech.github.io/DesarrolloOP-SW57/](https://tukuntech.github.io/DesarrolloOP-SW57/)
+Lo que nos redirige al Landing Page desplegado:
+
+![landing](Img%20-%20Software%20Deployment%20Configuration/foto%20landing.png)
+
+
 #### 5.2.1.1. Sprint Planning 1.
 ![Sprint Planning 1](./img%20sprint%20planning/planning%201.png)
 
