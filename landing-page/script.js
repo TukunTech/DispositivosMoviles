@@ -160,7 +160,6 @@ function prevSlide(type) {
 }
 
 function showGallery(type) {
-    document.querySelector('.carousel-container.Dueños').style.display = 'none';
     document.querySelector('.carousel-container.Veterinarios').style.display = 'none';
     document.querySelector(`.carousel-container.${type}`).style.display = 'block';
     showSlides(type);
