@@ -234,6 +234,9 @@ Tiene la función de examinar los artefactos y el comportamiento del software, a
 
 - **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
 
+## 5.2.1.3. Development Evidence for Sprint Review. 
+En esta sección, se presentará la evidencia del progreso y desarrollo del software. Se incluirán detalles sobre las características específicas que se han implementado durante el sprint actual, destacando cualquier avance significativo en la plataforma.
+
 ## 5.2.1.7. Software Deployment Evidence for Sprint Review.
 En esta sección, se redactará el proceso de implementación del software en un entorno de producción. Asimismo, se mostrarán los hitos clave que servirán para el despliegue del proyecto y la disponibilidad de este para los usuarios finales. 
 ![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Software%20Deployment%20Evidence%20for%20Sprint%20Review.png)
