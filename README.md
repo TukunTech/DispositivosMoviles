@@ -491,6 +491,11 @@ Es un lenguaje que otorga la posibilidad de establecer acciones para ser utiliza
 - Beginning and End of a Function
 - Object Rules
 
+## 5.2.1.2. Sprint Backlog 1. 
+
+En esta primera iteración, tuvimos como objetivo implementar el diseño de nuestra Landing Page mediante la utilización de Visual Studio Code. Es decir, todas las secciones deben estar terminadas al finalizar el Sprint, ya sea **About**, **Servicios**, **Noticias** o **Contáctanos**.
+
+
 
 ## 5.2.1.3. Development Evidence for Sprint Review. 
 En esta sección, se presentará la evidencia del progreso y desarrollo del software. Se incluirán detalles sobre las características específicas que se han implementado durante el sprint actual, destacando cualquier avance significativo en la plataforma.
