@@ -6,6 +6,24 @@ Actualmente, el monitoreo de signos vitales en adultos mayores, pacientes postop
 Nuestra startup aborda este desafío con una plataforma IoT innovadora que integra dispositivos inteligentes para medir continuamente la frecuencia cardíaca, la presión arterial y la oxigenación en sangre. Los datos se transmiten en tiempo real a una plataforma centralizada, donde algoritmos avanzados detectan anomalías y alertan al personal médico de inmediato. Además, la plataforma permite a los doctores hacer evaluaciones médicas en tiempo real y ajustar tratamientos de manera instantánea.
 Nos enfocamos en cuidados intensivos, postoperatorios y en el monitoreo de adultos mayores que desean modernizar su seguimiento médico. Nuestra solución mejora la eficiencia, precisión y calidad de la atención, reduciendo tiempos de respuesta y optimizando la gestión del cuidado.
 
+## 1.1.2. Team Member Profiles
+
+### Fabio Maurizio Nicolich Alvis
+Soy estudiante de Ingeniería de Software, actualmente en mi quinto ciclo. Me considero responsable, proactivo y con buenas habilidades de liderazgo. Estoy comprometido a trabajar en equipo para asegurar que nuestro proyecto sea impecable. Aportaré todo lo que esté en mis manos.
+
+### Soto Zorrilla, Oscar Eduardo
+Soy estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas. Me caracterizo por mi adaptabilidad a diversas situaciones y por superar desafíos. Además, tengo conocimientos en C++, HTML, CSS, JavaScript y Python, lo que me permite trabajar en diversos proyectos tecnológicos.
+
+### Maraza Pedemonte, Erick
+Soy estudiante de Ingeniería de Software con habilidades en programación en lenguajes como C++ y Python. Mi enfoque dedicado a los proyectos que me apasionan me impulsa a explorar nuevas fronteras en mi carrera. Estas habilidades me permiten desarrollar una amplia gama de aplicaciones y soluciones, y estoy comprometido a seguir aprendiendo y aplicando estas habilidades para resolver desafíos creativos en el mundo del desarrollo de software.
+
+### Adriana Giovanna Palomares Chavez
+Soy Adriana Palomares, tengo 20 años y actualmente estudio Ingeniería de Software en UPC. Me gusta explorar nuevas tecnologías, especialmente lenguajes de programación. También me apasionan los animales, particularmente los perros.
+
+### Jorge Rafael Bravo Gavilano
+Estoy actualmente en el quinto ciclo de mi carrera en Ingeniería de Software. Disfruto de jugar videojuegos e ir al gimnasio en mi tiempo libre. Me considero una persona responsable y enfocada en siempre realizar un buen trabajo. Estoy interesado en aprender sobre inteligencia artificial y programación web.
+
+
 ## 1.2. Solution Profile 
 **Procut Name** Se decidió llamar a nuestro producto “TukunTech”, inspirado en el sonido “tukun”, que imita el latido del corazón, el pulso rítmico que simboliza la vida y la salud. Este sonido, asociado con el latido cardíaco, refleja el enfoque principal de nuestra aplicación: el monitoreo de signos vitales. Así como el “tukun” del corazón es esencial para la vida, nuestra aplicación es fundamental para la vigilancia y cuidado continuo de los pacientes.
 El sufijo “Tech” subraya la innovación tecnológica que nuestra empresa aporta al sector salud. TukunTech combina la esencia de la vida, representada por el latido del corazón, con soluciones tecnológicas avanzadas, creando una herramienta integral para hospitales y clínicas.
