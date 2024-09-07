@@ -29,5 +29,5 @@ Ambos planes tendrán diferentes estructuras de costos y se ofrecerán en un mod
 ### Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
 ![Segmento 2](./imgs%20Journey%20Mapping/segmento%202.png)
 
-##4.6.2 Software Architecture Container Diagrams.
+## 4.6.2 Software Architecture Container Diagrams.
 ![ContainerDiagram](./imgs%20Domain%20Driven%20Design/Software%20Architecture%20Container%20Diagrams.png)
