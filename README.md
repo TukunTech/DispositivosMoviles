@@ -142,6 +142,17 @@ _**Evaluación del problema:**_
 ### Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
 ![Segmento 2](./imgs%20Journey%20Mapping/segmento%202.png)
 
+### 2.3.4. Empathy Mapping.
+En esta parte se muestra el Empathy Mapping de los dos segmentos a los que nos dirigimos. Esta herramienta fue utilizada porque facilita la identificación de nuestro público objetivo, comprendiendo su contexto y necesidades, lo que nos ayuda a ver el mundo desde su perspectiva.
+
+**Segmento 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
+![Segmento 1](./Imgs%20-%20Empathy%20Mappings/Segmento%201.png)
+
+**Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas**
+![Segmento 2](./Imgs%20-%20Empathy%20Mappings/Segmento%202.png)
+
+CANVAS
+[https://www.canva.com/design/DAGP9Z9itkE/z4kvDeo5LXRde5e1lWzOrw/edit?utm_content=DAGP9Z9itkE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGP9Z9itkE/z4kvDeo5LXRde5e1lWzOrw/edit?utm_content=DAGP9Z9itkE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### 2.3.5. As-is Scenario Mapping. OSCAR
 
