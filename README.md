@@ -684,6 +684,9 @@ En el presente diagrama se detalla cómo los médicos y enfermeros interactúan 
 
 ### 4.6.2. Software Architecture Container Diagrams.
 ![ContainerDiagram](./imgs%20Domain%20Driven%20Design/Software%20Architecture%20Container%20Diagrams.png)
+### 4.6.3. Software Architecture Components Diagrams.
+A continuación, se mostrará el diagrama de componentes que conforma la arquitectura de nuestro software. Este diagrama proporciona un desglose detallado de los componentes que integran nuestros contenedores, especificando sus funciones, responsabilidades y los aspectos técnicos relacionados con su implementación, así como las tecnologías empleadas en cada uno de ellos.
+![Components diagram](./img%20components%20diagram/acd.png)
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams. 
