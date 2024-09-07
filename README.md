@@ -47,6 +47,56 @@ Plan Clínico: Diseñado específicamente para clínicas y hospitales, este plan
 Plan Familiar: Enfocado en usuarios individuales que necesitan monitorear la salud de un adulto mayor en el entorno familiar. Este plan proporciona herramientas esenciales de monitoreo, permitiendo a las familias estar informadas sobre los signos vitales de sus seres queridos de manera sencilla y accesible.
 
 Ambos planes tendrán diferentes estructuras de costos y se ofrecerán en un modelo de suscripción mensual, adaptado a las necesidades de cada tipo de usuario.
+### 1.2.1 Antecedentes y problemática
+**Descripción de la problemática**
+
+El problema identificado radica en la falta de una solución integrada y continua para el monitoreo de signos vitales en pacientes, especialmente en adultos mayores, pacientes postoperatorios y en cuidados intensivos. Los sistemas actuales dependen de dispositivos tradicionales que requieren intervención manual, lo que genera ineficiencias y una capacidad de respuesta limitada ante situaciones críticas. Además, estos sistemas no están integrados entre sí, lo que dificulta la supervisión centralizada y el análisis en tiempo real, afectando la calidad de la atención médica.
+
+**Objetivos**
+
+- Desarrollar una plataforma basada en IoT que permita el monitoreo continuo y en tiempo real de los signos vitales de los pacientes.
+- Mejorar la capacidad de respuesta del personal médico ante situaciones críticas, reduciendo el tiempo de reacción.
+- Integrar dispositivos inteligentes en una plataforma centralizada que permita la supervisión y análisis de datos de manera eficiente.
+- Aumentar la calidad del cuidado médico mediante la reducción de la supervisión manual y la automatización de procesos.
+
+**Restricciones**
+
+- Dependencia de la infraestructura tecnológica existente en las clínicas y hospitales para asegurar una integración fluida.
+- Conectividad de red: la plataforma depende de una conexión de red estable para la transmisión continua y en tiempo real de los signos vitales. Las áreas con conectividad limitada podrían afectar la funcionalidad del sistema.
+
+**Antecedentes**
+
+- **Vital Connect**  
+  VitalConnect ofrece dispositivos portátiles que monitorean continuamente los signos vitales de los pacientes y transmiten los datos en tiempo real a los profesionales de la salud. Sin embargo, TuKunTech se diferencia al ofrecer una solución integral que no solo incluye dispositivos de monitoreo, sino también una plataforma de telemedicina y seguimiento clínico tanto en hospitales como en hogares. Además, proporcionamos personalización avanzada para adaptar el monitoreo a las necesidades específicas de cada paciente y clínica, garantizando una atención más completa y flexible.
+
+- **Tytocare**  
+  Tytocare es una plataforma de telemedicina que permite realizar exámenes físicos remotos a través de dispositivos conectados, brindando a los pacientes la posibilidad de recibir diagnósticos desde sus hogares. TuKunTech va más allá al ofrecer no solo telemedicina, sino un ecosistema completo que integra monitoreo inteligente, atención en clínicas y monitoreo domiciliario, permitiendo a las clínicas escalar el sistema para gestionar eficientemente un gran volumen de pacientes y mejorar la calidad del servicio.
+
+- **Philips Healthcare**  
+  Philips Healthcare ofrece soluciones avanzadas de monitoreo remoto y dispositivos médicos para hospitales y clínicas de todo el mundo. TuKunTech se diferencia al estar diseñado específicamente para adaptarse a las necesidades locales del mercado peruano, ofreciendo una solución más flexible y personalizada. Además, TuKunTech es una opción más costo-eficiente, permitiendo a clínicas de diferentes tamaños adoptar tecnología avanzada sin los altos costos asociados a las soluciones globales de Philips.
+
+**Herramienta de 5W y 2H**
+
+- **What - ¿Cuál es el problema?**  
+  El problema identificado es la falta de una solución integrada para el monitoreo continuo y en tiempo real de signos vitales en pacientes críticos, lo que genera ineficiencias y tiempos de respuesta prolongados en la atención médica.
+
+- **When - ¿Cuánto sucede el problema?**  
+  El problema ocurre durante el monitoreo de pacientes que requieren atención médica constante, como adultos mayores, pacientes postoperatorios y en cuidados intensivos, donde la capacidad de respuesta rápida es crucial.
+
+- **Where - ¿Dónde surge el problema?**  
+  El problema surge en hospitales, clínicas, y hogares donde se utilizan sistemas de monitoreo tradicionales que no están integrados ni automatizados, afectando la capacidad de monitoreo en tiempo real.
+
+- **Who - ¿Quiénes son afectados por el problema?**  
+  Los principales afectados son los pacientes en situaciones críticas que necesitan monitoreo constante, el personal médico que debe realizar supervisión manual, y las clínicas que enfrentan ineficiencias en la gestión de cuidados.
+
+- **Why - ¿Cuál es la causa del problema?**  
+  La causa principal del problema es la falta de integración de tecnologías avanzadas, como IoT, en los sistemas de monitoreo existentes, lo que impide la supervisión automatizada y el análisis de datos en tiempo real.
+
+- **How - ¿Cómo se manifiesta el problema?**  
+  El problema se manifiesta en la dependencia de la intervención manual del personal médico, lo que reduce la eficiencia y la capacidad de reacción ante emergencias médicas, además de limitar la toma de decisiones informadas basadas en datos en tiempo real.
+
+- **How much - ¿Cuál es la magnitud del problema?**  
+  La magnitud del problema se refleja en los costos operativos elevados, la carga de trabajo innecesaria para el personal médico y los riesgos elevados para los pacientes debido a la falta de monitoreo continuo y alerta temprana de situaciones críticas.
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
