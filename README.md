@@ -71,6 +71,69 @@ Con este análisis, podemos identificar el FODA, es decir, las fortalezas, oport
 Pero, ¿cómo identificamos a nuestros principales competidores? Es necesario estudiar el mercado e identificar las soluciones tecnológicas más utilizadas por hospitales, clínicas, y otras instituciones de salud que priorizan la eficiencia y precisión en el monitoreo de pacientes. Con este análisis, se concluyó que los principales competidores son: aquellos que ofrecen sistemas de monitoreo tradicionales, soluciones fragmentadas que requieren intervención manual, y plataformas que carecen de integración en tiempo real.
 ![Análisis competitivo](./imgs%20cuadros/Analisis%20competitivo.png)
 
+## 2.2. Entrevistas.
+### 2.2.1. Diseño de entrevistas. FABIO
+En esta parte, presentamos las preguntas que hemos diseñado para llevar a cabo las entrevistas con los dos grupos de usuarios a los que nos dirigimos. Es importante mencionar que las preguntas son de formato abierto, lo que nos permitirá recopilar información valiosa para comprender mejor cómo abordar los desafíos que enfrentan nuestros usuarios objetivo.
+
+**Listado de preguntas Segmento Objetivo 1 – Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
+
+_Información Personal:_
+
+- ¿Cuál es su nombre?
+- ¿Cuál es su edad?
+- ¿Cuál es su estado civil?
+- ¿En qué ciudad resides?
+- ¿Cuál es su ocupación profesional? ¿se encuentra laborando en la actualidad?
+
+_**Personalidad, aspecto emocional y habilidades del usuario:**_
+
+- Define alguna frase o refrán que represente rasgos de su personalidad.
+- Describe algunas cualidades, fortalezas y/o debilidades que considera representativas de su personalidad.
+- ¿Te consideras una persona que disfruta compartir y expresar sus pensamientos con los demás? ¿Cómo valoras la comunicación en tus relaciones personales o con tus médicos?
+- ¿Cómo te sientes cuando escuchas que no hay una buena organización en un servicio médico o de salud? ¿Qué efecto tiene esto en ti?
+- ¿Qué emociones experimentas cuando no logras encontrar un servicio que te ayude a mantener tu salud bajo control? ¿Sueles buscar otras opciones?
+- ¿Te sientes cómodo usando aplicaciones móviles, software o redes sociales para tu salud y bienestar? ¿Te ha resultado complicado aprender a utilizar estas herramientas?
+- ¿Consideras que es esencial que los servicios de salud se adapten a las tecnologías digitales? ¿Qué beneficios crees que esto trae para ti?
+
+_**Evaluación del problema:**_
+
+- Desde tu experiencia en equipos de salud o atención, ¿cuáles crees que son los principales desafíos en cuanto a organización y eficiencia en el cuidado de la salud que se enfrenta con frecuencia?
+- ¿Qué prácticas o herramientas piensas que podrían ayudar a mejorar la coordinación y atención en el cuidado de la salud, ya sea en un entorno presencial o mediante tecnología?
+- ¿Cómo ha cambiado la dinámica de la atención médica brindada debido a la pandemia del COVID-19, en términos de calidad y eficiencia?
+- ¿Has tenido que posponer o modificar tratamientos o visitas debido a la pandemia? ¿Cuáles han sido los principales desafíos que has enfrentado?
+- ¿Consideras que una herramienta digital para monitorear los signos vitales mejoraría la calidad de servicio que brindas? ¿Por qué?
+- ¿Te interesaría utilizar una aplicación web que te ayude a gestionar mejor la salud de la persona que tenga a cargo? ¿Por qué crees que sería útil?
+- ¿Confías en que el uso de una herramienta digital sería de uso amigable y sencillo de entender para aplicarlo en el servicio brindado? ¿Crees que verías beneficios en la calidad de tu atención en poco tiempo?
+
+**Listado de preguntas Segmento Objetivo 2 – Personal médico y pacientes postoperatorios UCI de clínicas privadas** 
+_**Información Personal:**_
+
+- ¿Cuál es su nombre?
+- ¿Cuál es su edad?
+- ¿Cuál es su estado civil?
+- ¿En qué ciudad resides?
+- ¿Cuál es su ocupación profesional? ¿se encuentra laborando en la actualidad?
+
+_**Personalidad, aspecto emocional y habilidades del usuario:**_
+
+-¿Hay algún lema o principio que sientas que refleja tu enfoque profesional en la atención médica?
+-¿Podrías describir algunas de las cualidades, fortalezas o áreas de mejora que consideras fundamentales en tu práctica médica?
+-¿Te consideras alguien que valora la colaboración y la comunicación abierta con tus colegas? ¿Cómo influyen estas habilidades en tu trabajo diario?
+-¿Cómo te afecta escuchar que un servicio de salud no está bien organizado? ¿Qué impacto crees que tiene esto en la calidad del cuidado que proporcionas?
+-¿Qué sientes cuando no puedes encontrar un sistema o tecnología que mejore la atención que ofreces a tus pacientes? ¿Sueles explorar alternativas hasta encontrar una solución adecuada?
+-¿Te sientes cómodo utilizando aplicaciones y software para mejorar la gestión de la salud de tus pacientes? ¿Has encontrado desafíos en aprender a usar nuevas herramientas tecnológicas en tu práctica?
+-¿Piensas que la adopción de tecnologías digitales es crucial para mejorar la atención médica? ¿Qué ventajas ves para ti y tus pacientes al integrar estas tecnologías?
+
+_**Evaluación del problema:**_
+
+- Desde tu experiencia en equipos de atención médica, ¿cuáles consideras que son los principales desafíos en la organización y eficiencia del cuidado de los pacientes que enfrentas con frecuencia?
+- ¿Qué herramientas o prácticas crees que podrían optimizar la coordinación y atención de los pacientes, ya sea en un entorno clínico presencial o a través de soluciones tecnológicas?
+- ¿De qué manera la pandemia del COVID-19 ha afectado la dinámica y eficiencia en la atención que brindas a tus pacientes?
+- ¿Has tenido que ajustar o posponer tratamientos debido a la pandemia? ¿Cuáles han sido los mayores retos que has enfrentado en estos casos?
+- ¿Consideras que una herramienta digital que facilite la monitorización de signos vitales podría mejorar la calidad de la atención que ofreces? ¿Por qué?
+- ¿Te interesaría utilizar una aplicación web para mejorar la gestión de la atención a tus pacientes y la comunicación dentro de tu equipo médico? ¿Qué ventajas crees que podría ofrecer?
+- ¿Confías en que el personal médico adoptaría eficazmente una aplicación web para mejorar la comunicación y el monitoreo de los pacientes? ¿Crees que se verían mejoras en la calidad del cuidado en un corto plazo?
+
 
 ### 2.3.3. User Journey Mapping.
 
