@@ -1,4 +1,60 @@
 # DesarrolloOP-SW57 
+
+# TUKUNTECH
+
+## Universidad Peruana de Ciencias Aplicadas
+
+**Carrera:** Ingeniería de Software
+
+### Integrantes:
+- **Bravo Gavilano, Jorge Rafael** U202212535
+- **Nicolich Alvis, Fabio Maurizio** U202218791
+- **Maraza Pedemonte, Erick** U202213372
+- **Palomares Chávez, Adriana Giovanna** U20221f23
+- **Soto Zorrilla, Oscar Eduardo** U201811767
+
+**Fecha:** 2024-02
+
+---
+
+## CARÁTULA
+
+### Registro de Versiones del Informe
+
+| Entregable | Fecha       | Participantes                                                                                 | Descripción                        |
+|------------|-------------|----------------------------------------------------------------------------------------------|------------------------------------|
+| TB1        | 07/09/2024  | Bravo Gavilano, Jorge Rafael<br>Maraza Pedemonte, Erick<br>Palomares Chávez, Adriana Giovanna<br>Soto Zorrilla, Oscar Eduardo<br>Nicolich Alvis, Fabio Maurizio | Capítulo I<br>Capítulo II<br>Capítulo III<br>Capítulo IV<br>Capítulo V |
+| TP1        |             |                                                                                              |                                    |
+| TB2        |             |                                                                                              |                                    |
+| TF1        |             |                                                                                              |                                    |
+
+---
+
+## Student Outcome
+
+### Criterio específico
+**Comunica oralmente con efectividad a diferentes rangos de audiencia**
+
+| Acción Realizada | Participantes          | Descripción |
+|------------------|------------------------|-------------|
+| TB1              | Bravo Gavilano, Jorge Rafael | Identificación de Problemáticas:<br>Realicé una investigación preliminar para entender los problemas y necesidades del usuario.<br>Analicé el contexto y el mercado para identificar desafíos y oportunidades.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
+| TB1              | Maraza Pedemonte, Erick | Definición de Requisitos:<br>User Stories: Redacté historias de usuario que detallan los requisitos funcionales.<br>Modelado de Solución: Representé la solución visualmente con diagramas y otros artefactos.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
+| TB1              | Palomares Chávez, Adriana Giovanna | Diseño Visual y Prototipado:<br>Principios de Diseño: Creé una propuesta visual coherente.<br>Prototipos: Creé y refiné diseños interactivos.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
+| TB1              | Soto Zorrilla, Oscar Eduardo | Implementación de Landing Page:<br>Desarrollo: Implementé la Landing Page, servicios del servidor y aplicaciones web con los lenguajes, frameworks y herramientas especificados.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
+| TB1              | Nicolich Alvis, Fabio Maurizio | Aplicación del Proceso Lean UX:<br>Segmentación de Objetivos: Definí objetivos según las necesidades.<br>Lean UX Canvas: Resumí la información en un Lean UX Canvas para una visión general y hoja de ruta del proyecto.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
+
+### Criterio específico
+**Comunica por escrito con efectividad a diferentes rangos de audiencia**
+
+| Acción Realizada | Participantes          | Descripción |
+|------------------|------------------------|-------------|
+| TB1              | Bravo Gavilano, Jorge Rafael | Ejecución y Documentación de Procesos:<br>Lean UX y UX Research: Documenté procesos como User Personas, Task Matrix y Journey Maps.<br>La aplicación adecuada de lenguajes de programación y herramientas, junto con buenas prácticas y convenciones, facilitó una implementación efectiva y colaborativa del proyecto. La aplicación rigurosa de Lean UX, UX Research, y otros procesos ágiles, tanto en documentación escrita aseguró una solución robusta y bien validada mediante entrevistas con User Personas. La orientación hacia la mejora continua permitirá actualizar y perfeccionar los artefactos basados en hallazgos y recomendaciones. La comunicación clara y objetiva de la propuesta. |
+| TB1              | Maraza Pedemonte, Erick | Validación y Retroalimentación:<br>Validation Interviews: Entrevisté a representantes de User Personas para obtener feedback.<br>Identificación de Hallazgos: Documenté y abordé problemas encontrados en las entrevistas. |
+| TB1              | Palomares Chávez, Adriana Giovanna | Ejecución y Documentación de Procesos:<br>Design y Prototyping: Desarrollé y documenté el diseño visual y los prototipos. |
+| TB1              | Soto Zorrilla, Oscar Eduardo | Aplicación de Buenas Prácticas de Programación:<br>Convenciones y Nomenclatura: Seguí las convenciones de nomenclatura para consistencia y claridad. |
+| TB1              | Nicolich Alvis, Fabio Maurizio | Ejecución y Documentación de Procesos:<br>Lean UX y UX Research: Documenté y ejecuté Lean UX y UX Research, incluyendo User Personas, Task Matrix y Journey Maps.<br>Design y Prototyping: Desarrollé y documenté el diseño visual y los prototipos. |
+
+
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup 
