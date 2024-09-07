@@ -1,5 +1,5 @@
 # DesarrolloOP-SW57 
-
+# Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup 
 Actualmente, el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y en cuidados intensivos se realiza con dispositivos tradicionales que requieren intervención manual y ofrecen sistemas fragmentados, limitando la eficiencia y la capacidad de respuesta en tiempo real.
@@ -7,7 +7,6 @@ Nuestra startup aborda este desafío con una plataforma IoT innovadora que integ
 Nos enfocamos en cuidados intensivos, postoperatorios y en el monitoreo de adultos mayores que desean modernizar su seguimiento médico. Nuestra solución mejora la eficiencia, precisión y calidad de la atención, reduciendo tiempos de respuesta y optimizando la gestión del cuidado.
 
 ### 1.1.2. Team Member Profiles
-
 #### Nicolich Alvis, Fabio Maurizio
 Soy estudiante de Ingeniería de Software, actualmente en mi quinto ciclo. Me considero responsable, proactivo y con buenas habilidades de liderazgo. Estoy comprometido a trabajar en equipo para asegurar que nuestro proyecto sea impecable. Aportaré todo lo que esté en mis manos.
 
@@ -50,10 +49,7 @@ Plan Familiar: Enfocado en usuarios individuales que necesitan monitorear la sal
 Ambos planes tendrán diferentes estructuras de costos y se ofrecerán en un modelo de suscripción mensual, adaptado a las necesidades de cada tipo de usuario.
 
 ### 1.2.2. Lean UX Process
-
 #### 1.2.2.1. Lean UX Problem Statements
-
-
 El estado actual en el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y pacientes en cuidados intensivos se ha centrado principalmente en la utilización de dispositivos tradicionales que requieren la intervención manual del personal médico para la recolección y análisis de datos. Estos sistemas suelen ser fragmentados y no ofrecen una integración fluida entre los diferentes equipos de monitoreo, lo cual limita la eficiencia y la capacidad de respuesta en tiempo real.
 
 Lo que los productos y servicios existentes no logran abordar es la falta de una solución integrada entre los dispositivos que aproveche la tecnología IoT para ofrecer un monitoreo continuo y en tiempo real de los signos vitales de los pacientes. Los sistemas actuales a menudo son estáticos y no permiten una supervisión centralizada ni la capacidad de analizar datos en tiempo real de manera efectiva.
@@ -64,6 +60,23 @@ Inicialmente, centraremos nuestra atención en los cuidados intensivos y post-op
 
 Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta ante cambios críticos en los signos vitales, un aumento en la satisfacción del personal médico por la facilidad de uso del sistema y una mejora general en la calidad del cuidado proporcionado a los pacientes, medido a través de métricas de rendimiento y feedback de los usuarios.
 
+## 1.3. Segmentos objetivo.
+De acuerdo a Vásquez (2010), “los médicos dependen cada vez más de los equipos electromédicos para lograr un diagnóstico certero y eficaz. Los equipos electromédicos son una herramienta fundamental para obtener diagnósticos y así brindar tratamientos adecuados a los pacientes”. Esto evidencia la posibilidad de poder integrar nuestro producto con las tecnologías existentes, de modo que se mejore la experiencia de usuario y el servicio ofrecido. 
+Así mismo, los pacientes en las Unidades de Cuidados Intensivos (UCI) dependen de dispositivos médicos, como monitores de signos vitales, desfibriladores y sistemas de monitoreo centralizado, para su diagnóstico y tratamiento. Se ha discutido la complejidad de estos equipos en las UCIs y la crucial importancia de conectar a los pacientes a ellos (Vásquez, 2010).
+Por otro lado, en los estudios realizados por Ruiz (2016), afirma lo siguiente:
+
+Los pacientes adultos mayores debido a su avanzada edad se le dificulta la realización de visitas periódicas a los centros especializados de salud … por eso surge la necesidad de mantener un correcto monitoreo de los principales signos vitales, esto permitirá mantener controlado al paciente, así evitando futuras complicaciones … además de contar con estadísticas de sus diferentes valores (p. 21).
+
+Por todo lo mencionado, se establecen los dos segmentos objetivos que serán abordados a lo largo del proyecto:
+**Segmento 1:** Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
+
+**User Goal:** Como paciente, deseo registrarme:
+
+**User Goal:** Como paciente, deseo iniciar sesión:
+
+**Segmento 2:** Personal médico y pacientes postoperatorios UCI de clínicas privadas 
+
+# Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
 ¿Cómo identificar a nuestros principales competidores?
@@ -136,7 +149,6 @@ _**Evaluación del problema:**_
 
 
 ### 2.3.3. User Journey Mapping.
-
 ### Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 ![Segmento 1](./imgs%20Journey%20Mapping/segmento%201.png)
 ### Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
@@ -155,7 +167,6 @@ CANVAS
 [https://www.canva.com/design/DAGP9Z9itkE/z4kvDeo5LXRde5e1lWzOrw/edit?utm_content=DAGP9Z9itkE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGP9Z9itkE/z4kvDeo5LXRde5e1lWzOrw/edit?utm_content=DAGP9Z9itkE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### 2.3.5. As-is Scenario Mapping. OSCAR
-
 En esta sección, se describen las fases clave del proceso actual de monitoreo de signos vitales para nuestros usuarios objetivo, detallando cómo el personal médico afronta las tareas diarias, sus pensamientos y sentimientos en cada etapa. Este análisis nos permitirá identificar de manera más clara las áreas críticas de mejora y qué soluciones son las más adecuadas para optimizar su experiencia y satisfacer sus necesidades de forma eficiente.
 
 **Segmento Pacientes Post-Operatorios y UCI**
@@ -169,7 +180,6 @@ Miro: [https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2T
 
 
 ## 2.4. Ubiquitous Language.
-
 En Domain-Driven Design (DDD), el concepto de “Ubiquitous Language” se refiere a la práctica de utilizar un vocabulario común y consistente entre todos los miembros del equipo, incluidos desarrolladores, expertos en el dominio y partes interesadas. Este enfoque busca prevenir malentendidos y mejorar la comunicación dentro del equipo, asegurando que todos tengan una comprensión clara y unificada del dominio del problema.
 
 - **Paciente (Patient)**: El usuario o persona cuyo estado de salud se está monitoreando.
@@ -192,7 +202,6 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 ![Segmento-2_To-be](./imgs%20Scenario%20Mapping/Segmento%202%20-%20To%20be.png)
 
 ## 3.3. Impact Mapping
-
 ### Segmento 1
 **Encargado de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 
@@ -205,7 +214,6 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 
 
 ## 3.4. Product Backlog.
-
 | Orden | User Story ID | Título                                    | Descripción                                                                                                                                     | Story Points |
 |-------|---------------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | 01    | US01          | Visualización de pacientes postoperatorios | Como médico, quiero visualizar la sección de pacientes postoperatorios para ver el estado de los pacientes bajo mi cuidado.                      | 3            |
@@ -236,9 +244,45 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 | 26    | US26          | Noticias y actualizaciones                | Como desarrollador de TukunTech, quiero integrar una sección para mostrar noticias y actualizaciones recientes, para mantener a los usuarios informados. | 2  |
 | 27    | US27          | Formulario de contacto                    | Como desarrollador de TukunTech, quiero crear un formulario de contacto, para que los usuarios puedan comunicarse con la empresa fácilmente.    | 3            |
 
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines.
+### 4.1.1. General Style Guidelines.
+Una guía de estilo para sitios web establece un conjunto integral de estándares que aseguran que la identidad de marca de una empresa se refleje en su página web. Además, incluye reglas para elementos visuales, la creación de contenido, mensajes y otros aspectos clave.
+
+- _**Brand Name**_
+Tras una lluvia de ideas, se decidió colocar Tukun porque es sencillo de recordar y se nos hizo amigable. Así mismo, agregamos tech refiriéndonos a la palabra tecnología en el idioma inglés porque resulta más corto de leer y pronunciar. Juntando ambas palabras, creamos el nombre de nuestra startup. Es fundamental darle importancia a este aspecto para tener un posicionamiento alto frente a la competencia, ya que, de esta manera, nuestro sitio web será más atractivo a vistas de nuestro público objetivo, de modo que sea más probable que adquieran el servicio, es decir, la aplicación.
+
+A continuación se presenta el logo de TukunTech:
+![logo](./Imgs%20-%20Guidelines/Logo.png)
+
+- _**Typography**_
+La tipografía juega un papel clave en la organización y estructuración del lenguaje visual en todas las plataformas que se desarrollarán para satisfacer las principales características de la aplicación. Una buena tipografía por sí sola puede definir casi toda la estética de un sitio web y aplicativo móvil. Así mismo, se trata de hacer más llevadero el proceso de diseño y no utilizar elementos que puedan ralentizar la carga de la web. 
+
+Por todo lo mencionado, se seleccionó el siguiente tipo de letra:
+![typography](./Imgs%20-%20Guidelines/font.png)
+
+- _**Colors**_
+El color es un elemento muy trascendental en cualquier campo del diseño, incluido el diseño web y de aplicaciones móviles. Los colores establecen estados de ánimo a las personas. Usar los colores correctos no solo lleva a los usuarios a diferentes sitios web, sino que también ayuda a fortalecer la marca.
+  -_Brand Colors_
+  ![brandColors](./Imgs%20-%20Guidelines/Brand%20colors.png)
+  -_State Colors_
+  ![stateColors](./Imgs%20-%20Guidelines/State%20colors.png)
+  -_Grey Colors_
+  ![greyColors](./Imgs%20-%20Guidelines/Gray%20Color.png)
+
+- _**Spacing**_
+El uso del espacio es crucial en cualquier diseño. Una buena distribución del espacio mejora la legibilidad del texto, separa las imágenes de otros elementos y ofrece a los usuarios una sensación de "descanso" a la vista. Esto contribuye a que la página se perciba menos saturada, evitando que resulte molesta o abrumadora. El espaciado se aplica entre gráficos, columnas, imágenes, texto, bordes y otros componentes, aportando equilibrio y fluidez al diseño. Además, es una manera efectiva de organizar el contenido y dirigir la atención del usuario hacia puntos clave.
+![spacing](./Imgs%20-%20Guidelines/Spacing.png)
+
+- _**Tone & Language**_
+  - _Color Primario:_ Simboliza calma y confianza, sensaciones importantes vinculadas a la salud. Al utilizar la aplicación, el contratante percibirá este color como amigable y relajante.
+  - _Color Secundario:_ Tiene un efecto relajante sobre la vista y la mente. Este color transmite tranquilidad y sobre todo un contraste pacífico con el primario.
+  - _Gris:_ Representa sencillez y es comúnmente utilizado cuando se quiere colocar textos largos a modo de explicación.
+  - _Negro:_ Evoca seriedad y elegancia.
+    
+En cuanto al lenguaje, se optará por un tono formal, respetuoso, pero también impregnado de entusiasmo. Se incluirán experiencias y recomendaciones que inspiren al usuario. Además, se han considerado elementos de diseño enfocados en optimizar la interfaz pensando en los usuarios finales.
 
 ### 4.1.2 Web Style Guidelines. 
-
 Desarrollaremos una aplicación altamente adaptable que se ajustará a cualquier dispositivo tecnológico sin comprometer el diseño del contenido. La aplicación será **responsive**, garantizando una experiencia óptima en smartphones, tablets y ordenadores, y respetará las heurísticas de usabilidad para asegurar una interfaz intuitiva y eficiente. Cada tipo de dispositivo será considerado cuidadosamente para que el contenido esté estructurado de manera óptima y coherente en todas las plataformas.
 
 ![Responsive Design](./web-style-guidelines-img/responsive-system.JPG)
@@ -423,8 +467,6 @@ Figma: https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F
 ![6](./imgs%20Landing%20Page%20Wireframe/6.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
-
-
 **Diagrama 1**
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Pacientes postoperatorios” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
@@ -539,18 +581,11 @@ Segmento 2: Personal Médico y Pacientes Postoperatorios UCI en Clínicas Privad
   - Prioridad a la toma de decisiones clínicas:
     El diseño del menú favorece la rapidez y precisión en la toma de decisiones, minimizando el número de clics necesarios para acceder a funciones críticas.
 
-
-
-
-
-
 Acceso al Prototyping 
 [https://www.figma.com/proto/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=13-267&node-type=FRAME&t=c7u8njp8km85e1ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A267](https://www.figma.com/proto/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=13-267&node-type=FRAME&t=c7u8njp8km85e1ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A267)
 
 ## 4.6 Domain-Driven Software Architecture
-
 ### 4.6.1 Software Architecture Context Diagram. 
-
 En el presente diagrama se detalla cómo los médicos y enfermeros interactúan con nuestro sistema de software y con sistemas externos, incluyendo:
 
 - El servicio de correos de **Microsoft Exchange** para la gestión de correos electrónicos.
@@ -587,7 +622,6 @@ Exámenes: Es responsable de registrar los exámenes médicos que se realizan a 
 
 
 ### 5.1.1. Software Development Environment Configuration
-
 En esta sección se describirán los links de las aplicaciones que fueron utilizadas para el proyecto.  
 Para ello se clasificará en las siguientes secciones:
 
@@ -615,7 +649,6 @@ Tiene la función de examinar los artefactos y el comportamiento del software, a
 - **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
 
 ### 5.1.2 Source Code Management
-
 La gestión de código fuente, también conocida como **SCM** (Source Code Management) en inglés, es una práctica crucial en el desarrollo de software. Su propósito es registrar y controlar las modificaciones que los miembros del equipo hacen en los repositorios de código a lo largo del ciclo de vida del proyecto. Este sistema permite rastrear los cambios introducidos por cada desarrollador, asegurando que todas las contribuciones estén documentadas y gestionadas de manera eficiente. En este caso, utilizaremos **GitHub** como la plataforma para implementar el control de versiones y garantizar una colaboración fluida entre los integrantes del equipo.
 
 **Organización:https://github.com/TukunTech**
@@ -625,7 +658,6 @@ La gestión de código fuente, también conocida como **SCM** (Source Code Manag
 ![Repositorios](./imgs%20Software%20Configuration%20Management/Source-Code-Management1.JPG)
 
 En este proyecto, implementaremos **GitFlow** como la estrategia principal para la gestión de ramas y el control de versiones. GitFlow es un modelo estructurado que facilita la organización del desarrollo, permitiendo a los equipos trabajar en múltiples funcionalidades de manera simultánea y ordenada. Con GitFlow, seguiremos un flujo de trabajo definido que incluye ramas dedicadas para el desarrollo, las nuevas funcionalidades, las versiones de lanzamiento y las correcciones rápidas. Esta metodología nos permitirá mantener un control claro sobre el proceso de desarrollo, asegurando que las funcionalidades se integren de manera efectiva y minimizando los conflictos durante las fusiones.
-
 
 Como se indicó anteriormente, gracias a GitFlow se trabajará con **branches** (ramas) para realizar el desarrollo de manera progresiva. A continuación, se describirán las ramas que se emplearán y la función específica de cada una.
 
@@ -706,10 +738,11 @@ Es un lenguaje que otorga la posibilidad de establecer acciones para ser utiliza
 - Simple Statement’s End
 - Beginning and End of a Function
 - Object Rules
+  
 #### 5.2.1.1. Sprint Planning 1.
 ![Sprint Planning 1](./img%20sprint%20planning/planning%201.png)
-#### 5.2.1.2. Sprint Backlog 1. 
 
+#### 5.2.1.2. Sprint Backlog 1. 
 En esta primera iteración, tuvimos como objetivo implementar el diseño de nuestra Landing Page mediante la utilización de Visual Studio Code. Es decir, todas las secciones deben estar terminadas al finalizar el Sprint, ya sea **About**, **Servicios**, **Noticias** o **Contáctanos**.
 
 | **Sprint #** | **Work-Item / Task**  | **Id** | **Title**                           | **Description**                                                | **Estimation (hours)** | **Assigned To** | **Status** |
@@ -731,7 +764,6 @@ En esta sección, se presentará la evidencia del progreso y desarrollo del soft
 ![Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Development%20Evidence%20for%20Sprint%20Review.png)
 
 #### 5.2.1.5 Execution Evidence for Sprint Review. OSCAR
-
 En esta sección se abordará el progreso del desarrollo durante el sprint, detallando la ejecución de la aplicación. Se analizará cómo los usuarios han interactuado con la plataforma, incluyendo su experiencia de usuario, comentarios y cualquier inconveniente que hayan encontrado. Además, se resaltan las mejoras implementadas en términos de usabilidad y diseño de la interfaz. Durante este período, también se mostrarán los commits realizados, permitiendo visualizar el avance técnico y las contribuciones del equipo en tiempo real.
 ![Muestra 1](./img-evidence-sprint/Evidence-for-Sprint-Review1.JPG)
 
