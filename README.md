@@ -1317,7 +1317,13 @@ En esta sección, se redactará el proceso de implementación del software en un
 ![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Software%20Deployment%20Evidence%20for%20Sprint%20Review.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
-Se ofrecerá información detallada sobre la colaboración y la comunicación entre los miembros del equipo de desarrollo a lo largo del sprint. Esto abarcará la coordinación de actividades, la resolución de inconvenientes y la gestión de las tareas asignadas. Además, se resaltarán las lecciones aprendidas y las áreas donde se puede mejorar la colaboración.
+Se ofrecerá información detallada sobre la colaboración y la comunicación entre los miembros del equipo de desarrollo a lo largo del sprint. Esto abarcará la coordinación de actividades, la resolución de inconvenientes y la gestión de las tareas asignadas. 
 
-![Team Collaboration Insights](./Imgs%20-%20Team%20Collaboration%20Insights%20during%20Sprint/captura%20dc.png)
+Integrantes y aportantes:
+![Team Collaboration Insights 1](./Team%20Collaboration%20Insights%20During%20Sprint/Integrantes.png)
 
+Desarrollo para el Sprint 1: 
+![Team Collaboration Insights 2](./Team%20Collaboration%20Insights%20During%20Sprint/Network%20Graph.png)
+
+Network: se muestran los últimos commits efectuados
+![Team Collaboration Insights 3](./Team%20Collaboration%20Insights%20During%20Sprint/Overview.png)
