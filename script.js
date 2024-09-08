@@ -15,14 +15,14 @@ targets.forEach(target => {
 //mostrar y ocultar galeria
 function showGallery(galleryName) {
     const dueñosGallery = document.querySelector('.gallery.Dueños');
-    const veterinariosGallery = document.querySelector('.gallery.Veterinarios');
+    const monitoreoGallery = document.querySelector('.gallery.Monitoreo');
 
     if (galleryName === 'Dueños') {
         dueñosGallery.style.display = 'block';
-        veterinariosGallery.style.display = 'none';
-    } else if (galleryName === 'Veterinarios') {
+        monitoreoGallery.style.display = 'none';
+    } else if (galleryName === 'Monitoreo') {
         dueñosGallery.style.display = 'none';
-        veterinariosGallery.style.display = 'block';
+        monitoreoGallery.style.display = 'block';
     }
 }
 
@@ -129,11 +129,11 @@ function scrollToTop() {
 
 // Galería de imágenes
 let slideIndexDueños = 0;
-let slideIndexVeterinarios = 0;
+let slideIndexMonitoreo = 0;
 
 function showSlides(type) {
     const slides = document.querySelectorAll(`.carousel-container.${type} .carousel-item`);
-    const index = type === 'Dueños' ? slideIndexDueños : slideIndexVeterinarios;
+    const index = type === 'Dueños' ? slideIndexDueños : slideIndexMonitoreo;
     slides.forEach((slide, i) => {
         slide.style.transform = `translateX(${-index * 100}%)`;
     });
@@ -144,7 +144,7 @@ function nextSlide(type) {
     if (type === 'Dueños') {
         slideIndexDueños = (slideIndexDueños + 1) % slides.length;
     } else {
-        slideIndexVeterinarios = (slideIndexVeterinarios + 1) % slides.length;
+        slideIndexMonitoreo = (slideIndexMonitoreo + 1) % slides.length;
     }
     showSlides(type);
 }
@@ -154,20 +154,16 @@ function prevSlide(type) {
     if (type === 'Dueños') {
         slideIndexDueños = (slideIndexDueños - 1 + slides.length) % slides.length;
     } else {
-        slideIndexVeterinarios = (slideIndexVeterinarios - 1 + slides.length) % slides.length;
+        slideIndexMonitoreo = (slideIndexMonitoreo - 1 + slides.length) % slides.length;
     }
     showSlides(type);
 }
 
-function showGallery(type) {
-    document.querySelector('.carousel-container.Veterinarios').style.display = 'none';
-    document.querySelector(`.carousel-container.${type}`).style.display = 'block';
-    showSlides(type);
-}
+
 
 showGallery('Dueños');
 
 setInterval(() => nextSlide('Dueños'), 5000);
-setInterval(() => nextSlide('Veterinarios'), 5000);
+setInterval(() => nextSlide('Monitoreo'), 5000);
 
 
