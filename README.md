@@ -928,12 +928,11 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 
 ## 4.4. s UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
-![1](./imgs%20Landing%20Page%20Wireframe/1.png)
-![2](./imgs%20Landing%20Page%20Wireframe/2.png)
-![3](./imgs%20Landing%20Page%20Wireframe/3.png)
-![4](./imgs%20Landing%20Page%20Wireframe/4.png)
-![5](./imgs%20Landing%20Page%20Wireframe/5.png)
-![6](./imgs%20Landing%20Page%20Wireframe/6.png)
+![1](./imgs%20Web%20Applications%20Wireframe/1.png)
+![2](./imgs%20Web%20Applications%20Wireframe/2.png)
+![3](./imgs%20Web%20Applications%20Wireframe/3.png)
+![4](./imgs%20Web%20Applications%20Wireframe/4.png)
+
 
 ### 4.4.2. s Wireflow Diagrams.
 **Diagrama 1**
