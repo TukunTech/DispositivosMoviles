@@ -1012,11 +1012,11 @@ Se evidencia el recorrido para agregar una nota a un paciente:
 ## 4.4.2. Web Applications Mock-ups.
 **Segmento Objetivo Cuidadores de Adultos Mayores**
 
-![Mock-ups segmento 1](./img2/Mokup1.png)
+![Mock-ups segmento 1](./img-Mock-ups-DataBase/Mokup1.png)
 
 **Segmento Objetivo Clínicas u Hospitales**
 
-![Mock-ups segmento 2](./img2/mokuop2.png)
+![Mock-ups segmento 2](./img-Mock-ups-DataBase/Mockup2.png)
 
 ## 4.5. Web Aplications Prototyping.
 A continuación, se describirán los criterios esenciales para las decisiones de interacción en relación con la Arquitectura de la Información de nuestra aplicación. Estos criterios abarcan los elementos de la interfaz y los principios que se aplican a ellos. Es importante destacar que, aunque la estructura general de la  aplicación será consistente, se podrán observar algunas diferencias en los detalles visuales.
@@ -1094,7 +1094,7 @@ Exámenes: Es responsable de registrar los exámenes médicos que se realizan a 
 
 ## 4.8. Database Design. 
 ### 4.8.1. Database Diagram.
-![DataBaseDiagram](./img2/data%20base%20diagram.png)
+![DataBaseDiagram](./img-Mock-ups-DataBase/Data_Base_Diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management. 
