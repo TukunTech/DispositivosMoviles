@@ -994,7 +994,7 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 **User Goal**: Como usuario deseo recibir notificación de los pacientes en estado crítico.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la notificación de un paciente en estado crítico. En el inicio tendrá que seleccionar el botón “Pacientes UCI” y una vez en este, en la parte superior de la plataforma se visualizarán los pacientes en estado crítico.
 
-![Diagrama notificación de los pacientes en estado crítico](./img-diagram-mockupsm/alerta-paciente-critico.png)
+![Diagrama notificación de los pacientes en estado crítico](img-diagram-mockups/alerta-paciente-critico.png)
 
 **Diagrama 11**
 **User Goal**: Como usuario deseo actualizar la información de un paciente.  
