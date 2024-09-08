@@ -1288,18 +1288,18 @@ En esta sección se realizan las pruebas de funcionalidad de validación de dato
 
 Sección ‘Name and Lastname:’
 Valida que el campo no esté vacío
-![Name and Lastname]()
+![Name and Lastname](./Testing%20Suite%20Evidence%20for%20Sprint%20Review/Testing Suite Evidence for Sprint Review1.png)
 
 Sección ‘Date:’
 Valida que se ingrese una fecha
-![Date]()
+![Date](./Testing%20Suite%20Evidence%20for%20Sprint%20Review/Testing%20Suite%20Evidence%20for%20Sprint%20Review2.png)
 
 Sección ‘Email:’
 Valida que se ingresa un correo:
-![Email1]()
+![Email1](./Testing%20Suite%20Evidence%20for%20Sprint%20Review/Testing%20Suite%20Evidence%20for%20Sprint%20Review3.png)
 	
  Valida que se ingresa un arroba en el correo:
-![Email2]()
+![Email2](./Testing%20Suite%20Evidence%20for%20Sprint%20Review/Testing%20Suite%20Evidence%20for%20Sprint%20Review4.png)
 
 #### 5.2.1.5 Execution Evidence for Sprint Review.
 En esta sección se abordará el progreso del desarrollo durante el sprint, detallando la ejecución de la aplicación. Se analizará cómo los usuarios han interactuado con la plataforma, incluyendo su experiencia de usuario, comentarios y cualquier inconveniente que hayan encontrado. Además, se resaltan las mejoras implementadas en términos de usabilidad y diseño de la interfaz. Durante este período, también se mostrarán los commits realizados, permitiendo visualizar el avance técnico y las contribuciones del equipo en tiempo real.
