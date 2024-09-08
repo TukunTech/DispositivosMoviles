@@ -1286,9 +1286,22 @@ Así mismo, se presenta el Landing Page desplegado en la versión de escritorio.
 ![Evidence for Sprint Review 3](./img-evidence-sprint/Evidence-for-Sprint-Review3.jpg)
 
 ### 5.2.1.4. Testing Suite Evidence for Sprint Review. 
-En esta sección se presentará un informe de las pruebas efectuadas durante el sprint. Se incluirán detalles sobre las pruebas funcionales, de rendimiento y de seguridad realizadas para asegurar la calidad del software. También se mostrarán los resultados obtenidos y se mencionarán las correcciones o mejoras aplicadas a partir de los hallazgos.
+En esta sección se realizan las pruebas de funcionalidad de validación de datos. Se realizó la validación de ingreso de caracteres válidos sobre el campo ‘Contacto’, al cual se ingresa clickeando el botón ‘Meeting Us’ de la sección de ‘Servicios’.
 
-![Testing Suite Evidence for Sprint Review](./Imgs%20-%20Testing%20Suite%20Evidence%20for%20Sprint%20Review/captura.png)
+Sección ‘Name and Lastname:’
+Valida que el campo no esté vacío
+![Name and Lastname]()
+
+Sección ‘Date:’
+Valida que se ingrese una fecha
+![Date]()
+
+Sección ‘Email:’
+Valida que se ingresa un correo:
+![Email1]()
+	
+ Valida que se ingresa un arroba en el correo:
+![Email2]()
 
 #### 5.2.1.5 Execution Evidence for Sprint Review.
 En esta sección se abordará el progreso del desarrollo durante el sprint, detallando la ejecución de la aplicación. Se analizará cómo los usuarios han interactuado con la plataforma, incluyendo su experiencia de usuario, comentarios y cualquier inconveniente que hayan encontrado. Además, se resaltan las mejoras implementadas en términos de usabilidad y diseño de la interfaz. Durante este período, también se mostrarán los commits realizados, permitiendo visualizar el avance técnico y las contribuciones del equipo en tiempo real.
