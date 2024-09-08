@@ -410,8 +410,10 @@ Nombre y Apellidos: Miriam Zorilla
 Edad: 50
 Evidencias de reunión:
 ![entrevista 1](./imgs%20entrevista/entrevista1.png)
+
 URL:
 [https://www.canva.com/design/DAGQBsbxBN0/R_YFYeckkGyQdmnA7XVk0Q/edit?utm_content=DAGQBsbxBN0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGQBsbxBN0/R_YFYeckkGyQdmnA7XVk0Q/edit?utm_content=DAGQBsbxBN0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Inicio de entrevista: 00:00
 Tiempo: 13:10 min
 Resumen de Entrevista:
 La entrevistada comenta que el personal de salud, especialmente quienes están en contacto directo con los pacientes, experimenta una gran frustración debido a la falta de herramientas tecnológicas adecuadas que les permitan mejorar la calidad del servicio. Señala que, a medida que la tecnología avanza a un ritmo acelerado, el sector salud parece rezagado en la implementación de soluciones que realmente apoyen al personal médico en su labor diaria. Esto se vuelve particularmente evidente en el caso del cuidado de adultos mayores, donde las necesidades son más urgentes debido a la dependencia constante de los cuidadores.
@@ -429,10 +431,22 @@ Evidencias de reunión:
 
 URL:
 [https://www.canva.com/design/DAGQCZuG4go/-yk4rxl6NNQv74Ng4TJj0g/edit?utm_content=DAGQCZuG4go&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGQCZuG4go/-yk4rxl6NNQv74Ng4TJj0g/edit?utm_content=DAGQCZuG4go&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Inicio de entrevista: 13:10
 Tiempo: 13:53 min
 Resumen de Entrevista:
 El entrevistado, un médico encargado del control y seguimiento de pacientes, destaca la importancia de una organización eficaz en los servicios médicos, señalando que sin ella no es posible mejorar la calidad de la atención al paciente. Mencionó sentirse cómodo utilizando herramientas de software, y subrayó que la digitalización de las historias clínicas ha facilitado una atención más integral y eficiente. Sin embargo, identifica como principal desafío la falta de tecnología que permita un acceso rápido y fácil a exámenes de laboratorio y signos vitales. Además, considera que una herramienta que centralice la visualización de estos datos sería de gran utilidad. Específicamente, le gustaría contar con funcionalidades para monitorear en tiempo real la frecuencia cardíaca, saturación de oxígeno, presión arterial y electrocardiograma, elementos clave para el control inmediato de la salud del paciente.
 
+Entrevistado #3:
+Nombre y Apellidos: Flavio Nicolich
+Edad: 67
+Segmento: Personal médico
+Evidencias de reunión:
+![entrevista 3](./imgs%20entrevista/entrevista2.png)
+
+Inicio de entrevista: 27:04
+Tiempo: 8.54 min
+Resumen de Entrevista:
+El entrevistado es un médico cirujano con más de 20 años de experiencia en su profesión, durante los cuales ha demostrado una profunda preocupación por el seguimiento y cuidado de sus pacientes post-operados. A lo largo de su carrera, ha preferido utilizar técnicas convencionales en la atención médica que ofrece, ya que considera que estas le permiten un contacto más directo con el paciente y un control manual de los procedimientos. No obstante, reconoce que la integración de la tecnología, específicamente la monitorización de signos vitales a través de dispositivos modernos, le aportaría un valor significativo en su labor. Explica que la posibilidad de acceder a los datos de los signos vitales de sus pacientes desde su computadora, sin necesidad de estar físicamente presente, le facilitaría enormemente el seguimiento continuo y en tiempo real de su estado de salud. Esto no solo optimizaría el tiempo dedicado a cada paciente, sino que también permitiría un análisis más detallado y profundo para la elaboración de historias clínicas precisas. Además, enfatiza la importancia de que los dispositivos empleados ofrezcan una alta sensibilidad y exactitud en la toma de las mediciones, ya que cualquier error o imprecisión podría comprometer la salud del paciente y el éxito de los tratamientos post-operatorios.
 
 
 
