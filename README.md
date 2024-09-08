@@ -940,7 +940,7 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Pacientes postoperatorios” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
 
-![Diagrama de panel pacientes postoperatorios](./Imgs%20User%20Goal%20Diagram/goal1.png)
+![Diagrama de panel pacientes postoperatorios](./img-diagram-mockups/visualizarPosto.png)
 
 **Diagrama 2**
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes UCI.  
