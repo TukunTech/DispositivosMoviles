@@ -1254,7 +1254,10 @@ En esta primera iteración, tuvimos como objetivo implementar el diseño de nues
 #### 5.2.1.3. Development Evidence for Sprint Review. 
 En esta sección, se presentará la evidencia del progreso y desarrollo del software. Se incluirán detalles sobre las características específicas que se han implementado durante el sprint actual, destacando cualquier avance significativo en la plataforma.
 
-![Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Development%20Evidence%20for%20Sprint%20Review.png)
+![Evidence for Sprint Review 1](./imgs%20Software%20Configuration%20Management/Development%20Evidence%20for%20Sprint%20Review.png)
+
+Así mismo, se presenta el Landing Page desplegado en la versión de escritorio.
+![Evidence for Sprint Review 2]()
 
 ### 5.2.1.4. Testing Suite Evidence for Sprint Review. 
 En este apartado se presentará un informe de las pruebas efectuadas durante el sprint. Se incluirán detalles sobre las pruebas funcionales, de rendimiento y de seguridad realizadas para asegurar la calidad del software. También se mostrarán los resultados obtenidos y se mencionarán las correcciones o mejoras aplicadas a partir de los hallazgos.
