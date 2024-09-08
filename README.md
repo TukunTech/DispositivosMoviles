@@ -550,10 +550,10 @@ CANVAS
 ### 2.3.5. As-is Scenario Mapping.
 En esta sección, se describen las fases clave del proceso actual de monitoreo de signos vitales para nuestros usuarios objetivo, detallando cómo el personal médico afronta las tareas diarias, sus pensamientos y sentimientos en cada etapa. Este análisis nos permitirá identificar de manera más clara las áreas críticas de mejora y qué soluciones son las más adecuadas para optimizar su experiencia y satisfacer sus necesidades de forma eficiente.
 
-**Segmento Pacientes Post-Operatorios y UCI**
+**Personal médico y pacientes postoperatorios UCI de clínicas privadas**
 ![Segmento-1_To-be](./imgs%20Scenario%20Mapping/as-is-map-seg-post-uci.JPG)
 
-**Segmento Adulto Mayores**
+**Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 ![Segmento-1_To-be](./imgs%20Scenario%20Mapping/as-is-map-seg-adult.JPG)
 
 Miro: [https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2TjZ0YjVSbzR2Q09lV1FFc3E4OXgzNWhlbEZUNzRrd3ZBVnwzNDU4NzY0NTMyNjIyNzQxMzMyfDI=?share_link_id=200676430964](https://miro.com/welcomeonboard/eWxucUJReFR3NjhmMHBOclVoa1FsZVVJUTNsWHN2TjZ0YjVSbzR2Q09lV1FFc3E4OXgzNWhlbEZUNzRrd3ZBVnwzNDU4NzY0NTMyNjIyNzQxMzMyfDI=?share_link_id=200676430964)
@@ -577,9 +577,9 @@ En Domain-Driven Design (DDD), el concepto de “Ubiquitous Language” se refie
 ### 3.1. To-Be Scenario Mapping. 
 En esta sección, se detallan las fases principales del proceso optimizado de monitoreo de signos vitales utilizando nuestra solución para los usuarios objetivo. Se explica cómo la automatización de las tareas rutinarias cambia la dinámica tanto para los pacientes como para el personal médico, permitiéndoles enfocarse en decisiones basadas en datos en tiempo real. 
 
--**Segmento Pacientes Post-Operatorios y UCI**
+-**Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas**
 ![Segmento-1_To-be](./imgs%20Scenario%20Mapping/Segmento%201%20-%20To%20be.png)
--**Segmento Adulto Mayores**
+-**Segmento 2: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 ![Segmento-2_To-be](./imgs%20Scenario%20Mapping/Segmento%202%20-%20To%20be.png)
 ## 3.2 User Stories 
 | **ID**  | **Título**                               | **Descripción**                                                                                                                                       | **Criterios de Aceptación**                                                                                                                                                   |
@@ -828,7 +828,7 @@ El equipo médico tendrá acceso a funciones para agendar y administrar citas de
 
 En esta sección, describiremos los sistemas de búsqueda implementados en nuestra plataforma para garantizar que los usuarios, tanto el personal médico como los pacientes, puedan acceder de manera eficiente a la información que necesitan, evitando que se sientan abrumados por la cantidad de datos disponibles.
 
-#### Segmento 1: Adultos mayores
+#### Segmento: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 
 **Historial de signos vitales**
 Los cuidadores de adultos mayores podrán buscar y revisar el historial de sus signos vitales a lo largo del tiempo. Para facilitar la búsqueda, se implementará un sistema de filtrado por fecha, permitiendo seleccionar un rango de tiempo específico (por ejemplo, la última semana, el último mes o un período personalizado). Los datos filtrados se mostrarán en un formato de lista cronológica, con una vista previa de los valores clave. Al hacer clic en un registro, se desplegará información detallada, incluyendo gráficos de tendencias y notas adicionales del personal médico.
@@ -836,7 +836,7 @@ Los cuidadores de adultos mayores podrán buscar y revisar el historial de sus s
 **Consejos de salud personalizados**
 La sección de consejos de salud personalizada permitirá a los usuarios buscar recomendaciones específicas mediante palabras clave (por ejemplo, "hipertensión", "diabetes", etc.). Los resultados se mostrarán categorizados por tópicos relevantes, y los usuarios podrán ordenar las recomendaciones por fecha de publicación o relevancia. Cada entrada mostrará un resumen inicial, con la opción de expandir para ver el contenido completo.
 
-#### Segmento 2: Pacientes postoperatorios
+#### Segmento: Personal médico y pacientes postoperatorios UCI de clínicas privadas
 
 **Panel de monitoreo de pacientes**
 Los profesionales de la salud podrán utilizar una barra de búsqueda para localizar rápidamente a un paciente postoperatorio en particular. Para mejorar la precisión, el sistema ofrecerá filtros avanzados que incluyen el nombre del paciente, su número de identificación y el tipo de cirugía realizada. Los resultados se presentarán en una lista organizada cronológicamente por la fecha de la última intervención. Además, cada entrada mostrará un resumen del estado actual del paciente, con acceso directo a su panel de signos vitales.
@@ -844,15 +844,13 @@ Los profesionales de la salud podrán utilizar una barra de búsqueda para local
 **Alta médica**
 Durante el proceso de alta médica, el sistema permitirá buscar y filtrar informes previos del paciente, tales como observaciones médicas y programaciones de citas de seguimiento. Los usuarios podrán utilizar filtros basados en la fecha del informe o el tipo de observación. Los resultados se mostrarán en una lista estructurada, destacando los informes más recientes o relevantes en la parte superior. Esto permitirá al personal médico asegurar que todos los requisitos de seguimiento estén cumplidos antes de proceder con el alta del paciente.
 
-#### Segmento 3: Pacientes en cuidados intensivos
-
 **Lista de pacientes**
 El equipo de médicos podrá buscar pacientes específicos en su base de datos mediante filtros. Esta información se mostrará en lista con datos breves como su nombre, edad y última atención.
 
 **Monitoreo en tiempo real**
 En la unidad de cuidados intensivos, el personal médico podrá buscar pacientes específicos utilizando una barra de búsqueda. Los resultados estarán organizados jerárquicamente, priorizando aquellos pacientes con signos vitales fuera de los rangos normales o con alertas críticas activas. Además, se incluirá un filtro para clasificar a los pacientes por condición médica o por la gravedad de su estado.
 
-##### Historial de intervenciones
+**Historial de intervenciones**
 Los médicos tendrán acceso a un sistema de búsqueda dentro del historial de intervenciones realizadas en pacientes de cuidados intensivos. Este sistema permitirá filtrar por tipo de intervención, fecha o resultados esperados. Los datos se mostrarán en una lista, con la opción de expandir cada entrada para ver detalles adicionales y notas médicas, facilitando así la revisión de los tratamientos aplicados y la planificación de futuras intervenciones.
 
 **Funcionalidades compartidas para todos los segmentos**
