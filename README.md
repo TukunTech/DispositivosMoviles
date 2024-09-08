@@ -870,7 +870,7 @@ A continuación, se presentarán los sistemas de navegación que facilitarán a 
 _**Sección Landing Page:**_
 Tal y como se describió en el Labeling Systems, el Landing Page cuenta con 4 headings: “Nosotros”, “Servicios”, “Planes” y “Noticias”. Las secciones se encuentran ubicadas como un menú global de forma horizontal a lo largo de la parte superior del Landing page. La información se organizó en cuatro secciones para evitar que el cliente tenga que desplazarse hacia abajo usando la barra de desplazamiento vertical y enfrentarse a un exceso de contenido. Esto facilita la navegación por nuestro sitio. La idea es que primero explore el Home, donde encontrará la información más importante y llamativa, para luego continuar navegando por el resto del menú de izquierda a derecha.
 
-_**Sección Web Application:**_
+_**Sección :**_
 Se optó por mantener un diseño muy similar al usado en el Landing Page, de modo que las secciones también se encuentran ubicadas como un menú global de forma horizontal a lo largo de la parte superior. A continuación se dará una breve descripción de la información que se puede visualizar en cada una de las secciones según el usuario logueado.
 
 - Login Adulto Mayor:
@@ -926,7 +926,7 @@ Figma:
 ![landing-page-mock-up](./img%20landing%20page%20mock-up/landing1.png)
 Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1)
 
-## 4.4. Web Applications UX/UI Design.
+## 4.4. s UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ![1](./imgs%20Landing%20Page%20Wireframe/1.png)
 ![2](./imgs%20Landing%20Page%20Wireframe/2.png)
@@ -935,7 +935,7 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 ![5](./imgs%20Landing%20Page%20Wireframe/5.png)
 ![6](./imgs%20Landing%20Page%20Wireframe/6.png)
 
-### 4.4.2. Web Applications Wireflow Diagrams.
+### 4.4.2. s Wireflow Diagrams.
 **Diagrama 1**
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Pacientes postoperatorios” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
@@ -1002,7 +1002,7 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 
 ![Diagrama actualizar la información de un paciente](./img-diagram-mockupsm/actualizar-datos-paciente.png)
 
-### 4.4.3. Web Applications User Flow Diagrams.
+### 4.4.3. s User Flow Diagrams.
 Segmento objetivo 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 
 Se evidencia el recorrido para la creación de una cuenta nueva en el sistema 
@@ -1025,7 +1025,7 @@ Se evidencia el recorrido para reagendar una cita médica
 Se evidencia el recorrido para agregar una nota a un paciente:
 ![User flow 6](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/user%20flow%206.png)
 
-## 4.4.2. Web Applications Mock-ups.
+## 4.4.2. s Mock-ups.
 **Segmento Objetivo Cuidadores de Adultos Mayores**
 
 ![Mock-ups segmento 1](./img-Mock-ups-DataBase/Mokup1.png)
