@@ -733,7 +733,7 @@ El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosam
 
 - **Notificaciones**: Los tres segmentos recibirán notificaciones organizadas en un formato matricial, donde se podrán ver alertas, recordatorios y mensajes, categorizados por relevancia.
 
-#### Segmento 2: Pacientes de cuidados intensivos
+#### Segmento 2: Personal médico y pacientes postoperatorios en UCI de clínicas privadas.
 
 **Jerárquica**:
 
