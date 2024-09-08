@@ -1003,24 +1003,24 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 Segmento objetivo 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 
 Se evidencia el recorrido para la creación de una cuenta nueva en el sistema 
-![User flow 1](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%201.png)
+![User flow 1](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams1.png)
 
 Se evidencia el recorrido para la edición del perfil del usuario
-![User flow 2](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%202.png)
+![User flow 2](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams2.png)
 
 Se evidencia el recorrido para acceder a los contactos de emergencia
-![User flow 3](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/User%20flow%203.png)
+![User flow 3](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams3.png)
 
 Segmento objetivo 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
 
 Se evidencia el recorrido para acceder al registro de un nuevo médico
-![user flow 4](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/user%20flow%204.png)
+![user flow 4](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams4.png)
 
 Se evidencia el recorrido para reagendar una cita médica
-![user flow 5](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/user%20flow%205.png)
+![user flow 5](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams5.png)
 
 Se evidencia el recorrido para agregar una nota a un paciente:
-![User flow 6](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/user%20flow%206.png)
+![User flow 6](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams6.png)
 
 ## 4.4.2. Mock-ups.
 **Segmento Objetivo Cuidadores de Adultos Mayores**
