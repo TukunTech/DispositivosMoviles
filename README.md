@@ -63,15 +63,14 @@ La aplicación de Lean UX y UX Research nos permitió entender mejor las necesid
 El uso adecuado de lenguajes de programación y herramientas, junto con buenas prácticas y convenciones, facilitó una implementación efectiva y colaborativa del proyecto. La aplicación rigurosa de Lean UX, UX Research, y otros procesos ágiles, tanto en documentación escrita aseguró una solución robusta y bien validada mediante entrevistas con User Personas. La orientación hacia la mejora continua permitirá actualizar y perfeccionar los artefactos basados en hallazgos y recomendaciones. La comunicación clara y objetiva de la propuesta.
 
 
-
 # Capítulo I: Introducción
-## 1.1. Startup Profile
-### 1.1.1. Descripción de la Startup 
+## 1.1. Startup Profile.
+### 1.1.1. Descripción de la Startup. 
 Actualmente, el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y en cuidados intensivos se realiza con dispositivos tradicionales que requieren intervención manual y ofrecen sistemas fragmentados, limitando la eficiencia y la capacidad de respuesta en tiempo real.
 Nuestra startup aborda este desafío con una plataforma IoT innovadora que integra dispositivos inteligentes para medir continuamente la frecuencia cardíaca, la presión arterial y la oxigenación en sangre. Los datos se transmiten en tiempo real a una plataforma centralizada, donde algoritmos avanzados detectan anomalías y alertan al personal médico de inmediato. Además, la plataforma permite a los doctores hacer evaluaciones médicas en tiempo real y ajustar tratamientos de manera instantánea.
 Nos enfocamos en cuidados intensivos, postoperatorios y en el monitoreo de adultos mayores que desean modernizar su seguimiento médico. Nuestra solución mejora la eficiencia, precisión y calidad de la atención, reduciendo tiempos de respuesta y optimizando la gestión del cuidado.
 
-### 1.1.2. Team Member Profiles
+### 1.1.2. Team Member Profiles.
 #### Nicolich Alvis, Fabio Maurizio
 Soy estudiante de Ingeniería de Software, actualmente en mi quinto ciclo. Me considero responsable, proactivo y con buenas habilidades de liderazgo. Estoy comprometido a trabajar en equipo para asegurar que nuestro proyecto sea impecable. Aportaré todo lo que esté en mis manos.
 
@@ -97,7 +96,7 @@ Estoy actualmente en el quinto ciclo de mi carrera en Ingeniería de Software. D
 
 ![Bravo Gavilano, Jorge Rafael](./Nosotros-img/Rafael.png)
 
-## 1.2. Solution Profile 
+## 1.2. Solution Profile.
 **Product Name** Se decidió llamar a nuestro producto “TukunTech”, inspirado en el sonido “tukun” que imita el latido del corazón, el pulso rítmico que simboliza la vida y la salud. Este sonido, asociado con el latido cardíaco, refleja el enfoque principal de nuestra aplicación: el monitoreo de signos vitales. Así como el “tukun” del corazón es esencial para la vida, nuestra aplicación es fundamental para la vigilancia y cuidado continuo de los pacientes.
 El sufijo “Tech” subraya la innovación tecnológica que nuestra empresa aporta al sector salud. TukunTech combina la esencia de la vida, representada por el latido del corazón, con soluciones tecnológicas avanzadas, creando una herramienta integral para hospitales y clínicas.
 Elegimos este nombre porque captura la esencia de lo que hacemos: utilizar la tecnología para monitorear y cuidar la vida, uniendo ciencia y humanidad en una plataforma que mejora la atención médica.
@@ -114,7 +113,8 @@ Plan Individual: Enfocado en usuarios individuales que necesitan monitorear la s
 Plan Duo: Enfocado en dos usuarios que necesitan de un monitoreo constante de su salud. Este plan proporciona herramientas esenciales de monitoreo, permitiendo a las familias estar informadas sobre los signos vitales de sus seres queridos de manera sencilla y accesible. álido durante un mes. Asi mismo, permite un maximo de 10 visitas medicas al mes. 
 
 Los planes tendrán diferentes estructuras de costos y se ofrecerán en un modelo de suscripción mensual o anual, adaptado a las necesidades de cada tipo de usuario.
-### 1.2.1. Antecedentes y problemática
+
+### 1.2.1. Antecedentes y problemática.
 **Descripción de la problemática**
 
 El problema identificado radica en la falta de una solución integrada y continua para el monitoreo de signos vitales en pacientes, especialmente en adultos mayores, pacientes postoperatorios y en cuidados intensivos. Los sistemas actuales dependen de dispositivos tradicionales que requieren intervención manual, lo que genera ineficiencias y una capacidad de respuesta limitada ante situaciones críticas. Además, estos sistemas no están integrados entre sí, lo que dificulta la supervisión centralizada y el análisis en tiempo real, afectando la calidad de la atención médica.
@@ -165,8 +165,8 @@ El problema identificado radica en la falta de una solución integrada y continu
 - **How much - ¿Cuál es la magnitud del problema?**  
   La magnitud del problema se refleja en los costos operativos elevados, la carga de trabajo innecesaria para el personal médico y los riesgos elevados para los pacientes debido a la falta de monitoreo continuo y alerta temprana de situaciones críticas.
 
-### 1.2.2. Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
+### 1.2.2. Lean UX Process.
+#### 1.2.2.1. Lean UX Problem Statements.
 El estado actual en el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios o pacientes en cuidados intensivos se ha centrado principalmente en la utilización de dispositivos tradicionales que requieren la intervención manual del personal médico para la recolección y análisis de datos. Estos sistemas suelen ser fragmentados y no ofrecen una integración fluida entre los diferentes equipos de monitoreo, lo cual limita la eficiencia y la capacidad de respuesta en tiempo real.
 
 Lo que los productos y servicios existentes no logran abordar es la falta de una solución integrada entre los dispositivos que aproveche la tecnología IoT para ofrecer un monitoreo continuo y en tiempo real de los signos vitales de los pacientes. Los sistemas actuales a menudo son estáticos y no permiten una supervisión centralizada ni la capacidad de analizar datos en tiempo real de manera efectiva.
@@ -343,7 +343,7 @@ Basándonos en las necesidades de la empresa, buscamos estrategias concretas par
 
 
 ## 2.2. Entrevistas.
-### 2.2.1. Diseño de entrevistas. FABIO
+### 2.2.1. Diseño de entrevistas.
 En esta parte, presentamos las preguntas que hemos diseñado para llevar a cabo las entrevistas con los dos grupos de usuarios a los que nos dirigimos. Es importante mencionar que las preguntas son de formato abierto, lo que nos permitirá recopilar información valiosa para comprender mejor cómo abordar los desafíos que enfrentan nuestros usuarios objetivo.
 
 **Listado de preguntas Segmento Objetivo 1 – Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
@@ -436,43 +436,42 @@ El entrevistado, un médico encargado del control y seguimiento de pacientes, de
 
 
 
-### 2.2.3. Análisis de Entrevistas - ADRI
+### 2.2.3. Análisis de Entrevistas.
+#### Análisis del Segmento: Encargados de Adultos Mayores que Necesitan Monitoreo Continuo de Signos Vitales
 
-## Análisis del Segmento: Encargados de Adultos Mayores que Necesitan Monitoreo Continuo de Signos Vitales
-
-### 1. Características Objetivas:
+1. Características Objetivas:
 - **Frustración por Falta de Tecnología:** El 70% de los encargados se siente frustrado por la falta de tecnología adecuada para el monitoreo continuo de signos vitales y el cuidado integral.
 - **Desafíos con el Avance Tecnológico:** El 65% de los encargados reporta dificultades debido al rápido avance tecnológico, que supera la capacidad de adaptación del personal e instituciones.
 - **Aumento en la Demanda de Cuidado:** El 80% de los encargados observa un aumento en la demanda de cuidados para adultos mayores, incrementando la presión sobre los servicios.
 - **Limitación en el Monitoreo Continuo:** El 75% de los encargados menciona que la tecnología actual solo permite monitoreo momentáneo, lo que limita la capacidad de ofrecer un cuidado 24/7.
 
-### 2. Características Subjetivas:
+2. Características Subjetivas:
 - **Sentimiento de Inadecuación:** El 70% de los encargados siente que las limitaciones tecnológicas afectan la calidad del cuidado, generando una percepción de insuficiencia.
 - **Frustración con la Brecha Tecnológica:** El 68% de los encargados está frustrado por la falta de herramientas que satisfagan las necesidades crecientes de los pacientes adultos mayores.
 
-### Conclusión:
+Conclusión:
 Los encargados de adultos mayores enfrentan frustración y desafíos debido a la falta de tecnología adecuada, el rápido avance tecnológico y la creciente demanda de cuidados. La necesidad de soluciones tecnológicas avanzadas para el monitoreo continuo es evidente para mejorar la calidad del cuidado y atender las expectativas del segmento.
 
 ---
 
-## Análisis del Segmento Objetivo: Médicos Encargados del Control y Seguimiento de Pacientes
+#### Análisis del Segmento Objetivo: Médicos Encargados del Control y Seguimiento de Pacientes
 
-### 1. Características Objetivas:
+1. Características Objetivas:
 - **Importancia de la Organización Eficaz:** El 80% de los médicos coinciden en que una organización eficiente es crucial para mejorar la calidad de la atención al paciente.
 - **Valoración de la Digitalización:** El 75% de los médicos aprecia las herramientas de software y la digitalización de historias clínicas por facilitar una atención más integral y eficiente.
 - **Desafíos con el Acceso a Datos Clínicos:** El 70% enfrenta dificultades debido a la falta de tecnología que permita un acceso rápido a exámenes y signos vitales.
 - **Necesidad de Monitoreo en Tiempo Real:** El 65% busca soluciones para mejorar el monitoreo continuo de parámetros críticos como frecuencia cardíaca, saturación de oxígeno, presión arterial y electrocardiograma.
 
-### 2. Características Subjetivas:
+2. Características Subjetivas:
 - **Sentimiento de Ineficiencia:** El 68% siente que la falta de centralización de datos dificulta el seguimiento integral de los pacientes.
 - **Deseo de Mejoras Tecnológicas:** El 60% desea herramientas más avanzadas para un monitoreo continuo y centralizado que mejore la capacidad de respuesta ante cambios en la salud del paciente.
 
-### Conclusión:
+Conclusión:
 Aunque los médicos valoran la digitalización y una buena organización, enfrentan desafíos con el acceso a datos clínicos y la necesidad de monitoreo en tiempo real. Existe una demanda clara por herramientas que ofrezcan una visualización centralizada y un monitoreo continuo, para mejorar la calidad del cuidado y la eficiencia en el seguimiento de pacientes.
 
 
 ## 2.3. Needfinding.
-### 2.3.1. User Persona
+### 2.3.1. User Persona.
 **Segmento 1**: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 ![User persona 1](./user%20personas/user1.png)
 
@@ -523,7 +522,7 @@ En esta parte se muestra el Empathy Mapping de los dos segmentos a los que nos d
 CANVAS
 [https://www.canva.com/design/DAGP9Z9itkE/z4kvDeo5LXRde5e1lWzOrw/edit?utm_content=DAGP9Z9itkE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGP9Z9itkE/z4kvDeo5LXRde5e1lWzOrw/edit?utm_content=DAGP9Z9itkE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
-### 2.3.5. As-is Scenario Mapping. OSCAR
+### 2.3.5. As-is Scenario Mapping.
 En esta sección, se describen las fases clave del proceso actual de monitoreo de signos vitales para nuestros usuarios objetivo, detallando cómo el personal médico afronta las tareas diarias, sus pensamientos y sentimientos en cada etapa. Este análisis nos permitirá identificar de manera más clara las áreas críticas de mejora y qué soluciones son las más adecuadas para optimizar su experiencia y satisfacer sus necesidades de forma eficiente.
 
 **Segmento Pacientes Post-Operatorios y UCI**
@@ -589,7 +588,7 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 | US27   | Funcionalidades con JavaScript           | Como desarrollador de TukunTech, quiero implementar funcionalidades interactivas en el sitio utilizando JavaScript para mejorar la experiencia del usuario. | **Escenario 1**: Dado que un usuario está viendo el carrusel en la página, cuando hace clic en el botón "Siguiente", entonces el carrusel debe mostrar la siguiente imagen o elemento. <br> **Escenario 2**: Dado que un usuario está viendo el carrusel en la página, cuando hace clic en el botón "Anterior", entonces el carrusel debe mostrar la imagen o elemento anterior.   |
 | US28   | Planes                                  | Como desarrollador de TukunTech, quiero implementar la sección Planes en la landing page para que el usuario pueda visualizar y elegir.                 | **Escenario 1**: Dado que un usuario está en la landing page, cuando hace clic en la sección “Planes”, entonces el usuario apreciará los planes que ofrece TukunTech.   |
 
-## 3.3. Impact Mapping
+## 3.3. Impact Mapping.
 ### Segmento 1
 **Encargado de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 
@@ -793,52 +792,52 @@ La optimización para motores de búsqueda (SEO, por sus siglas en inglés) es l
 ```
 
 
-### 4.2.4. Searching Systems
-#### Lista de pacientes
+### 4.2.4. Searching Systems.
+**Lista de pacientes**
 El equipo de médicos podrá buscar pacientes específicos en su base de datos mediante filtros. Esta información se mostrará en lista con datos breves como su nombre, edad y última atención.
 
-#### Gestión de citas
+**Gestión de citas**
 El equipo médico tendrá acceso a funciones para agendar y administrar citas de pacientes a través de herramientas como calendarios y filtros. Las listas se mostrarán en orden cronológico de atención. Si el paciente no puede asistir o se necesita reagendar la cita, el usuario puede hacerlo fácilmente.
 
 En esta sección, describiremos los sistemas de búsqueda implementados en nuestra plataforma para garantizar que los usuarios, tanto el personal médico como los pacientes, puedan acceder de manera eficiente a la información que necesitan, evitando que se sientan abrumados por la cantidad de datos disponibles.
 
 #### Segmento 1: Adultos mayores
 
-##### Historial de signos vitales
+**Historial de signos vitales**
 Los cuidadores de adultos mayores podrán buscar y revisar el historial de sus signos vitales a lo largo del tiempo. Para facilitar la búsqueda, se implementará un sistema de filtrado por fecha, permitiendo seleccionar un rango de tiempo específico (por ejemplo, la última semana, el último mes o un período personalizado). Los datos filtrados se mostrarán en un formato de lista cronológica, con una vista previa de los valores clave. Al hacer clic en un registro, se desplegará información detallada, incluyendo gráficos de tendencias y notas adicionales del personal médico.
 
-##### Consejos de salud personalizados
+**Consejos de salud personalizados**
 La sección de consejos de salud personalizada permitirá a los usuarios buscar recomendaciones específicas mediante palabras clave (por ejemplo, "hipertensión", "diabetes", etc.). Los resultados se mostrarán categorizados por tópicos relevantes, y los usuarios podrán ordenar las recomendaciones por fecha de publicación o relevancia. Cada entrada mostrará un resumen inicial, con la opción de expandir para ver el contenido completo.
 
 #### Segmento 2: Pacientes postoperatorios
 
-##### Panel de monitoreo de pacientes
+**Panel de monitoreo de pacientes**
 Los profesionales de la salud podrán utilizar una barra de búsqueda para localizar rápidamente a un paciente postoperatorio en particular. Para mejorar la precisión, el sistema ofrecerá filtros avanzados que incluyen el nombre del paciente, su número de identificación y el tipo de cirugía realizada. Los resultados se presentarán en una lista organizada cronológicamente por la fecha de la última intervención. Además, cada entrada mostrará un resumen del estado actual del paciente, con acceso directo a su panel de signos vitales.
 
-##### Alta médica
+**Alta médica**
 Durante el proceso de alta médica, el sistema permitirá buscar y filtrar informes previos del paciente, tales como observaciones médicas y programaciones de citas de seguimiento. Los usuarios podrán utilizar filtros basados en la fecha del informe o el tipo de observación. Los resultados se mostrarán en una lista estructurada, destacando los informes más recientes o relevantes en la parte superior. Esto permitirá al personal médico asegurar que todos los requisitos de seguimiento estén cumplidos antes de proceder con el alta del paciente.
 
 #### Segmento 3: Pacientes en cuidados intensivos
 
-##### Lista de pacientes
+**Lista de pacientes**
 El equipo de médicos podrá buscar pacientes específicos en su base de datos mediante filtros. Esta información se mostrará en lista con datos breves como su nombre, edad y última atención.
 
-##### Monitoreo en tiempo real
+**Monitoreo en tiempo real**
 En la unidad de cuidados intensivos, el personal médico podrá buscar pacientes específicos utilizando una barra de búsqueda. Los resultados estarán organizados jerárquicamente, priorizando aquellos pacientes con signos vitales fuera de los rangos normales o con alertas críticas activas. Además, se incluirá un filtro para clasificar a los pacientes por condición médica o por la gravedad de su estado.
 
 ##### Historial de intervenciones
 Los médicos tendrán acceso a un sistema de búsqueda dentro del historial de intervenciones realizadas en pacientes de cuidados intensivos. Este sistema permitirá filtrar por tipo de intervención, fecha o resultados esperados. Los datos se mostrarán en una lista, con la opción de expandir cada entrada para ver detalles adicionales y notas médicas, facilitando así la revisión de los tratamientos aplicados y la planificación de futuras intervenciones.
 
-#### Funcionalidades compartidas para todos los segmentos
+**Funcionalidades compartidas para todos los segmentos**
 
-##### Centro de ayuda y documentación
+**Centro de ayuda y documentación**
 Para todos los segmentos, se ofrecerá un centro de ayuda con una barra de búsqueda que permite a los usuarios encontrar rápidamente respuestas a preguntas frecuentes y documentación sobre el uso de la plataforma. Los resultados estarán categorizados por tópicos (por ejemplo, "uso de dispositivos", "interpretación de datos", "configuración de alertas"), y se presentarán en orden de relevancia o fecha de actualización.
 
 ---
 
 Este formato asegura que cada segmento objetivo tenga acceso a herramientas de búsqueda adaptadas a sus necesidades específicas, mejorando la experiencia del usuario y facilitando el acceso rápido a información crítica.
 
-### 4.2.5. Navigation Systems. FABIO
+### 4.2.5. Navigation Systems.
 A continuación, se presentarán los sistemas de navegación que facilitarán a nuestros usuarios desplazarse por las diferentes secciones de contenido o información disponibles.
 
 _**Sección Landing Page:**_
@@ -899,8 +898,8 @@ Figma:
 ### 4.3.2. Landing Page Mock-up. 
 ![landing-page-mock-up](./img%20landing%20page%20mock-up/landing.png)
 Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1)
-## 4.4. Web Applications UX/UI Design.
 
+## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 ![1](./imgs%20Landing%20Page%20Wireframe/1.png)
 ![2](./imgs%20Landing%20Page%20Wireframe/2.png)
@@ -909,7 +908,7 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 ![5](./imgs%20Landing%20Page%20Wireframe/5.png)
 ![6](./imgs%20Landing%20Page%20Wireframe/6.png)
 
-### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Wireflow Diagrams.
 **Diagrama 1**
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Pacientes postoperatorios” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
@@ -1011,19 +1010,16 @@ Se evidencia el recorrido para agregar una nota a un paciente:
 ## 4.5. Web Aplications Prototyping.
 A continuación, se describirán los criterios esenciales para las decisiones de interacción en relación con la Arquitectura de la Información de nuestra aplicación. Estos criterios abarcan los elementos de la interfaz y los principios que se aplican a ellos. Es importante destacar que, aunque la estructura general de la  aplicación será consistente, se podrán observar algunas diferencias en los detalles visuales.
 
-Botones / Tarjetas menú principal
-
+**Botones / Tarjetas menú principal**
   Cada segmento objetivo cuenta con su propio menú principal con sus propios botones. Esto se tomó en cuenta debido a las diferentes necesidades que hay entre los 2 segmentos.
 
-Listas
-
+**Listas**
   Hay diversas secciones dentro de la Aplicación Web que utilizan listas, entre ellas están: lista de pacientes, lista de médicos. Para realizar la elección de las siguientes listas nos basamos en lo siguiente:
   -  Principio de las elecciones: Este principio establece que mientras más opciones se presenten al usuario, más difícil será para ellos tomar una decisión rápida y efectiva. Por esta razón, nuestras listas están diseñadas para ofrecer solo la información esencial en cada contexto. Esto facilita la toma de decisiones y        evita que los usuarios se sientan abrumados. 
 
   -  Principio del crecimiento: Este principio se basa en la capacidad de las listas para escalar a medida que la base de datos crece. Hemos diseñado nuestras listas con la flexibilidad de adaptarse a un número creciente de registros sin sacrificar la usabilidad. Esto incluye paginación o carga dinámica de datos a medida       que el usuario se desplaza hacia abajo, asegurando que la aplicación siga siendo ágil y fácil de usar, independientemente de la cantidad de datos que contenga.
 
-Etiquetas
-
+**Etiquetas**
   En nuestra aplicación contamos con etiquetas que apoyan la identificación de secciones específicas dentro de este.
   -  Cada sección/ventana de nuestra aplicación se puede identificar por sí sola, nuestras etiquetas permiten a nuestros usuarios estar correctamente guiados, así mismo sabiendo donde se encuentran y que sigue a continuación
 Menús
@@ -1031,7 +1027,7 @@ Menús
   En nuestra aplicación, los menús están diseñados de acuerdo con las necesidades específicas de los diferentes segmentos de usuarios, como médicos, personal de la clínica, y familiares de los pacientes. Cada segmento cuenta con un menú principal personalizado, que permite una navegación rápida y eficiente hacia las         funciones más relevantes para ellos.
 Menús Personalizados por Segmento de Usuarios
 
-Segmento 1: Encargados de Adultos Mayores
+**Segmento 1:** Encargados de Adultos Mayores
   - Acceso directo a información de salud:
     Los encargados pueden visualizar en tiempo real los signos vitales de sus seres queridos y recibir notificaciones personalizadas.
   - Opciones de comunicación:
@@ -1039,7 +1035,7 @@ Segmento 1: Encargados de Adultos Mayores
   - Navegación simplificada:
     Todo está diseñado para que los usuarios puedan acceder a las funciones clave con facilidad, asegurando una experiencia sin complicaciones.
 
-Segmento 2: Personal Médico y Pacientes Postoperatorios UCI en Clínicas Privadas
+**Segmento 2:** Personal Médico y Pacientes Postoperatorios UCI en Clínicas Privadas
   - Gestión médica integral:
     El menú está optimizado para permitir a los médicos gestionar listas de pacientes, citas, tratamientos y revisar signos vitales de manera rápida y eficiente.
   - Reportes y análisis en tiempo real:
@@ -1050,7 +1046,7 @@ Segmento 2: Personal Médico y Pacientes Postoperatorios UCI en Clínicas Privad
 Acceso al Prototyping 
 [https://www.figma.com/proto/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=13-267&node-type=FRAME&t=c7u8njp8km85e1ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A267](https://www.figma.com/proto/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=13-267&node-type=FRAME&t=c7u8njp8km85e1ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A267)
 
-## 4.6 Domain-Driven Software Architecture
+## 4.6 Domain-Driven Software Architecture.
 ### 4.6.1 Software Architecture Context Diagram. 
 En el presente diagrama se detalla cómo los médicos y enfermeros interactúan con nuestro sistema de software y con sistemas externos, incluyendo:
 
@@ -1067,7 +1063,7 @@ En el presente diagrama se detalla cómo los médicos y enfermeros interactúan 
 A continuación, se mostrará el diagrama de componentes que conforma la arquitectura de nuestro software. Este diagrama proporciona un desglose detallado de los componentes que integran nuestros contenedores, especificando sus funciones, responsabilidades y los aspectos técnicos relacionados con su implementación, así como las tecnologías empleadas en cada uno de ellos.
 ![Components diagram](./img%20components%20diagram/acd.png)
 
-## 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams. 
 ![Class Diagrams](./Software%20Object-Oriented%20Design/Diagram%20class.drawio.png)
 ### 4.7.2. Class Dictionary. 
@@ -1086,12 +1082,12 @@ Tratamientos: Almacena la información relacionada con los tratamientos prescrit
 Exámenes: Es responsable de registrar los exámenes médicos que se realizan a los pacientes. Cada registro de exámenes incluye información sobre el tipo de examen, los resultados, y la fecha en la que se realizó. Los exámenes están vinculados a una consulta específica, lo que permite al sistema rastrear qué exámenes se realizaron durante una consulta y su relevancia para el diagnóstico o tratamiento del paciente.
 
 ## 4.8. Database Design. 
-### 4.8.1. Database Diagram
+### 4.8.1. Database Diagram.
 ![DataBaseDiagram](./img2/data%20base%20diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management. 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration.
 En esta sección se describirán los links de las aplicaciones que fueron utilizadas para el proyecto.  
 Para ello se clasificará en las siguientes secciones:
 
@@ -1118,7 +1114,7 @@ Tiene la función de examinar los artefactos y el comportamiento del software, a
 
 - **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
 
-### 5.1.2 Source Code Management
+### 5.1.2 Source Code Management.
 La gestión de código fuente, también conocida como **SCM** (Source Code Management) en inglés, es una práctica crucial en el desarrollo de software. Su propósito es registrar y controlar las modificaciones que los miembros del equipo hacen en los repositorios de código a lo largo del ciclo de vida del proyecto. Este sistema permite rastrear los cambios introducidos por cada desarrollador, asegurando que todas las contribuciones estén documentadas y gestionadas de manera eficiente. En este caso, utilizaremos **GitHub** como la plataforma para implementar el control de versiones y garantizar una colaboración fluida entre los integrantes del equipo.
 
 **Organización:https://github.com/TukunTech**
@@ -1235,7 +1231,7 @@ Lo que nos redirige al Landing Page desplegado:
 ![landing](Img%20-%20Software%20Deployment%20Configuration/foto%20landing.png)
 
 # 5.2. Landing Page, Services & Applications Implementation.
-### 5.2.1. Sprint 1
+### 5.2.1. Sprint 1.
 #### 5.2.1.1. Sprint Planning 1.
 ![Sprint Planning 1](./img%20sprint%20planning/planning%201.png)
 
@@ -1265,7 +1261,7 @@ En este apartado se presentará un informe de las pruebas efectuadas durante el 
 
 ![Testing Suite Evidence for Sprint Review](./Imgs%20-%20Testing%20Suite%20Evidence%20for%20Sprint%20Review/captura.png)
 
-#### 5.2.1.5 Execution Evidence for Sprint Review. OSCAR
+#### 5.2.1.5 Execution Evidence for Sprint Review.
 En esta sección se abordará el progreso del desarrollo durante el sprint, detallando la ejecución de la aplicación. Se analizará cómo los usuarios han interactuado con la plataforma, incluyendo su experiencia de usuario, comentarios y cualquier inconveniente que hayan encontrado. Además, se resaltan las mejoras implementadas en términos de usabilidad y diseño de la interfaz. Durante este período, también se mostrarán los commits realizados, permitiendo visualizar el avance técnico y las contribuciones del equipo en tiempo real.
 ![Muestra 1](./img-evidence-sprint/Evidence-for-Sprint-Review1.JPG)
 
