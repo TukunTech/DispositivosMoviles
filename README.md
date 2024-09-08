@@ -982,13 +982,13 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 **User Goal**: Como usuario deseo visualizar la lista de médicos en el sistema.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la lista de doctores en el sistema. En el inicio tendrá que seleccionar el botón de “Médicos”, luego se nos mostrará la sección “Doctores” en donde el usuario podrá visualizar la lista de doctores registrados en el sistema.
 
-![Diagrama visualizar la lista de médicos en el sistema](img-diagram-mockupsm/view-lista-medicos.png)
+![Diagrama visualizar la lista de médicos en el sistema](img-diagram-mockups/view-lista-medicos.png)
 
 **Diagrama 9**
 **User Goal**: Como usuario deseo añadir notas al historial de un paciente.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para añadir notas al historial de un paciente. En el inicio tendrá que seleccionar el botón de “Pacientes”, luego se nos mostrará la sección “Lista Pacientes” en donde el usuario podrá visualizar la lista de pacientes registrados en el sistema, deberá seleccionar un paciente y se mostrará la ventana “Historial del Paciente” donde el usuario podrá visualizar la información del paciente, además de añadir una nota en el historial del paciente. Se debe ingresar en el recuadro input y finalmente el usuario debe seleccionar el botón “Guardar”.
 
-![Diagrama añadir notas al historial de un paciente](img-diagram-mockupsm/añadir-notas-paciente.png)
+![Diagrama añadir notas al historial de un paciente](img-diagram-mockups/añadir-notas-paciente.png)
 
 **Diagrama 10**
 **User Goal**: Como usuario deseo recibir notificación de los pacientes en estado crítico.  
@@ -1000,7 +1000,7 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 **User Goal**: Como usuario deseo actualizar la información de un paciente.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para actualizar la información de un paciente. En el inicio tendrá que seleccionar el botón “Pacientes” y visualizará una lista donde se encuentran los pacientes. En esta lista se debe seleccionar un paciente y se mostrará la información de este con su historial. Después se debe seleccionar el botón “Actualizar”, en la ventana emergente actualizar la información y finalmente seleccionar el botón “Actualizar”.
 
-![Diagrama actualizar la información de un paciente](img-diagram-mockupsm/actualizar-datos-paciente.png)
+![Diagrama actualizar la información de un paciente](img-diagram-mockups/actualizar-datos-paciente.png)
 
 ### 4.4.3. s User Flow Diagrams.
 Segmento objetivo 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
