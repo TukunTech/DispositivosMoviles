@@ -87,7 +87,7 @@ Soy estudiante de Ingeniería de Software con habilidades en programación en le
 ![Maraza Pedemonte, Erick](./Nosotros-img/Erick.png)
 
 #### Palomares Chavez, Adriana Giovanna
-Soy Adriana Palomares, tengo 20 años y actualmente estudio Ingeniería de Software en UPC. Me gusta explorar nuevas tecnologías, especialmente lenguajes de programación. También me apasionan los animales, particularmente los perros.
+Soy Adriana Palomares, tengo 21 años y actualmente estudio Ingeniería de Software en UPC en el 5to ciclo. Me gusta explorar nuevas tecnologías, especialmente lenguajes de programación. También me apasionan los animales, particularmente los perros. Me comprometo al trabajo en equipo y la responsabilidad que conlleva este.
 
 ![Palomares Chavez, Adriana Giovanna](./Nosotros-img/Adri.png)
 
