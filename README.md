@@ -907,7 +907,7 @@ Figma:
 [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0 ](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0 )
 
 ### 4.3.2. Landing Page Mock-up. 
-![landing-page-mock-up](./img%20landing%20page%20mock-up/landing.png)
+![landing-page-mock-up](./img%20landing%20page%20mock-up/landing1.png)
 Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1)
 
 ## 4.4. Web Applications UX/UI Design.
