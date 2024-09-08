@@ -689,11 +689,11 @@ Utilizaremos el **patrón Z** para guiar la interacción del usuario de manera e
 
 El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosamente seleccionada para motivar al usuario a seguir interactuando con la plataforma, teniendo en cuenta el contraste adecuado para evitar el cansancio visual de los posibles clientes. Además, utilizaremos **sombras** y **espacios bien definidos** que no solo mejorarán la lectura de la información, sino que también limitarán el contenido para evitar abrumar al usuario. Prestaremos especial atención a la distribución de los espacios para delimitar claramente las áreas, asegurando una experiencia de navegación fluida y agradable. Para ello se emplearán algunos de los siguientes elementos:
 
-![Botones](./web-style-guidelines-img/botones.JPG)
+![Botones](./web-style-guidelines-img/buttons.JPG)
 
-![Cuadros de Seleeción](./web-style-guidelines-img/seleccion.JPG)
+![Cuadros de Seleeción](./web-style-guidelines-img/selection-charts.JPG)
 
-![Elementos Grandes](./web-style-guidelines-img/elem-grandes.JPG)
+![Elementos Grandes](./web-style-guidelines-img/large-elements.JPG)
 
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
