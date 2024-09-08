@@ -663,7 +663,7 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
-Una guía de estilo para sitios web establece un conjunto integral de estándares que aseguran que la identidad de marca de una empresa se refleje en su página web. Además, incluye reglas para elementos visuales, la creación de contenido, mensajes y otros aspectos clave.
+Una guía de estilo para sitios web establece un conjunto integral de estándares que aseguran que la identidad de marca de una empresa se refleje en su LandingPage. Además, incluye reglas para elementos visuales, la creación de contenido, mensajes y otros aspectos clave.
 
 - _**Brand Name**_
 Tras una lluvia de ideas, se decidió colocar Tukun porque es sencillo de recordar y se nos hizo amigable. Así mismo, agregamos tech refiriéndonos a la palabra tecnología en el idioma inglés porque resulta más corto de leer y pronunciar. Juntando ambas palabras, creamos el nombre de nuestra startup. Es fundamental darle importancia a este aspecto para tener un posicionamiento alto frente a la competencia, ya que, de esta manera, nuestro sitio web será más atractivo a vistas de nuestro público objetivo, de modo que sea más probable que adquieran el servicio, es decir, la aplicación.
@@ -672,7 +672,7 @@ A continuación se presenta el logo de TukunTech:
 ![logo](./Imgs%20-%20Guidelines/Logo.png)
 
 - _**Typography**_
-La tipografía juega un papel clave en la organización y estructuración del lenguaje visual en todas las plataformas que se desarrollarán para satisfacer las principales características de la aplicación. Una buena tipografía por sí sola puede definir casi toda la estética de un sitio web y aplicativo móvil. Así mismo, se trata de hacer más llevadero el proceso de diseño y no utilizar elementos que puedan ralentizar la carga de la web. 
+La tipografía juega un papel clave en la organización y estructuración del lenguaje visual en todas las plataformas que se desarrollarán para satisfacer las principales características de la aplicación. Una buena tipografía por sí sola puede definir casi toda la estética de un sitio web y aplicación móvil. Así mismo, se trata de hacer más llevadero el proceso de diseño y no utilizar elementos que puedan ralentizar la carga de la web. 
 
 Por todo lo mencionado, se seleccionó el siguiente tipo de letra:
 
@@ -899,7 +899,7 @@ Para la versión de computadora, se diseñaron ventanas con opciones claramente 
 En esta sección se presentarán los wireframes de la versión de escritorio del Landing Page. Es fundamental identificar claramente los distintos tipos de componentes presentes en los diseños.
 
 - Desktop Web Browser
-  En esta primera parte, se presenta la página de inicio de la plataforma web. Se incluyen botones para que el usuario tenga acceso a otras páginas de nuestro sitio web. En el pie de página, se visualizan las opciones que te llevan a los diversos apartados.
+  En esta primera parte, se presenta la página de inicio de la plataforma web. Se incluyen botones para que el usuario tenga acceso a otras páginas de nuestro sitio web. En el pie de página, se visualizan las opciones que te llevan a los diversas secciones.
 
 ![inicio](./Imgs%20-%20Landing%20Page%20Wireframe/inicio.png)
  
@@ -1024,7 +1024,7 @@ Se evidencia el recorrido para reagendar una cita médica
 Se evidencia el recorrido para agregar una nota a un paciente:
 ![User flow 6](./Imgs%20-%20Web%20Applications%20User%20Flow%20Diagrams/user%20flow%206.png)
 
-## 4.4.2. s Mock-ups.
+## 4.4.2. Mock-ups.
 **Segmento Objetivo Cuidadores de Adultos Mayores**
 
 ![Mock-ups segmento 1](./img-Mock-ups-DataBase/Mokup1.png)
@@ -1286,7 +1286,7 @@ Así mismo, se presenta el Landing Page desplegado en la versión de escritorio.
 ![Evidence for Sprint Review 3](./img-evidence-sprint/Evidence-for-Sprint-Review3.jpg)
 
 ### 5.2.1.4. Testing Suite Evidence for Sprint Review. 
-En este apartado se presentará un informe de las pruebas efectuadas durante el sprint. Se incluirán detalles sobre las pruebas funcionales, de rendimiento y de seguridad realizadas para asegurar la calidad del software. También se mostrarán los resultados obtenidos y se mencionarán las correcciones o mejoras aplicadas a partir de los hallazgos.
+En esta sección se presentará un informe de las pruebas efectuadas durante el sprint. Se incluirán detalles sobre las pruebas funcionales, de rendimiento y de seguridad realizadas para asegurar la calidad del software. También se mostrarán los resultados obtenidos y se mencionarán las correcciones o mejoras aplicadas a partir de los hallazgos.
 
 ![Testing Suite Evidence for Sprint Review](./Imgs%20-%20Testing%20Suite%20Evidence%20for%20Sprint%20Review/captura.png)
 
