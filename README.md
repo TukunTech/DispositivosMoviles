@@ -477,6 +477,7 @@ Aunque los médicos valoran la digitalización y una buena organización, enfren
 
 **Segmento 2**: Personal médico y pacientes postoperatorios UCI de clínicas privadas 
 ![User persona 2](./user%20personas/user3.png)
+
 ### 2.3.2 User Task Matrix
 **Segmento 1**
 
@@ -503,6 +504,16 @@ Aunque los médicos valoran la digitalización y una buena organización, enfren
 | Monitoreo continuo y en tiempo real              | Alta                 | Alta                  | 
 | Actualizar datos clínicos de los pacientes       | Baja                 | Media                 | 
 
+
+| **Tareas**                                       | **Flavio Nicolich**       |                       | 
+| ------------------------------------------------ | -------------------- | --------------------- | 
+|                                                  | **Frecuencia**       | **Importancia**       | 
+| Visualizar signos vitales de pacientes UCI y post operatorios | Alta               | Alta                  | 
+| Recibir alertas en caso de cambios críticos      | Media                | Alta                  | 
+| Agregar notas y observaciones al historial       | Media                | Alta                  | 
+| Revisión de resultados de laboratorio            | Alta                 | Media                 | 
+| Monitoreo continuo y en tiempo real              | Alta                 | Alta                  | 
+| Actualizar datos clínicos de los pacientes       | Baja                 | Media                 | 
 
 ### 2.3.3. User Journey Mapping.
 ### Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales
