@@ -643,6 +643,7 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 | 26    | US26          | Contacto con la Empresa                    | Como desarrollador de TukunTech, quiero crear un formulario de contacto, para que los usuarios puedan comunicarse con la empresa fácilmente.    | 3            |
 | 27    | US27          | Funcionalidades con JavaScript                 | Como desarrollador de TukunTech, quiero implementar funcionalidades interactivas en el sitio utilizando JavaScript, para mejorar la experiencia del usuario.   | 6            |
 | 28    | US28          | Planes                                    | Como desarrollador de TukunTech, quiero implementar la sección Planes en la landing Page, para que el usuario pueda visualizar y elegir.        | 3            |
+| 29    | US29          | Implementación de idioma inglés y español en el Landing Page | Como visitante del sitio web, Quiero visualizar el Landing Page en inglés y español, Para mejorar mi experiencia.   | 2            |
 
 
 # Capítulo IV: Product Design
