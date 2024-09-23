@@ -1106,8 +1106,12 @@ Tratamientos: Almacena la información relacionada con los tratamientos prescrit
 Exámenes: Es responsable de registrar los exámenes médicos que se realizan a los pacientes. Cada registro de exámenes incluye información sobre el tipo de examen, los resultados, y la fecha en la que se realizó. Los exámenes están vinculados a una consulta específica, lo que permite al sistema rastrear qué exámenes se realizaron durante una consulta y su relevancia para el diagnóstico o tratamiento del paciente.
 
 ## 4.8. Database Design. 
+Implementación de la base de datos aplicado a nuestro proyecto 
+
 ### 4.8.1. Database Diagram.
-![DataBaseDiagram](./img-Mock-ups-DataBase/Data_Base_Diagram.png)
+En este apartado se puede visualizar la estructura y las relaciones entre las tablas de la base de datos, lo que permite comprender de manera clara cómo se organiza y conecta la información. Esta representación gráfica es esencial para garantizar la integridad de los datos, ya que facilita la identificación de las claves primarias y foráneas, también se muestran las cardinalidades entre las entidades. Además se ha utilizado la normalización de tablas, esto es clave para mantener la consistencia y evitar redundancias en los datos almacenados
+
+![DatabaseDiagram](./img-Mock-ups-DataBase/database_diagram.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management. 
