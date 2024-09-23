@@ -1111,7 +1111,7 @@ Implementación de la base de datos aplicado a nuestro proyecto
 ### 4.8.1. Database Diagram.
 En este apartado se puede visualizar la estructura y las relaciones entre las tablas de la base de datos, lo que permite comprender de manera clara cómo se organiza y conecta la información. Esta representación gráfica es esencial para garantizar la integridad de los datos, ya que facilita la identificación de las claves primarias y foráneas, también se muestran las cardinalidades entre las entidades. Además se ha utilizado la normalización de tablas, esto es clave para mantener la consistencia y evitar redundancias en los datos almacenados
 
-![DatabaseDiagram](./img-Mock-ups-DataBase/database_diagram.png)
+![DatabaseDiagram](./img-Mock-ups-DataBase/database_diagram.jpeg)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management. 
