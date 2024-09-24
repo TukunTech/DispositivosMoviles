@@ -210,6 +210,8 @@ Sabremos que hemos tenido éxito cuando observemos una reducción significativa 
 - **Visibilidad del Rendimiento del Sistema**: Se proporciona visibilidad completa sobre el rendimiento del sistema, facilitando la toma de decisiones operativas en las clínicas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
+En esta sección, se busca validar el impacto de nuestro sistema de monitoreo de signos vitales basado en IoT en clínicas privadas. Las hipótesis exploran cómo la plataforma puede mejorar la respuesta ante emergencias, aumentar la eficiencia operativa, reducir costos y generar confianza tanto en el personal médico como en los pacientes. Además, evaluamos cómo el modelo de negocio, basado en suscripciones y la integración de hardware, puede generar ingresos recurrentes y fomentar relaciones a largo plazo con clínicas y proveedores de equipos médicos.
+
 *Hypothesis Statement #1*
 
 **Creemos que** lograremos mejorar la rapidez con la que el personal médico puede reaccionar 
@@ -530,6 +532,8 @@ Aunque los médicos valoran la digitalización y una buena organización, enfren
 | Actualizar datos clínicos de los pacientes       | Baja                 | Media                 | 
 
 ### 2.3.3. User Journey Mapping.
+En esta sección, se presenta el mapa de viaje del usuario para el sistema de monitoreo de signos vitales, destacando las interacciones clave del usuario desde la fase de concientización hasta la de recomendación. Se detallan las acciones que realiza el usuario, las experiencias emocionales asociadas en cada etapa y los puntos de contacto clave que facilitan su interacción con el sistema.
+
 ### Segmento 1: Adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 ![Segmento 1](./imgs%20Journey%20Mapping/segmento%201.png)
 ### Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
@@ -1081,7 +1085,9 @@ En el presente diagrama se detalla cómo los médicos y enfermeros interactúan 
 
 
 ### 4.6.2. Software Architecture Container Diagrams.
+En el presente diagrama se describe cómo los médicos y enfermeros interactúan con el sistema de software de TukunTech y varios servicios externos, optimizando la atención y supervisión médica. El sistema permite a los profesionales de la salud monitorear los signos vitales de sus pacientes en tiempo real, utilizando una serie de componentes integrados.
 ![ContainerDiagram](./imgs%20Domain%20Driven%20Design/Software%20Architecture%20Container%20Diagrams.png)
+
 ### 4.6.3. Software Architecture Components Diagrams.
 A continuación, se mostrará el diagrama de componentes que conforma la arquitectura de nuestro software. Este diagrama proporciona un desglose detallado de los componentes que integran nuestros contenedores, especificando sus funciones, responsabilidades y los aspectos técnicos relacionados con su implementación, así como las tecnologías empleadas en cada uno de ellos.
 ![Components diagram](./img%20components%20diagram/acd.png)
