@@ -569,7 +569,6 @@ En Domain-Driven Design (DDD), el concepto de “Ubiquitous Language” se refie
   - **Presión Arterial (Blood Pressure)**
   - **Saturación de Oxígeno (Oxygen Saturation)**
   - **Temperatura Corporal (Body Temperature)**
-- **Dispositivo IoT (IoT Device)**: Equipos conectados (como pulseras inteligentes o sensores) que recopilan datos de los signos vitales del paciente y los envían a la aplicación.
 - **Sesión de Monitoreo (Monitoring Session)**: El periodo de tiempo durante el cual los signos vitales del paciente son recolectados y analizados por el sistema.
 - **Umbral de Alarma (Alarm Threshold)**: Valores límite predefinidos para los signos vitales que, si se exceden, activan una alerta en el sistema.
 
