@@ -1035,11 +1035,11 @@ Se evidencia el recorrido para agregar una nota a un paciente:
 
 En esta sección se presentan los mock-ups de las aplicaciones web, diseñadas específicamente para los segmentos objetivos definidos. Estos mock-ups permiten visualizar la apariencia y disposición de los elementos de la interfaz, facilitando la comprensión del diseño final y su implementación final para el apartado del desarrollo.
 
-**Segmento Objetivo Cuidadores de Adultos Mayores**
+**Segmento Objetivo Cuidadores de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 
 ![Mock-ups segmento 1](./img-Mock-ups-DataBase/Mokup1.png)
 
-**Segmento Objetivo Clínicas u Hospitales**
+**Segmento Objetivo Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas**
 
 ![Mock-ups segmento 2](./img-Mock-ups-DataBase/Mockup2.png)
 
