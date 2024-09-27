@@ -1205,7 +1205,7 @@ Esta herramienta permitió desarrollar el modelo de nuestro proyecto de manera d
 Es una estructura aplicada al desarrollo de software. Se utilizó para el proceso de desarrollo de la aplicación, cada uno de ellos se enfocan en diferentes actividades que tienen lugar durante el proceso.
 
 - **[Github](https://github.com/TukunTech/DesarrolloOP-SW57)**: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git.  
-- **[Visual Studio Code](https://code.visualstudio.com/)**: Es un editor de código fuente desarrollado por Microsoft para Windows, Linux, macOS y Web.  
+- **[Webstorm](https://www.jetbrains.com/webstorm/promo/?source=google&medium=cpc&campaign=AMER_en_AMER_WebStorm_Branded&term=webstorm&content=523833970748&gad_source=1&gclid=Cj0KCQjwr9m3BhDHARIsANut04Y0RqGO8x08l4Ay24BEOZOfibcNhhPtvn_nML5Ie2814li9xFGDnxMaAmCbEALw_wcB)**: Es un IDE profesional JavaScript que es compatible con una amplia gama de tecnologías modernas relacionadas con el lenguaje de programación web.
 - **[SQL Management](https://learn.microsoft.com/es-es/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)**: Es una aplicación utilizada para la gestión y administración de los componentes dentro de SQL Server.  
 - **[HTML](https://www.jetbrains.com/help/webstorm/editing-html-files.html)**: Es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Este lenguaje va a ser utilizado en el presente proyecto.  
 - **[CSS](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)**: Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​ Este lenguaje se utilizará para la implementación del diseño de nuestro proyecto.  
@@ -1338,7 +1338,7 @@ Lo que nos redirige al Landing Page desplegado:
 ![Sprint Planning 1](./img%20sprint%20planning/planning%201.png)
 
 #### 5.2.1.2. Sprint Backlog 1. 
-En esta primera iteración, tuvimos como objetivo implementar el diseño de nuestra Landing Page mediante la utilización de Visual Studio Code. Es decir, todas las secciones deben estar terminadas al finalizar el Sprint, ya sea **About**, **Servicios**, **Noticias** o **Contáctanos**.
+En esta primera iteración, tuvimos como objetivo implementar el diseño de nuestra Landing Page mediante la utilización de Webstorm. Es decir, todas las secciones deben estar terminadas al finalizar el Sprint, ya sea **About**, **Servicios**, **Noticias** o **Contáctanos**.
 
 | **Sprint #** | **Work-Item / Task**  | **Id** | **Title**                           | **Description**                                                | **Estimation (hours)** | **Assigned To** | **Status** |
 |--------------|-----------------------|--------|-------------------------------------|----------------------------------------------------------------|------------------------|-----------------|------------|
