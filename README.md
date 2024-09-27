@@ -1349,19 +1349,19 @@ En esta sección, se redactará el proceso de implementación del software en un
 Para el Landing Page:
 Nuestro equipo de trabajo creó una rama en el repositorio llamada “develop”, en esta pusimos todos los archivos que pertenecieran a la creación del landing page.
 
-![Software Deployment Evidence for Sprint Review (./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/1.png)
+![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/1.png)
 
 Luego, utilizamos “Github Pages”, el servicio de alojamiento de sitio estático de Github, para despegar nuestra Landing Page. 
 
-![Software Deployment Evidence for Sprint Review (./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/2.png)
+![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/2.png)
 
 Seleccionamos la rama previamente creada y desplegamos la página.
 
-![Software Deployment Evidence for Sprint Review (./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/3.png)
+![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/3.png)
 
 Finalmente tenemos el link, el cual nos permitirá visualizar la landing page.
 
-![Software Deployment Evidence for Sprint Review (./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/4.png)
+![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/4.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 Se ofrecerá información detallada sobre la colaboración y la comunicación entre los miembros del equipo de desarrollo a lo largo del sprint. Esto abarcará la coordinación de actividades, la resolución de inconvenientes y la gestión de las tareas asignadas. 
