@@ -177,37 +177,46 @@ Inicialmente, centraremos nuestra atención en los cuidados intensivos y post-op
 
 Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta ante cambios críticos en los signos vitales, un aumento en la satisfacción del personal médico por la facilidad de uso del sistema y una mejora general en la calidad del cuidado proporcionado a los pacientes, medido a través de métricas de rendimiento y feedback de los usuarios.
 #### 1.2.2.2. Lean UX Assumptions
-**Business Outcomes**
+En esta sección se presentan las suposiciones relacionadas con los resultados esperados del sistema de monitoreo continuo de signos vitales basado en IoT. Se dividen en tres categorías: **Business Outcomes**, que abordan los impactos comerciales y la eficiencia operativa; **User Outcomes**, que se centran en cómo los usuarios, como médicos y cuidadores, se beneficiarán del sistema; y **User Outcomes Assumptions**, que analizan las necesidades y comportamientos de los usuarios que sustentan las suposiciones anteriores. Cada categoría busca asegurar que el sistema satisfaga tanto las expectativas comerciales como las de los usuarios.
+# Business Outcomes
 
-- Mejorar la rapidez con la que el personal médico puede reaccionar ante emergencias detectadas por el sistema.
-- Conseguir que las clínicas implementen el sistema de manera continua, integrándose como parte esencial de su proceso de monitoreo.
-- Mantener relaciones a largo plazo con clínicas y proveedores de equipos médicos mediante la satisfacción constante de sus necesidades con el sistema.
-- Generar ingresos recurrentes a través de la venta de suscripciones, servicios y hardware, en colaboración con proveedores de equipos médicos.
-- Ayudar a las clínicas a reducir costos operativos al disminuir la dependencia de la supervisión manual del personal médico.
-- Facilitar la optimización del tiempo del personal médico, permitiéndoles centrarse en tareas críticas al reducir las tareas manuales y repetitivas.
-- Ampliar la presencia del sistema en nuevas áreas geográficas y segmentos del sector de salud, como hogares de personas mayores y proveedores de equipos médicos.
-- Asegurar altos niveles de satisfacción entre clínicas, personal médico y proveedores de equipos, lo que fomentará la lealtad y recomendaciones.
-- Minimizar la cantidad de eventos críticos no detectados a tiempo en clínicas y hogares gracias al monitoreo continuo.
-- Lograr que los pacientes y sus familias confíen en el sistema percibiendo una mejora significativa en la atención médica que reciben.
+## Suposiciones
 
-**Users**
+1. Creemos que al implementar el sistema de monitoreo continuo de signos vitales basado en IoT, podremos reducir el tiempo de respuesta ante emergencias médicas en un 40%.
+2. Creemos que al ofrecer alertas automáticas a los médicos, aumentaremos la eficiencia operativa en las clínicas privadas en un 20%.
+3. Creemos que al integrar nuestra plataforma con los sistemas existentes de las clínicas, incrementaremos la retención de clientes en un 15%.
+4. Creemos que al implementar un sistema de registro y seguimiento de datos históricos de pacientes, podremos mejorar la calidad de atención y personalización del servicio en un 25%.
+5. Creemos que al proporcionar formación y soporte técnico a los médicos y al personal de las clínicas, podremos aumentar la adopción del sistema en un 30%.
 
-- Público adulto mayor o personas con necesidad de monitoreo de signos vitales
-- Clínicas privadas
+# Business Outcomes Assumptions
 
-**User Outcomes**
+## Suposiciones
 
-- **Monitoreo Continuo con Alertas Inmediatas**: Se mejora la seguridad del paciente al proporcionar monitoreo constante y alertas inmediatas en caso de emergencia.
-  
-- **Reducción de Ansiedad Familiar**: Se disminuye la ansiedad asociada con la atención médica mediante el monitoreo continuo y una respuesta médica rápida.
-  
-- **Eficiencia en Tareas Diarias**: Se optimiza la eficiencia en las tareas diarias del personal médico mediante un sistema intuitivo y fácil de usar.
-  
-- **Decisiones Informadas y Oportunas**: Se facilitan decisiones más informadas y oportunas al proporcionar acceso inmediato a datos actualizados.
-  
-- **Valor para Proveedores de Equipos Médicos**: Se incrementa el valor para los proveedores de equipos médicos, lo que fomenta nuevas colaboraciones.
-  
-- **Visibilidad del Rendimiento del Sistema**: Se proporciona visibilidad completa sobre el rendimiento del sistema, facilitando la toma de decisiones operativas en las clínicas.
+1. Creemos que la falta de monitoreo continuo de signos viales en pacientes críticos es un problema que afecta la calidad de atención en las clínicas privadas.
+2. Creemos que las clínicas estarán dispuestas a pagar una suscripción mensual para utilizar un sistema de monitoreo continuo que permita mejorar la atención médica y reducir los costos operativos.
+3. Creemos que el implementar una solución que integre monitoreo en tiempo real con dispositivos IoT, las clínicas podrán ofrecer un servicio más personalizado y eficiente para sus pacientes postoperatorios en UCI.
+4. Creemos que al implementar un sistema de registro y seguimiento de datos históricos de pacientes, podremos mejorar la calidad de atención y personalización del servicio en un 25%.
+5. Creemos que al proporcionar formación y soporte técnico a los médicos y al personal de las clínicas, podremos aumentar la adopción del sistema en un 30%.
+
+# User Outcomes
+
+## Suposiciones
+
+1. Creemos que al ofrecer un sistema que permita monitorear signos vitales en tiempo real, los médicos podrán tomar decisiones más rápidas y precisas en situaciones críticas.
+2. Creemos que al proporcionar una plataforma fácil de usar, los cuidadores de adultos mayores podrán monitorear la salud de sus pacientes de manera eficiente, reduciendo el riesgo de emergencias no atendidas.
+3. Creemos que al permitir acceso remoto a los signos vitales de los pacientes, los médicos podrán realizar evaluaciones a distancia, mejorando la atención sin la necesidad de estar físicamente presentes.
+4. Creemos que al ofrecer reportes y análisis de tendencias de salud, los médicos podrán identificar patrones y prever complicaciones en los pacientes, mejorando así la prevención.
+5. Creemos que al incluir una funcionalidad de comunicación entre médicos y cuidadores, se fomentará una colaboración más efectiva en el manejo de la salud de los pacientes.
+
+# User Outcomes Assumptions
+
+## Suposiciones
+
+1. Creemos que los médicos necesitan un acceso inmediato y constante a los datos de signos vitales para mejorar la toma de decisiones clínicas.
+2. Creemos que los cuidadores de adultos mayores quieren un sistema simple que les permita recibir alertas automáticas sobre cambios en los signos vitales sin tener que supervisar constantemente.
+3. Creemos que los médicos se sienten frustrados con los sistemas actuales de monitoreo manual, que son ineficientes y limitan su capacidad para reaccionar rápidamente ante emergencias.
+4. Creemos que los médicos desean herramientas que les permitan optimizar su tiempo, ya que el aumento de la carga de trabajo limita su capacidad para brindar atención individualizada.
+5. Creemos que los cuidadores de adultos mayores necesitan un sistema confiable que les brinde tranquilidad, sabiendo que recibirán alertas oportunas sobre el estado de salud de sus pacientes.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 En esta sección, se busca validar el impacto de nuestro sistema de monitoreo de signos vitales basado en IoT en clínicas privadas. Las hipótesis exploran cómo la plataforma puede mejorar la respuesta ante emergencias, aumentar la eficiencia operativa, reducir costos y generar confianza tanto en el personal médico como en los pacientes. Además, evaluamos cómo el modelo de negocio, basado en suscripciones y la integración de hardware, puede generar ingresos recurrentes y fomentar relaciones a largo plazo con clínicas y proveedores de equipos médicos.
@@ -491,10 +500,10 @@ Aunque los médicos valoran la digitalización y una buena organización, enfren
 ## 2.3. Needfinding.
 ### 2.3.1. User Persona.
 **Segmento 1**: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
-![User persona 1](./user%20personas/user4.png)
+![User persona 1](./img-user-personas/userpersona2.png)
 
 **Segmento 2**: Personal médico y pacientes postoperatorios UCI de clínicas privadas 
-![User persona 2](./user%20personas/user3.png)
+![User persona 2](./img-user-personas/userpersona1.png)
 
 ### 2.3.2 User Task Matrix
 **Segmento 1**
@@ -588,6 +597,17 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 -**Segmento 2: Cuidadores de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 ![Segmento-2_To-be](./imgs%20Scenario%20Mapping/Segmento%202%20-%20To%20be.png)
 ## 3.2 User Stories 
+ 
+Tras analizar las *Epics* definidas, procedimos a desglosarlas en *User Stories* más detalladas, enfocándonos en cubrir las funcionalidades principales de cada una. Este proceso nos permitió identificar los requisitos específicos del usuario y los casos de uso de cada *Epic*, lo que facilitó la priorización y planificación de las siguientes etapas de desarrollo. Las *User Stories* fueron creadas tomando en cuenta las necesidades funcionales, experiencia de usuario y personalización, asegurando una cobertura completa.
+
+| Epic ID | Título de la Epic                                                                 |
+|---------|-----------------------------------------------------------------------------------|
+| 01      | Funcionalidades de sistema (agendar y agendar, ver lista pacientes y médicos, paneles de monitoreo) |
+| 02      | Personalización y perfil de usuario (actualizar datos paciente, historial)         |
+| 03      | Landing (desarrollo y experiencia de usuario)                                      |
+| 04      | Web Application (desarrollo y experiencia de usuario)                              |
+
+
 | **ID**  | **Título**                               | **Descripción**                                                                                                                                       | **Criterios de Aceptación**                                                                                                                                                   |
 |--------|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | US01   | Visualizar sección de pacientes postoperatorios | Como médico, quiero visualizar la sección de pacientes postoperatorios para ver el estado de los pacientes bajo mi cuidado.                               | **Escenario 1**: Dado que estoy en el panel de control, cuando selecciono la sección de pacientes postoperatorios, entonces puedo ver la lista de pacientes postoperatorios y sus signos vitales. <br> **Escenario 2**: Dado que selecciono un paciente de la lista, cuando hago clic en su nombre, entonces puedo ver detalles específicos de su historial postoperatorio.   |
@@ -916,6 +936,16 @@ Figma:
 [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0 ](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0 )
 
 ### 4.3.2. Landing Page Mock-up. 
+A continuación, se presenta el mockup de la landing page diseñado en Figma, que incluye una estructura clara y amigable. La página está organizada en varias secciones clave:
+
+Inicio: Introduce el propósito principal del sitio, destacando los servicios de monitoreo de salud y cuidados.
+Nosotros: Presenta información sobre la empresa y su equipo profesional.
+Servicios: Detalla los servicios ofrecidos, incluyendo opciones de monitoreo y soporte médico.
+Planes de Membresía: Ofrece diferentes opciones de suscripción para los usuarios.
+Noticias: Muestra actualizaciones y noticias destacadas del sector.
+
+Además, la página permite a los usuarios contactarse fácilmente mediante un formulario en la sección de contacto, facilitando el acceso a la atención personalizada.
+
 ![landing-page-mock-up](./img%20landing%20page%20mock-up/landing1.png)
 Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1)
 
@@ -1086,7 +1116,8 @@ En el presente diagrama se describe cómo los médicos y enfermeros interactúan
 ![ContainerDiagram](./imgs%20Domain%20Driven%20Design/Software%20Architecture%20Container%20Diagrams.png)
 
 ### 4.6.3. Software Architecture Components Diagrams.
-A continuación, se mostrará el diagrama de componentes que conforma la arquitectura de nuestro software. Este diagrama proporciona un desglose detallado de los componentes que integran nuestros contenedores, especificando sus funciones, responsabilidades y los aspectos técnicos relacionados con su implementación, así como las tecnologías empleadas en cada uno de ellos.
+A continuación, se mostrará el diagrama de componentes que conforma la arquitectura de nuestro software. Este diagrama proporciona un desglose detallado de los componentes que integran nuestros contenedores, especificando sus funciones, responsabilidades y los aspectos técnicos relacionados con su implementación, así como las tecnologías empleadas en cada uno de ellos. Además, cada **bounded context** contará con su propio diagrama de componentes, lo que permitirá una mejor comprensión y visualización de la estructura específica de cada contexto.
+
 ![Components diagram](./img%20components%20diagram/acd.png)
 
 ## 4.7. Software Object-Oriented Design.
