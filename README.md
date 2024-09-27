@@ -593,12 +593,13 @@ En Domain-Driven Design (DDD), el concepto de “Ubiquitous Language” se refie
 - **Umbral de Alarma (Alarm Threshold)**: Valores límite predefinidos para los signos vitales que, si se exceden, activan una alerta en el sistema.
 
 ## Capítulo III: Requirements Specification
+
 ### 3.1. To-Be Scenario Mapping. 
 En esta sección, se detallan las fases principales del proceso optimizado de monitoreo de signos vitales utilizando nuestra solución para los usuarios objetivo. Se explica cómo la automatización de las tareas rutinarias cambia la dinámica tanto para los pacientes como para el personal médico, permitiéndoles enfocarse en decisiones basadas en datos en tiempo real. 
 
--**Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas**
+-**Segmento 1: Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas**
 ![Segmento-1_To-be](./imgs%20Scenario%20Mapping/Segmento%201%20-%20To%20be.png)
--**Segmento 2: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
+-**Segmento 2: Cuidadores de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 ![Segmento-2_To-be](./imgs%20Scenario%20Mapping/Segmento%202%20-%20To%20be.png)
 ## 3.2 User Stories 
 | **ID**  | **Título**                               | **Descripción**                                                                                                                                       | **Criterios de Aceptación**                                                                                                                                                   |
