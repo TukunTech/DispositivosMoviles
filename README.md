@@ -1058,7 +1058,9 @@ Acceso al Prototyping
 [https://www.figma.com/proto/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=13-267&node-type=FRAME&t=c7u8njp8km85e1ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A267](https://www.figma.com/proto/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=13-267&node-type=FRAME&t=c7u8njp8km85e1ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A267)
 
 
-Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EdGwgtH9G4tOpbBooX2ZZX8B0dsCl50puKmCJ5ZueRGV5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpDbL3
+Video: [Video de presentación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EdGwgtH9G4tOpbBooX2ZZX8B0dsCl50puKmCJ5ZueRGV5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpDbL3)
+
+Video: [Video de presentación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EboTDvrtPr9GpfgABkbrnOkBSM7xquE58uoDIqR8IBXufw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fT2zDN)
 
 
 ## 4.6 Domain-Driven Software Architecture.
