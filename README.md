@@ -621,6 +621,7 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 | US29   | Implementación de idioma inglés y español en el Landing Page | Como visitante del sitio web, Quiero visualizar el Landing Page en inglés y español, Para mejorar mi experiencia.                 | **Escenario 1**: Dado que un usuario está en la landing page, cuando hace clic en el boton "Translate", entonces el usuario apreciará el contenido del Landing Page en el otro idioma.   |
 
 ## 3.3. Impact Mapping.
+El Impact Mapping es una herramienta estratégica utilizada en el desarrollo de software para visualizar y alinear los objetivos comerciales con las funcionalidades técnicas. A través de esta técnica, se busca identificar y priorizar las áreas de mayor impacto en el proyecto, lo que permite tomar decisiones más informadas sobre dónde enfocar los recursos y cómo maximizar los resultados. En nuestro caso, utilizaremos Impact Mapping para entender cómo nuestras soluciones tecnológicas pueden mejorar el monitoreo de signos vitales en pacientes postoperatorios, adultos mayores y aquellos en cuidados intensivos, alineando estas mejoras con las necesidades y expectativas del personal médico en clínicas privadas.
 ### Segmento 1
 **Encargado de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 
@@ -1065,6 +1066,10 @@ Menús Personalizados por Segmento de Usuarios
 Acceso al Prototyping 
 [https://www.figma.com/proto/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=13-267&node-type=FRAME&t=c7u8njp8km85e1ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A267](https://www.figma.com/proto/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=13-267&node-type=FRAME&t=c7u8njp8km85e1ua-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=13%3A267)
 
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EdGwgtH9G4tOpbBooX2ZZX8B0dsCl50puKmCJ5ZueRGV5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SpDbL3
+
+
 ## 4.6 Domain-Driven Software Architecture.
 ### 4.6.1 Software Architecture Context Diagram. 
 En el presente diagrama se detalla cómo los médicos y enfermeros interactúan con nuestro sistema de software y con sistemas externos, incluyendo:
@@ -1319,10 +1324,29 @@ Valida que se ingresa un correo:
 ![Email2](./Testing%20Suite%20Evidence%20for%20Sprint%20Review/Testing%20Suite%20Evidence%20for%20Sprint%20Review4.png)
 
 #### 5.2.1.5 Execution Evidence for Sprint Review.
-En esta sección se abordará el progreso del desarrollo durante el sprint, detallando la ejecución de la aplicación. Se analizará cómo los usuarios han interactuado con la plataforma, incluyendo su experiencia de usuario, comentarios y cualquier inconveniente que hayan encontrado. Además, se resaltan las mejoras implementadas en términos de usabilidad y diseño de la interfaz. Durante este período, también se mostrarán los commits realizados, permitiendo visualizar el avance técnico y las contribuciones del equipo en tiempo real.
-![Muestra 1](./img-evidence-sprint/Evidence-for-Sprint-Review1.JPG)
+En este primer Sprint del proyecto TukunTech, hemos logrado implementar y desplegar una Landing Page que introduce nuestra plataforma de monitoreo de signos vitales. Utilizando tecnologías clave como HTML, CSS y JavaScript, hemos construido una interfaz sencilla, pero atractiva y funcional, que destaca los beneficios de TukunTech. La estructura de la página fue desarrollada con HTML, los estilos personalizados fueron implementados mediante CSS, y se añadieron interacciones básicas con JavaScript para ofrecer una experiencia de usuario más dinámica. El despliegue de la página se llevó a cabo exitosamente utilizando GitHub Pages, lo que nos permitió tenerla disponible públicamente de forma rápida y eficiente. Este primer Sprint marca el inicio del proyecto, sentando las bases para futuros desarrollos y funcionalidades más avanzadas. A continuación, se presentan capturas de pantalla de las principales vistas creadas, junto con un enlace a un video que muestra la navegación y las funcionalidades básicas implementadas hasta el momento.
+Encabezado (Header): Incluye el logo y el menú de navegación, junto con un título llamativo que comunica de manera clara la propuesta de valor principal de la página.
+Imagen o video principal (Hero): Una imagen o video de alta calidad que acompaña al título para captar la atención visual del usuario y reforzar el mensaje.
 
-![Muestra 2](./img-evidence-sprint/Evidence-for-Sprint-Review2.JPG)
+
+Pie de página (Footer): Contiene enlaces a políticas de privacidad, términos y condiciones, redes sociales, y otra información relevante como datos de contacto.
+
+
+Llamado a la acción (CTA): Un botón o enlace que invita al usuario a realizar una acción clave, como registrarse, comprar, descargar, etc. Suele estar destacado visualmente.
+
+
+Formulario de captura (Lead form): Un formulario sencillo donde el usuario puede dejar sus datos de contacto (como nombre y correo) para obtener más información, suscribirse o descargar algo.
+
+
+Planes o Membresías: Presenta diferentes opciones de precios o niveles de servicio con sus características, permitiendo al usuario comparar y seleccionar el plan que mejor se ajuste a sus necesidades. Incluye botones de acción para facilitar la compra o suscripción.
+
+
+Descripción breve sobre nosotros, así mismo la presentación de cada uno del equipo.
+
+
+Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZiwz8Vm9RtMvlOnevW4KbcB3H1RHFirvFOAEJBKBWsEqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CIO4Rh
+
+
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 Aquí se presentará la documentación relacionada con los servicios de atención médica ofrecidos a través de la plataforma. Esto puede incluir perfiles de profesionales de salud, detalles sobre los paquetes disponibles.
