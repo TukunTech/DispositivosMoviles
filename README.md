@@ -24,7 +24,7 @@
 | Entregable | Fecha       | Participantes                                                                                 | Descripción                        |
 |------------|-------------|----------------------------------------------------------------------------------------------|------------------------------------|
 | TB1        | 07/09/2024  | Bravo Gavilano, Jorge Rafael<br>Maraza Pedemonte, Erick<br>Palomares Chávez, Adriana Giovanna<br>Soto Zorrilla, Oscar Eduardo<br>Nicolich Alvis, Fabio Maurizio | Capítulo I<br>Capítulo II<br>Capítulo III<br>Capítulo IV<br>Capítulo V |
-| TP1        |             |                                                                                              |                                    |
+| TP1        |  27/09/2024 | Bravo Gavilano, Jorge Rafael<br>Maraza Pedemonte, Erick<br>Palomares Chávez, Adriana Giovanna<br>Soto Zorrilla, Oscar Eduardo<br>Nicolich Alvis, Fabio Maurizio | Capítulo I<br>Capítulo II<br>Capítulo III<br>Capítulo IV<br>Capítulo V                                   |
 | TB2        |             |                                                                                              |                                    |
 | TF1        |             |                                                                                              |                                    |
 
