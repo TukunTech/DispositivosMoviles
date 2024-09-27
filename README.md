@@ -1699,9 +1699,6 @@ A continuación se muestra mediante una tabla una lista de todos los endpoints i
 Sintaxis de llamada y acción:
 En este punto se describe cómo realizar las llamadas a cada endpoint, especificando los parámetros que se deben enviar, ejemplos de la solicitud y las posibles respuestas de la API la cual se encuentra desplegada en [Beeceptor](https://beeceptor.com/)
 
-
-#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
-
 En este sprint, el enfoque ha estado completamente en el desarrollo del frontend de la aplicación web. A continuación, se detallan los pasos necesarios para desplegar correctamente este producto digital a partir del repositorio de código fuente, incluyendo la configuración del entorno, la instalación de dependencias, y los comandos para realizar el despliegue satisfactorio de la aplicación web en el entorno de producción.
 ### `/doctors`
 
@@ -1861,6 +1858,25 @@ Acción Post/doctor, se crea un nuevo doctor:
 
 Acción GET, muestra todos los doctores:
 ![GET/doctor](./API/getDoctor.JPG)
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+En este sprint, el enfoque ha estado completamente en el desarrollo del frontend de la aplicación web. A continuación, se detallan los pasos necesarios para desplegar correctamente este producto digital a partir del repositorio de código fuente, incluyendo la configuración del entorno, la instalación de dependencias, y los comandos para realizar el despliegue satisfactorio de la aplicación web en el entorno de producción.
+
+- Se utilizó el comando npm start para iniciar el entorno de desarrollo de la aplicación Angular. Este comando ejecuta el servidor de desarrollo, permitiendo previsualizar la aplicación en tiempo real mientras se realizan modificaciones en el código. Gracias a este proceso, los cambios en los componentes de Angular fueron reflejados automáticamente sin necesidad de recargar manualmente el navegador, facilitando el flujo de trabajo durante el Sprint.
+![npm start](./deployment/1.JPG)
+- Posteriormente, se ejecutó el comando npm run build para generar una versión optimizada de la aplicación Angular lista para producción. Este comando crea una carpeta dist que contiene todos los archivos comprimidos y minificados, mejorando el rendimiento y reduciendo el tiempo de carga en el entorno de producción. Esta versión es la que finalmente se desplegará en el servidor.
+![npm build](./deployment/2.JPG)
+- Generación de carpeta dist
+![dist](./deployment/3.JPG)
+- Se creó e inicializó un nuevo repositorio de GitHub en la carpeta dist/browser, que contiene los archivos generados tras el proceso de compilación (npm run build). Esto permitió gestionar el código optimizado para producción de manera eficiente y mantener un control de versiones del producto final desplegable. Esta acción asegura que el estado de la aplicación en producción esté versionado y fácilmente accesible para futuras actualizaciones o despliegues.
+![github](./deployment/4.JPG)
+- Se modificó el valor del atributo href en el archivo index.html para referenciar correctamente el nombre del repositorio tukuntech-angular. Este ajuste asegura que las rutas relativas dentro de la aplicación funcionen correctamente al desplegarse en GitHub Pages o en otro entorno de producción donde la ruta base esté relacionada con el nombre del repositorio. Esta configuración es crucial para evitar errores de carga de recursos como archivos CSS, JavaScript y otros activos estáticos.
+![href](./deployment/5.JPG)
+![repositorio](./deployment/6.JPG)
+- Se configuró GitHub Pages para desplegar la aplicación desde la rama main del repositorio. Esto permite que la aplicación Angular esté disponible en línea directamente desde GitHub. La configuración se realizó seleccionando la carpeta dist/browser como la fuente de los archivos a servir, lo que asegura que los archivos optimizados para producción se carguen correctamente en el entorno de GitHub Pages, facilitando la publicación de la aplicación.
+![gitHub Pages](./deployment/7.JPG)
+- Finalmente, la aplicación fue desplegada exitosamente en GitHub Pages y ahora está disponible para su acceso público. Gracias a la configuración realizada en la rama main y al uso de la carpeta dist/browser generada durante la compilación, la aplicación se puede acceder en línea, proporcionando una versión optimizada y completamente funcional del proyecto Angular.
+![link](./deployment/8.JPG)
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 En este sprint, el equipo se ha enfocado en el desarrollo del frontend de la aplicación web. Todos los miembros han colaborado en la implementación de las principales vistas y funcionalidades visuales. A continuación, se presentan capturas de los analíticos de colaboración y los commits en GitHub, que reflejan el trabajo realizado por cada miembro en esta área específica del proyecto.
