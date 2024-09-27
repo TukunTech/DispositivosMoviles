@@ -178,29 +178,23 @@ Inicialmente, centraremos nuestra atención en los cuidados intensivos y post-op
 Sabremos que hemos tenido éxito cuando observemos una reducción significativa en el tiempo de respuesta ante cambios críticos en los signos vitales, un aumento en la satisfacción del personal médico por la facilidad de uso del sistema y una mejora general en la calidad del cuidado proporcionado a los pacientes, medido a través de métricas de rendimiento y feedback de los usuarios.
 #### 1.2.2.2. Lean UX Assumptions
 En esta sección se presentan las suposiciones relacionadas con los resultados esperados del sistema de monitoreo continuo de signos vitales basado en IoT. Se dividen en tres categorías: **Business Outcomes**, que abordan los impactos comerciales y la eficiencia operativa; **User Outcomes**, que se centran en cómo los usuarios, como médicos y cuidadores, se beneficiarán del sistema; y **User Outcomes Assumptions**, que analizan las necesidades y comportamientos de los usuarios que sustentan las suposiciones anteriores. Cada categoría busca asegurar que el sistema satisfaga tanto las expectativas comerciales como las de los usuarios.
-# Business Outcomes
-
-## Suposiciones
+## Business Outcomes
 
 1. Creemos que al implementar el sistema de monitoreo continuo de signos vitales basado en IoT, podremos reducir el tiempo de respuesta ante emergencias médicas en un 40%.
 2. Creemos que al ofrecer alertas automáticas a los médicos, aumentaremos la eficiencia operativa en las clínicas privadas en un 20%.
 3. Creemos que al integrar nuestra plataforma con los sistemas existentes de las clínicas, incrementaremos la retención de clientes en un 15%.
-4. Creemos que al implementar un sistema de registro y seguimiento de datos históricos de pacientes, podremos mejorar la calidad de atención y personalización del servicio en un 25%.
-5. Creemos que al proporcionar formación y soporte técnico a los médicos y al personal de las clínicas, podremos aumentar la adopción del sistema en un 30%.
+4. Creemos que al ofrecer un sistema de informes automáticos sobre el estado de salud de los pacientes, podremos mejorar la calidad del cuidado brindado en un 25%.
+5. Creemos que al integrar funcionalidades de análisis predictivo en la plataforma, podremos reducir el número de emergencias inesperadas en un 10%.
 
-# Business Outcomes Assumptions
+## Business Outcomes Assumptions
 
-## Suposiciones
-
-1. Creemos que la falta de monitoreo continuo de signos viales en pacientes críticos es un problema que afecta la calidad de atención en las clínicas privadas.
+1. Creemos que la falta de monitoreo continuo de signos vitales en pacientes críticos es un problema que afecta la calidad de atención en las clínicas privadas.
 2. Creemos que las clínicas estarán dispuestas a pagar una suscripción mensual para utilizar un sistema de monitoreo continuo que permita mejorar la atención médica y reducir los costos operativos.
-3. Creemos que el implementar una solución que integre monitoreo en tiempo real con dispositivos IoT, las clínicas podrán ofrecer un servicio más personalizado y eficiente para sus pacientes postoperatorios en UCI.
-4. Creemos que al implementar un sistema de registro y seguimiento de datos históricos de pacientes, podremos mejorar la calidad de atención y personalización del servicio en un 25%.
-5. Creemos que al proporcionar formación y soporte técnico a los médicos y al personal de las clínicas, podremos aumentar la adopción del sistema en un 30%.
+3. Creemos que al implementar una solución que integre monitoreo en tiempo real con dispositivos IoT, las clínicas podrán ofrecer un servicio más personalizado y eficiente para sus pacientes postoperatorios en UCI.
+4. Creemos que las clínicas valoran la automatización en la generación de informes, ya que permite optimizar el tiempo y esfuerzo del personal médico.
+5. Creemos que las clínicas están interesadas en soluciones que ofrezcan análisis predictivos de salud para mejorar la prevención y la atención temprana de complicaciones.
 
-# User Outcomes
-
-## Suposiciones
+## User Outcomes
 
 1. Creemos que al ofrecer un sistema que permita monitorear signos vitales en tiempo real, los médicos podrán tomar decisiones más rápidas y precisas en situaciones críticas.
 2. Creemos que al proporcionar una plataforma fácil de usar, los cuidadores de adultos mayores podrán monitorear la salud de sus pacientes de manera eficiente, reduciendo el riesgo de emergencias no atendidas.
@@ -208,15 +202,14 @@ En esta sección se presentan las suposiciones relacionadas con los resultados e
 4. Creemos que al ofrecer reportes y análisis de tendencias de salud, los médicos podrán identificar patrones y prever complicaciones en los pacientes, mejorando así la prevención.
 5. Creemos que al incluir una funcionalidad de comunicación entre médicos y cuidadores, se fomentará una colaboración más efectiva en el manejo de la salud de los pacientes.
 
-# User Outcomes Assumptions
-
-## Suposiciones
+## User Outcomes Assumptions
 
 1. Creemos que los médicos necesitan un acceso inmediato y constante a los datos de signos vitales para mejorar la toma de decisiones clínicas.
 2. Creemos que los cuidadores de adultos mayores quieren un sistema simple que les permita recibir alertas automáticas sobre cambios en los signos vitales sin tener que supervisar constantemente.
 3. Creemos que los médicos se sienten frustrados con los sistemas actuales de monitoreo manual, que son ineficientes y limitan su capacidad para reaccionar rápidamente ante emergencias.
 4. Creemos que los médicos desean herramientas que les permitan optimizar su tiempo, ya que el aumento de la carga de trabajo limita su capacidad para brindar atención individualizada.
 5. Creemos que los cuidadores de adultos mayores necesitan un sistema confiable que les brinde tranquilidad, sabiendo que recibirán alertas oportunas sobre el estado de salud de sus pacientes.
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 En esta sección, se busca validar el impacto de nuestro sistema de monitoreo de signos vitales basado en IoT en clínicas privadas. Las hipótesis exploran cómo la plataforma puede mejorar la respuesta ante emergencias, aumentar la eficiencia operativa, reducir costos y generar confianza tanto en el personal médico como en los pacientes. Además, evaluamos cómo el modelo de negocio, basado en suscripciones y la integración de hardware, puede generar ingresos recurrentes y fomentar relaciones a largo plazo con clínicas y proveedores de equipos médicos.
