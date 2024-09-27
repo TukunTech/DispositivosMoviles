@@ -141,8 +141,7 @@ Soy estudiante de Ingeniería de Software, actualmente en mi quinto ciclo. Me co
 
 #### Soto Zorrilla, Oscar Eduardo
 Soy estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas. Me caracterizo por mi adaptabilidad a diversas situaciones y por superar desafíos. Además, tengo conocimientos en C++, HTML, CSS, JavaScript y Python, lo que me permite trabajar en diversos proyectos tecnológicos.
-
-![Soto Zorrilla, Oscar Eduardo](./Nosotros-img/Oscar.jpg)
+![Soto Zorrilla Oscar Eduardo](./Nosotros-img/Oscar1.jpg)
 
 #### Maraza Pedemonte, Erick
 Soy estudiante de Ingeniería de Software con habilidades en programación en lenguajes como C++ y Python. Mi enfoque dedicado a los proyectos que me apasionan me impulsa a explorar nuevas fronteras en mi carrera. Estas habilidades me permiten desarrollar una amplia gama de aplicaciones y soluciones, y estoy comprometido a seguir aprendiendo y aplicando estas habilidades para resolver desafíos creativos en el mundo del desarrollo de software.
@@ -152,7 +151,7 @@ Soy estudiante de Ingeniería de Software con habilidades en programación en le
 #### Palomares Chavez, Adriana Giovanna
 Soy Adriana Palomares, tengo 21 años y actualmente estudio Ingeniería de Software en UPC en el 5to ciclo. Me gusta explorar nuevas tecnologías, especialmente lenguajes de programación. También me apasionan los animales, particularmente los perros. Me comprometo al trabajo en equipo y la responsabilidad que conlleva este.
 
-![Palomares Chavez, Adriana Giovanna](./Nosotros-img/Adri.png)
+![Palomares Chavez, Adriana Giovanna](./Nosotros-img/Adri1.png)
 
 #### Bravo Gavilano, Jorge Rafael
 Estoy actualmente en el quinto ciclo de mi carrera en Ingeniería de Software. Disfruto de jugar videojuegos e ir al gimnasio en mi tiempo libre. Me considero una persona responsable y enfocada en siempre realizar un buen trabajo. Estoy interesado en aprender sobre inteligencia artificial y programación web.
