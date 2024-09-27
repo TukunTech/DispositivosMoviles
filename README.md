@@ -997,16 +997,10 @@ En esta sección, se presentan los wireflow diagramas que ilustran los flujos de
 ![Diagrama añadir notas al historial de un paciente](img-diagram-mockups/diagram9.png)
 
 **Diagrama 10**
-**User Goal**: Como usuario deseo recibir notificación de los pacientes en estado crítico.  
-**Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la notificación de un paciente en estado crítico. En el inicio tendrá que seleccionar el botón “Pacientes UCI” y una vez en este, en la parte superior de la plataforma se visualizarán los pacientes en estado crítico.
-
-![Diagrama notificación de los pacientes en estado crítico](img-diagram-mockups/diagram10.png)
-
-**Diagrama 11**
 **User Goal**: Como usuario deseo actualizar la información de un paciente.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para actualizar la información de un paciente. En el inicio tendrá que seleccionar el botón “Pacientes” y visualizará una lista donde se encuentran los pacientes. En esta lista se debe seleccionar un paciente y se mostrará la información de este con su historial. Después se debe seleccionar el botón “Actualizar”, en la ventana emergente actualizar la información y finalmente seleccionar el botón “Actualizar”.
 
-![Diagrama actualizar la información de un paciente](img-diagram-mockups/diagram11.png)
+![Diagrama actualizar la información de un paciente](img-diagram-mockups/diagram10.png)
 
 ### 4.4.3. s User Flow Diagrams.
 Segmento objetivo 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
