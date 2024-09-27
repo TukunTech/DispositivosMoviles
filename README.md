@@ -1517,31 +1517,8 @@ Network: se muestran los últimos commits efectuados
 En esta sección se presenta el avance del Sprint 2, detallando el progreso en el producto y el trabajo en equipo. Se incluyen el Sprint Planning, Sprint Backlog, evidencias de desarrollo y ejecución para la Sprint Review, documentación de servicios, y reflexiones sobre la colaboración del equipo durante el sprint.
 
 #### 5.2.2.1. Sprint Plannig 2
-
-| **Sprint #** | 2 |
-|--------------|---|
-
-| **Sprint Planning Background** | |
-|-------------------------------|------------------------------------|
-| **Date**                       | 20/09/2025                        |
-| **Time**                       | 03:00 PM                          |
-| **Location**                   | Reunión virtual mediante llamada Discord |
-| **Prepared By**                | Adriana Palomares                 |
-| **Attendees (to planning meeting)** | Rafael Bravo / Fabio Nicolich / Erick Maraza / Oscar Soto |
-
-| **Sprint 2 – 1 Review Summary** | Desarrollo y despliegue del LandingPage. |
-| **Sprint 2 – 1 Retrospective Summary** | Correcciones de errores en la documentación. |
-
-| **Sprint Goal & User Stories** | |
-|-------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Sprint 2 Goal**              | Our focus is on developing the main layout and navigation structure for the medical dashboards.  
-We believe it delivers a clear and intuitive user experience for navigating the platform.  
-This will be confirmed when users can access different sections of the dashboard without encountering navigation errors. |
-
-| **Sprint 2 Velocity**          | 82  |
-| **Sum of Story Points**        | 82  |
-
-
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting. Se comienza con una introducción que describe el enfoque del sprint y las metas principales. A continuación, se presenta un cuadro resumen que organiza la información relevante discutida durante la reunión de planificación del sprint, siguiendo la estructura indicada para proporcionar claridad sobre las tareas y objetivos acordados.
+![SprintPlanning2](./commits/sprint2.JPG)
 
 #### 5.2.2.2. Sprint Backlog 2
 En este sprint, el equipo se enfocará en el desarrollo de la parte frontend de la aplicación web, priorizando la creación y optimización de interfaces de usuario. El objetivo principal es asegurar que los usuarios puedan interactuar de manera intuitiva y eficiente con las funcionalidades básicas del sistema, sentando las bases visuales y de navegación para futuras mejoras. Este trabajo incluye la implementación de elementos clave como formularios, paneles de control y componentes visuales que permitirán una experiencia fluida para el usuario final.
@@ -1648,10 +1625,14 @@ Endpoint Patient:
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+En este sprint, el enfoque ha estado completamente en el desarrollo del frontend de la aplicación web. A continuación, se detallan los pasos necesarios para desplegar correctamente este producto digital a partir del repositorio de código fuente, incluyendo la configuración del entorno, la instalación de dependencias, y los comandos para realizar el despliegue satisfactorio de la aplicación web en el entorno de producción.
+
 
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 En este sprint, el equipo se ha enfocado en el desarrollo del frontend de la aplicación web. Todos los miembros han colaborado en la implementación de las principales vistas y funcionalidades visuales. A continuación, se presentan capturas de los analíticos de colaboración y los commits en GitHub, que reflejan el trabajo realizado por cada miembro en esta área específica del proyecto.
+
+![Team Collaboration Insights during Sprint](./commits/commits1.JPG)
 
 
 
