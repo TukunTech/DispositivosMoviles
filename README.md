@@ -1387,3 +1387,17 @@ Desarrollo para el Sprint 1:
 
 Network: se muestran los últimos commits efectuados
 ![Team Collaboration Insights 3](./Team%20Collaboration%20Insights%20During%20Sprint/Overview.png)
+
+
+
+## Bibliografía:
+
+- Vásquez Lazaro, J. C. (2010). *La Ingeniería Electrónica y el Soporte de los signos vitales en pacientes de unidades de cuidado intensivo*. [Repositorio URP](http://repositorio.urp.edu.pe/handle/20.500.14138/73)
+- Ruiz Sánchez, W. R. (2016). *Redes de sensores inalámbricos enfocadas a la medicina con énfasis en control de los signos vitales en pacientes adultos mayores*. [Repositorio PUCE](https://repositorio.puce.edu.ec/server/api/core/bitstreams/516e58bb-5fa0-4a63-9064-bc7bbd204c4f/content)
+- Quicksand. (s.f.). *Google Fonts*. [Quicksand](https://fonts.google.com/specimen/Quicksand)
+- Atlassian. (s. f.). *Flujo de trabajo de Gitflow* | Atlassian Git Tutorial. [Atlassian](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow#:~:text=%C2%BFQu%C3%A9%20es%20Gitflow%3F,vez%20y%20quien%20lo%20populariz%C3%B3)
+- Conventional commits. (s. f.). *Conventional Commits*. [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- Gothelf, J., & Seiden, J. (s. f.). *Lean UX, 3rd Edition*. O’Reilly Online Learning. [Lean UX 3rd Edition](https://learning.oreilly.com/library/view/lean-ux-3rd/9781098116293/foreword01.html)
+- Preston-Werner, T. (s. f.). *Versionado Semántico 2.0.0*. Semantic Versioning. [Semantic Versioning](https://semver.org/lang/es/)
+- *Domain-Driven Design: Tackling Complexity in the Heart of Software*. (s. f.). O’Reilly Online Learning. [Domain-Driven Design](https://learning.oreilly.com/library/view/domain-driven-design-tackling/0321125215/title.html)
+
