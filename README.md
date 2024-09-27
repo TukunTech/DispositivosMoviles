@@ -210,6 +210,14 @@ En esta sección se presentan las suposiciones relacionadas con los resultados e
 4. Creemos que los médicos desean herramientas que les permitan optimizar su tiempo, ya que el aumento de la carga de trabajo limita su capacidad para brindar atención individualizada.
 5. Creemos que los cuidadores de adultos mayores necesitan un sistema confiable que les brinde tranquilidad, sabiendo que recibirán alertas oportunas sobre el estado de salud de sus pacientes.
 
+### Features Assumptions
+
+1. Creemos que agregar un dashboard centralizado que muestre los signos vitales en tiempo real permitirá a los médicos monitorear el estado de múltiples pacientes a la vez, mejorando la eficiencia en la atención.
+2. Creemos que implementar alertas automáticas basadas en umbrales de signos vitales permitirá a los cuidadores de adultos mayores reaccionar rápidamente ante cambios críticos en los pacientes, sin tener que revisar continuamente el sistema.
+3. Creemos que la función de acceso remoto a los datos de pacientes permitirá a los médicos realizar evaluaciones a distancia, lo que reducirá la necesidad de visitas físicas y optimizará el tiempo del personal médico.
+4. Creemos que agregar un historial clínico digital permitirá a los médicos acceder fácilmente a información previa del paciente, mejorando la precisión en la toma de decisiones médicas y facilitando el seguimiento continuo.
+5. Creemos que la integración de una interfaz intuitiva y simple permitirá a los cuidadores no técnicos utilizar el sistema de monitoreo sin necesidad de entrenamiento avanzado, reduciendo las barreras de adopción tecnológica.
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 En esta sección, se busca validar el impacto de nuestro sistema de monitoreo de signos vitales basado en IoT en clínicas privadas. Las hipótesis exploran cómo la plataforma puede mejorar la respuesta ante emergencias, aumentar la eficiencia operativa, reducir costos y generar confianza tanto en el personal médico como en los pacientes. Además, evaluamos cómo el modelo de negocio, basado en suscripciones y la integración de hardware, puede generar ingresos recurrentes y fomentar relaciones a largo plazo con clínicas y proveedores de equipos médicos.
