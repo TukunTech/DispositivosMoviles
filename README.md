@@ -1703,6 +1703,8 @@ En este punto se describe cómo realizar las llamadas a cada endpoint, especific
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 En este sprint, el enfoque ha estado completamente en el desarrollo del frontend de la aplicación web. A continuación, se detallan los pasos necesarios para desplegar correctamente este producto digital a partir del repositorio de código fuente, incluyendo la configuración del entorno, la instalación de dependencias, y los comandos para realizar el despliegue satisfactorio de la aplicación web en el entorno de producción.
+### `/doctors`
+
 **GET**:  
 Este endpoint devuelve una lista de todos los doctores registrados en el sistema.
 
@@ -1725,8 +1727,140 @@ Este endpoint devuelve una lista de todos los doctores registrados en el sistema
   }
 ]
 ```
+Cuadro GET/doctors obtenido gracias a la documentación mediante OpenApi:
+![GET/doctors](./API/getDoctor1.JPG)
 
 
+**POST**:  
+Este endpoint permite registrar un nuevo doctor en el sistema.
+
+**Sintaxis**:  
+`POST https://tukun-tech1.free.beeceptor.com/api/doctors`
+
+**Cuerpo de la solicitud**:
+
+```json
+{ 
+  "id": "124", 
+  "name": "Jane", 
+  "lastName": "Doe", 
+  "dni": "123456789", 
+  "age": 38, 
+  "cmpCode": "CMP67890", 
+  "nationality": "Peruvian", 
+  "specialization": "Pediatrician", 
+  "contact": "+51 987654321" 
+}
+```
+Cuadro POST/doctors obtenido gracias a la documentación mediante OpenApi:
+![POST/doctors](./API/postDoctor1.JPG)
+**PUT**:  
+Este endpoint actualiza la información de un doctor existente en el sistema utilizando su DNI.
+
+**Sintaxis**:  
+`PUT https://tukun-tech1.free.beeceptor.com/api/doctors/{doctorDni}`  
+**Content-Type**: `application/json`
+
+**Cuerpo de la solicitud**:
+
+```json
+{ 
+  "name": "John", 
+  "lastName": "Smith", 
+  "age": 45, 
+  "specialization": "Surgeon" 
+}
+```
+Cuadro PUT/doctors obtenido gracias a la documentación mediante OpenApi:
+![PUT/doctors](./API/putDoctor1.JPG)
+
+### `/patients`
+**GET**:  
+Este endpoint devuelve una lista de todos los pacientes registrados en el sistema.
+
+**Sintaxis**:  
+`GET https://tukun-tech1.free.beeceptor.com/api/patients`
+
+**Ejemplo**:
+
+```json
+[
+  {
+    "id": "456",
+    "name": "Alice",
+    "lastName": "Johnson",
+    "dni": "987654321",
+    "age": 30,
+    "bloodType": "O+",
+    "nationality": "Peruvian",
+    "noOfPolicies": "3",
+    "insurance": "Pacífico",
+    "bedNumber": "12A",
+    "allergies": "None"
+  }
+]
+```
+Cuadro GET/patients obtenido gracias a la documentación mediante OpenApi:
+![GET/patients](./API/getPatient1.JPG)
+
+**POST**:  
+Este endpoint permite registrar un nuevo paciente en el sistema.
+
+**Sintaxis**:  
+`POST https://tukun-tech1.free.beeceptor.com/api/patients`
+
+**Cuerpo de la solicitud**:
+
+```json
+{
+  "id": "789", 
+  "name": "Bob", 
+  "lastName": "Smith", 
+  "dni": "123456789", 
+  "age": 25, 
+  "bloodType": "A+", 
+  "nationality": "Peruvian", 
+  "noOfPolicies": "2", 
+  "insurance": "Rimac",
+  "bedNumber": "14B", 
+  "allergies": "Peanuts"
+}
+```
+Cuadro POST/patients obtenido gracias a la documentación mediante OpenApi:
+![POST/patients](./API/postPatient1.JPG)
+
+**PUT**:  
+Este endpoint actualiza la información de un paciente existente en el sistema utilizando su DNI.
+
+**Sintaxis**:  
+`PUT https://tukun-tech1.free.beeceptor.com/api/patients/{patientDni}`  
+**Content-Type**: `application/json`
+
+**Cuerpo de la solicitud**:
+
+```json
+{ 
+  "name": "Alice", 
+  "lastName": "Johnson", 
+  "age": 31, 
+  "bloodType": "O+"
+}
+```
+Cuadro PUT/patients obtenido gracias a la documentación mediante OpenApi:
+![PUT/patients](./API/putPatient1.JPG)
+
+Ejemplo de interacción con los endpoints desplegado [Beeceptor](https://beeceptor.com/)
+Acción Post/patient, se crea un nuevo paciente:
+![POST/patients](./API/postPatient.JPG)
+
+Acción GET, muestra todos los pacientes:
+![GET/patients](./API/gettPatient.JPG)
+
+Acción Post/doctor, se crea un nuevo doctor:
+![POST/doctor](./API/postDoctor.JPG)
+
+Acción GET, muestra todos los doctores:
+![GET/doctor](./API/getDoctor.JPG)
 
 #### 5.2.2.8.Team Collaboration Insights during Sprint.
 En este sprint, el equipo se ha enfocado en el desarrollo del frontend de la aplicación web. Todos los miembros han colaborado en la implementación de las principales vistas y funcionalidades visuales. A continuación, se presentan capturas de los analíticos de colaboración y los commits en GitHub, que reflejan el trabajo realizado por cada miembro en esta área específica del proyecto.
