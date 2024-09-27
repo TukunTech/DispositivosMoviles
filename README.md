@@ -321,6 +321,7 @@ Obtienen una reducción en la necesidad de supervisión constante por parte del 
 **Con** una solución de monitoreo IoT que garantiza la supervisión y alerta inmediata ante cualquier anomalía.
 
 #### 1.2.2.4. Lean UX Canvas.
+A continuación se presenta el Lean UX Canvas, una herramienta basada en los principios de Lean UX que nos permite comprender los problemas del usuario, la definición de supuestos, la formulación de hipótesis y la planificación de experimentos para validar o refutar estas hipótesis rápidamente. La principal ventaja es la reducción de riesgos en el desarrollo de nuestro producto, ya que permite iterar de manera rápida y efectiva basándonos en la retroalimentación de los usuarios.
 ![Lean Ux](./Imgs%20-%20Lean%20UX%20Canvas/Ux%20canvas.png) 
 [https://miro.com/welcomeonboard/aklDcDhiZEk1dUNITHIyOGlXTFVWbVQxYlhTem43QlhNQk4wMXNnNmgyRWNlQmc4NmQzN0NyRUZKMXRpN2ZXWnwzMDc0NDU3MzY2NzgwNzg1NjA4fDI=?share_link_id=261999757744](https://miro.com/welcomeonboard/aklDcDhiZEk1dUNITHIyOGlXTFVWbVQxYlhTem43QlhNQk4wMXNnNmgyRWNlQmc4NmQzN0NyRUZKMXRpN2ZXWnwzMDc0NDU3MzY2NzgwNzg1NjA4fDI=?share_link_id=261999757744)
 
@@ -332,9 +333,9 @@ Por otro lado, en los estudios realizados por Ruiz (2016), afirma lo siguiente:
 Los pacientes adultos mayores debido a su avanzada edad se le dificulta la realización de visitas periódicas a los centros especializados de salud … por eso surge la necesidad de mantener un correcto monitoreo de los principales signos vitales, esto permitirá mantener controlado al paciente, así evitando futuras complicaciones … además de contar con estadísticas de sus diferentes valores (p. 21).
 
 Por todo lo mencionado, se establecen los dos segmentos objetivos que serán abordados a lo largo del proyecto:
-**Segmento 1:** Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
+**Segmento 1:** Cuidadores de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 
-**Segmento 2:** Personal médico y pacientes postoperatorios UCI de clínicas privadas 
+**Segmento 2:** Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
@@ -359,7 +360,7 @@ Basándonos en las necesidades de la empresa, buscamos estrategias concretas par
 ### 2.2.1. Diseño de entrevistas.
 En esta parte, presentamos las preguntas que hemos diseñado para llevar a cabo las entrevistas con los dos grupos de usuarios a los que nos dirigimos. Es importante mencionar que las preguntas son de formato abierto, lo que nos permitirá recopilar información valiosa para comprender mejor cómo abordar los desafíos que enfrentan nuestros usuarios objetivo.
 
-**Listado de preguntas Segmento Objetivo 1 – Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
+**Listado de preguntas Segmento Objetivo 1 – Cuidadores de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 
 _**Información Personal:**_
 
@@ -373,10 +374,13 @@ _**Personalidad, aspecto emocional y habilidades del usuario:**_
 
 - Define alguna frase o refrán que represente rasgos de su personalidad.
 - Describe algunas cualidades, fortalezas y/o debilidades que considera representativas de su personalidad.
-- ¿Te consideras una persona que disfruta compartir y expresar sus pensamientos con los demás? ¿Cómo valoras la comunicación en tus relaciones personales o con tus médicos?
-- ¿Cómo te sientes cuando escuchas que no hay una buena organización en un servicio médico o de salud? ¿Qué efecto tiene esto en ti?
+- ¿Qué canales digitales de información o entretenimiento suele visualizar?
+- ¿Te consideras una persona que disfruta compartir y expresar sus pensamientos con los demás? ¿Cómo valoras la comunicación en tus relaciones personales?
 - ¿Qué emociones experimentas cuando no logras encontrar un servicio que te ayude a mantener tu salud bajo control? ¿Sueles buscar otras opciones?
-- ¿Te sientes cómodo usando aplicaciones móviles, software o redes sociales para tu salud y bienestar? ¿Te ha resultado complicado aprender a utilizar estas herramientas?
+- ¿Te sientes cómodo usando aplicaciones móviles, software o redes sociales en tu vida cotidiana? ¿Te ha resultado complicado aprender a utilizar estas herramientas?
+- ¿Qué sistema operativo utiliza su celular? ¿IOS o Android?
+- ¿Qué sistema operativo de computadora utiliza? ¿Mac, Windows o Linux?
+- ¿Qué navegador web usa con más frecuencia? ¿Chrome o Edge?
 - ¿Consideras que es esencial que los servicios de salud se adapten a las tecnologías digitales? ¿Qué beneficios crees que esto trae para ti?
 
 _**Evaluación del problema:**_
@@ -389,7 +393,7 @@ _**Evaluación del problema:**_
 - ¿Te interesaría utilizar una aplicación web que te ayude a gestionar mejor la salud de la persona que tenga a cargo? ¿Por qué crees que sería útil?
 - ¿Confías en que el uso de una herramienta digital sería de uso amigable y sencillo de entender para aplicarlo en el servicio brindado? ¿Crees que verías beneficios en la calidad de tu atención en poco tiempo?
 
-**Listado de preguntas Segmento Objetivo 2 – Personal médico y pacientes postoperatorios UCI de clínicas privadas** 
+**Listado de preguntas Segmento Objetivo 2 – Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas** 
 _**Información Personal:**_
 
 - ¿Cuál es su nombre?
@@ -400,13 +404,17 @@ _**Información Personal:**_
 
 _**Personalidad, aspecto emocional y habilidades del usuario:**_
 
--¿Hay algún lema o principio que sientas que refleja tu enfoque profesional en la atención médica?
--¿Podrías describir algunas de las cualidades, fortalezas o áreas de mejora que consideras fundamentales en tu práctica médica?
--¿Te consideras alguien que valora la colaboración y la comunicación abierta con tus colegas? ¿Cómo influyen estas habilidades en tu trabajo diario?
--¿Cómo te afecta escuchar que un servicio de salud no está bien organizado? ¿Qué impacto crees que tiene esto en la calidad del cuidado que proporcionas?
--¿Qué sientes cuando no puedes encontrar un sistema o tecnología que mejore la atención que ofreces a tus pacientes? ¿Sueles explorar alternativas hasta encontrar una solución adecuada?
--¿Te sientes cómodo utilizando aplicaciones y software para mejorar la gestión de la salud de tus pacientes? ¿Has encontrado desafíos en aprender a usar nuevas herramientas tecnológicas en tu práctica?
--¿Piensas que la adopción de tecnologías digitales es crucial para mejorar la atención médica? ¿Qué ventajas ves para ti y tus pacientes al integrar estas tecnologías?
+- ¿Hay algún lema o principio que sientas que refleja tu enfoque profesional en la atención médica?
+- ¿Podrías describir algunas de las cualidades, fortalezas o áreas de mejora que consideras fundamentales en tu práctica médica?
+- ¿Qué canales digitales de información o entretenimiento suele visualizar?
+- ¿Te consideras alguien que valora la colaboración y la comunicación abierta con tus colegas? ¿Cómo influyen estas habilidades en tu trabajo diario?
+- ¿Cómo te afecta escuchar que un servicio de salud no está bien organizado? ¿Qué impacto crees que tiene esto en la calidad del cuidado que proporcionas?
+- ¿Qué sientes cuando no puedes encontrar un sistema o tecnología que mejore la atención que ofrece a tus pacientes? ¿Sueles explorar alternativas hasta encontrar una solución adecuada?
+- ¿Te sientes cómodo utilizando aplicaciones y software para mejorar la gestión de la salud de tus pacientes? ¿Has encontrado desafíos en aprender a usar nuevas herramientas tecnológicas en tu práctica?
+- ¿Qué sistema operativo utiliza su celular? ¿IOS o Android?
+- ¿Qué sistema operativo de computadora utiliza? ¿Mac, Windows o Linux?
+- ¿Qué navegador web usa con más frecuencia? ¿Google Chrome o Microsoft Edge?
+- ¿Piensas que la adopción de tecnologías digitales es crucial para mejorar la atención médica? ¿Qué ventajas ves para ti y tus pacientes al integrar estas tecnologías?
 
 _**Evaluación del problema:**_
 
@@ -417,6 +425,7 @@ _**Evaluación del problema:**_
 - ¿Consideras que una herramienta digital que facilite la monitorización de signos vitales podría mejorar la calidad de la atención que ofreces? ¿Por qué?
 - ¿Te interesaría utilizar una aplicación web para mejorar la gestión de la atención a tus pacientes y la comunicación dentro de tu equipo médico? ¿Qué ventajas crees que podría ofrecer?
 - ¿Confías en que el personal médico adoptaría eficazmente una aplicación web para mejorar la comunicación y el monitoreo de los pacientes? ¿Crees que se verían mejoras en la calidad del cuidado en un corto plazo?
+
 ### 2.2.2. Registro de entrevistas
 Entrevistado 1 #: Segmento 1
 Nombre y Apellidos: Miriam Zorilla
@@ -553,10 +562,10 @@ En esta sección, se presenta el mapa de viaje del usuario para el sistema de mo
 ### 2.3.4. Empathy Mapping.
 En esta parte se muestra el Empathy Mapping de los dos segmentos a los que nos dirigimos. Esta herramienta fue utilizada porque facilita la identificación de nuestro público objetivo, comprendiendo su contexto y necesidades, lo que nos ayuda a ver el mundo desde su perspectiva.
 
-**Segmento 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
+**Segmento 1: Cuidadores de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 ![Segmento 1](./Imgs%20-%20Empathy%20Mappings/Segmento%201.png)
 
-**Segmento 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas**
+**Segmento 2: Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas**
 ![Segmento 2](./Imgs%20-%20Empathy%20Mappings/Segmento%202.png)
 
 CANVAS
@@ -1023,26 +1032,38 @@ En esta sección, se presentan los wireflow diagramas que ilustran los flujos de
 ![Diagrama actualizar la información de un paciente](img-diagram-mockups/diagram10.png)
 
 ### 4.4.3. s User Flow Diagrams.
-Segmento objetivo 1: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
+**Segmento objetivo 1: Cuidadores de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 
-Se evidencia el recorrido para la creación de una cuenta nueva en el sistema 
+User Goal: Como cuidador de un adulto mayor, deseo registrarlo en la Web Application
+
+En el presente User Flow, se evidencia el flujo que seguirá el usuario cuidador de un adulto mayor para registrarlo en el sistema de TukunTech.  Empezará en el login y seleccionará la opción Create an account. A continuación, seleccionará la opción Elders e ingresará los datos del paciente. Después, creará la cuenta y será redireccionado al Login. Por último, al ingresar el correo y la contraseña correcta, ingresará al Main Page de TukunTech, de lo contrario recibirá mensajes de error.
 ![User flow 1](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams1.png)
 
-Se evidencia el recorrido para la edición del perfil del usuario
+User Goal: Como cuidador de un adulto mayor, deseo llenar sus datos personales
+
+El usuario cuidador de un adulto mayor se loguea con su correo y contraseña e ingresa al Main Page de TukunTech. Seguidamente, selecciona un botón del Main Page. Si selecciona el botón Elder Profile, será dirigido al respectivo panel y llenará los datos de su paciente, de lo contrario ingresará a un panel distinto.
 ![User flow 2](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams2.png)
 
-Se evidencia el recorrido para acceder a los contactos de emergencia
+User Goal: Como cuidador de un adulto mayor, deseo enviar un mensaje al soporte técnico de TukunTech
+
+El usuario cuidador de un adulto mayor se loguea con su correo y contraseña e ingresa al Main Page de TukunTech. Seguidamente, selecciona el botón Technical Support del Main Page e ingresa a la respectiva pantalla. A continuación, escribe un mensaje y seleccionada el botón send. Si el mensaje se envía correctamente, se notificará con una pantalla que muestra un check con el mensaje “The information was sent correctly”, de lo contrario se presentará una pantalla con una equis con el mensaje “The information was not sent. Try again.”
 ![User flow 3](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams3.png)
 
-Segmento objetivo 2: Personal médico y pacientes postoperatorios UCI de clínicas privadas
+**Segmento objetivo 2: Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas**
 
-Se evidencia el recorrido para acceder al registro de un nuevo médico
+User Goal: Como parte del personal médico, deseo registrar un paciente postoperado
+
+El usuario, que es parte del personal de salud, se loguea con el correo y la contraseña de la clínica en la opción Clinics e ingresa al Main Page de TukunTech. Seguidamente, selecciona el botón Registration que se encuentra en el menú superior de opciones y lo dirige a la respectiva pantalla. Después, selecciona el botón Patient y lo dirige a una pantalla nueva para completar la información personal del paciente. En caso alguna sección a completar quede sin ser llenada, se presentará un aviso escrito; caso contrario, aparecerá una confirmación del paciente registrado correctamente como aviso.  
 ![user flow 4](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams4.png)
 
-Se evidencia el recorrido para reagendar una cita médica
+User Goal: Como parte del personal médico, deseo reagendar una cita
+
+El usuario, que es parte del personal de salud, se loguea con el correo y la contraseña de la clínica en la opción Clinics e ingresa al Main Page de TukunTech. Seguidamente, selecciona el botón Appointments que se encuentra en el menú superior de opciones y lo dirige a la respectiva pantalla. Después, selecciona el botón Update/Reschedule Appointments y lo dirige a una pantalla nueva para que ingrese el dni del paciente que tiene una cita registrada. Al ingresar dicha información, se presenta la cita con los datos personales del paciente y la fecha en la que fue programado. La pantalla solo permite modificar la fecha programada. En caso se ingrese una fecha anterior a la programada, se mostrará un mensaje con el comentario “la fecha ingresada no es válida”, de lo contrario, la cita será reagendada.  
 ![user flow 5](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams5.png)
 
-Se evidencia el recorrido para agregar una nota a un paciente:
+User Goal: Como parte del personal médico, deseo agregar una nota a un paciente
+
+El usuario, que es parte del personal de salud, se loguea con el correo y la contraseña de la clínica en la opción Clinics e ingresa al Main Page de TukunTech. Seguidamente, selecciona el botón Patients y lo dirige a la respectiva pantalla. Después, selecciona uno de los pacientes y se despliega una pantalla con su información personal y diferentes secciones para añadir notas, como Treatment, Appointments, Medical Prescriptions y Exams. Al seleccionar cualquier botón add dentro de esas secciones, se abre una sección para ingresar la nota. Por último, se selecciona el botón save para guardar el contenido de la nota en la sección correspondiente. Este genera un mensaje de confirmación si se ingresó información, de lo contrario muestra un mensaje de error
 ![User flow 6](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams6.png)
 
 ## 4.4.2. Web Applications Mock-ups
@@ -1122,7 +1143,9 @@ A continuación, se mostrará el diagrama de componentes que conforma la arquite
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams. 
+A continuación se presenta el diagrama de clases de TukunTech, el cual permite una representación visual fundamental en la programación orientada a objetos, utilizada para ilustrar la estructura estática de nuestro sistema. Este tipo de diagrama permite visualizar las clases que componen el sistema, sus atributos, métodos, y las relaciones que existen entre ellas, como asociaciones, herencia y composiciones.
 ![Class Diagrams](./Software%20Object-Oriented%20Design/Diagram%20class.drawio.png)
+
 ### 4.7.2. Class Dictionary. 
 Pacientes: Representa a los pacientes dentro del sistema. Esta clase contiene toda la información personal y médica básica de un paciente, como su nombre, apellido,DNI,edad,género y grupo sanguíneo.Además, almacena información relevante relacionada con el seguro médico incluyendo el número de póliza y detalles de alergias.También se incluyen los datos de contacto de emergencia para que se pueda contactar rápidamente en caso de necesidad
 
@@ -1337,22 +1360,129 @@ Sprint Landing Page:
 
 
 ### 5.2.1.4. Testing Suite Evidence for Sprint Review. 
-En esta sección se realizan las pruebas de funcionalidad de validación de datos. Se realizó la validación de ingreso de caracteres válidos sobre el campo ‘Contacto’, al cual se ingresa clickeando el botón ‘Meeting Us’ de la sección de ‘Servicios’.
+Aquí se proporcionará información sobre las pruebas realizadas durante el Sprint 1.
 
-Sección ‘Name and Lastname:’
-Valida que el campo no esté vacío
-![Name and Lastname](./Testing%20Suite%20Evidence%20for%20Sprint%20Review/Testing Suite Evidence for Sprint Review1.png)
+Las validaciones realizadas en el HTML del formulario incluyen los atributos required en los campos de texto, fecha y correo electrónico, lo que asegura que el usuario no pueda enviar el formulario sin completar estos campos. Además, el campo de correo electrónico (<input type="email">) utiliza el tipo de entrada email, lo cual valida automáticamente que el formato del correo ingresado sea correcto (por ejemplo, debe incluir un "@" y un dominio).
 
-Sección ‘Date:’
-Valida que se ingrese una fecha
-![Date](./Testing%20Suite%20Evidence%20for%20Sprint%20Review/Testing%20Suite%20Evidence%20for%20Sprint%20Review2.png)
+Durante el proceso de desarrollo de software, es crucial tener requisitos claros y asegurarse de que se cumplan para garantizar la calidad del producto final. Para lograrlo, hemos utilizado el lenguaje de especificación de comportamiento Gherkin para definir las funcionalidades clave de nuestra aplicación, basándonos en el Sprint 1 que ya hemos llevado a cabo.
 
-Sección ‘Email:’
-Valida que se ingresa un correo:
-![Email1](./Testing%20Suite%20Evidence%20for%20Sprint%20Review/Testing%20Suite%20Evidence%20for%20Sprint%20Review3.png)
-	
- Valida que se ingresa un arroba en el correo:
-![Email2](./Testing%20Suite%20Evidence%20for%20Sprint%20Review/Testing%20Suite%20Evidence%20for%20Sprint%20Review4.png)
+El siguiente feature file se desarrolla con la User Story 24: Desarrollo de funcionalidad con JavaScrip en la Landing Page ya que esta implementa las funcionalidades interactivas de JavaScript.
+
+Feature: Implementación de funcionalidades interactivas en la Landing Page usando JavaScript
+  Como developer de TukunTech
+  Quiero implementar funcionalidades interactivas en el sitio utilizando JavaScript
+  Para mejorar la experiencia del visitante
+
+
+  Scenario: Implementación de funcionalidad interactiva
+    Dado que el developer necesita implementar interactividad en la Landing Page
+    Cuando el developer añade scripts de JavaScript
+    Entonces las funcionalidades interactivas deben mejorar la experiencia del usuario.
+
+El siguiente feature file se desarrolla con la User Story 19: Desarrollo de estilos CSS del Landing Page ya que esta implementa las funcionalidades interactivas de CSS
+
+Feature: Aplicación de estilos visuales al Landing Page usando CSS
+  Como desarrollador de TukunTech
+  Quiero aplicar estilos visuales al landing page usando CSS
+  Para darle un diseño atractivo y coherente con el mockup
+
+
+  Scenario: Consistencia visual del diseño con el mockup
+    Dado que el landing page debe ser visualmente atractivo
+    Cuando el developer aplique los estilos CSS
+    Entonces los colores, tipografía y diseño deben reflejar el mockup para asegurar consistencia visual.
+
+
+  Scenario: Adaptabilidad del diseño a múltiples dispositivos
+    Dado que el diseño debe adaptarse a diferentes dispositivos
+    Cuando se apliquen los estilos CSS
+    Entonces el landing page debe mantener su apariencia coherente y responsiva en varias resoluciones de pantalla.
+
+El siguiente feature file se desarrolla con la User Story 20: Navegación en la sección Home del landing page ya que esta implementa las funcionalidades de navegación del Landing Page en el Home
+
+Feature: Implementación de una navegación funcional en la sección Home del Landing Page
+  Como developer de TukunTech
+  Quiero implementar una navegación funcional en la sección Home
+  Para permitir a los usuarios desplazarse fácilmente por dicha sección
+
+
+  Scenario: Acceso a la documentación desde el Home
+    Dado que los developers necesitan crear el Home de la Landing Page
+    Cuando los visitantes acceden a la sección Home
+    Entonces deben leer la documentación correctamente.
+
+El siguiente feature file se desarrolla con la User Story 27: Desarrollo de soporte multilingüe en la Landing Page ya que esta implementa el soporte multilingüe en el Landing Page en el Home
+
+Feature: Implementación de soporte multilingüe en la Landing Page
+  Como visitante del sitio web
+  Quiero visualizar el Landing Page en inglés y español
+  Para mejorar mi experiencia
+
+
+  Scenario: Cambio de idioma efectivo en el Landing Page
+    Dado que el visitante necesita visualizar el Landing Page en diferentes lenguajes
+    Cuando necesita cambiar el lenguaje
+    Entonces la funcionalidad de cambio de idioma a Inglés funciona eficazmente.
+
+
+El siguiente feature file se desarrolla con la User Story 18: Desarrollo de estructura HTML del Landing Page ya que esta implementa la estructura básica en el Landing Page haciendo uso de HTML
+
+Feature: Creación de la estructura básica del Landing Page usando HTML
+  Como Developer de TukunTech
+  Quiero crear la estructura básica del landing page usando HTML
+  Para asegurar que las secciones estén correctamente definidas y organizadas
+
+
+  Scenario: Jerarquía de secciones para facilitar la comprensión del contenido
+    Dado que el landing page debe presentar la información de manera accesible
+    Cuando el developer estructure el contenido
+    Entonces la jerarquía de las secciones debe facilitar que los usuarios comprendan de forma intuitiva el flujo de la información.
+
+
+  Scenario: Estructura HTML responsiva para diferentes dispositivos
+    Dado que el landing page debe ser adaptable a diferentes dispositivos
+    Cuando se defina la estructura HTML
+    Entonces el diseño debe permitir que las secciones sean responsivas, manteniendo su claridad y coherencia en cualquier resolución de pantalla.
+
+El siguiente feature file se desarrolla con las User Story 21: Desarrollo a la sección “Nosotros”, User Story 22: Desarrollo a la sección “Servicios”, User Story 23: Desarrollo a la sección “Noticias” y User Story 25: Desarrollo a la sección “Planes”
+ya que esta implementa las funcionalidades de la cabecera de nuestro Landing Page para el recorrido optimizado a traves de está.
+
+Feature: Implementación de un menú de navegación por el Landing Page
+  Como developer de TukunTech
+  Quiero visualizar las diversas secciones del Landing Page
+  Para verificar su correcta funcionalidad
+
+
+  Scenario: Visualizar la sección "Nosotros" en el Landing Page
+    Dado que el developer realiza el desarrollo de la sección "Nosotros"
+    Cuando se programe correctamente la navegación
+    Entonces la navegación en la sección "Nosotros" debe ser funcional y mostrar los datos pertinentes.
+
+
+  Scenario: Visualizar la sección "Servicios" en el Landing Page
+    Dado que el developer realiza la programación de la sección "Servicios"
+    Cuando está concluido
+    Entonces la navegación en la sección no debe mostrar errores
+    Y debe ser intuitiva según el panel del Mock-up de la sección "Servicios".
+
+
+  Scenario: Visualizar la sección "Noticias" en el Landing Page
+    Dado que el developer realiza la programación de la sección "Noticias"
+    Cuando está concluido
+    Entonces la navegación en la sección no debe mostrar errores
+    Y debe ser intuitiva según el panel del Mock-up de la sección "Noticias".
+
+
+  Scenario: Visualizar la sección "Planes" en el Landing Page
+    Dado que el developer realiza la programación de la sección "Planes"
+    Cuando está concluido
+    Entonces la navegación en la sección no debe mostrar errores
+    Y debe mostrar la información pertinente
+    Y debe ser intuitiva según el panel del Mock-up de la sección "Planes".
+
+| Repository                      | Branch       | Commit Id | Commit Message                                         | Commit Message Body | Commited on (Date) |
+|----------------------------------|--------------|-----------|--------------------------------------------------------|---------------------|--------------------|
+| Oscaredu1/DesarrolloOP-SW57      | feature      | 98fa44d   | feat: add HTML structure for the landing page           | empty               | 06/09/2024         |
 
 #### 5.2.1.5 Execution Evidence for Sprint Review.
 En este primer Sprint del proyecto TukunTech, hemos logrado implementar y desplegar una Landing Page que introduce nuestra plataforma de monitoreo de signos vitales. Utilizando tecnologías clave como HTML, CSS y JavaScript, hemos construido una interfaz sencilla, pero atractiva y funcional, que destaca los beneficios de TukunTech. La estructura de la página fue desarrollada con HTML, los estilos personalizados fueron implementados mediante CSS, y se añadieron interacciones básicas con JavaScript para ofrecer una experiencia de usuario más dinámica. El despliegue de la página se llevó a cabo exitosamente utilizando GitHub Pages, lo que nos permitió tenerla disponible públicamente de forma rápida y eficiente. Este primer Sprint marca el inicio del proyecto, sentando las bases para futuros desarrollos y funcionalidades más avanzadas. A continuación, se presentan capturas de pantalla de las principales vistas creadas, junto con un enlace a un video que muestra la navegación y las funcionalidades básicas implementadas hasta el momento.
@@ -1405,13 +1535,20 @@ Finalmente tenemos el link, el cual nos permitirá visualizar la landing page.
 ![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/4.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
-Se ofrecerá información detallada sobre la colaboración y la comunicación entre los miembros del equipo de desarrollo a lo largo del sprint. Esto abarcará la coordinación de actividades, la resolución de inconvenientes y la gestión de las tareas asignadas. 
+Se ofrecerá información detallada sobre la colaboración y la comunicación entre los miembros del equipo de desarrollo a lo largo del sprint. Esto abarcará la coordinación de actividades, la resolución de inconvenientes y la gestión de las tareas asignadas. Las tareas fueron repartidas entre todos los miembros del equipo. A continuación se presenta la análitica general de los commits realizados por los aportantes.
 
 Integrantes y aportantes:
 ![Team Collaboration Insights 1](./Team%20Collaboration%20Insights%20During%20Sprint/Integrantes.png)
 
+Analítica de los commits de los aportantes:
+![Team Collaboration Insights 4](./Team%20Collaboration%20Insights%20During%20Sprint/Contributors.png)
+
 Desarrollo para el Sprint 1: 
 ![Team Collaboration Insights 2](./Team%20Collaboration%20Insights%20During%20Sprint/Network%20Graph.png)
+
+![Team Collaboration Insights 5](./Team%20Collaboration%20Insights%20During%20Sprint/Sprint1.png)
+
+![Team Collaboration Insights 6](./Team%20Collaboration%20Insights%20During%20Sprint/Sprint2.png)
 
 Network: se muestran los últimos commits efectuados
 ![Team Collaboration Insights 3](./Team%20Collaboration%20Insights%20During%20Sprint/Overview.png)
