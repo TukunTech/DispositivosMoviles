@@ -1542,6 +1542,7 @@ This will be confirmed when users can access different sections of the dashboard
 | **Sum of Story Points**        | 82  |
 
 
+
 #### 5.2.2.2. Sprint Backlog 2
 En este sprint, el equipo se enfocará en el desarrollo de la parte frontend de la aplicación web, priorizando la creación y optimización de interfaces de usuario. El objetivo principal es asegurar que los usuarios puedan interactuar de manera intuitiva y eficiente con las funcionalidades básicas del sistema, sentando las bases visuales y de navegación para futuras mejoras. Este trabajo incluye la implementación de elementos clave como formularios, paneles de control y componentes visuales que permitirán una experiencia fluida para el usuario final.
 
@@ -1570,8 +1571,52 @@ En este sprint, el equipo se enfocará en el desarrollo de la parte frontend de 
 En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la aplicación web. El enfoque principal ha sido avanzar en la construcción de las interfaces de usuario y las funcionalidades esenciales para la aplicación, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la navegación, la estructura visual y los componentes interactivos que permitirán una experiencia más robusta para los usuarios.
 A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
 
-
-#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+| **Repository**            | **Branch** | **Commit Id** | **Commit Message**                                        | **Commit Message Body** | **Committed on (Date)** |
+|---------------------------|------------|---------------|----------------------------------------------------------|-------------------------|-------------------------|
+| tukun-vue/oscaredu1226     | main       | ffb6cc8       | first commit                                              | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | a7f4736       | chore: initial commit                                     | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | 146dde1       | chore: install dependencies.                              | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | ab49437       | feat(router): add Vue router configuration                 | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | 0fa4471       | feat(router): configure Vue router and add dependencies in main.js | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | 2044fd0       | feat(home): create Home component                         | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | 1e2998f       | feat(main-view): implemented main view with static content components for home and about us sections | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | e90c92f       | feat(registration): added registration component.          | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | cd600eb       | feat(appointment): create Appointment component            | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | bab1f51       | feat(account): create Account component                    | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | fed124242     | feat(doctors): create Doctors component                    | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | d0b8fc6       | feat(home): add content to Home component                  | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | 3df7373       | feat(appointment): add content to Appointment component    | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | 42a6619       | feat(doctors): add content to Doctors component            | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | 213fdcf       | feat(account-elder): create Account Elder component        | empty                   | 27/09/2024              |
+| tukun-vue/oscaredu1226     | main       | ebf68cb       | feat(registration): implement user registration feature    | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | 5dca2bf       | feat: create new Vue component for elder-profile.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | 1c63a73       | feat: create new Vue component for emergency-numbers.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | 94541c4       | feat: create new Vue component for home-elder.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | 88940f9       | feat: create new Vue component for icu-pat.component.vue   | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | 77dce03       | feat: create new Vue component for login-component.vue     | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | 8d1e517       | feat: create new Vue component for login-elder.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | 2971d79       | feat: create new Vue component for medical-registration.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | 0e34d7d       | feat: create new Vue component for patient-registration.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | a38b1b4       | feat: create new Vue component for patients.component.vue  | empty                   | 27/09/2024              |
+| tukun-vue/rafooo6          | main       | 141cbe8       | feat: create new Vue component for post-pat.component.vue  | empty                   | 27/09/2024              |
+| tukun-vue/AdriPCH          | main       | 832992a       | feat(component): add reminder component                    | empty                   | 27/09/2024              |
+| tukun-vue/AdriPCH          | main       | 7b0f090       | feat(component): add reschedule-appointments component      | empty                   | 27/09/2024              |
+| tukun-vue/AdriPCH          | main       | 755e640       | feat(component): add features in reminder component         | empty                   | 27/09/2024              |
+| tukun-vue/AdriPCH          | main       | 6014084       | feat(component): add features in reschedule appointments component | empty                   | 27/09/2024              |
+| tukun-vue/AdriPCH          | main       | 1a6c771       | add: add router in app.vue                                 | empty                   | 27/09/2024              |
+| tukun-vue/AdriPCH          | main       | 1ac3bfb       | remove: remove style.css                                   | empty                   | 27/09/2024              |
+| tukun-vue/Ericksnpaii       | main       | 9ad01d5       | create: create schedule-appointments.component.vue          | empty                   | 27/09/2024              |
+| tukun-vue/Ericksnpaii       | main       | 3123389       | feat(schedule.appointments.component.vue): update schedule-appointments.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/Ericksnpaii       | main       | d623005       | create: create technical-support.component.vue              | empty                   | 27/09/2024              |
+| tukun-vue/Ericksnpaii       | main       | 340c49d       | feat(technical-support.component.vue): add technical-support.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/Ericksnpaii       | main       | 14b20ed       | create(toolbar-clinic.component.vue): create toolbar-clinic.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/Ericksnpaii       | main       | 668b068       | feat(toolbar-clinic.component.vue): add toolbar-clinic.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/Ericksnpaii       | main       | 895056c       | feat(toolbar-clinic.component.vue): refactor toolbar-clinic.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/Ericksnpaii       | main       | 9364403       | feat(toolbar-clinic.component.vue): refactor toolbar-clinic.component.vue | empty                   | 27/09/2024              |
+| tukun-vue/nicolini03        | main       | cba892a       | create vs-panel component                                   | empty                   | 27/09/2024              |
+| tukun-vue/nicolini03        | main       | 5b83f5e       | create update-appointments component                        | empty                   | 27/09/2024              |
+| tukun-vue/nicolini03        | main       | 99fd234       | create toolbar-elder component                              | empty                   | 27/09/2024              |
+| tukun-vue/nicolini03        | main       | 0c22acb       | create css style                                            | empty                   | 27/09/2024              |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
