@@ -330,10 +330,26 @@ Por todo lo mencionado, se establecen los dos segmentos objetivos que serán abo
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
-¿Cómo identificar a nuestros principales competidores?
-Con este análisis, podemos identificar el FODA, es decir, las fortalezas, oportunidades, debilidades y amenazas de nuestros competidores en el campo del monitoreo de signos vitales en adultos mayores, pacientes postoperatorios, y pacientes en cuidados intensivos. Asimismo, se evalúa su participación en el mercado y se identifican las estrategias que podemos desarrollar para que nuestra plataforma basada en IoT se destaque y obtenga una posición fuerte en el sector.
-Pero, ¿cómo identificamos a nuestros principales competidores? Es necesario estudiar el mercado e identificar las soluciones tecnológicas más utilizadas por hospitales, clínicas, y otras instituciones de salud que priorizan la eficiencia y precisión en el monitoreo de pacientes. Con este análisis, se concluyó que los principales competidores son: aquellos que ofrecen sistemas de monitoreo tradicionales, soluciones fragmentadas que requieren intervención manual, y plataformas que carecen de integración en tiempo real.
-![Análisis competitivo](./imgs%20cuadros/Analisis%20competitivo.png)
+En esta sección podemos identificar el FODA, es decir, las fortalezas, oportunidades, debilidades y amenazas de nuestros competidores en el campo del monitoreo de signos vitales en adultos mayores, pacientes postoperatorios, y pacientes en cuidados intensivos. Asimismo, se evalúa su participación en el mercado y se identifican las estrategias que podemos desarrollar para que nuestra plataforma basada en IoT se destaque y obtenga una posición fuerte en el sector.
+
+| **Categoría**            | **Tukuntech** | **IntelliVue Patient Monitors** | **CARESCAPE Monitor B650** | **Nellcor Bedside SpO2 Patient Monitoring System** |
+|--------------------------|---------------|---------------------------------|----------------------------|---------------------------------------------------|
+| **Perfil Overview**       | Ofrece un monitoreo integrado de todos los dispositivos de forma continua y en tiempo real de signos vitales críticos, utilizando IoT y transmisión de datos a una plataforma centralizada. | Amplia gama de monitores de pacientes con supervisión continua de signos vitales. Sin embargo, no siempre están integrados con IoT para monitoreo remoto en tiempo real. | Monitoreo flexible y escalable en entornos hospitalarios, pero con integración limitada a plataformas de análisis en tiempo real y IoT. | Medtronic ofrece dispositivos de monitoreo de oxigenación en sangre y signos vitales, aunque carece de integración en redes IoT para un análisis centralizado. |
+| **Ventaja competitiva**   | Monitoreo continuo adaptado a adultos mayores, pacientes postoperatorios y en cuidados intensivos, mejorando la atención médica con datos en tiempo real. | Integración avanzada con otros sistemas hospitalarios, alta precisión, y centralización de datos clínicos. | Flexibilidad y conectividad, asegurando flujo de datos entre dispositivos y sistemas clínicos. | Especialización en monitoreo de SpO2, simplicidad de uso y solución asequible para seguimiento de pacientes crónicos. |
+| **Mercado objetivo**      | Adultos mayores, pacientes postoperatorios y en cuidados intensivos. | Hospitales, clínicas y centros de salud que requieren equipos avanzados para cuidados intensivos, quirófanos y urgencias. | Instituciones hospitalarias medianas y grandes, clínicas especializadas y emergencias que buscan monitores con conectividad avanzada. | Clínicas y hospitales que requieren monitoreo de SpO2 para pacientes crónicos o en cuidados prolongados. |
+| **Estrategias de marketing** | Destacar el uso de tecnología IoT y algoritmos avanzados para mejorar la precisión y eficiencia en el monitoreo de pacientes críticos. | Innovación tecnológica, centrada en la precisión y fiabilidad, con campañas enfocadas en la eficiencia del cuidado. | Promoción de la flexibilidad y escalabilidad del B650 en entornos de cuidados intensivos. | Foco en la precisión del monitoreo de SpO2, simplicidad de uso y accesibilidad en entornos con recursos limitados. |
+| **Productos & Servicios** | Monitoreo continuo en tres planes: “Individual Plan”, “Duo Plan” y “Organization Plan”. | Monitores de pacientes, herramientas inalámbricas, conectividad con registros médicos y soporte técnico. | Monitores con integración a sistemas hospitalarios, seguimiento remoto y capacitación. | Monitores de SpO2, sensores de oxígeno, soluciones portátiles y soporte técnico especializado. |
+| **Precios & Costos**      | Modelo de suscripción mensual/anual con tres estructuras de precios según la cantidad de pacientes monitorizados. | Posicionados en el rango alto por su calidad y tecnología avanzada, con modelos escalables. | Precios competitivos pero premium, con tecnología avanzada y soluciones personalizables. | Costos accesibles en comparación con equipos avanzados, competitivos en el segmento de monitores SpO2. |
+| **Canales de distribución** | Distribución a través de plataforma web y digital. | Plataforma web, distribuidores autorizados y partners en más de 100 países. | Red de distribuidores autorizados con presencia internacional. | Distribución a través de socios comerciales y plataformas web especializadas en dispositivos médicos. |
+| **Fortalezas**           | Integración fluida con IoT, monitoreo remoto en tiempo real y centralización de datos. | Alta precisión, integración avanzada con sistemas de salud y soluciones personalizables. | Flexibilidad y fácil integración con equipos hospitalarios, buen soporte técnico. | Especialización en SpO2, simplicidad de uso, accesibilidad y portabilidad. |
+| **Debilidades**          | Alcance limitado a ciertas áreas médicas, depende de la conectividad estable. | Alto costo de adquisición y complejidad de sistemas que requieren formación. | Costos elevados de mantenimiento e integración. | Limitación en capacidades de monitoreo general, en comparación con monitores multifuncionales. |
+| **Oportunidades**        | Expansión a otras áreas médicas y monitoreo domiciliario. | Crecimiento en mercados emergentes y expansión en monitoreo remoto e IA predictiva. | Mayor penetración en hospitales de mercados emergentes y soluciones en la nube. | Aumento de demanda de monitoreo remoto para pacientes crónicos. |
+| **Amenazas**             | Competencia de marcas más asequibles y posibles fallos en conectividad. | Competencia de productos más económicos y rápidos avances tecnológicos. | Competencia con ofertas más asequibles y obsolescencia tecnológica. | Innovaciones de competidores con soluciones más integrales y presión por reducir costos en salud. |
+Este cuadro integra todos los aspectos del análisis competitivo en una única tabla.
+
+Con este análisis, se concluyó que los principales competidores son: aquellos que ofrecen sistemas de monitoreo tradicionales, soluciones fragmentadas que requieren intervención manual, y plataformas que carecen de integración en tiempo real.
+
+
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 Basándonos en las necesidades de la empresa, buscamos estrategias concretas para su adecuado desarrollo y el de sus clientes, promoviendo de esta manera una matriz FODA para realizar un análisis interno y externo efectivo.
@@ -1322,8 +1338,21 @@ Aquí se presentará la documentación relacionada con los servicios de atenció
 ![Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Evidence%20for%20Sprint%20Review.png)
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-En esta sección, se redactará el proceso de implementación del software en un entorno de producción. Asimismo, se mostrarán los hitos clave que servirán para el despliegue del proyecto y la disponibilidad de este para los usuarios finales. 
-![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Configuration%20Management/Software%20Deployment%20Evidence%20for%20Sprint%20Review.png)
+En esta sección, se redactará el proceso de implementación del software en un entorno de producción. Asimismo, se mostrarán los hitos clave que servirán para el despliegue del proyecto y la disponibilidad de este para los usuarios finales.
+
+Para el Landing Page:
+Nuestro equipo de trabajo creó una rama en el repositorio llamada “develop”, en esta pusimos todos los archivos que pertenecieran a la creación del landing page.
+
+foto
+Luego, utilizamos “Github Pages”, el servicio de alojamiento de sitio estático de Github, para despegar nuestra Landing Page. 
+
+foto
+Seleccionamos la rama previamente creada y desplegamos la página.
+
+foto
+
+Finalmente tenemos el link, el cual nos permitirá visualizar la landing page.
+
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 Se ofrecerá información detallada sobre la colaboración y la comunicación entre los miembros del equipo de desarrollo a lo largo del sprint. Esto abarcará la coordinación de actividades, la resolución de inconvenientes y la gestión de las tareas asignadas. 
