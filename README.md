@@ -21,13 +21,76 @@
 
 ### Registro de Versiones del Informe
 
-| Entregable | Fecha       | Participantes                                                                                 | Descripción                        |
-|------------|-------------|----------------------------------------------------------------------------------------------|------------------------------------|
-| TB1        | 07/09/2024  | Bravo Gavilano, Jorge Rafael<br>Maraza Pedemonte, Erick<br>Palomares Chávez, Adriana Giovanna<br>Soto Zorrilla, Oscar Eduardo<br>Nicolich Alvis, Fabio Maurizio | Capítulo I<br>Capítulo II<br>Capítulo III<br>Capítulo IV<br>Capítulo V |
-| TP1        |  27/09/2024 | Bravo Gavilano, Jorge Rafael<br>Maraza Pedemonte, Erick<br>Palomares Chávez, Adriana Giovanna<br>Soto Zorrilla, Oscar Eduardo<br>Nicolich Alvis, Fabio Maurizio | Capítulo I<br>Capítulo II<br>Capítulo III<br>Capítulo IV<br>Capítulo V                                   |
-| TB2        |             |                                                                                              |                                    |
-| TF1        |             |                                                                                              |                                    |
-
+| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
+|----------|-------------|-------------------------------------|-------------------------------------------------------------------------------|
+| TB1      | 27/08/2024  | Palomares Chavez, Adriana Giovanna  | Redacción del startup profile                                                 |
+|          | 06/09/2024  | Palomares Chavez, Adriana Giovanna  | Creación y organización del product backlog                                   |
+|          | 05/09/2024  | Palomares Chavez, Adriana Giovanna  | Implementación del análisis de entrevistas                                    |
+|          | 06/09/2024  | Palomares Chavez, Adriana Giovanna  | Redacción y definición de los Searching Systems                               |
+|          | 04/09/2024  | Palomares Chavez, Adriana Giovanna  | Implementación de los Web Applications Wireflow Diagrams en Figma             |
+|          | 03/09/2024  | Palomares Chavez, Adriana Giovanna  | Creación de los web applications Mock-ups con la herramienta Figma para los segmentos |
+|          | 05/09/2024  | Palomares Chavez, Adriana Giovanna  | Creación del Database diagram con la herramienta SQL Server                   |
+|          | 07/09/2024  | Palomares Chavez, Adriana Giovanna  | Redacción del cuadro de development evidence for Sprint Review evidenciando los commits importantes de github |
+|          | 07/09/2024  | Palomares Chavez, Adriana Giovanna  | Redacción del services documentation evidence for sprint review.              |
+|          | 27/08/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Lean UX Canvas                                                   |
+|          | 03/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del diseño de entrevistas                                            |
+|          | 03/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación de los segmentos objetivos                                           |
+|          | 05/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Empathy Mapping                                                  |
+|          | 05/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación de las General Style Guidelines                                      |
+|          | 05/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Navigation Systems                                               |
+|          | 05/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Landing Page Wireframe                                           |
+|          | 06/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación de los Web Applications User Flow Diagrams                           |
+|          | 07/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Testing Suite Evidence for Sprint Review                         |
+|          | 07/09/2024  | Nicolich Alvis, Fabio Maurizio      | Desarrollo del Team Collaboration Insights during Sprint                      |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de antecedentes y problemática                                     |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de Lean UX assumptions                                             |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de registro de entrevistas                                         |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de User Personas                                                   |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de User stories                                                    |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de labeling systems                                                |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo Landing Page Mock-up                                               |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Web Application prototyping                                                   |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Software Architecture Components Diagrams                                     |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Class dictionary                                                              |
+|          | 07/09/2024  | Maraza Pedemonte, Erick             | Sprint Planning                                                               |
+|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Desarrollo Problem Statements                                                 |
+|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Entrevistas                                                                   |
+|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | As-Is Scenario Mapping                                                        |
+|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Redacción Ubiquitous Language                                                 |
+|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Aplicación Impact Mapping                                                     |
+|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Corrección Impact Map                                                         |
+|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Corrección Sprint Backlog 1                                                   |
+|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Correción Evidence for Sprint review 1                                        |
+|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Lean UX Hypothesis Statements                                                 |
+|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Análisis de Competitivo                                                       |
+|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | User Journey Mapping                                                          |
+|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | To be Scenario Mapping                                                        |
+|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Web Applications Wireframes                                                   |
+|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Software Architecture Container Diagrams                                      |
+|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Software Development Environment Configuration                                |
+|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Source Code Style Guide & Conventions.                                        |
+|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Software Deployment Evidence for Sprint Review                                |
+| TP1      | 22/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Diagram database con la herramienta Lucidchart                 |
+|          | 24/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Product Backlog                                                |
+|          | 24/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Wireflow Diagram Mockup con la herramienta Lucidchart          |
+|          | 25/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Development Evidence for Sprint Review                         |
+|          | 25/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Searching systeam                                              |
+|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del diseño de entrevistas                                          |
+|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del Empathy Map                                                    |
+|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del User Flow                                                      |
+|          | 26/09/2024  | Nicolich Alvis, Fabio Maurizio      | Desarrollo frontend de los “Patients Update Data & History”                   |
+|          | 27/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del Evidence for Sprint Review                                     |
+|          | 27/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del desarrollo del Team Collaboration Insights during Sprint       |
+|          | 24/09/2024  | Bravo Gavilano, Jorge Rafael        | Corrección del formato de Análisis de Competitivo                             |
+|          | 25/09/2024  | Bravo Gavilano, Jorge Rafael        | Corrección del formato de Software Deployment Evidence for Sprint Review      |
+|          | 25/09/2024  | Bravo Gavilano, Jorge Rafael        | Se añadió texto que introduce a cada sub-título                               |
+|          | 26/09/2024  | Bravo Gavilano, Jorge Rafael        | Desarrollo frontend de los “appointments”                                     |
+|          | 25/09/2024  | Maraza Pedemonte, Erick             | Corrección Lean UX assumptions                                                |
+|          | 25/09/2024  | Maraza Pedemonte, Erick             | Corrección user personas                                                      |
+|          | 25/09/2024  | Maraza Pedemonte, Erick             | Agregar descripción Mockup                                                    |
+|          | 26/09/2024  | Maraza Pedemonte, Erick             | Corrección video Prototyping de Web Application                               |
+|          | 26/09/2024  | Maraza Ped
+                                                                                           |                                    |
 ---
 
 ## Student Outcome
