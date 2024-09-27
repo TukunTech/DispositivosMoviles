@@ -656,13 +656,13 @@ El Impact Mapping es una herramienta estratégica utilizada en el desarrollo de 
 ### Segmento 1
 **Encargado de adultos mayores que necesitan un monitoreo continuo de sus signos vitales**
 
-![Impact Map Segmento 1](./img-impact-map/Impact_map_1.png)
+![Impact Map Segmento 1](./img-impact-map/Impact-map-1.png)
 
 
 ### Segmento 2
 **Personal médico y pacientes postoperatorios UCI de clínicas privadas**
 
-![Impact Map Segmento 1](./img-impact-map/Impact_map_2.png)
+![Impact Map Segmento 1](./img-impact-map/Impact-map-2.png)
 
 
 ## 3.4. Product Backlog.
@@ -1665,7 +1665,8 @@ A continuación, se presenta una tabla que documenta los commits relevantes rela
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 En esta sección se presenta un resumen de los logros alcanzados durante este sprint, enfocados en el desarrollo del frontend de la aplicación web. El equipo ha implementado las principales vistas de la interfaz de usuario, estableciendo una base sólida para la navegación y experiencia de usuario. Se han completado componentes clave que permitirán a los usuarios interactuar con las funcionalidades esenciales de la plataforma.
 A continuación, se incluyen capturas de pantalla de las vistas más representativas implementadas hasta el momento, mostrando el progreso visual de la aplicación. Además, se proporciona un enlace a un video que ilustra la navegación lograda y explica en detalle los avances obtenidos durante este sprint.
-
+[Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/ERzkIfRs_7tGvZQ_sulsGioB-08UTBq_O7UGSOnoImD1TA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aYaU9o
+)
 Home: Menú principal donde se muestran los botones que redireccionan a las opciones.
 ![Home](./web-application/home1.JPG)
 
@@ -1679,19 +1680,51 @@ Lista de doctores, según datos en el fake API.
 ![Doctores](./web-application/home4.JPG)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
-En esta sección se detallan los logros alcanzados en la documentación de los Web Services relacionados con los endpoints "doctor" y "patient", que contienen los datos esenciales para las funcionalidades del sistema. A continuación, se presenta una tabla que resume las acciones soportadas por cada endpoint, incluyendo los verbos HTTP (GET, POST, PUT, DELETE), la sintaxis de la llamada, parámetros relevantes, y ejemplos de respuestas.
+Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
 
-Se incluyen capturas de la interacción con los endpoints usando datos de prueba, junto con enlaces a la documentación desplegada o las URLs locales de referencia. Finalmente, se proporciona el URL del repositorio de Web Services y los IDs de los commits relacionados con la documentación generada para este sprint.
+![OpenApi-SwaggerEditor](./API/openApi.JPG)
+[JSON OpneApi](./API/openapi.json)
 
-Endpoint Doctor:
-![Doctor](./API/1.JPG)
+A continuación se muestra mediante una tabla una lista de todos los endpoints implementados durante el Sprint 2, especificando las acciones (GET, POST, PUT) y un enlace a la documentación o a la URL local de cada uno.
 
-Endpoint Patient:
-![Patient](./API/2.JPG)
+| Endpoint               | Acción                  | HTTP  | Enlace                                                                |
+|------------------------|-------------------------|-------|-----------------------------------------------------------------------|
+| `/doctors`             | Obtener todos los doctores | GET   | [https://tukun-tech1.free.beeceptor.com/api/doctors](https://tukun-tech1.free.beeceptor.com/api/doctors) |
+| `/doctors`             | Crear un nuevo doctor    | POST  | [https://tukun-tech1.free.beeceptor.com/api/doctors](https://tukun-tech1.free.beeceptor.com/api/doctors) |
+| `/doctors/{doctorsDni}`| Actualizar un doctor     | PUT   | [https://tukun-tech1.free.beeceptor.com/api/doctors/:doctorDni](https://tukun-tech1.free.beeceptor.com/api/doctors/:doctorDni) |
+| `/patients`            | Obtener todos los pacientes | GET   | [https://tukun-tech1.free.beeceptor.com/api/patients](https://tukun-tech1.free.beeceptor.com/api/patients) |
+| `/patients`            | Crear un nuevo paciente  | POST  | [https://tukun-tech1.free.beeceptor.com/api/patients](https://tukun-tech1.free.beeceptor.com/api/patients) |
+| `/patients/{patientDni}`| Actualizar un paciente   | PUT   | [https://tukun-tech1.free.beeceptor.com/api/patients/:patientDni](https://tukun-tech1.free.beeceptor.com/api/patients/:patientDni) |
+
+Sintaxis de llamada y acción:
+En este punto se describe cómo realizar las llamadas a cada endpoint, especificando los parámetros que se deben enviar, ejemplos de la solicitud y las posibles respuestas de la API la cual se encuentra desplegada en [Beeceptor](https://beeceptor.com/)
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 En este sprint, el enfoque ha estado completamente en el desarrollo del frontend de la aplicación web. A continuación, se detallan los pasos necesarios para desplegar correctamente este producto digital a partir del repositorio de código fuente, incluyendo la configuración del entorno, la instalación de dependencias, y los comandos para realizar el despliegue satisfactorio de la aplicación web en el entorno de producción.
+**GET**:  
+Este endpoint devuelve una lista de todos los doctores registrados en el sistema.
+
+**Sintaxis**:  
+`GET https://tukun-tech1.free.beeceptor.com/api/doctors`
+
+**Ejemplo**:
+```json
+[
+  {
+    "id": "123",
+    "name": "Erick",
+    "lastName": "Maraza",
+    "dni": "987654321",
+    "age": 40,
+    "cmpCode": "CMP12345",
+    "nationality": "Peruvian",
+    "specialization": "Cardiologist",
+    "contact": "+51 123456789"
+  }
+]
+``
 
 
 
