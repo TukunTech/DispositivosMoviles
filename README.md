@@ -747,44 +747,38 @@ El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosam
 
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
+En esta sección se presentan los distintos sistemas de organización que se implementarán tanto para el Landing Page como para las Web Applications, junto con los esquemas de categorización que ayudarán a estructurar la información de manera eficiente. Definir estos sistemas permite establecer claramente cómo se organizará el contenido, facilitando la navegación y mejorando la experiencia del usuario. Además, esto asegura que la arquitectura de la información esté alineada con los objetivos del proyecto, garantizando una estructura coherente y fácil de mantener a lo largo del tiempo.
 
-#### Segmento 1: Monitoreo de adultos mayores
+#### Segmento 1: Cuidadores de adultos mayores
 
 **Jerárquica**:
 
 - **Panel de control de signos vitales**: El usuario podrá acceder a un panel donde se muestran los signos vitales en tiempo real, organizados jerárquicamente. Primero se mostrarán los datos más críticos como la frecuencia cardíaca y la presión arterial, seguidos de otros indicadores como la oxigenación en sangre.
 
-- **Notificaciones**: Los tres segmentos recibirán notificaciones organizadas en un formato matricial, donde se podrán ver alertas, recordatorios y mensajes, categorizados por relevancia.
-
-#### Segmento 2: Personal médico y pacientes postoperatorios en UCI de clínicas privadas.
+#### Segmento 2:  Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas
 
 **Jerárquica**:
+- **Panel de monitoreo (pacientes postoperatorios o cuidados intensivos)**: El equipo médico encargado tendrá acceso a un sistema que proporciona una vista integral de todos los pacientes postoperatorios o de cuidados intensivos y sus signos vitales en tiempo real. Este panel estará diseñado jerárquicamente, destacando de manera prioritaria aquellos con condiciones críticas o signos vitales fuera de los rangos normales. Los pacientes que requieran atención inmediata se mostrarán en la parte superior, facilitando una respuesta rápida y eficiente por parte del personal médico, además de alertar a los médicos de turno. Esta organización permite que los pacientes reciban la atención necesaria.
 
 - **Historial de intervenciones médicas**: Este historial permitirá revisar las intervenciones realizadas del paciente, organizadas por categorías (medicación, procedimientos, ajustes en el soporte vital, etc.).
+
+**Secuencial (step-by-step to accomplish)**:
+- **Alta médica (pacientes postoperatorios o cuidados intensivos)**: Para realizar el proceso de alta de un paciente postoperatorio, se deberá seguir una secuencia de pasos e informes, los cuales incluyen observaciones médicas, programación de citas de seguimiento y entrega de recetas médicas.
+  
+- **Alertas médicas (pacientes postoperatorios o cuidados intensivos)**: El cuerpo médico encargado tendrá acceso al historial de alertas del turno, organizadas por gravedad y cronológicamente.
 
 ### Funcionalidades compartidas
 
 **Jerárquica**:
 
-- **Panel de monitoreo (pacientes postoperatorios o cuidados intensivos)**: El equipo médico encargado tendrá acceso a un sistema que proporciona una vista integral de todos los pacientes postoperatorios o de cuidados intensivos y sus signos vitales en tiempo real. Este panel estará diseñado jerárquicamente, destacando de manera prioritaria aquellos con condiciones críticas o signos vitales fuera de los rangos normales. Los pacientes que requieran atención inmediata se mostrarán en la parte superior, facilitando una respuesta rápida y eficiente por parte del personal médico, además de alertar a los médicos de turno. Esta organización permite que los pacientes reciban la atención necesaria.
-
-- **Alertas médicas (pacientes postoperatorios o cuidados intensivos)**: El equipo médico encargado tendrá acceso al historial de alertas del turno, organizadas por gravedad y cronológicamente.
-
-- **Historial de alertas médicas**: El usuario podrá revisar su historial de alertas emitidas por el sistema, ordenado jerárquicamente por las más recientes.
-
-**Matricial**:
-
 - **Landing Page**: Esta sección será visible para todos los usuarios y presentará la información clave del sistema, como la descripción del servicio, beneficios principales y contacto. La organización será jerárquica, destacando primero la información más relevante y general.
 
 - **Menú de opciones**: Cada segmento objetivo tendrá acceso a un menú principal donde podrán seleccionar las funciones específicas que desean utilizar. Este menú estará categorizado por tópicos, permitiendo un acceso rápido y organizado a las diferentes funcionalidades según la necesidad del usuario.
 
-**Secuencial**:
-
-- **Alta médica (pacientes postoperatorios o cuidados intensivos)**: Para realizar el proceso de alta de un paciente postoperatorio, se deberá seguir una secuencia de pasos e informes, los cuales incluyen observaciones médicas, programación de citas de seguimiento y entrega de recetas médicas.
+**Secuencial (step-by-step to accomplish)**:
+Esta estructura asegura que cada segmento objetivo tenga acceso a la información de manera organizada y adaptada a sus necesidades específicas, facilitando la eficiencia del sistema y la experiencia del usuario.
 
 - **Configuración inicial de la aplicación**: Este proceso será un mini tutorial para el usuario, ayudando a familiarizarse con la app y configurarla. Este proceso se realiza de forma secuencial.
-
-- **Alertas médicas (pacientes postoperatorios o cuidados intensivos)**: El cuerpo médico encargado tendrá acceso al historial de alertas del turno, organizadas por gravedad y cronológicamente.
 
 ---
 
