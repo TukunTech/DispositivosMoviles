@@ -1307,12 +1307,28 @@ En esta primera iteración, tuvimos como objetivo implementar el diseño de nues
 
 
 #### 5.2.1.3. Development Evidence for Sprint Review. 
-En esta sección, se presentará la evidencia del progreso y desarrollo del software. Se incluirán detalles sobre las características específicas que se han implementado durante el sprint actual, destacando cualquier avance significativo en la plataforma.
+En esta sección, se presentará la evidencia del progreso y desarrollo del software. Se incluirán detalles sobre las características específicas que se han implementado durante el sprint actual, destacando cualquier avance significativo en el Landing Page, Web Applications, Web Services.
 
-![Evidence for Sprint Review 1](./imgs%20Software%20Configuration%20Management/Development%20Evidence%20for%20Sprint%20Review.png)
+Sprint Landing Page:
 
-Así mismo, se presenta el Landing Page desplegado en la versión de escritorio.
-![Evidence for Sprint Review 3](./img-evidence-sprint/Evidence-for-Sprint-Review3.jpg)
+| Repository                      | Branch       | Commit Id | Commit Message                                         | Commit Message Body | Commited on (Date) |
+|----------------------------------|--------------|-----------|--------------------------------------------------------|---------------------|--------------------|
+| Oscaredu1/DesarrolloOP-SW57      | feature      | 98fa44d   | feat: add HTML structure for the landing page           | empty               | 06/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | fix/img      | 053477d   | fix(images): update outdated images on product page     | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | chore/img    | eeab6ff   | chore(images): remove deprecated images from assets folder | empty             | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | feature      | 38c9e1e   | feat: add CSS styles for the landing page               | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | feature      | 617af5c   | feat: add project team members photos                   | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | fix          | 2f39717   | fix(images): update outdated images on product page     | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | fix          | 6882ec7   | fix: update content in the News section                 | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | feature      | b2f3438   | feat: add images to the Services section                | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | docs         | 233bdac   | docs: update appointment scheduling text in Services section | empty            | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | chore        | 12683a4   | chore: remove unnecessary photos                       | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | feature      | 55575db   | feat: add CSS styles for the landing page               | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | feature      | 46a0ec4   | feat: implement navigation for Home section on landing page | empty            | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | chore        | cab2225   | chore: reposition landing page files to a new folder    | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | fix          | 613005f   | fix: correct typos in text                             | empty               | 07/09/2024         |
+| Oscaredu1/DesarrolloOP-SW57      | feature      | 33c07b9   | feat(i18n): switch content language from Spanish to English | empty            | 07/09/2024         |
+
 
 ### 5.2.1.4. Testing Suite Evidence for Sprint Review. 
 En esta sección se realizan las pruebas de funcionalidad de validación de datos. Se realizó la validación de ingreso de caracteres válidos sobre el campo ‘Contacto’, al cual se ingresa clickeando el botón ‘Meeting Us’ de la sección de ‘Servicios’.
