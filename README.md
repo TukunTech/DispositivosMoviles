@@ -141,6 +141,7 @@ Soy estudiante de Ingeniería de Software, actualmente en mi quinto ciclo. Me co
 
 #### Soto Zorrilla, Oscar Eduardo
 Soy estudiante de Ingeniería de Software con un enfoque proactivo en la resolución de problemas. Me caracterizo por mi adaptabilidad a diversas situaciones y por superar desafíos. Además, tengo conocimientos en C++, HTML, CSS, JavaScript y Python, lo que me permite trabajar en diversos proyectos tecnológicos.
+
 ![Soto Zorrilla Oscar Eduardo](./Nosotros-img/Oscar1.jpg)
 
 #### Maraza Pedemonte, Erick
