@@ -1031,7 +1031,10 @@ Se evidencia el recorrido para reagendar una cita médica
 Se evidencia el recorrido para agregar una nota a un paciente:
 ![User flow 6](./Imgs%20-%20Web%20Application%20User%20Flow/User-Flow-Diagrams6.png)
 
-## 4.4.2. Mock-ups.
+## 4.4.2. Web Applications Mock-ups
+
+En esta sección se presentan los mock-ups de las aplicaciones web, diseñadas específicamente para los segmentos objetivos definidos. Estos mock-ups permiten visualizar la apariencia y disposición de los elementos de la interfaz, facilitando la comprensión del diseño final y su implementación final para el apartado del desarrollo.
+
 **Segmento Objetivo Cuidadores de Adultos Mayores**
 
 ![Mock-ups segmento 1](./img-Mock-ups-DataBase/Mokup1.png)
