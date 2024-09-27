@@ -656,6 +656,7 @@ El Impact Mapping es una herramienta estratégica utilizada en el desarrollo de 
 
 ![Impact Map Segmento 1](./img-impact-map/Impact_map_1.png)
 
+
 ### Segmento 2
 **Personal médico y pacientes postoperatorios UCI de clínicas privadas**
 
@@ -1201,9 +1202,9 @@ Tiene la función de examinar los artefactos y el comportamiento del software, a
 ### 5.1.2 Source Code Management.
 La gestión de código fuente, también conocida como **SCM** (Source Code Management) en inglés, es una práctica crucial en el desarrollo de software. Su propósito es registrar y controlar las modificaciones que los miembros del equipo hacen en los repositorios de código a lo largo del ciclo de vida del proyecto. Este sistema permite rastrear los cambios introducidos por cada desarrollador, asegurando que todas las contribuciones estén documentadas y gestionadas de manera eficiente. En este caso, utilizaremos **GitHub** como la plataforma para implementar el control de versiones y garantizar una colaboración fluida entre los integrantes del equipo.
 
-**Organización:https://github.com/TukunTech**
+**Organización:[Organisación](https://github.com/TukunTech)**
 
-**Landing Page: https://tukuntech.github.io/DesarrolloOP-SW57/**
+**Landing Page: [LandingPAge](https://tukuntech.github.io/DesarrolloOP-SW57/)**
 
 ![Repositorios](./imgs%20Software%20Configuration%20Management/Source-Code-Management1.JPG)
 
@@ -1488,24 +1489,31 @@ Feature: Implementación de un menú de navegación por el Landing Page
 En este primer Sprint del proyecto TukunTech, hemos logrado implementar y desplegar una Landing Page que introduce nuestra plataforma de monitoreo de signos vitales. Utilizando tecnologías clave como HTML, CSS y JavaScript, hemos construido una interfaz sencilla, pero atractiva y funcional, que destaca los beneficios de TukunTech. La estructura de la página fue desarrollada con HTML, los estilos personalizados fueron implementados mediante CSS, y se añadieron interacciones básicas con JavaScript para ofrecer una experiencia de usuario más dinámica. El despliegue de la página se llevó a cabo exitosamente utilizando GitHub Pages, lo que nos permitió tenerla disponible públicamente de forma rápida y eficiente. Este primer Sprint marca el inicio del proyecto, sentando las bases para futuros desarrollos y funcionalidades más avanzadas. A continuación, se presentan capturas de pantalla de las principales vistas creadas, junto con un enlace a un video que muestra la navegación y las funcionalidades básicas implementadas hasta el momento.
 Encabezado (Header): Incluye el logo y el menú de navegación, junto con un título llamativo que comunica de manera clara la propuesta de valor principal de la página.
 Imagen o video principal (Hero): Una imagen o video de alta calidad que acompaña al título para captar la atención visual del usuario y reforzar el mensaje.
-
+![Home](./img-landing/landing1.JPG)
 
 Pie de página (Footer): Contiene enlaces a políticas de privacidad, términos y condiciones, redes sociales, y otra información relevante como datos de contacto.
 
+![Footer](./img-landing/landing5.JPG)
+
 
 Llamado a la acción (CTA): Un botón o enlace que invita al usuario a realizar una acción clave, como registrarse, comprar, descargar, etc. Suele estar destacado visualmente.
-
-
 Formulario de captura (Lead form): Un formulario sencillo donde el usuario puede dejar sus datos de contacto (como nombre y correo) para obtener más información, suscribirse o descargar algo.
+
+![Form](./img-landing/LeadForm.JPG)
 
 
 Planes o Membresías: Presenta diferentes opciones de precios o niveles de servicio con sus características, permitiendo al usuario comparar y seleccionar el plan que mejor se ajuste a sus necesidades. Incluye botones de acción para facilitar la compra o suscripción.
 
+![Plans](./img-landing/plans.JPG)
+
 
 Descripción breve sobre nosotros, así mismo la presentación de cada uno del equipo.
 
+![AboutUs](./img-landing/landing-about.JPG)
 
-Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZiwz8Vm9RtMvlOnevW4KbcB3H1RHFirvFOAEJBKBWsEqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CIO4Rh
+
+
+Video: [Landing](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZiwz8Vm9RtMvlOnevW4KbcB3H1RHFirvFOAEJBKBWsEqw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CIO4Rh)
 
 
 
@@ -1552,6 +1560,109 @@ Desarrollo para el Sprint 1:
 
 Network: se muestran los últimos commits efectuados
 ![Team Collaboration Insights 3](./Team%20Collaboration%20Insights%20During%20Sprint/Overview.png)
+
+## 5.2.2. Sprint 2
+
+En esta sección se presenta el avance del Sprint 2, detallando el progreso en el producto y el trabajo en equipo. Se incluyen el Sprint Planning, Sprint Backlog, evidencias de desarrollo y ejecución para la Sprint Review, documentación de servicios, y reflexiones sobre la colaboración del equipo durante el sprint.
+
+#### 5.2.2.1. Sprint Plannig 2
+
+| **Sprint #** | 2 |
+|--------------|---|
+
+| **Sprint Planning Background** | |
+|-------------------------------|------------------------------------|
+| **Date**                       | 20/09/2025                        |
+| **Time**                       | 03:00 PM                          |
+| **Location**                   | Reunión virtual mediante llamada Discord |
+| **Prepared By**                | Adriana Palomares                 |
+| **Attendees (to planning meeting)** | Rafael Bravo / Fabio Nicolich / Erick Maraza / Oscar Soto |
+
+| **Sprint 2 – 1 Review Summary** | Desarrollo y despliegue del LandingPage. |
+| **Sprint 2 – 1 Retrospective Summary** | Correcciones de errores en la documentación. |
+
+| **Sprint Goal & User Stories** | |
+|-------------------------------|-----------------------------------------------------------------------------------------------------|
+| **Sprint 2 Goal**              | Our focus is on developing the main layout and navigation structure for the medical dashboards.  
+We believe it delivers a clear and intuitive user experience for navigating the platform.  
+This will be confirmed when users can access different sections of the dashboard without encountering navigation errors. |
+
+| **Sprint 2 Velocity**          | 82  |
+| **Sum of Story Points**        | 82  |
+
+
+#### 5.2.2.2. Sprint Backlog 2
+En este sprint, el equipo se enfocará en el desarrollo de la parte frontend de la aplicación web, priorizando la creación y optimización de interfaces de usuario. El objetivo principal es asegurar que los usuarios puedan interactuar de manera intuitiva y eficiente con las funcionalidades básicas del sistema, sentando las bases visuales y de navegación para futuras mejoras. Este trabajo incluye la implementación de elementos clave como formularios, paneles de control y componentes visuales que permitirán una experiencia fluida para el usuario final.
+
+
+| **Sprint #** | Sprint 2 |
+|--------------|----------|
+
+| **User Story** | **Work-Item / Task** | **Id** | **Title** | **Description**                                                                                                                       | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+|---------------|----------------------|--------|-----------|---------------------------------------------------------------------------------------------------------------------------------------|------------------------|-----------------|----------------------------------------------------|
+| US 32         | Desarrollo de home clinic              | 1      | Desarrollo de home clinic                | Como developer de TukunTech, quiero implementar la sección home clinic para mostrar todas las opciones que hay en la aplicación          | 3                      | Oscar           | Done                                               |
+| US 33         | Desarrollo de panel patient postoperative | 2      | Desarrollo de panel patient postoperative | Como developer de TukunTech, quiero implementar la sección panel patient postoperative para visualizar el panel de pacientes postoperatorios y sus signos vitales | 2                      | Oscar           | Done                                               |
+| US 34         | Desarrollo de panel UCI patients        | 3      | Desarrollo de panel UCI patients          | Como developer de TukunTech, quiero implementar la sección para visualizar el panel de pacientes UCI y sus signos vitales               | 2                      | Oscar           | Done                                               |
+| US 35         | Desarrollo de home registration         | 4      | Desarrollo de home registration           | Como developer de TukunTech, quiero implementar la sección de home registration para mostrar las opciones de registro que tiene la aplicación | 3                      | Adriana         | Done                                               |
+| US 36         | Desarrollo de patient registration      | 5      | Desarrollo de patient registration        | Como developer de TukunTech, quiero implementar la sección de patient registration para registrar nuevos pacientes que se vayan a tratar en la clínica | 3                      | Adriana         | Done                                               |
+| US 37         | Desarrollo de medical registration      | 6      | Desarrollo de medical registration        | Como developer de TukunTech, quiero implementar la sección de medical registration para registrar nuevo personal médico que se está incorporando a la clínica | 2                      | Adriana         | Done                                               |
+| US 38         | Desarrollo list doctors                 | 7      | Desarrollo list doctors                   | Como developer de TukunTech, quiero implementar la sección de list doctors para que se visualice la lista de doctores en la clínica      | 2                      | Oscar           | Done                                               |
+| US 39         | Desarrollo list patient                 | 8      | Desarrollo list patient                   | Como developer de TukunTech, quiero implementar la sección list patient para que se visualice la lista de pacientes y sus datos         | 4                      | Oscar           | Done                                               |
+| US 43         | Desarrollo de home Appointments         | 9      | Desarrollo de home Appointments           | Como developer de TukunTech, quiero implementar la sección de home Appointments para visualizar y dar acceso a las opciones de citas   |                        | Rafael          | Done                                               |
+| US 44         | Desarrollo de Schedule Appointments     | 10     | Desarrollo de Schedule Appointments       | Como developer de TukunTech, quiero implementar la sección de Schedule Appointments para la opción de agendar cita indicando toda la información correspondiente | 3                      | Rafael          | Done                                               |
+| US 45         | Desarrollo de Reschedule Appointments   | 11     | Desarrollo de Reschedule Appointments     | Como developer de TukunTech, quiero implementar la sección reschedule appointments para que exista el apartado donde se pueda cambiar datos de una cita ya creada | 3                      | Rafael          | Done                                               |
+| US 46         | Desarrollo de home elder                | 12     | Desarrollo de home elder                  | Como developer de TukunTech, quiero implementar la sección de home elder para mostrar todas las secciones que hay en la aplicación      | 2                      | Erick           | Done                                               |
+| US 47         | Desarrollo de panel sv elder            | 13     | Desarrollo de panel sv elder              | Como developer de TukunTech, quiero implementar la sección de panel sv elder para que se visualicen los signos vitales del adulto mayor en tiempo real | 1                      | Erick           | Done                                               |
+| US 48         | Desarrollo de elder profile             | 14     | Desarrollo de elder profile               | Como developer de TukunTech, quiero implementar la sección de elder profile para que se visualice la información del adulto mayor       | 3                      | Erick           | Done                                               |
+
+#### 5.2.2.3. Development Evidence for Sprint Review
+En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la aplicación web. El enfoque principal ha sido avanzar en la construcción de las interfaces de usuario y las funcionalidades esenciales para la aplicación, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la navegación, la estructura visual y los componentes interactivos que permitirán una experiencia más robusta para los usuarios.
+A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
+
+
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+En esta sección se presenta un resumen de los logros alcanzados durante este sprint, enfocados en el desarrollo del frontend de la aplicación web. El equipo ha implementado las principales vistas de la interfaz de usuario, estableciendo una base sólida para la navegación y experiencia de usuario. Se han completado componentes clave que permitirán a los usuarios interactuar con las funcionalidades esenciales de la plataforma.
+A continuación, se incluyen capturas de pantalla de las vistas más representativas implementadas hasta el momento, mostrando el progreso visual de la aplicación. Además, se proporciona un enlace a un video que ilustra la navegación lograda y explica en detalle los avances obtenidos durante este sprint.
+
+Home: Menú principal donde se muestran los botones que redireccionan a las opciones.
+![Home](./web-application/home1.JPG)
+
+Visualización de pacientes de acuerdo a los datos del sistema.
+![Pacientes](./web-application/home2.JPG)
+
+Opción para registrar pacientes y medicos, funcionando de acuerdo a un fake API.
+![Registro](./web-application/home3.JPG)
+
+Lista de doctores, según datos en el fake API.
+![Doctores](./web-application/home4.JPG)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+En esta sección se detallan los logros alcanzados en la documentación de los Web Services relacionados con los endpoints "doctor" y "patient", que contienen los datos esenciales para las funcionalidades del sistema. A continuación, se presenta una tabla que resume las acciones soportadas por cada endpoint, incluyendo los verbos HTTP (GET, POST, PUT, DELETE), la sintaxis de la llamada, parámetros relevantes, y ejemplos de respuestas.
+
+Se incluyen capturas de la interacción con los endpoints usando datos de prueba, junto con enlaces a la documentación desplegada o las URLs locales de referencia. Finalmente, se proporciona el URL del repositorio de Web Services y los IDs de los commits relacionados con la documentación generada para este sprint.
+
+Endpoint Doctor:
+![Doctor](./API/1.JPG)
+
+Endpoint Patient:
+![Patient](./API/2.JPG)
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+
+
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
+En este sprint, el equipo se ha enfocado en el desarrollo del frontend de la aplicación web. Todos los miembros han colaborado en la implementación de las principales vistas y funcionalidades visuales. A continuación, se presentan capturas de los analíticos de colaboración y los commits en GitHub, que reflejan el trabajo realizado por cada miembro en esta área específica del proyecto.
+
+
+
+
+
+
+
 
 
 
