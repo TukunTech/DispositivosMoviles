@@ -648,9 +648,8 @@ En esta sección, se detallan las fases principales del proceso optimizado de mo
 ## 3.4. Product Backlog.
 Una vez redactadas todas las User Stories (US), es fundamental priorizarlas. El Product Backlog se utiliza para organizar las historias de usuario según su importancia y el valor que aportan al proyecto. Para ello, los Story Points se asignaron utilizando la escala de Fibonacci (1, 2, 3, 5, 8), lo que permitirá estimar el esfuerzo requerido para completar cada historia. Cuantas más Story Points tenga una US, mayor será su relevancia para la plataforma, ya que implica un impacto significativo o un mayor esfuerzo de desarrollo. Por este motivo, las User Stories con más puntos se priorizan y se desarrollarán antes en el ciclo de trabajo.
 
-# Orden
 
-| #  | User Story ID | Título                                           | Descripción                                                                                                                                          | Story Points |
+| # Orden | User Story ID | Título                                           | Descripción                                                                                                                                          | Story Points |
 |----|---------------|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | 01 | US 24         | Desarrollo de funcionalidad con JavaScript       | Como desarrollador de TukunTech, Quiero implementar funcionalidades interactivas en el sitio utilizando JavaScript, Para mejorar la experiencia del usuario. | 8            |
 | 02 | US 19         | Desarrollo de estilos CSS del Landing Page       | Como desarrollador de TukunTech, Quiero aplicar estilos visuales al landing page usando CSS, Para darle un diseño atractivo y coherente con el mockup. | 5            |
@@ -957,6 +956,8 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
+En esta sección, se presentan los wireflow diagramas que ilustran los flujos de interacción en la aplicación web. Estos diagramas permiten visualizar de manera clara y concisa los pasos que seguirá el usuario para lograr distintos objetivos dentro de la aplicación. A continuación, se detallan los diagramas correspondientes a los distintos flujos de usuario.
+
 **Diagrama 1**
 **User Goal**: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.  
 **Descripción**: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Pacientes postoperatorios” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
