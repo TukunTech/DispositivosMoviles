@@ -1724,7 +1724,7 @@ Este endpoint devuelve una lista de todos los doctores registrados en el sistema
     "contact": "+51 123456789"
   }
 ]
-``
+```
 
 
 
