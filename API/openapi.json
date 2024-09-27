@@ -1,0 +1,294 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Doctor and Patient Management API",
+    "description": "API for managing doctors and patients.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://tukun-tech1.free.beeceptor.com/api/",
+      "description": "API for managing doctors and patients within the Tukun Tech platform."
+    }
+  ],
+  "paths": {
+    "/doctors": {
+      "get": {
+        "summary": "Get all doctors",
+        "description": "Returns a list of all registered doctors.",
+        "responses": {
+          "200": {
+            "description": "List of doctors",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Doctor"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new doctor",
+        "description": "Registers a new doctor in the system.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Doctor"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Doctor successfully created"
+          },
+          "400": {
+            "description": "Error with the provided data"
+          }
+        }
+      }
+    },
+    "/doctors/{doctorDni}": {
+      "put": {
+        "summary": "Update a doctor",
+        "description": "Updates doctor details based on the given ID.",
+        "parameters": [
+          {
+            "name": "doctorDni",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Doctor"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Doctor successfully updated"
+          },
+          "400": {
+            "description": "Error with the provided data"
+          },
+          "404": {
+            "description": "Doctor not found"
+          }
+        }
+      }
+    },
+    "/patients": {
+      "get": {
+        "summary": "Get all patients",
+        "description": "Returns a list of all registered patients.",
+        "responses": {
+          "200": {
+            "description": "List of patients",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Patient"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new patient",
+        "description": "Registers a new patient in the system.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Patient"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Patient successfully created"
+          },
+          "400": {
+            "description": "Error with the provided data"
+          }
+        }
+      }
+    },
+    "/patients/{patientDni}": {
+      "put": {
+        "summary": "Update a patient",
+        "description": "Updates patient details based on the given ID.",
+        "parameters": [
+          {
+            "name": "patientDni",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Patient"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Patient successfully updated"
+          },
+          "400": {
+            "description": "Error with the provided data"
+          },
+          "404": {
+            "description": "Patient not found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Doctor": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "lastName",
+          "dni",
+          "age",
+          "cmpCode",
+          "nationality",
+          "specialization",
+          "contact"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique doctor ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Doctor's first name"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "Doctor's last name"
+          },
+          "dni": {
+            "type": "string",
+            "description": "Doctor's national ID"
+          },
+          "age": {
+            "type": "number",
+            "description": "Doctor's age"
+          },
+          "cmpCode": {
+            "type": "string",
+            "description": "Doctor's CMP code (Medical College Code)"
+          },
+          "nationality": {
+            "type": "string",
+            "description": "Doctor's nationality"
+          },
+          "specialization": {
+            "type": "string",
+            "description": "Doctor's specialization"
+          },
+          "contact": {
+            "type": "string",
+            "description": "Doctor's contact information"
+          }
+        }
+      },
+      "Patient": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "lastName",
+          "dni",
+          "age",
+          "bloodType",
+          "nationality",
+          "noOfPolicies",
+          "insurance",
+          "bedNumber",
+          "allergies"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique patient ID"
+          },
+          "name": {
+            "type": "string",
+            "description": "Patient's first name"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "Patient's last name"
+          },
+          "dni": {
+            "type": "string",
+            "description": "Patient's national ID"
+          },
+          "age": {
+            "type": "number",
+            "description": "Patient's age"
+          },
+          "bloodType": {
+            "type": "string",
+            "description": "Patient's blood type"
+          },
+          "nationality": {
+            "type": "string",
+            "description": "Patient's nationality"
+          },
+          "noOfPolicies": {
+            "type": "string",
+            "description": "Number of patient policies"
+          },
+          "insurance": {
+            "type": "string",
+            "description": "Patient's insurance information"
+          },
+          "bedNumber": {
+            "type": "string",
+            "description": "Patient's bed number"
+          },
+          "allergies": {
+            "type": "string",
+            "description": "Patient's allergies"
+          }
+        }
+      }
+    }
+  }
+}
