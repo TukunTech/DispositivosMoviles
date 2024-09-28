@@ -1481,6 +1481,8 @@ Feature: Implementación de un menú de navegación por el Landing Page
     And debe mostrar la información pertinente
     And debe ser intuitiva según el panel del Mock-up de la sección "Planes".
 
+[DesarrolloOP-SW57 - Acceptance Test Sprint 1](https://github.com/TukunTech/DesarrolloOP-SW57/tree/main/acceptance-test-sprint1)
+
 El desarrollo de steps en JavaScript para el feature file menu-navegacion-landing-page y para la estructura-basica-landing-page-html se encuentra en la carpeta de nombre Steps.
 
 | Repository                      | Branch       | Commit Id | Commit Message                                         | Commit Message Body | Commited on (Date) |
@@ -1771,7 +1773,9 @@ Feature: Desarrollo secciones del Sistema de TukunTech “Elder”
     When la empresa reciba una consulta
     Then podrá presentar su respuesta
     And el usuario recibirá la respuesta exitosamente.
-    
+
+[DesarrolloOP-SW57 - Acceptance Test Sprint 2](https://github.com/TukunTech/DesarrolloOP-SW57/tree/main/acceptance-test-sprint2)
+
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 En esta sección se presenta un resumen de los logros alcanzados durante este sprint, enfocados en el desarrollo del frontend de la aplicación web. El equipo ha implementado las principales vistas de la interfaz de usuario, estableciendo una base sólida para la navegación y experiencia de usuario. Se han completado componentes clave que permitirán a los usuarios interactuar con las funcionalidades esenciales de la plataforma.
 A continuación, se incluyen capturas de pantalla de las vistas más representativas implementadas hasta el momento, mostrando el progreso visual de la aplicación. Además, se proporciona un enlace a un video que ilustra la navegación lograda y explica en detalle los avances obtenidos durante este sprint.
