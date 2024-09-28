@@ -1491,7 +1491,7 @@ Y debe ser intuitiva según el panel del Mock-up de la sección "Planes".
 
 
 
-[DesarrolloOP-SW57 - Acceptance Test Sprint 1](https://github.com/TukunTech/DesarrolloOP-SW57/tree/main/acceptance-test-sprint1)
+
 
 El desarrollo de steps en JavaScript para el feature file menu-navegacion-landing-page y para la estructura-basica-landing-page-html se encuentra en la carpeta de nombre Steps.
 
@@ -1966,7 +1966,7 @@ En este sprint, el equipo se ha enfocado en el desarrollo del frontend de la apl
 
 ## Anexos
 [Landing Page:](https://tukuntech.github.io/DesarrolloOP-SW57/) 
-[Organización:](https://github.com/TukunTech)
+
 [Prototyping 1:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EdGwgtH9G4tOpbBooX2ZZX8B0dsCl50puKmCJ5ZueRGV5Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ofot6m)
 [Prototyping 2:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EboTDvrtPr9GpfgABkbrnOkBhvvecvdV3rfn5hMTOCoQew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Li2vbL)
 [LandingPAge](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZiwz8Vm9RtMvlOnevW4KbcB8LpYJNZow4fUzaLNPgsrFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IZHoP1)
