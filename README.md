@@ -90,7 +90,7 @@
 |          | 25/09/2024  | Maraza Pedemonte, Erick             | Agregar descripción Mockup                                                    |
 |          | 26/09/2024  | Maraza Pedemonte, Erick             | Corrección video Prototyping de Web Application                               |
 |          | 26/09/2024  | Maraza Ped
-                                                                                           |                                    |
+
 ---
 
 ## Student Outcome
