@@ -1219,7 +1219,7 @@ Tiene la función de examinar los artefactos y el comportamiento del software, a
 ### 5.1.2 Source Code Management.
 La gestión de código fuente, también conocida como **SCM** (Source Code Management) en inglés, es una práctica crucial en el desarrollo de software. Su propósito es registrar y controlar las modificaciones que los miembros del equipo hacen en los repositorios de código a lo largo del ciclo de vida del proyecto. Este sistema permite rastrear los cambios introducidos por cada desarrollador, asegurando que todas las contribuciones estén documentadas y gestionadas de manera eficiente. En este caso, utilizaremos **GitHub** como la plataforma para implementar el control de versiones y garantizar una colaboración fluida entre los integrantes del equipo.
 
-**Organización:[Organisación](https://github.com/TukunTech)**
+
 
 **Landing Page: [LandingPAge](https://tukuntech.github.io/DesarrolloOP-SW57/)**
 
