@@ -1384,102 +1384,111 @@ Durante el proceso de desarrollo de software, es crucial tener requisitos claros
 
 El siguiente feature file se desarrolla con la User Story 22: Desarrollo de funcionalidad con JavaScrip en la Landing Page ya que esta implementa las funcionalidades interactivas de JavaScript.
 
-Feature: Implementación de funcionalidades interactivas en la Landing Page usando JavaScript
-  Como developer de TukunTech
-  Quiero implementar funcionalidades interactivas en el sitio utilizando JavaScript
-  Para mejorar la experiencia del visitante
+# Feature: Implementación de funcionalidades interactivas en la Landing Page usando JavaScript
 
-  Scenario: Implementación de funcionalidad interactiva
-    Given la necesidad de implementar interactividad en la Landing Page
-    When se añaden scripts de JavaScript
-    Then las funcionalidades interactivas mejoran la experiencia del visitante
-    
-El siguiente feature file se desarrolla con la User Story 17: Desarrollo de estilos CSS del Landing Page ya que esta implementa las funcionalidades interactivas de CSS
+Como developer de TukunTech,  
+Quiero implementar funcionalidades interactivas en el sitio utilizando JavaScript,  
+Para mejorar la experiencia del visitante.
 
-Feature: Aplicación de estilos visuales al Landing Page usando CSS
-  Como desarrollador de TukunTech
-  Quiero aplicar estilos visuales al landing page usando CSS
-  Para darle un diseño atractivo y coherente con el mockup
+## Scenario: Implementación de funcionalidad interactiva
+Dado que el developer necesita implementar interactividad en la Landing Page,  
+Cuando el developer añade scripts de JavaScript,  
+Entonces las funcionalidades interactivas deben mejorar la experiencia del usuario.
 
-  Scenario: Consistencia visual del diseño con el mockup
-    Given el landing page debe ser visualmente atractivo
-    When el developer aplique los estilos CSS
-    Then los colores, tipografía y diseño deben reflejar el mockup para asegurar consistencia visual.
+---
 
-  Scenario: Adaptabilidad del diseño a múltiples dispositivos
-    Given el diseño debe adaptarse a diferentes dispositivos
-    When se apliquen los estilos CSS
-    Then el landing page debe mantener su apariencia coherente y responsiva en varias resoluciones de pantalla.
+# Feature: Aplicación de estilos visuales al Landing Page usando CSS
 
-El siguiente feature file se desarrolla con la User Story 18: Navegación en la sección Home del landing page ya que esta implementa las funcionalidades de navegación del Landing Page en el Home
+Como desarrollador de TukunTech,  
+Quiero aplicar estilos visuales al landing page usando CSS,  
+Para darle un diseño atractivo y coherente con el mockup.
 
-Feature: Implementación de una navegación funcional en la sección Home del Landing Page
+## Scenario: Consistencia visual del diseño con el mockup
+Dado que el landing page debe ser visualmente atractivo,  
+Cuando el developer aplique los estilos CSS,  
+Entonces los colores, tipografía y diseño deben reflejar el mockup para asegurar consistencia visual.
 
-  Feature: Implementación de una navegación funcional en la sección Home del Landing Page
-  Como developer de TukunTech
-  Quiero implementar una navegación funcional en la sección Home
-  Para permitir a los usuarios desplazarse fácilmente por dicha sección
+## Scenario: Adaptabilidad del diseño a múltiples dispositivos
+Dado que el diseño debe adaptarse a diferentes dispositivos,  
+Cuando se apliquen los estilos CSS,  
+Entonces el landing page debe mantener su apariencia coherente y responsiva en varias resoluciones de pantalla.
 
-  Scenario: Acceso a la documentación desde el Home
-    Given los developers necesitan crear el Home de la Landing Page
-    When los visitantes acceden a la sección Home
-    Then deben leer la documentación correctamente.
+---
 
-El siguiente feature file se desarrolla con la User Story 25: Desarrollo de soporte multilingüe en la Landing Page ya que esta implementa el soporte multilingüe en el Landing Page en el Home
+# Feature: Implementación de una navegación funcional en la sección Home del Landing Page
 
-Feature: Implementación de soporte multilingüe en la Landing Page
-  Feature: Implementación de soporte multilingüe en la Landing Page
-  Como visitante del sitio web
-  Quiero visualizar el Landing Page en inglés y español
-  Para mejorar mi experiencia
+Como developer de TukunTech,  
+Quiero implementar una navegación funcional en la sección Home,  
+Para permitir a los usuarios desplazarse fácilmente por dicha sección.
 
-  Scenario: Cambio de idioma efectivo en el Landing Page
-    Given el visitante necesita visualizar el Landing Page en diferentes lenguajes
-    When necesita cambiar el lenguaje
-    Then la funcionalidad de cambio de idioma a Inglés funciona eficazmente.
+## Scenario: Acceso a la documentación desde el Home
+Dado que los developers necesitan crear el Home de la Landing Page,  
+Cuando los visitantes acceden a la sección Home,  
+Entonces deben leer la documentación correctamente.
 
-El siguiente feature file se desarrolla con la User Story 16: Desarrollo de estructura HTML del Landing Page ya que esta implementa la estructura básica en el Landing Page haciendo uso de HTML
+---
 
-Feature: Creación de la estructura básica del Landing Page usando HTML
-  Como Developer de TukunTech
-  Quiero crear la estructura básica del landing page usando HTML
-  Para asegurar que las secciones estén correctamente definidas y organizadas
+# Feature: Implementación de soporte multilingüe en la Landing Page
 
-  Scenario: Jerarquía de secciones para facilitar la comprensión del contenido
-    Given el landing page debe presentar la información de manera accesible
-    When el developer estructure el contenido
-    Then la jerarquía de las secciones debe facilitar que los usuarios comprendan de forma intuitiva el flujo de la información.
+Como visitante del sitio web,  
+Quiero visualizar el Landing Page en inglés y español,  
+Para mejorar mi experiencia.
 
-El siguiente feature file se desarrolla con las User Story 19: Desarrollo a la sección “Nosotros”, User Story 20: Desarrollo a la sección “Servicios”, User Story 21: Desarrollo a la sección “Noticias” y User Story 23: Desarrollo a la sección “Planes” ya que esta implementa las funcionalidades de la cabecera de nuestro Landing Page para el recorrido optimizado a traves de está.
+## Scenario: Cambio de idioma efectivo en el Landing Page
+Dado que el visitante necesita visualizar el Landing Page en diferentes lenguajes,  
+Cuando necesita cambiar el lenguaje,  
+Entonces la funcionalidad de cambio de idioma a Inglés funciona eficazmente.
 
-Feature: Implementación de un menú de navegación por el Landing Page
-  Como developer de TukunTech
-  Quiero visualizar las diversas secciones del Landing Page
-  Para verificar su correcta funcionalidad
+---
 
-  Scenario: Visualizar la sección "Nosotros" en el Landing Page
-    Given el developer realiza el desarrollo de la sección "Nosotros"
-    When se programe correctamente la navegación
-    Then la navegación en la sección "Nosotros" debe ser funcional y mostrar los datos pertinentes.
+# Feature: Creación de la estructura básica del Landing Page usando HTML
 
-  Scenario: Visualizar la sección "Servicios" en el Landing Page
-    Given el developer realiza la programación de la sección "Servicios"
-    When está concluido
-    Then la navegación en la sección no debe mostrar errores
-    And debe ser intuitiva según el panel del Mock-up de la sección "Servicios".
+Como Developer de TukunTech,  
+Quiero crear la estructura básica del landing page usando HTML,  
+Para asegurar que las secciones estén correctamente definidas y organizadas.
 
-  Scenario: Visualizar la sección "Noticias" en el Landing Page
-    Given el developer realiza la programación de la sección "Noticias"
-    When está concluido
-    Then la navegación en la sección no debe mostrar errores
-    And debe ser intuitiva según el panel del Mock-up de la sección "Noticias".
+## Scenario: Jerarquía de secciones para facilitar la comprensión del contenido
+Dado que el landing page debe presentar la información de manera accesible,  
+Cuando el developer estructure el contenido,  
+Entonces la jerarquía de las secciones debe facilitar que los usuarios comprendan de forma intuitiva el flujo de la información.
 
-  Scenario: Visualizar la sección "Planes" en el Landing Page
-    Given el developer realiza la programación de la sección "Planes"
-    When está concluido
-    Then la navegación en la sección no debe mostrar errores
-    And debe mostrar la información pertinente
-    And debe ser intuitiva según el panel del Mock-up de la sección "Planes".
+## Scenario: Estructura HTML responsiva para diferentes dispositivos
+Dado que el landing page debe ser adaptable a diferentes dispositivos,  
+Cuando se defina la estructura HTML,  
+Entonces el diseño debe permitir que las secciones sean responsivas, manteniendo su claridad y coherencia en cualquier resolución de pantalla.
+
+---
+
+# Feature: Implementación de un menú de navegación por el Landing Page
+
+Como developer de TukunTech,  
+Quiero visualizar las diversas secciones del Landing Page,  
+Para verificar su correcta funcionalidad.
+
+## Scenario: Visualizar la sección "Nosotros" en el Landing Page
+Dado que el developer realiza el desarrollo de la sección "Nosotros",  
+Cuando se programe correctamente la navegación,  
+Entonces la navegación en la sección "Nosotros" debe ser funcional y mostrar los datos pertinentes.
+
+## Scenario: Visualizar la sección "Servicios" en el Landing Page
+Dado que el developer realiza la programación de la sección "Servicios",  
+Cuando está concluido,  
+Entonces la navegación en la sección no debe mostrar errores  
+Y debe ser intuitiva según el panel del Mock-up de la sección "Servicios".
+
+## Scenario: Visualizar la sección "Noticias" en el Landing Page
+Dado que el developer realiza la programación de la sección "Noticias",  
+Cuando está concluido,  
+Entonces la navegación en la sección no debe mostrar errores  
+Y debe ser intuitiva según el panel del Mock-up de la sección "Noticias".
+
+## Scenario: Visualizar la sección "Planes" en el Landing Page
+Dado que el developer realiza la programación de la sección "Planes",  
+Cuando está concluido,  
+Entonces la navegación en la sección no debe mostrar errores  
+Y debe mostrar la información pertinente  
+Y debe ser intuitiva según el panel del Mock-up de la sección "Planes".
+
 
 [DesarrolloOP-SW57 - Acceptance Test Sprint 1](https://github.com/TukunTech/DesarrolloOP-SW57/tree/main/acceptance-test-sprint1)
 
@@ -1654,125 +1663,76 @@ Durante el proceso de desarrollo de software, es crucial tener requisitos claros
 
 El primer feature presentado agrupa las siguientes historias de usuarios(US): US29: “Desarrollo de home clinic”, US30: “Desarrollo de panel patient postoperative”, US31: “Desarrollo de panel ICU patients”, US32: “Desarrollo de home registration”, US33: “Desarrollo de patient registration”, US34: “Desarrollo de medical registration”, US35: “Desarrollo list doctors”, US36: “Desarrollo list patients”, US40: “Home appointment”. La creación del feature en Gherkin agrupa las diferentes historias de usuario relacionadas con los apartados del sistema de TukunTech. Cada historia se convierte en un escenario dentro del feature, describiendo las funcionalidades que deben implementarse, como el acceso a paneles de pacientes, registro de usuarios, y visualización de listas de doctores y pacientes. Esta agrupación facilita la organización y desarrollo de las secciones clave del sistema, proporcionando una visión clara de las expectativas de cada componente y su comportamiento esperado en el sistema.
 
-Feature: Cabecera del Sistema de TukunTech
+# Feature: Funcionalidades de la sección Appointments
 
-  Como developer de TukunTech,
-  Quiero implementar las diferentes secciones de la cabecera del sistema,
-  Para poder visualizar, registrar, y acceder a la información de pacientes, doctores y citas.
+## Scenario: Visualizar y acceder a opciones de citas
+Dado que el developer de TukunTech está trabajando en el home Appointments,  
+Cuando el home Appointments se implemente,  
+Entonces debe visualizar y dar acceso a las opciones de citas.
 
-  Scenario: Desarrollo del panel de pacientes postoperatorios
-    Given la sección de cabecera del sistema
-    When se muestra el panel de pacientes postoperatorios
-    Then la información de los pacientes postoperatorios y sus signos vitales se visualiza
+## Scenario: Visualizar datos de la cita agendada
+Dado que el developer de TukunTech está trabajando en Schedule Appointments,  
+Cuando se implemente correctamente,  
+Entonces se visualizan los datos de la cita.
 
-  Scenario: Desarrollo del panel de pacientes UCI
-    Given la sección de cabecera del sistema
-    When se muestra el panel de pacientes UCI
-    Then la información de los pacientes UCI y sus signos vitales se visualiza
+## Scenario: Reprogramar citas
+Dado que el developer de TukunTech está trabajando,  
+Cuando esté implementado el Reschedule Appointments,  
+Entonces se muestran las fechas a las que se puede programar la cita.
 
-  Scenario: Desarrollo de home registration
-    Given la sección de cabecera del sistema
-    When se muestra la opción de home registration
-    Then las opciones de registro disponibles en la aplicación se visualizan
+---
 
-  Scenario: Desarrollo de patient registration
-    Given la sección de cabecera del sistema
-    When se muestra la opción de patient registration
-    Then se permite el registro de nuevos pacientes para la clínica
+# Feature: Desarrollo secciones del Sistema de TukunTech “Elder”
 
-  Scenario: Desarrollo de lista de doctores
-    Given la sección de cabecera del sistema
-    When se muestra la opción de list doctors
-    Then la lista de doctores en la clínica se visualiza
+El sistema TukunTech "Elder" se enfoca en optimizar la atención de adultos mayores mediante funcionalidades que facilitan la gestión del historial médico, las citas y los datos de contacto de emergencia. Este feature tiene como objetivo mejorar la experiencia de cuidadores y familiares, garantizando un cuidado más efectivo y un seguimiento adecuado de la salud de los usuarios. El feature presentado agrupa las siguientes historias de usuarios (US): US44: “Desarrollo de panel sv elder”, US45: “Desarrollo de elder profile”, US46: “Desarrollo de emergency numbers”, US47: “Desarrollo de reminders” y US48: “Desarrollo de technical support”.
 
-  Scenario: Desarrollo de lista de pacientes
-    Given la sección de cabecera del sistema
-    When se muestra la opción de list patient
-    Then la lista de pacientes y sus datos se visualizan
+## Scenario: Visualización de signos vitales
+Dado que el developer de TukunTech está trabajando en el panel SV elder,  
+Cuando esté implementado a la aplicación web,  
+Entonces se podrán visualizar correctamente los signos vitales.
 
-  Scenario: Desarrollo de home Appointments
-    Given la sección de cabecera del sistema
-    When se muestra la opción de home Appointments
-    Then las opciones de citas se visualizan y se accede a ellas
+## Scenario: Relleno de datos del paciente
+Dado que el developer de TukunTech está trabajando en el elder profile,  
+Cuando esté implementada la sección elder profile,  
+Entonces se podrán rellenar los datos del paciente.
 
-El segundo feature del Sprint #2 contextualiza la importancia de la sección "Appointments" y prepara el escenario para las implementaciones de vistas y, acceso y actualización de las citas.
+## Scenario: Actualización de datos del adulto mayor
+Dado que se ha implementado correctamente el elder profile,  
+Cuando se deban actualizar los datos del adulto mayor,  
+Entonces se implementarán los datos del adulto mayor.
 
-Feature: Funcionalidades de la sección Appointments
+## Scenario: Visualización de números de emergencia
+Dado que el developer de TukunTech está trabajando en la sección emergency numbers,  
+Cuando se esté implementando y se verifique su funcionalidad,  
+Entonces deben mostrarse los números de emergencia adjuntados.
 
-  Como developer de TukunTech,
-  Quiero implementar las diferentes funcionalidades de la sección Appointments,
-  Para poder visualizar, registrar y gestionar las citas de los pacientes.
+## Scenario: Actualización de números de emergencia
+Dado que es una funcionalidad vital para emergencias,  
+Cuando se desee actualizar los números de emergencia,  
+Entonces estos deben ser fácilmente editables  
+Y su actualización debe ser verificada.
 
-  Scenario: Visualizar y acceder a opciones de citas
-    Given que el developer de TukunTech está trabajando en el home Appointments
-    When el home Appointments se implemente
-    Then debe visualizar y dar acceso a las opciones de citas.
+## Scenario: Configuración de medicación
+Dado que el developer de TukunTech está trabajando en el panel de reminders,  
+Cuando se configura una medicación,  
+Entonces se observa la medicación y su cantidad a administrar.
 
-  Scenario: Visualizar datos de la cita agendada
-    Given que el developer de TukunTech está trabajando en Schedule Appointments
-    When se implemente correctamente
-    Then se visualizan los datos de la cita.
+## Scenario: Uso de la funcionalidad de reminders
+Dado que la funcionalidad de reminders funciona correctamente,  
+Cuando se quiera aplicar el uso,  
+Entonces esto facilita al cuidador la administración de medicamentos.
 
-  Scenario: Reprogramar citas
-    Given que el developer de TukunTech está trabajando
-    When esté implementado el Reschedule Appointments
-    Then se muestran las fechas a las que se puede programar la cita.
+## Scenario: Comunicación efectiva con soporte técnico
+Dado que el developer de TukunTech está trabajando en la sección de technical support,  
+Cuando se implemente correctamente,  
+Entonces debe facilitar la comunicación con soporte técnico para los usuarios  
+Y debe incluir un formulario para enviar consultas y recibir respuestas.
 
-Como tercer feature, el sistema TukunTech "Elder" se enfoca en optimizar la atención de adultos mayores mediante funcionalidades que facilitan la gestión del historial médico, las citas y los datos de contacto de emergencia. Este feature tiene como objetivo mejorar la experiencia de cuidadores y familiares, garantizando un cuidado más efectivo y un seguimiento adecuado de la salud de los usuarios. El feature presentado agrupa las siguientes historias de usuarios (US): US44: “Desarrollo de panel sv elder”, US45: “Desarrollo de elder profile”, US46: “Desarrollo de emergency numbers”, US47: “Desarrollo de reminders” y US48: “Desarrollo de technical support”.
-
-Feature: Desarrollo secciones del Sistema de TukunTech “Elder”
-
-  Como developer de TukunTech,
-  Quiero implementar las diferentes secciones del sistema "Elder",
-  Para poder visualizar, registrar y gestionar la información de pacientes, doctores y citas de manera eficiente.
-   
-  Scenario: Visualización de signos vitales
-    Given que el developer de TukunTech está trabajando en el panel SV elder
-    When esté implementado a la aplicación web
-    Then se podrán visualizar correctamente los signos vitales.
-    
-  Scenario: Relleno de datos del paciente
-    Given que el developer de TukunTech está trabajando en el elder profile
-    When esté implementada la sección elder profile
-    Then se podrán rellenar los datos del paciente.
-
-  Scenario: Actualización de datos del adulto mayor
-    Given que se ha implementado correctamente el elder profile
-    When se deban actualizar los datos del adulto mayor
-    Then se implementarán los datos del adulto mayor.
-
-  Scenario: Visualización de números de emergencia
-    Given que el developer de TukunTech está trabajando en la sección emergency numbers
-    When se esté implementando y se verifique su funcionalidad
-    Then deben mostrarse los números de emergencia adjuntados.
-
-  Scenario: Actualización de números de emergencia
-    Given que es una funcionalidad vital para emergencias
-    When se desee actualizar los números de emergencia
-    Then estos deben ser fácilmente editables
-    And su actualización debe ser verificada.
-
- Scenario: Configuración de medicación
-    Given que el developer de TukunTech está trabajando en el panel de reminders
-    When se configura una medicación
-    Then se observa la medicación y su cantidad a administrar.
-
-  Scenario: Uso de la funcionalidad de reminders
-    Given que la funcionalidad de reminders funciona correctamente
-    When se quiera aplicar el uso
-    Then esto facilita al cuidador la administración de medicamentos.
-
-  Scenario: Comunicación efectiva con soporte técnico
-    Given que el developer de TukunTech está trabajando en la sección  de technical support
-    When se implemente correctamente
-    Then debe facilitar la comunicación con soporte técnico para los usuarios
-    And debe incluir un formulario para enviar consultas y recibir respuestas.
-
-  Scenario: Envío y recepción de consultas
-    Given que el developer ha agregado correctamente el formulario de soporte
-    When la empresa reciba una consulta
-    Then podrá presentar su respuesta
-    And el usuario recibirá la respuesta exitosamente.
+## Scenario: Envío y recepción de consultas
+Dado que el developer ha agregado correctamente el formulario de soporte,  
+Cuando la empresa reciba una consulta,  
+Entonces podrá presentar su respuesta  
+Y el usuario recibirá la respuesta exitosamente.
 
 [DesarrolloOP-SW57 - Acceptance Test Sprint 2](https://github.com/TukunTech/DesarrolloOP-SW57/tree/main/acceptance-test-sprint2)
 
