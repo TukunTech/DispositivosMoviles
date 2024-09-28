@@ -1384,110 +1384,111 @@ Durante el proceso de desarrollo de software, es crucial tener requisitos claros
 
 El siguiente feature file se desarrolla con la User Story 22: Desarrollo de funcionalidad con JavaScrip en la Landing Page ya que esta implementa las funcionalidades interactivas de JavaScript.
 
-# Feature: Implementación de funcionalidades interactivas en la Landing Page usando JavaScript
+**Feature: Implementación de funcionalidades interactivas en la Landing Page usando JavaScript**
 
 Como developer de TukunTech,  
 Quiero implementar funcionalidades interactivas en el sitio utilizando JavaScript,  
 Para mejorar la experiencia del visitante.
 
-## Scenario: Implementación de funcionalidad interactiva
+**Scenario: Implementación de funcionalidad interactiva**  
 Dado que el developer necesita implementar interactividad en la Landing Page,  
 Cuando el developer añade scripts de JavaScript,  
 Entonces las funcionalidades interactivas deben mejorar la experiencia del usuario.
 
 ---
 
-# Feature: Aplicación de estilos visuales al Landing Page usando CSS
+**Feature: Aplicación de estilos visuales al Landing Page usando CSS**
 
 Como desarrollador de TukunTech,  
 Quiero aplicar estilos visuales al landing page usando CSS,  
 Para darle un diseño atractivo y coherente con el mockup.
 
-## Scenario: Consistencia visual del diseño con el mockup
+**Scenario: Consistencia visual del diseño con el mockup**  
 Dado que el landing page debe ser visualmente atractivo,  
 Cuando el developer aplique los estilos CSS,  
 Entonces los colores, tipografía y diseño deben reflejar el mockup para asegurar consistencia visual.
 
-## Scenario: Adaptabilidad del diseño a múltiples dispositivos
+**Scenario: Adaptabilidad del diseño a múltiples dispositivos**  
 Dado que el diseño debe adaptarse a diferentes dispositivos,  
 Cuando se apliquen los estilos CSS,  
 Entonces el landing page debe mantener su apariencia coherente y responsiva en varias resoluciones de pantalla.
 
 ---
 
-# Feature: Implementación de una navegación funcional en la sección Home del Landing Page
+**Feature: Implementación de una navegación funcional en la sección Home del Landing Page**
 
 Como developer de TukunTech,  
 Quiero implementar una navegación funcional en la sección Home,  
 Para permitir a los usuarios desplazarse fácilmente por dicha sección.
 
-## Scenario: Acceso a la documentación desde el Home
+**Scenario: Acceso a la documentación desde el Home**  
 Dado que los developers necesitan crear el Home de la Landing Page,  
 Cuando los visitantes acceden a la sección Home,  
 Entonces deben leer la documentación correctamente.
 
 ---
 
-# Feature: Implementación de soporte multilingüe en la Landing Page
+**Feature: Implementación de soporte multilingüe en la Landing Page**
 
 Como visitante del sitio web,  
 Quiero visualizar el Landing Page en inglés y español,  
 Para mejorar mi experiencia.
 
-## Scenario: Cambio de idioma efectivo en el Landing Page
+**Scenario: Cambio de idioma efectivo en el Landing Page**  
 Dado que el visitante necesita visualizar el Landing Page en diferentes lenguajes,  
 Cuando necesita cambiar el lenguaje,  
 Entonces la funcionalidad de cambio de idioma a Inglés funciona eficazmente.
 
 ---
 
-# Feature: Creación de la estructura básica del Landing Page usando HTML
+**Feature: Creación de la estructura básica del Landing Page usando HTML**
 
 Como Developer de TukunTech,  
 Quiero crear la estructura básica del landing page usando HTML,  
 Para asegurar que las secciones estén correctamente definidas y organizadas.
 
-## Scenario: Jerarquía de secciones para facilitar la comprensión del contenido
+**Scenario: Jerarquía de secciones para facilitar la comprensión del contenido**  
 Dado que el landing page debe presentar la información de manera accesible,  
 Cuando el developer estructure el contenido,  
 Entonces la jerarquía de las secciones debe facilitar que los usuarios comprendan de forma intuitiva el flujo de la información.
 
-## Scenario: Estructura HTML responsiva para diferentes dispositivos
+**Scenario: Estructura HTML responsiva para diferentes dispositivos**  
 Dado que el landing page debe ser adaptable a diferentes dispositivos,  
 Cuando se defina la estructura HTML,  
 Entonces el diseño debe permitir que las secciones sean responsivas, manteniendo su claridad y coherencia en cualquier resolución de pantalla.
 
 ---
 
-# Feature: Implementación de un menú de navegación por el Landing Page
+**Feature: Implementación de un menú de navegación por el Landing Page**
 
 Como developer de TukunTech,  
 Quiero visualizar las diversas secciones del Landing Page,  
 Para verificar su correcta funcionalidad.
 
-## Scenario: Visualizar la sección "Nosotros" en el Landing Page
+**Scenario: Visualizar la sección "Nosotros" en el Landing Page**  
 Dado que el developer realiza el desarrollo de la sección "Nosotros",  
 Cuando se programe correctamente la navegación,  
 Entonces la navegación en la sección "Nosotros" debe ser funcional y mostrar los datos pertinentes.
 
-## Scenario: Visualizar la sección "Servicios" en el Landing Page
+**Scenario: Visualizar la sección "Servicios" en el Landing Page**  
 Dado que el developer realiza la programación de la sección "Servicios",  
 Cuando está concluido,  
 Entonces la navegación en la sección no debe mostrar errores  
 Y debe ser intuitiva según el panel del Mock-up de la sección "Servicios".
 
-## Scenario: Visualizar la sección "Noticias" en el Landing Page
+**Scenario: Visualizar la sección "Noticias" en el Landing Page**  
 Dado que el developer realiza la programación de la sección "Noticias",  
 Cuando está concluido,  
 Entonces la navegación en la sección no debe mostrar errores  
 Y debe ser intuitiva según el panel del Mock-up de la sección "Noticias".
 
-## Scenario: Visualizar la sección "Planes" en el Landing Page
+**Scenario: Visualizar la sección "Planes" en el Landing Page**  
 Dado que el developer realiza la programación de la sección "Planes",  
 Cuando está concluido,  
 Entonces la navegación en la sección no debe mostrar errores  
 Y debe mostrar la información pertinente  
 Y debe ser intuitiva según el panel del Mock-up de la sección "Planes".
+
 
 
 [DesarrolloOP-SW57 - Acceptance Test Sprint 1](https://github.com/TukunTech/DesarrolloOP-SW57/tree/main/acceptance-test-sprint1)
