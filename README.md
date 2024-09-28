@@ -1927,7 +1927,7 @@ Acción Post/patient, se crea un nuevo paciente:
 ![POST/patients](./API/postPatient.JPG)
 
 Acción GET, muestra todos los pacientes:
-![GET/patients](./API/gettPatient.JPG)
+![GET/patients](./API/getPatient.JPG)
 
 Acción Post/doctor, se crea un nuevo doctor:
 ![POST/doctor](./API/postDoctor.JPG)
