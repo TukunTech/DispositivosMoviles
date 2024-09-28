@@ -1568,9 +1568,9 @@ Analítica de los commits de los aportantes:
 Desarrollo para el Sprint 1: 
 ![Team Collaboration Insights 2](./Team%20Collaboration%20Insights%20During%20Sprint/Network%20Graph.png)
 
-![Team Collaboration Insights 5](./Team%20Collaboration%20Insights%20During%20Sprint/Sprint1.png)
+![Team Collaboration Insights 5](./Team%20Collaboration%20Insights%20During%20Sprint/Sprint1.jpeg)
 
-![Team Collaboration Insights 6](./Team%20Collaboration%20Insights%20During%20Sprint/Sprint2.png)
+![Team Collaboration Insights 6](./Team%20Collaboration%20Insights%20During%20Sprint/Sprint2.jpeg)
 
 Network: se muestran los últimos commits efectuados
 ![Team Collaboration Insights 3](./Team%20Collaboration%20Insights%20During%20Sprint/Overview.png)
