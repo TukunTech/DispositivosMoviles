@@ -1759,7 +1759,6 @@ Lista de doctores, según datos en el fake API.
 Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
 
 ![OpenApi-SwaggerEditor](./API/openApi.JPG)
-[JSON OpneApi](./API/openapi.json)
 
 A continuación se muestra mediante una tabla una lista de todos los endpoints implementados durante el Sprint 2, especificando las acciones (GET, POST, PUT) y un enlace a la documentación o a la URL local de cada uno.
 
