@@ -1342,14 +1342,14 @@ En esta primera iteración, tuvimos como objetivo implementar el diseño de nues
 
 | **Sprint #** | **Work-Item / Task**  | **Id** | **Title**                           | **Description**                                                | **Estimation (hours)** | **Assigned To** | **Status** |
 |--------------|-----------------------|--------|-------------------------------------|----------------------------------------------------------------|------------------------|-----------------|------------|
-| 1            | Estructura HTML del Landing Page | 20     | Estructura HTML del Landing Page    | Implementar la estructura básica del landing page usando HTML.  | 6                      | Oscar           | Done       |
-| 1            | Estilos CSS del landing page     | 21     | Estilos CSS del landing page        | Aplicar estilos visuales y de diseño al landing page utilizando CSS. | 7                      | Rafael          | Done       |
-| 1            | Navegación sección Home landing page | 22     | Navegación sección Home landing page | Implementar la navegación funcional en la sección Home.         | 3                      | Adriana         | Done       |
-| 1            | Acceso sobre nosotros            | 15     | Acceso sobre nosotros               | Desarrollar el enlace y la navegación a la sección "Sobre Nosotros". | 4                      | Erick           | Done       |
-| 1            | Servicios brindados              | 24     | Servicios brindados                 | Mostrar y estructurar los servicios ofrecidos en la plataforma. | 4                      | Fabio           | Done       |
-| 1            | Planes                           | 28     | Planes                              | Integrar una sección para mostrar noticias y actualizaciones recientes. | 5                      | Oscar           | Done       |
-| 1            | Noticias                         | 25     | Noticias                            | Crear un formulario y mostrar información de contacto.         | 4                      | Rafael          | Done       |
-| 1            | Funcionalidades con JavaScript    | 27     | Funcionalidades con JavaScript      | Implementar funcionalidades interactivas en el sitio mediante JavaScript. | 6                      | Adriana         | Done       |
+| 1            | Estructura HTML del Landing Page | 16     | Estructura HTML del Landing Page    | Implementar la estructura básica del landing page usando HTML.  | 6                      | Oscar           | Done       |
+| 1            | Estilos CSS del landing page     | 17     | Estilos CSS del landing page        | Aplicar estilos visuales y de diseño al landing page utilizando CSS. | 7                      | Rafael          | Done       |
+| 1            | Navegación sección Home landing page | 18     | Navegación sección Home landing page | Implementar la navegación funcional en la sección Home.         | 3                      | Adriana         | Done       |
+| 1            | Acceso sobre nosotros            | 12     | Acceso sobre nosotros               | Desarrollar el enlace y la navegación a la sección "Sobre Nosotros". | 4                      | Erick           | Done       |
+| 1            | Servicios brindados              | 21     | Servicios brindados                 | Mostrar y estructurar los servicios ofrecidos en la plataforma. | 4                      | Fabio           | Done       |
+| 1            | Planes                           | 25     | Planes                              | Integrar una sección para mostrar noticias y actualizaciones recientes. | 5                      | Oscar           | Done       |
+| 1            | Noticias                         | 22     | Noticias                            | Crear un formulario y mostrar información de contacto.         | 4                      | Rafael          | Done       |
+| 1            | Funcionalidades con JavaScript    | 24     | Funcionalidades con JavaScript      | Implementar funcionalidades interactivas en el sitio mediante JavaScript. | 6                      | Adriana         | Done       |
 
 
 
