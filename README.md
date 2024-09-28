@@ -1663,76 +1663,77 @@ Durante el proceso de desarrollo de software, es crucial tener requisitos claros
 
 El primer feature presentado agrupa las siguientes historias de usuarios(US): US29: “Desarrollo de home clinic”, US30: “Desarrollo de panel patient postoperative”, US31: “Desarrollo de panel ICU patients”, US32: “Desarrollo de home registration”, US33: “Desarrollo de patient registration”, US34: “Desarrollo de medical registration”, US35: “Desarrollo list doctors”, US36: “Desarrollo list patients”, US40: “Home appointment”. La creación del feature en Gherkin agrupa las diferentes historias de usuario relacionadas con los apartados del sistema de TukunTech. Cada historia se convierte en un escenario dentro del feature, describiendo las funcionalidades que deben implementarse, como el acceso a paneles de pacientes, registro de usuarios, y visualización de listas de doctores y pacientes. Esta agrupación facilita la organización y desarrollo de las secciones clave del sistema, proporcionando una visión clara de las expectativas de cada componente y su comportamiento esperado en el sistema.
 
-# Feature: Funcionalidades de la sección Appointments
+**Feature: Funcionalidades de la sección Appointments**
 
-## Scenario: Visualizar y acceder a opciones de citas
+**Scenario: Visualizar y acceder a opciones de citas**  
 Dado que el developer de TukunTech está trabajando en el home Appointments,  
 Cuando el home Appointments se implemente,  
 Entonces debe visualizar y dar acceso a las opciones de citas.
 
-## Scenario: Visualizar datos de la cita agendada
+**Scenario: Visualizar datos de la cita agendada**  
 Dado que el developer de TukunTech está trabajando en Schedule Appointments,  
 Cuando se implemente correctamente,  
 Entonces se visualizan los datos de la cita.
 
-## Scenario: Reprogramar citas
+**Scenario: Reprogramar citas**  
 Dado que el developer de TukunTech está trabajando,  
 Cuando esté implementado el Reschedule Appointments,  
 Entonces se muestran las fechas a las que se puede programar la cita.
 
 ---
 
-# Feature: Desarrollo secciones del Sistema de TukunTech “Elder”
+**Feature: Desarrollo secciones del Sistema de TukunTech “Elder”**
 
 El sistema TukunTech "Elder" se enfoca en optimizar la atención de adultos mayores mediante funcionalidades que facilitan la gestión del historial médico, las citas y los datos de contacto de emergencia. Este feature tiene como objetivo mejorar la experiencia de cuidadores y familiares, garantizando un cuidado más efectivo y un seguimiento adecuado de la salud de los usuarios. El feature presentado agrupa las siguientes historias de usuarios (US): US44: “Desarrollo de panel sv elder”, US45: “Desarrollo de elder profile”, US46: “Desarrollo de emergency numbers”, US47: “Desarrollo de reminders” y US48: “Desarrollo de technical support”.
 
-## Scenario: Visualización de signos vitales
+**Scenario: Visualización de signos vitales**  
 Dado que el developer de TukunTech está trabajando en el panel SV elder,  
 Cuando esté implementado a la aplicación web,  
 Entonces se podrán visualizar correctamente los signos vitales.
 
-## Scenario: Relleno de datos del paciente
+**Scenario: Relleno de datos del paciente**  
 Dado que el developer de TukunTech está trabajando en el elder profile,  
 Cuando esté implementada la sección elder profile,  
 Entonces se podrán rellenar los datos del paciente.
 
-## Scenario: Actualización de datos del adulto mayor
+**Scenario: Actualización de datos del adulto mayor**  
 Dado que se ha implementado correctamente el elder profile,  
 Cuando se deban actualizar los datos del adulto mayor,  
 Entonces se implementarán los datos del adulto mayor.
 
-## Scenario: Visualización de números de emergencia
+**Scenario: Visualización de números de emergencia**  
 Dado que el developer de TukunTech está trabajando en la sección emergency numbers,  
 Cuando se esté implementando y se verifique su funcionalidad,  
 Entonces deben mostrarse los números de emergencia adjuntados.
 
-## Scenario: Actualización de números de emergencia
+**Scenario: Actualización de números de emergencia**  
 Dado que es una funcionalidad vital para emergencias,  
 Cuando se desee actualizar los números de emergencia,  
 Entonces estos deben ser fácilmente editables  
 Y su actualización debe ser verificada.
 
-## Scenario: Configuración de medicación
+**Scenario: Configuración de medicación**  
 Dado que el developer de TukunTech está trabajando en el panel de reminders,  
 Cuando se configura una medicación,  
 Entonces se observa la medicación y su cantidad a administrar.
 
-## Scenario: Uso de la funcionalidad de reminders
+**Scenario: Uso de la funcionalidad de reminders**  
 Dado que la funcionalidad de reminders funciona correctamente,  
 Cuando se quiera aplicar el uso,  
 Entonces esto facilita al cuidador la administración de medicamentos.
 
-## Scenario: Comunicación efectiva con soporte técnico
+**Scenario: Comunicación efectiva con soporte técnico**  
 Dado que el developer de TukunTech está trabajando en la sección de technical support,  
 Cuando se implemente correctamente,  
 Entonces debe facilitar la comunicación con soporte técnico para los usuarios  
 Y debe incluir un formulario para enviar consultas y recibir respuestas.
 
-## Scenario: Envío y recepción de consultas
+**Scenario: Envío y recepción de consultas**  
 Dado que el developer ha agregado correctamente el formulario de soporte,  
 Cuando la empresa reciba una consulta,  
 Entonces podrá presentar su respuesta  
 Y el usuario recibirá la respuesta exitosamente.
+
 
 [DesarrolloOP-SW57 - Acceptance Test Sprint 2](https://github.com/TukunTech/DesarrolloOP-SW57/tree/main/acceptance-test-sprint2)
 
