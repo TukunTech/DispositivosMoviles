@@ -1746,14 +1746,18 @@ A continuación, se incluyen capturas de pantalla de las vistas más representat
 Home: Menú principal donde se muestran los botones que redireccionan a las opciones.
 ![Home](./web-application/home1.JPG)
 
+
 Visualización de pacientes de acuerdo a los datos del sistema.
 ![Pacientes](./web-application/home2.JPG)
+
 
 Opción para registrar pacientes y medicos, funcionando de acuerdo a un fake API.
 ![Registro](./web-application/home3.JPG)
 
+
 Lista de doctores, según datos en el fake API.
 ![Doctores](./web-application/home4.JPG)
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
