@@ -1402,14 +1402,14 @@ Feature: Aplicación de estilos visuales al Landing Page usando CSS
   Para darle un diseño atractivo y coherente con el mockup
 
   Scenario: Consistencia visual del diseño con el mockup
-    Dado que el landing page debe ser visualmente atractivo
-    Cuando el developer aplique los estilos CSS
-    Entonces los colores, tipografía y diseño deben reflejar el mockup para asegurar consistencia visual.
+    Given el landing page debe ser visualmente atractivo
+    When el developer aplique los estilos CSS
+    Then los colores, tipografía y diseño deben reflejar el mockup para asegurar consistencia visual.
 
   Scenario: Adaptabilidad del diseño a múltiples dispositivos
-    Dado que el diseño debe adaptarse a diferentes dispositivos
-    Cuando se apliquen los estilos CSS
-    Entonces el landing page debe mantener su apariencia coherente y responsiva en varias resoluciones de pantalla.
+    Given el diseño debe adaptarse a diferentes dispositivos
+    When se apliquen los estilos CSS
+    Then el landing page debe mantener su apariencia coherente y responsiva en varias resoluciones de pantalla.
 
 El siguiente feature file se desarrolla con la User Story 18: Navegación en la sección Home del landing page ya que esta implementa las funcionalidades de navegación del Landing Page en el Home
 
@@ -1421,9 +1421,9 @@ Feature: Implementación de una navegación funcional en la sección Home del La
   Para permitir a los usuarios desplazarse fácilmente por dicha sección
 
   Scenario: Acceso a la documentación desde el Home
-    Dado que los developers necesitan crear el Home de la Landing Page
-    Cuando los visitantes acceden a la sección Home
-    Entonces deben leer la documentación correctamente.
+    Given los developers necesitan crear el Home de la Landing Page
+    When los visitantes acceden a la sección Home
+    Then deben leer la documentación correctamente.
 
 El siguiente feature file se desarrolla con la User Story 25: Desarrollo de soporte multilingüe en la Landing Page ya que esta implementa el soporte multilingüe en el Landing Page en el Home
 
@@ -1434,9 +1434,9 @@ Feature: Implementación de soporte multilingüe en la Landing Page
   Para mejorar mi experiencia
 
   Scenario: Cambio de idioma efectivo en el Landing Page
-    Dado que el visitante necesita visualizar el Landing Page en diferentes lenguajes
-    Cuando necesita cambiar el lenguaje
-    Entonces la funcionalidad de cambio de idioma a Inglés funciona eficazmente.
+    Given el visitante necesita visualizar el Landing Page en diferentes lenguajes
+    When necesita cambiar el lenguaje
+    Then la funcionalidad de cambio de idioma a Inglés funciona eficazmente.
 
 El siguiente feature file se desarrolla con la User Story 16: Desarrollo de estructura HTML del Landing Page ya que esta implementa la estructura básica en el Landing Page haciendo uso de HTML
 
@@ -1446,9 +1446,9 @@ Feature: Creación de la estructura básica del Landing Page usando HTML
   Para asegurar que las secciones estén correctamente definidas y organizadas
 
   Scenario: Jerarquía de secciones para facilitar la comprensión del contenido
-    Dado que el landing page debe presentar la información de manera accesible
-    Cuando el developer estructure el contenido
-    Entonces la jerarquía de las secciones debe facilitar que los usuarios comprendan de forma intuitiva el flujo de la información.
+    Given el landing page debe presentar la información de manera accesible
+    When el developer estructure el contenido
+    Then la jerarquía de las secciones debe facilitar que los usuarios comprendan de forma intuitiva el flujo de la información.
 
 El siguiente feature file se desarrolla con las User Story 19: Desarrollo a la sección “Nosotros”, User Story 20: Desarrollo a la sección “Servicios”, User Story 21: Desarrollo a la sección “Noticias” y User Story 23: Desarrollo a la sección “Planes” ya que esta implementa las funcionalidades de la cabecera de nuestro Landing Page para el recorrido optimizado a traves de está.
 
@@ -1458,28 +1458,28 @@ Feature: Implementación de un menú de navegación por el Landing Page
   Para verificar su correcta funcionalidad
 
   Scenario: Visualizar la sección "Nosotros" en el Landing Page
-    Dado que el developer realiza el desarrollo de la sección "Nosotros"
-    Cuando se programe correctamente la navegación
-    Entonces la navegación en la sección "Nosotros" debe ser funcional y mostrar los datos pertinentes.
+    Given el developer realiza el desarrollo de la sección "Nosotros"
+    When se programe correctamente la navegación
+    Then la navegación en la sección "Nosotros" debe ser funcional y mostrar los datos pertinentes.
 
   Scenario: Visualizar la sección "Servicios" en el Landing Page
-    Dado que el developer realiza la programación de la sección "Servicios"
-    Cuando está concluido
-    Entonces la navegación en la sección no debe mostrar errores
-    Y debe ser intuitiva según el panel del Mock-up de la sección "Servicios".
+    Given el developer realiza la programación de la sección "Servicios"
+    When está concluido
+    Then la navegación en la sección no debe mostrar errores
+    And debe ser intuitiva según el panel del Mock-up de la sección "Servicios".
 
   Scenario: Visualizar la sección "Noticias" en el Landing Page
-    Dado que el developer realiza la programación de la sección "Noticias"
-    Cuando está concluido
-    Entonces la navegación en la sección no debe mostrar errores
-    Y debe ser intuitiva según el panel del Mock-up de la sección "Noticias".
+    Given el developer realiza la programación de la sección "Noticias"
+    When está concluido
+    Then la navegación en la sección no debe mostrar errores
+    And debe ser intuitiva según el panel del Mock-up de la sección "Noticias".
 
   Scenario: Visualizar la sección "Planes" en el Landing Page
-    Dado que el developer realiza la programación de la sección "Planes"
-    Cuando está concluido
-    Entonces la navegación en la sección no debe mostrar errores
-    Y debe mostrar la información pertinente
-    Y debe ser intuitiva según el panel del Mock-up de la sección "Planes".
+    Given el developer realiza la programación de la sección "Planes"
+    When está concluido
+    Then la navegación en la sección no debe mostrar errores
+    And debe mostrar la información pertinente
+    And debe ser intuitiva según el panel del Mock-up de la sección "Planes".
 
 El desarrollo de steps en JavaScript para el feature file menu-navegacion-landing-page y para la estructura-basica-landing-page-html se encuentra en la carpeta de nombre Steps.
 
@@ -2004,7 +2004,8 @@ En este sprint, el equipo se ha enfocado en el desarrollo del frontend de la apl
 [Expo TP:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EaeaHUxjSzNMncj7o-29ThIBl5Ow7Fk1a8h8f595mHZExg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OQUFwo)
 [Expo TB1:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZvR_mWDqsJEs45BYWMTiGsBlpxexmF_P-aodhad-4Bz1A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gTvgSn)
 [Expo Grupal:](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EaeaHUxjSzNMncj7o-29ThIBZGImtEDVDxFT4ys6xw7r8A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=GKVooN) 
-
+[Video expo sprint 2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EdEjMJbcb3hEsn6q9_j6_GgBxQGJstGwTthOqTyQmUTzSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=F29kBs)
+[Video expo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EUJqQdRefNpBoRsYHTXMj0kB_583VmeEkMsbOFSd8cA5sQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4ExuWg)
 
 ## Bibliografía:
 
