@@ -12,6 +12,7 @@
 - **Maraza Pedemonte, Erick** U202213372
 - **Palomares Chávez, Adriana Giovanna** U20221f23
 - **Soto Zorrilla, Oscar Eduardo** U201811767
+- **Quiroz Zambrano, Fabrizio Javier** U202213406
 
 **Fecha:** 2024-02
 
