@@ -163,7 +163,7 @@ Estoy actualmente en el quinto ciclo de mi carrera en Ingeniería de Software. D
 #### Quiroz Zambrano, Fabrizio Javier
 Mi nombre es Fabrizio Javier Quiroz Zambrano, Me encanta todo lo que tenga que ver con la tecnología y el mundo competitivo de los videojuegos, siempre trato de ser el mejor en lo que hago.
 
-![Quiroz Zambrano, Fabrizio Javier](./Nosotros-img/Fabrizio.png)
+![Quiroz Zambrano, Fabrizio Javier](./Nosotros-img/Fabrizio1.png)
 
 ## 1.2. Solution Profile.
 **Product Name** Se decidió llamar a nuestro producto “TukunTech”, inspirado en el sonido “tukun” que imita el latido del corazón, el pulso rítmico que simboliza la vida y la salud. Este sonido, asociado con el latido cardíaco, refleja el enfoque principal de nuestra aplicación: el monitoreo de signos vitales. Así como el “tukun” del corazón es esencial para la vida, nuestra aplicación es fundamental para la vigilancia y cuidado continuo de los pacientes.
