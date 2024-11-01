@@ -2074,12 +2074,12 @@ Se observa el test que se realizó mediante PostMan, en donde se prueba el crear
 Gherkin:
 En esta seccion se presenta las us que incluyen los get y post de los bounded contexts Patients y Doctors.
 Patients:
-![Gherkin-1](./img-gherkin/gherkin1.png)
-![Gherkin-2](./img-gherkin/gherkin2.png)
-![Gherkin-3](./img-gherkin/gherkin3.png)
+![Gherkin-1](./img-gherkin/gherkin1.jpg)
+![Gherkin-2](./img-gherkin/gherkin2.jpg)
+![Gherkin-3](./img-gherkin/gherkin3.jpg)
 Doctors:
-![Gherkin-4](./img-gherkin/gherkin4.png)
-![Gherkin-5](./img-gherkin/gherkin5.png)
+![Gherkin-4](./img-gherkin/gherkin4.jpg)
+![Gherkin-5](./img-gherkin/gherkin5.jpg)
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de doctores, pacientes y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos de pacientes, así como la gestión de la información de los doctores y la autenticación de usuarios.
