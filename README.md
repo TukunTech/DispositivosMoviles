@@ -656,6 +656,13 @@ Tras analizar las *Epics* definidas, procedimos a desglosarlas en *User Stories*
 ![UserStorie13](./user-stories/cap13.jpg)
 ![UserStorie14](./user-stories/cap14.jpg)
 ![UserStorie15](./user-stories/cap15.jpg)
+![UserStorie10](./user-stories/cap16.jpg)
+![UserStorie11](./user-stories/cap17.jpg)
+![UserStorie12](./user-stories/cap18.jpg)
+![UserStorie13](./user-stories/cap19.jpg)
+![UserStorie14](./user-stories/cap20.jpg)
+![UserStorie15](./user-stories/cap21.jpg)
+![UserStorie15](./user-stories/cap22.jpg)
 
 ## 3.3. Impact Mapping.
 El Impact Mapping es una herramienta estratégica utilizada en el desarrollo de software para visualizar y alinear los objetivos comerciales con las funcionalidades técnicas. A través de esta técnica, se busca identificar y priorizar las áreas de mayor impacto en el proyecto, lo que permite tomar decisiones más informadas sobre dónde enfocar los recursos y cómo maximizar los resultados. En nuestro caso, utilizaremos Impact Mapping para entender cómo nuestras soluciones tecnológicas pueden mejorar el monitoreo de signos vitales en pacientes postoperatorios, adultos mayores y aquellos en cuidados intensivos, alineando estas mejoras con las necesidades y expectativas del personal médico en clínicas privadas.
