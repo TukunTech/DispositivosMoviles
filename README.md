@@ -2070,10 +2070,16 @@ Se observa el test que se realizó mediante PostMan, en donde se prueba como eje
 Se observa el test que se realizó mediante PostMan, en donde se prueba el crear un nuevo paciente mediante el WebService.
 ![GET/patients](./PostMan/POST-patient.png)
 
+
 Gherkin:
 En esta seccion se presenta las us que incluyen los get y post de los bounded contexts Patients y Doctors.
 Patients:
-
+![Gherkin-1](./img-gherkin/gherkin1.png)
+![Gherkin-2](./img-gherkin/gherkin2.png)
+![Gherkin-3](./img-gherkin/gherkin3.png)
+Doctors:
+![Gherkin-4](./img-gherkin/gherkin4.png)
+![Gherkin-5](./img-gherkin/gherkin5.png)
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de doctores, pacientes y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos de pacientes, así como la gestión de la información de los doctores y la autenticación de usuarios.
