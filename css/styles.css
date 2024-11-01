@@ -1665,3 +1665,55 @@ input[type="radio"]#option2:checked ~ .toggle-bar {
     font-size: 25px;
 
 }
+
+.seccion-reseñas, .reviews-section {
+    background-color: #ffffff; 
+    padding: 30px;
+    margin: 40px auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    text-align: center;
+}
+
+
+.titulo-reseñas, .reviews-title {
+    font-size: 28px;
+    color: #0097B2;
+    margin-bottom: 20px;
+}
+
+.contenido-reseña, .review-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenido-reseña p, .review-content p {
+    font-size: 18px;
+    color: #333;
+    max-width: 500px;
+}
+
+.autor, .author {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #0097B2;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
