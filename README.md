@@ -2052,8 +2052,8 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting del 
 | **Sprint 3 – 2 Retrospective Summary** | Correcciones de errores en la documentación.   |
 | **Sprint Goal & User Stories**   |                                                    |
 | **Sprint 3 Goal**                | Our focus is on improving the platform to better engage visitors with relevant content on the landing page, making it easier for medical staff and caregivers to interact through a more intuitive interface, and providing a robust and efficient infrastructure for developers to manage and process patient data in real-time. We believe it delivers an enhanced user experience that fosters greater engagement, facilitates efficient access to patient information for medical staff and caregivers, and ensures that developers can manage data effectively and seamlessly. This will be confirmed when visitors interact more with the landing page, medical staff and caregivers can efficiently access and manage patient information, and developers can ensure that data is stored and processed smoothly. |
-| **Sprint 3 Velocity**            |                                                    |
-| **Sum of Story Points**          |                                                    |
+| **Sprint 3 Velocity**            | 110                                                |
+| **Sum of Story Points**          | 110                                                |
 
 
 #### 5.2.3.2. Sprint Planning 3
