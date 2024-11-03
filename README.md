@@ -2527,6 +2527,40 @@ Recomendación:
 La más práctica es incluir una ventana emergente de confirmación al finalizar el ingreso de datos en el módulo de soporte técnico. De esta manera, el usuario podría revisar la información ingresada y corregir cualquier error antes de enviarla, minimizando problemas en la comunicación de soporte y mejorando la precisión sin afectar la experiencia de usuario.
 
 
+# Conclusiones
+
+1. **Aplicación del Lean UX y UX Research**: El uso de estas metodologías permitió entender profundamente las necesidades de los usuarios, facilitando la creación de historias de usuario y un diseño visual adecuado que responde a los requerimientos del proyecto.
+   
+2. **Integración de Tecnología IoT**: La plataforma se centra en el monitoreo continuo y en tiempo real de signos vitales, lo que es crucial para mejorar la atención médica en pacientes críticos, especialmente en cuidados intensivos y postoperatorios.
+
+3. **Enfoque en la Eficiencia Médica**: La solución desarrollada busca optimizar la capacidad de respuesta del personal médico, reduciendo tiempos de reacción mediante alertas automáticas y centralización de datos.
+
+4. **Adopción de Buenas Prácticas de Programación**: El equipo siguió convenciones de estilo y nomenclatura en el desarrollo del código, lo que facilita la comprensión y mantenimiento del sistema.
+
+5. **Documentación Completa y Colaborativa**: La generación de una documentación detallada de procesos y decisiones en cada fase del proyecto aseguró claridad y alineación entre todos los miembros del equipo.
+
+6. **Validación de Usuario Continua**: A través de entrevistas y validación con personas representativas de los segmentos objetivo, se obtuvieron valiosas retroalimentaciones que guiaron el desarrollo de la solución.
+
+7. **Enfoque en la Mejora Continua**: El equipo se comprometió a iterar y refinar los artefactos del proyecto, como prototipos y pruebas, basado en hallazgos y recomendaciones.
+
+8. **Compromiso del Equipo**: La comunicación constante entre los integrantes, usando plataformas como Discord y WhatsApp, fomentó una colaboración efectiva que contribuyó al éxito del proyecto.
+
+9. **Uso del Domain-Driven Design (DDD)**: La integración de los endpoints se estructuró mediante el patrón DDD, lo que facilitó la organización de las funcionalidades del backend en torno a los dominios clave del sistema.
+
+10. **Estandarización de Rutas y Métodos HTTP**: Cada endpoint fue diseñado con convenciones claras de rutas y métodos (GET, POST, etc.), lo que garantiza una estructura consistente y entendible para futuros desarrolladores.
+
+11. **Implementación de Endpoints para Acceso en Tiempo Real**: Los endpoints de monitoreo permiten al personal médico acceder a datos críticos en tiempo real, mejorando así la calidad del seguimiento y la capacidad de respuesta en emergencias.
+
+12. **Documentación de los Endpoints**: La documentación exhaustiva de cada endpoint garantiza que los desarrolladores comprendan las funcionalidades y el flujo de datos esperado en el sistema.
+
+13. **Validación y Manejo de Errores en Endpoints**: Se incluyó un manejo robusto de errores y validaciones en los endpoints, lo que asegura que las solicitudes incorrectas sean gestionadas adecuadamente, mejorando la estabilidad del sistema.
+
+14. **Endpoints de Creación y Visualización de Recursos Médicos**: Los endpoints permiten la creación y consulta de recursos como pacientes, doctores y alertas críticas, lo cual facilita una gestión integral de los datos en el sistema.
+
+15. **Pruebas de Integración con Postman**: Las pruebas realizadas con Postman ayudaron a verificar que los endpoints funcionan como se espera, asegurando la consistencia y confiabilidad del backend.
+
+16. **Escalabilidad del Backend**: La implementación de los endpoints fue realizada pensando en la escalabilidad futura del sistema, permitiendo agregar nuevas funcionalidades y ampliar el alcance del monitoreo de pacientes en diferentes entornos.
+
 ## Anexos
 [Landing Page:](https://tukuntech.github.io/DesarrolloOP-SW57/) 
 
