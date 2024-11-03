@@ -138,7 +138,7 @@ La aplicación de Lean UX y UX Research nos permitió entender mejor las necesid
 #### Conclusiones
 El uso adecuado de lenguajes de programación y herramientas, junto con buenas prácticas y convenciones, facilitó una implementación efectiva y colaborativa del proyecto. La aplicación rigurosa de Lean UX, UX Research, y otros procesos ágiles, tanto en documentación escrita aseguró una solución robusta y bien validada mediante entrevistas con User Personas. La orientación hacia la mejora continua permitirá actualizar y perfeccionar los artefactos basados en hallazgos y recomendaciones. La comunicación clara y objetiva de la propuesta.
 
-
+### TB2
 
 | Criterio específico                             | Acciones Realizadas                                                                                                                      | Conclusiones                                                                                                                         |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
