@@ -2146,7 +2146,24 @@ A continuación, se presenta una tabla que documenta los commits relevantes rela
 | Rafooo6/tukun-tech-platform-web      | main   | 693a7b7   | feat(critical-alerts): add files for alert management backend | empty          | 31/10/2024          |
 | Rafooo6/tukun-tech-platform-web      | main   | 1bdc3a5   | chore(pending-medicine): update backend files for PendingMedicine functionality | empty | 31/10/2024 |
 | Rafooo6/tukun-tech-platform-web      | main   | 7625a67   | chore(frequently-questions): update backend files for FrequentlyQuestions functionality | empty | 31/10/2024 |
-| Fabio/tukun-tech-platform-web        | main   | cadcaba   | feat(emergency-numbers): add files for emergency numbers management backend | empty | 31/10/2024 |
+| Fabio/tukun-tech-platform-web        | main   | cadcaba   | feat(emergency-numbers): add files for emergency numbers management backend | empty | 31/10/2024 |Rafooo6/tukun-tech-platform-open-source     | main  | bbc49f4  | feat(pendingmedicine): add PendingMedicine entity with fields and relationships | empty | 1/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 4e7f354  | feat(status): add Status entity with fields                                  | empty | 1/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 10014e1  | feat(pendingmedicine): add PendingMedicineController with endpoints for CRUD operations | empty | 1/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | bf7a87c  | feat(pendingmedicine): add PendingMedicineRepository for database interactions | empty | 1/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 37bfb70  | feat(pendingmedicine): add PendingMedicineService interface for CRUD operations | empty | 1/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 3232b1f  | feat(pendingmedicine): implement PendingMedicineService with PendingMedicineServiceImpl | empty | 1/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | fc398f3  | fix(pending-medicine): fix bug in PendingMedicineController endpoint logic | empty | 1/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 9b214d3  | feat(entity): add TechnicalSupport entity with some fields                  | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 64a58b3  | feat(controller): add TechnicalSupportController for handling requests      | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 90f9cdc  | feat(service-impl): add TechnicalSupportImpl with business logic            | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | eb4fe9c  | feat(repository): add TechnicalSupportRepository for data access            | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 27abf87  | feat(service): define TechnicalSupportService interface                     | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 46a885f  | feat(critical-alerts): add CriticalAlerts entity for managing critical alerts | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 43c36b5  | feat(critical-alerts): add CriticalAlertsController to handle API requests for critical alerts | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 46f20e0  | feat(critical-alerts): add CriticalAlertsRepository for database operations | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 5c8d4e6  | feat(critical-alerts): define CriticalAlertsService interface for critical alerts logic | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | c028ce2  | feat(type-alert): add TypeAlert entity to define alert types                | empty | 2/11/2024   |
+| Rafooo6/tukun-tech-platform-open-source     | main  | 049451a  | feat(pending-medicine): update files                                       | empty | 2/11/2024   |
 
 
 
