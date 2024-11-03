@@ -2343,7 +2343,8 @@ Acción GET, muestra todos los doctores:
 
 #### 5.2.3.7. Team Collaboration Insights during Sprint.
 En esta sección, el equipo detalla cómo se han desarrollado las actividades de implementación, destacando el uso de herramientas colaborativas como GitHub, Trello, Discord y WhatsApp para facilitar la comunicación y el seguimiento del progreso. GitHub ha sido fundamental para gestionar el código y documentar los commits realizados por los miembros del equipo, mientras que Trello ha permitido organizar las tareas y monitorear el avance de cada uno de los productos correspondientes al Sprint, como la Landing Page, las Aplicaciones Web y los Servicios Web. La comunicación en tiempo real se ha facilitado a través de Discord y WhatsApp, donde los miembros del equipo han podido resolver dudas y coordinar esfuerzos de manera efectiva. A continuación, se presentan capturas de pantalla que ilustran los analíticos de colaboración y los commits realizados en GitHub, reflejando la participación activa de todos los integrantes del equipo en la implementación del proyecto.
-
+![Trello](./trello-tb2/1.JPG)
+![Trello](./trello-tb2/2.JPG)
 
 
 #### 5.3. Validation Interviews.
