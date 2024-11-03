@@ -2185,7 +2185,8 @@ A continuación, se presenta una tabla que documenta los commits relevantes rela
 | Fabio/tukun-tech-platform-open-source  | main   | 3f6d08f   | feat(emergency-numbers): add EmergencyNumbersController to handle API requests for emergency numbers | empty | 3/11/2024 |
 | Fabio/tukun-tech-platform-open-source  | main   | 2514efe   | feat(emergency-numbers): Update ContactName.java               | empty               | 3/11/2024          |
 | Fabio/tukun-tech-platform-open-source  | main   | 37194a9   | feat(emergency-numbers): update EmergencyNumbersController to handle API requests for emergency numbers | empty | 3/11/2024 |
-
+| Fabio/tukun-tech-platform-open-source  | main   | f1fae83   | feat(emergency-numbers): update EmergencyNumbersService interface for emergency numbers logic numbers | empty | 3/11/2024 |
+| Fabio/tukun-tech-platform-open-source  | main   | 7071532   | feat(emergency-numbers): update EmergencyNumbersServiceImpl              | empty               | 3/11/2024          |
 
 
 
