@@ -104,6 +104,8 @@
 |          | 01/11/2024  | Soto Zorrilla, Oscar Eduardo        | Participación en video About the team                                         |
 |          | 01/11/2024  | Quiroz Zambrano, Fabrizio Javier    | Participación en video about the team                                         |
 |          | 02/11/2024  | Quiroz Zambrano, Fabrizio Javier    | Actualizar product backlog y user stories                                     |
+| 01/11/2024  | Quiroz Zambrano, Fabrizio Javier | Participación en video about the team       |
+| 02/11/2024  | Quiroz Zambrano, Fabrizio Javier | Actualizar product backlog y user stories   |
 
 
 
