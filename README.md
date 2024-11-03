@@ -2178,6 +2178,13 @@ A continuación, se presenta una tabla que documenta los commits relevantes rela
 | Ericksnpaii/tukun-tech-platform-open-source | main | 566d833   | feat: add ElderBedService interface                         | empty               | 2/11/2024          |
 | Ericksnpaii/tukun-tech-platform-open-source | main | 896690b   | feat: add ElderServiceImpl with ElderService implementation | empty               | 2/11/2024          |
 | Ericksnpaii/tukun-tech-platform-open-source | main | 77b43af   | feat: add ElderBedController with CRUD endpoints for ElderBed | empty           | 2/11/2024          |
+| Fabio/tukun-tech-platform-open-source  | main   | 1fa1f7e   | feat(emergency-numbers): add EmergencyNumbers entity for managing emergency numbers | empty               | 3/11/2024          |
+| Fabio/tukun-tech-platform-open-source  | main   | 5c9e4c0   | feat(emergency-numbers): add EmergencyNumbersRepository for data access | empty               | 3/11/2024          |
+| Fabio/tukun-tech-platform-open-source  | main   | 3672939   | feat(emergency-numbers): define EmergencyNumbersService interface for emergency numbers logic | empty | 3/11/2024 |
+| Fabio/tukun-tech-platform-open-source  | main   | cedeb45   | feat(emergency-numbers): implement EmergencyNumbersService with EmergencyNumbersImpl | empty               | 3/11/2024          |
+| Fabio/tukun-tech-platform-open-source  | main   | 3f6d08f   | feat(emergency-numbers): add EmergencyNumbersController to handle API requests for emergency numbers | empty | 3/11/2024 |
+| Fabio/tukun-tech-platform-open-source  | main   | 2514efe   | feat(emergency-numbers): Update ContactName.java               | empty               | 3/11/2024          |
+| Fabio/tukun-tech-platform-open-source  | main   | 37194a9   | feat(emergency-numbers): update EmergencyNumbersController to handle API requests for emergency numbers | empty | 3/11/2024 |
 
 
 
