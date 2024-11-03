@@ -696,7 +696,32 @@ Tras analizar las *Epics* definidas, procedimos a desglosarlas en *User Stories*
 ![UserStorie13](./user-stories/cap19.jpg)
 ![UserStorie14](./user-stories/cap20.jpg)
 ![UserStorie15](./user-stories/cap21.jpg)
-![UserStorie15](./user-stories/cap22.jpg)
+![UserStorie16](./user-stories/cap22.jpg)
+![UserStorie17](./user-stories/cap23.jpg)
+![UserStorie18](./user-stories/cap24.jpg)
+![UserStorie19](./user-stories/cap25.jpg)
+![UserStorie20](./user-stories/cap26.jpg)
+![UserStorie21](./user-stories/cap27.jpg)
+![UserStorie22](./user-stories/cap29.jpg)
+![UserStorie23](./user-stories/cap30.jpg)
+![UserStorie24](./user-stories/cap31.jpg)
+![UserStorie25](./user-stories/cap32.jpg)
+![UserStorie26](./user-stories/cap33.jpg)
+![UserStorie27](./user-stories/cap34.jpg)
+![UserStorie28](./user-stories/cap35.jpg)
+![UserStorie29](./user-stories/cap36.jpg)
+![UserStorie30](./user-stories/cap37.jpg)
+![UserStorie31](./user-stories/cap38.jpg)
+![UserStorie32](./user-stories/cap39.jpg)
+![UserStorie33](./user-stories/cap40.jpg)
+![UserStorie34](./user-stories/cap41.jpg)
+![UserStorie35](./user-stories/cap42.jpg)
+![UserStorie36](./user-stories/cap43.jpg)
+![UserStorie37](./user-stories/cap44.jpg)
+![UserStorie38](./user-stories/cap45.jpg)
+![UserStorie39](./user-stories/cap46.jpg)
+
+
 
 ## 3.3. Impact Mapping.
 El Impact Mapping es una herramienta estratégica utilizada en el desarrollo de software para visualizar y alinear los objetivos comerciales con las funcionalidades técnicas. A través de esta técnica, se busca identificar y priorizar las áreas de mayor impacto en el proyecto, lo que permite tomar decisiones más informadas sobre dónde enfocar los recursos y cómo maximizar los resultados. En nuestro caso, utilizaremos Impact Mapping para entender cómo nuestras soluciones tecnológicas pueden mejorar el monitoreo de signos vitales en pacientes postoperatorios, adultos mayores y aquellos en cuidados intensivos, alineando estas mejoras con las necesidades y expectativas del personal médico en clínicas privadas.
