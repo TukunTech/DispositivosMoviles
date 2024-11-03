@@ -2206,6 +2206,9 @@ Doctors:
 Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión del backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de doctores, pacientes y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos de pacientes, así como la gestión de la información de los doctores y la autenticación de usuarios.
 Además, se presentan screenshots de las principales vistas implementadas en el frontend que interactúan con estos endpoints, permitiendo una navegación más fluida y eficiente. Junto a esto, se incluye un enlace a un video que ilustra y explica la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar con las funcionalidades disponibles de manera intuitiva.
 Vista general de los endpoints generados via Swagger: Se observan los endopoints con sus respectivos títulos.
+![Swagger1](./swagger-op/1.jpg)
+![Swagger2](./swagger-op/2.jpg)
+![Swagger3](./swagger-op/3.jpg)
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
