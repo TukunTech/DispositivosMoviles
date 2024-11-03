@@ -2109,61 +2109,76 @@ En este sprint, el equipo se enfocará en el desarrollo de la primera versión d
 En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, centrados en el desarrollo de la primera versión del backend de la aplicación web y en la corrección de detalles en el frontend. El enfoque principal ha sido avanzar en la construcción de las funcionalidades esenciales del backend y optimizar las interfaces de usuario, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la gestión de datos de pacientes, la interacción del usuario y la navegación, lo que permitirá una experiencia más robusta para los usuarios.
 A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
 
-| Repository                          | Branch | Commit Id | Commit Message                                              | Commit Message Body | Committed on (Date) |
-|-------------------------------------|--------|-----------|-------------------------------------------------------------|----------------------|----------------------|
-| oscaredu1226/tukun-tech-platform-web | main   | 8625b55   | chore: clean up project.                                    | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | 17b79f0   | chore: add project dependencies.                            | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | 7c8e0b3   | chore: add database connection string.                      | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | 8503947   | feat(orm): add orm naming convention extensions.            | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | ca9d851   | feat(orm): add base repository and unit of work contracts.  | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | c80de3c   | feat(doctor): add queries.                                  | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | ebbd702   | feat(doctor): add commands.                                 | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | 150e6a7   | feat(doctor): add aggregate.                                | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | ae4514c   | feat(orm): add configuration and base classes implementation.| empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | 64d1efa   | refactor: move files to a new folder structure              | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | 5498b25   | feat(doctor): add command service.                          | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | 579ac62   | feat: add DoctorRepository with methods for doctor retrieval| empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | f75a5cbcd | feat: add IDoctorQueryService interface for doctor-related queries | empty          | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | f793bf3   | feat: implement DoctorQueryService to handle doctor queries | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | 2ff9381   | feat(favorite-sources): add application and interfaces layer.| empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | 5d0542a   | feat(asp): add kebab case naming convention.                | empty               | 27/10/2024          |
-| oscaredu1226/tukun-tech-platform-web | main   | f5a0765   | feat(open-api): enable open api annotations.                | empty               | 27/10/2024          |
-| AdriPCH/tukun-tech-platform-web      | main   | 77ae5ae   | feat(patient): add commands                                 | empty               | 28/10/2024          |
-| AdriPCH/tukun-tech-platform-web      | main   | 74a2929   | feat: add application and interfaces patient                | empty               | 28/10/2024          |
-| AdriPCH/tukun-tech-platform-web      | main   | 748fcf8   | feat(DB): add patients                                      | empty               | 28/10/2024          |
-| AdriPCH/tukun-tech-platform-web      | main   | dce6b93   | feat(patient): add querys                                   | empty               | 28/10/2024          |
-| AdriPCH/tukun-tech-platform-web      | main   | 560716c   | feat: add patient command service                           | empty               | 28/10/2024          |
-| AdriPCH/tukun-tech-platform-web      | main   | 67d7ea4   | feat: add patient repository                                | empty               | 28/10/2024          |
-| AdriPCH/tukun-tech-platform-web      | main   | 6e9e300   | feat: implement Patient QueryService to handle patient queries | empty           | 28/10/2024          |
-| AdriPCH/tukun-tech-platform-web      | main   | 439cfa8   | feat: add interface patient                                 | empty               | 28/10/2024          |
-| AdriPCH/tukun-tech-platform-web      | main   | 89c79e0   | feat(open-api): add patients.                               | empty               | 28/10/2024          |
-| Rafooo6/tukun-tech-platform-web      | main   | 0ebbe21   | feat(pending-medicine): add initial backend files for pending medicine management | empty | 29/10/2024 |
-| Ericksnpaii/tukun-tech-platform-web  | main   | dd8cd59   | feat(Elders): add initial backend files for elders-profile management. | empty     | 29/10/2024          |
-| Rafooo6/tukun-tech-platform-web      | main   | 4fca0c6   | feat(frequently-questions): add initial backend files for pending medicine management | empty | 29/10/2024 |
-| Rafooo6/tukun-tech-platform-web      | main   | cdc596c   | feat(pending-medicine): files updated                       | empty               | 29/10/2024          |
-| Rafooo6/tukun-tech-platform-web      | main   | e3b578f   | chore(pending-medicine): update backend files for improvements | empty         | 30/10/2024          |
-| Rafooo6/tukun-tech-platform-web      | main   | d6a8e4c   | chore(frequently-questions): add POST endpoint.             | empty               | 30/10/2024          |
-| Rafooo6/tukun-tech-platform-web      | main   | 693a7b7   | feat(critical-alerts): add files for alert management backend | empty          | 31/10/2024          |
-| Rafooo6/tukun-tech-platform-web      | main   | 1bdc3a5   | chore(pending-medicine): update backend files for PendingMedicine functionality | empty | 31/10/2024 |
-| Rafooo6/tukun-tech-platform-web      | main   | 7625a67   | chore(frequently-questions): update backend files for FrequentlyQuestions functionality | empty | 31/10/2024 |
-| Fabio/tukun-tech-platform-web        | main   | cadcaba   | feat(emergency-numbers): add files for emergency numbers management backend | empty | 31/10/2024 |Rafooo6/tukun-tech-platform-open-source     | main  | bbc49f4  | feat(pendingmedicine): add PendingMedicine entity with fields and relationships | empty | 1/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 4e7f354  | feat(status): add Status entity with fields                                  | empty | 1/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 10014e1  | feat(pendingmedicine): add PendingMedicineController with endpoints for CRUD operations | empty | 1/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | bf7a87c  | feat(pendingmedicine): add PendingMedicineRepository for database interactions | empty | 1/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 37bfb70  | feat(pendingmedicine): add PendingMedicineService interface for CRUD operations | empty | 1/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 3232b1f  | feat(pendingmedicine): implement PendingMedicineService with PendingMedicineServiceImpl | empty | 1/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | fc398f3  | fix(pending-medicine): fix bug in PendingMedicineController endpoint logic | empty | 1/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 9b214d3  | feat(entity): add TechnicalSupport entity with some fields                  | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 64a58b3  | feat(controller): add TechnicalSupportController for handling requests      | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 90f9cdc  | feat(service-impl): add TechnicalSupportImpl with business logic            | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | eb4fe9c  | feat(repository): add TechnicalSupportRepository for data access            | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 27abf87  | feat(service): define TechnicalSupportService interface                     | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 46a885f  | feat(critical-alerts): add CriticalAlerts entity for managing critical alerts | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 43c36b5  | feat(critical-alerts): add CriticalAlertsController to handle API requests for critical alerts | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 46f20e0  | feat(critical-alerts): add CriticalAlertsRepository for database operations | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 5c8d4e6  | feat(critical-alerts): define CriticalAlertsService interface for critical alerts logic | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | c028ce2  | feat(type-alert): add TypeAlert entity to define alert types                | empty | 2/11/2024   |
-| Rafooo6/tukun-tech-platform-open-source     | main  | 049451a  | feat(pending-medicine): update files                                       | empty | 2/11/2024   |
+| Repository                             | Branch | Commit Id | Commit Message                                             | Commit Message Body | Commited on (Date) |
+|----------------------------------------|--------|-----------|------------------------------------------------------------|----------------------|---------------------|
+| AdriPCH/tukun-tech-platform-open-source | main   | f78a6f9   | chore: add project properties                               | empty               | 29/10/2024         |
+| AdriPCH/tukun-tech-platform-open-source | main   | ee35a2a   | chore: add project Aplication                               | empty               | 29/10/2024         |
+| AdriPCH/tukun-tech-platform-open-source | main   | e59188a   | feat(patient): add aggregate and entitys                    | empty               | 29/10/2024         |
+| AdriPCH/tukun-tech-platform-open-source | main   | 6502b15   | feat(patient): add base classes implementation              | empty               | 29/10/2024         |
+| AdriPCH/tukun-tech-platform-open-source | main   | a36ef1d   | feat(patient): add services                                 | empty               | 29/10/2024         |
+| AdriPCH/tukun-tech-platform-open-source | main   | d83f616   | feat(patient): add repositories                             | empty               | 29/10/2024         |
+| AdriPCH/tukun-tech-platform-open-source | main   | 057f7d5   | feat(patient): add controllers                              | empty               | 29/10/2024         |
+| AdriPCH/tukun-tech-platform-open-source | main   | 232bef9   | feat: add dependencies                                      | empty               | 29/10/2024         |
+| oscaredu1226/tukun-tech-platform-open-source | main | 525b90a   | chore: rename project to tukun.                             | empty               | 30/10/2024         |
+| oscaredu1226/tukun-tech-platform-open-source | main | 8c22d77   | refactor: move Medic.java to a new folder                   | empty               | 30/10/2024         |
+| oscaredu1226/tukun-tech-platform-open-source | main | c1c274a   | feat: add MedicRepository interface for JPA persistence     | empty               | 30/10/2024         |
+| oscaredu1226/tukun-tech-platform-open-source | main | 4a27976   | feat: add MedicService interface for managing medic operations | empty               | 30/10/2024      |
+| oscaredu1226/tukun-tech-platform-open-source | main | 6d2c98d   | feat: add DoctorServiceImpl with MedicService implementation | empty               | 30/10/2024      |
+| oscaredu1226/tukun-tech-platform-open-source | main | fcd5c11   | feat: add MedicController with CRUD endpoints for Medic     | empty               | 30/10/2024         |
+| oscaredu1226/tukun-tech-platform-open-source | main | 0e54878   | feat: add new fields to Medic aggregate                     | empty               | 30/10/2024         |
+| oscaredu1226/tukun-tech-platform-open-source | main | 62a5390   | feat: enhance JSON serialization of Medic by ignoring Hibernate properties | empty   | 30/10/2024     |
+| oscaredu1226/tukun-tech-platform-open-source | main | b2c9f8f   | feat: add TypeAppointment entity for managing appointment types | empty          | 30/10/2024   |
+| oscaredu1226/tukun-tech-platform-open-source | main | 0660308   | feat: add Appointment entity for managing medical appointments | empty          | 30/10/2024   |
+| oscaredu1226/tukun-tech-platform-open-source | main | 45d7f78   | feat: add AppointmentRepository for managing Appointment entities | empty       | 30/10/2024   |
+| oscaredu1226/tukun-tech-platform-open-source | main | 26d055d   | feat: add AppointmentService interface for managing appointments | empty       | 30/10/2024   |
+| oscaredu1226/tukun-tech-platform-open-source | main | a14568e   | feat: implement AppointmentService with AppointmentServiceImpl | empty         | 30/10/2024   |
+| oscaredu1226/tukun-tech-platform-open-source | main | a00d295   | feat: add AppointmentController for managing appointments   | empty               | 30/10/2024         |
+| oscaredu1226/tukun-tech-platform-open-source | main | 8f644a4   | fix: remove folders to resolve errors in the project        | empty               | 30/10/2024         |
+| oscaredu1226/tukun-tech-platform-open-source | main | 85bf5b3   | feat: create Appointment entity with relationships to Patient, Medic, TypeAppointment, and PaymentMethod | empty  | 30/10/2024   |
+| oscaredu1226/tukun-tech-platform-open-source | main | 77a4ebf   | chore: move files to reorganize project structure           | empty               | 30/10/2024         |
+| oscaredu1226/tukun-tech-platform-open-source | main | f1f4a8e   | feat: add AppointmentRepository for CRUD operations on Appointment entities | empty  | 30/10/2024   |
+| oscaredu1226/tukun-tech-platform-open-source | main | 6f973af   | feat: define AppointmentService interface for appointment management | empty    | 30/10/2024   |
+| oscaredu1226/tukun-tech-platform-open-source | main | 34c0131   | feat: create AppointmentController for managing appointment endpoints | empty   | 30/10/2024   |
+| AdriPCH/tukun-tech-platform-open-source | main   | 05ecd76   | feat: fix routes de los aggregates                          | empty               | 30/10/2024         |
+| AdriPCH/tukun-tech-platform-open-source | main   | 66e4540   | feat: fix routes                                           | empty               | 30/10/2024         |
+| AdriPCH/tukun-tech-platform-open-source | main   | 5083373   | feat(bed): fix controller and implement                     | empty               | 30/10/2024         |
+| fabrizio/tukun-tech-platform-open-source | main   | 40a1eca   | feat(appointment): add CRUD endpoints in AppointmentController for appointment management | empty  | 02/11/2024   |
+| fabrizio/tukun-tech-platform-open-source | main   | c4234f7   | feat(clinical-history): add ClinicalHistory entity for managing clinical histories | empty   | 03/11/2024   |
+| fabrizio/tukun-tech-platform-open-source | main   | b13c602   | feat(clinical-history): add ClinicalHistoryRepository for data access | empty   | 03/11/2024   |
+| fabrizio/tukun-tech-platform-open-source | main   | 3e3cd94   | feat(clinical-history): define ClinicalHistoryService interface for clinical history logic | empty  | 03/11/2024   |
+| fabrizio/tukun-tech-platform-open-source | main   | 9f1929b   | feat(clinical-history): implement ClinicalHistoryService with ClinicalHistoryImpl | empty  | 03/11/2024   |
+| fabrizio/tukun-tech-platform-open-source | main   | 9f690e6   | feat(clinical-history): add ClinicalHistoryController to handle API requests for clinical histories | empty | 03/11/2024 |
+| Ericksnpaii/tukun-tech-platform-open-source | main | f44210a   | feat(elder):add aggregate and entitys                       | empty               | 30/10/2024         |
+| Ericksnpaii/tukun-tech-platform-open-source | main | 26974ee   | feat(elder):add ElderRepository interface JPA persistence   | empty               | 30/10/2024         |
+| Ericksnpaii/tukun-tech-platform-open-source | main | fd2f28e   | feat(elder): add ElderService interface                     | empty               | 30/10/2024         |
+| Ericksnpaii/tukun-tech-platform-open-source | main | 62f16cd   | feat: add ElderController with CRUD endpoints for Elder     | empty               | 30/10/2024         |
+| Ericksnpaii/tukun-tech-platform-open-source | main | 75a11fe   | feat: add ElderServiceImpl with ElderService implementation | empty               | 30/10/2024         |
+| Rafooo6/tukun-tech-platform-open-source | main    | bbc49f4   | feat(pendingmedicine): add PendingMedicine entity with fields and relationships | empty   | 1/11/2024    |
+| Rafooo6/tukun-tech-platform-open-source | main    | 4e7f354   | feat(status): add Status entity with fields                 | empty               | 1/11/2024          |
+| Rafooo6/tukun-tech-platform-open-source | main    | 10014e1   | feat(pendingmedicine): add PendingMedicineController with endpoints for CRUD operations | empty | 1/11/2024 |
+| Rafooo6/tukun-tech-platform-open-source | main    | bf7a87c   | feat(pendingmedicine): add PendingMedicineRepository for database interactions | empty | 1/11/2024 |
+| Rafooo6/tukun-tech-platform-open-source | main    | 37bfb70   | feat(pendingmedicine): add PendingMedicineService interface for CRUD operations | empty | 1/11/2024 |
+| Rafooo6/tukun-tech-platform-open-source | main    | 3232b1f   | feat(pendingmedicine): implement PendingMedicineService with PendingMedicineServiceImpl | empty | 1/11/2024 |
+| Rafooo6/tukun-tech-platform-open-source | main    | d9d4bf3   | feat(elder): add Elder entity with some fields              | empty               | 1/11/2024          |
+| Rafooo6/tukun-tech-platform-open-source | main    | fc398f3   | fix(pending-medicine): fix bug in PendingMedicineController endpoint logic | empty | 1/11/2024 |
+| Rafooo6/tukun-tech-platform-open-source | main    | 9b214d3   | feat(entity): add TechnicalSupport entity with some fields  | empty               | 2/11/2024          |
+| Rafooo6/tukun-tech-platform-open-source | main    | 64a58b3   | feat(controller): add TechnicalSupportController for handling requests | empty  | 2/11/2024    |
+| Rafooo6/tukun-tech-platform-open-source | main    | 90f9cdc   | feat(service-impl): add TechnicalSupportImpl with business logic | empty      | 2/11/2024    |
+| Rafooo6/tukun-tech-platform-open-source | main    | eb4fe9c   | feat(repository): add TechnicalSupportRepository for data access | empty      | 2/11/2024    |
+| Rafooo6/tukun-tech-platform-open-source | main    | 27abf87   | feat(service): define TechnicalSupportService interface     | empty               | 2/11/2024          |
+| Rafooo6/tukun-tech-platform-open-source | main    | 46a885f   | feat(critical-alerts): add CriticalAlerts entity for managing critical alerts | empty  | 2/11/2024    |
+| Rafooo6/tukun-tech-platform-open-source | main    | 43c36b5   | feat(critical-alerts): add CriticalAlertsController to handle API requests for critical alerts | empty | 2/11/2024 |
+| Rafooo6/tukun-tech-platform-open-source | main    | 46f20e0   | feat(critical-alerts): add CriticalAlertsRepository for database operations | empty  | 2/11/2024    |
+| Rafooo6/tukun-tech-platform-open-source | main    | 5c8d4e6   | feat(critical-alerts): define CriticalAlertsService interface for critical alerts logic | empty | 2/11/2024 |
+| Rafooo6/tukun-tech-platform-open-source | main    | 15ec4b6   | feat(critical-alerts): implement CriticalAlertsService with CriticalAlertsServiceImpl | empty | 2/11/2024 |
+| Rafooo6/tukun-tech-platform-open-source | main    | c028ce2   | feat(type-alert): add TypeAlert entity to define alert types | empty              | 2/11/2024          |
+| Rafooo6/tukun-tech-platform-open-source | main    | 049451a   | feat(pending-medicine): update files                        | empty               | 2/11/2024          |
+| Ericksnpaii/tukun-tech-platform-open-source | main | c52ecb7   | feat:add aggregate and entitys ofr ElderBed                 | empty               | 2/11/2024          |
+| Ericksnpaii/tukun-tech-platform-open-source | main | cc9fe27   | feat:add ElderBedRepository interface JPA persistence       | empty               | 2/11/2024          |
+| Ericksnpaii/tukun-tech-platform-open-source | main | 566d833   | feat: add ElderBedService interface                         | empty               | 2/11/2024          |
+| Ericksnpaii/tukun-tech-platform-open-source | main | 896690b   | feat: add ElderServiceImpl with ElderService implementation | empty               | 2/11/2024          |
+| Ericksnpaii/tukun-tech-platform-open-source | main | 77b43af   | feat: add ElderBedController with CRUD endpoints for ElderBed | empty           | 2/11/2024          |
+
 
 
 
