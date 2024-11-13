@@ -2419,6 +2419,29 @@ En esta sección, el equipo detalla cómo se han desarrollado las actividades de
 ![Trello](./trello-tb2/1.JPG)
 ![Trello](./trello-tb2/2.JPG)
 
+A continuación se mostrarán los avances mediante commits realizados en la plataflorma GitHub
+Landing Page: A continuación se observará el desarrollo y avance por cada participante.
+Vista general:
+![LandingPageGenera](./CommitsLanding/General.png)
+Vista por contribuyente:
+![LandingPageEspecifico](./CommitsLanding/Especifico.png)
+
+
+Web Application: A continuación se observará el desarrollo y avance por cada participante.
+Vista general:
+![WebApplicationGenera](./CommitsFront/General.png)
+Vista por contribuyente:
+![WebApplicationEspecifico](./CommitsFront/Especifico.png)
+
+
+
+Backend: A continuación se observará el desarrollo y avance por cada participante.
+Vista general:
+![PlatformGenera](./CommitsBack/General.png)
+Vista por contribuyente:
+![PlatformEspecifico](./CommitsBack/Especifico.png)
+
+
 
 #### 5.3. Validation Interviews.
 En esta sección, el equipo registra y explica las actividades realizadas durante las entrevistas de validación a lo largo del proyecto. Estas entrevistas son fundamentales para obtener retroalimentación directa de los usuarios pertenecientes a los segmentos objetivo, quienes interactúan con la Landing Page y las aplicaciones desarrolladas. Se han estructurado diversas secciones, que incluyen el Diseño de Entrevistas, el Registro de Entrevistas y las Evaluaciones según heurísticas, lo que permitirá un análisis exhaustivo de la experiencia del usuario. Además, se aplicará el formato de evaluación heurística indicado para el proyecto, asegurando que se identifiquen áreas de mejora y se validen las decisiones de diseño tomadas. A través de este proceso, buscamos garantizar que nuestras soluciones satisfacen las necesidades y expectativas de los usuarios finales.
