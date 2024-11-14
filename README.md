@@ -568,7 +568,11 @@ Aunque los médicos valoran la digitalización y una buena organización, enfren
 
 
 ## 2.3. Needfinding.
+La sección de Needfindings tiene como objetivo identificar las necesidades y problemas específicos de los usuarios que TukunTech pretende resolver. A través de investigaciones y análisis cualitativos y cuantitativos, se detectan oportunidades clave para mejorar la experiencia del usuario, basándose principalmente en entrevistas. Así mismo, se definen los aspectos esenciales que deberán abordarse para lograr una solución efectiva y centrada en el usuario.
+
 ### 2.3.1. User Persona.
+A través de un perfil detallado, esta sección explora las características demográficas, necesidades, deseos, comportamientos y problemas específicos de los usuarios de los segmentos objetivos predefinidos, facilitando el diseño de soluciones que se alineen mejor con sus expectativas y desafíos.
+
 **Segmento 1**: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 ![User persona 1](./img-user-personas/userpersona2.png)
 
