@@ -2693,6 +2693,20 @@ La más práctica es incluir una ventana emergente de confirmación al finalizar
 
 16. **Escalabilidad del Backend**: La implementación de los endpoints fue realizada pensando en la escalabilidad futura del sistema, permitiendo agregar nuevas funcionalidades y ampliar el alcance del monitoreo de pacientes en diferentes entornos.
 
+# About the Product
+La sección de About the Product ofrece una visión general del producto, destacando su propósito, funcionalidades clave y el valor que aporta a sus usuarios. Esta introducción permite a los lectores comprender el contexto del producto y su enfoque en satisfacer las necesidades de los usuarios, alineando sus atributos y capacidades con los objetivos de la solución propuesta.
+
+![About The Product Screenshoot](./Img%20-%20AboutTheProduct/Captura-About-the-Product.png)
+URL en Microsoft Teams: [Video About the product - Microsoft Teams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EdNsk6Adla1LhhdXPXH-ojwBlLqf_kdsS0Kn8o1fFxdo5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euptKd)
+Duración: 3:14 min
+Url en Youtube:  [Video About the Product - Youtube](https://youtu.be/qr0E_qO3SK8?si=c93JFfRLYBXuXDZS)
+Duración: 3:15 min
+
+# About the Team
+
+URL en Microsoft Teams: [Video About the Team ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/EW1f95lc54dClova30xXAG0BQUpsnBNDmurp6seLm_xhVA?e=dwx0qP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Duración: 6:30 min.
+Url en Youtube: 
 ## Anexos
 [Landing Page:](https://tukuntech.github.io/DesarrolloOP-SW57/) 
 
