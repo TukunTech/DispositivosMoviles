@@ -2707,6 +2707,7 @@ Duración: 3:15 min
 URL en Microsoft Teams: [Video About the Team ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/EW1f95lc54dClova30xXAG0BQUpsnBNDmurp6seLm_xhVA?e=dwx0qP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 Duración: 6:30 min.
 Url en Youtube: [Video About the Team ](https://www.youtube.com/watch?v=t7DiETrnHpA)
+Duración: 6:30 min.
 ## Anexos
 [Landing Page:](https://tukuntech.github.io/DesarrolloOP-SW57/) 
 
