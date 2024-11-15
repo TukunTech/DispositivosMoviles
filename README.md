@@ -2536,6 +2536,7 @@ A continuación, se presenta el link que redirige a un video que explica el serv
 URL en Microsoft Teams: [Video About the product - Microsoft Teams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EdNsk6Adla1LhhdXPXH-ojwBlLqf_kdsS0Kn8o1fFxdo5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euptKd)
 
 Duración: 3:14 min
+
 Url en Youtube:  [Video About the Product - Youtube](https://youtu.be/qr0E_qO3SK8?si=c93JFfRLYBXuXDZS)
 
 Duración: 3:15 min
