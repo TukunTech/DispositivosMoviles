@@ -2366,7 +2366,9 @@ Evidencias de reunión:
 
 URL:
 [https://drive.google.com/file/d/1-dDtzyEffmUQBTyNSeJCfOwaN4jqDLRK/view?usp=sharing] 
+
 Tiempo: 18:19 min
+
 Resumen de Entrevista:
 El cuidador indicó que el Landing Page es visualmente atractivo y profesional, lo cual genera una buena primera impresión. Sin embargo, consideró que una organización más clara y simplificada de la información sería útil para identificar de inmediato las características principales de la aplicación. Aunque la información presentada parece en su mayoría relevante, sugirió incluir contenido adicional, como testimonios de otros cuidadores y una sección de preguntas frecuentes para brindar una idea más completa de las funcionalidades y beneficios específicos de la plataforma.
 
@@ -2382,7 +2384,9 @@ Evidencias de reunión:
 
 URL:
 [https://drive.google.com/file/d/1-dDtzyEffmUQBTyNSeJCfOwaN4jqDLRK/view?usp=sharing]
+
 Tiempo: 35:10 min
+
 Resumen de Entrevista:
 El personal médico comentó que el diseño del Landing Page es visualmente atractivo y adecuado para su propósito, pero sugirieron mejorar la organización de la información para que el acceso a los recursos sea más intuitivo desde el inicio. La navegación es en su mayoría clara, aunque algunas secciones podrían estar mejor estructuradas para facilitar la búsqueda rápida de información esencial. A nivel de contenido, opinaron que la información es relevante para el cuidado postoperatorio y en UCI, aunque señalaron que algunos elementos podrían simplificarse o eliminarse para enfocarse exclusivamente en lo más útil para el entorno clínico.
 
