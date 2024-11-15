@@ -2378,7 +2378,7 @@ Entrevistado 2 #:
 Nombre y Apellidos: Flavio Nicolich 
 Edad: 67
 Evidencias de reunión:
-![entrevista 5](./imgs%20entrevista/entrevista2.png)
+![entrevista 5](./imgs%20entrevista/entrevista3.png)
 
 URL:
 [https://drive.google.com/file/d/1-dDtzyEffmUQBTyNSeJCfOwaN4jqDLRK/view?usp=sharing]
