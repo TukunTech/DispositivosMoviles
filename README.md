@@ -2300,8 +2300,17 @@ A continuación, se presenta una tabla que documenta los commits relevantes rela
 ### 5.2.4.4. Testing Suite Evidence for Sprint Review
 En esta sección se explica y documenta el conjunto de mejoras implementadas en el backend durante el sprint. Para garantizar la correcta funcionalidad de los servicios de autorización y autenticación, así como la corrección de errores previos, se han desarrollado y ejecutado pruebas automatizadas que incluyen Acceptance Tests. Estas pruebas se llevan a cabo utilizando herramientas como Postman y Swagger, lo que permite validar que cada endpoint cumpla con los requisitos de las User Stories definidas.
 En Postman, se ha configurado una suite de pruebas para evaluar el correcto funcionamiento de los nuevos servicios, verificando el rendimiento y la precisión de las respuestas en diferentes escenarios. Además, se utiliza Swagger para documentar y ejecutar pruebas de los endpoints, asegurando que las rutas y parámetros funcionen según lo esperado.
+A continuación se muestra un ejemplo de test en la plataforma de PostMan, con nuestro API desplegado para la creación de un paciente.
+![POST-Patient](./PostManDeploy/PostManPatient.png)
 
+A continuación se muestra un ejemplo de test en la plataforma de PostMan, con nuestro API desplegado para la creación de un médico.
+![POST-Medic](./PostManDeploy/PostManMedics.png)
 
+A continuación se muestra un ejemplo de test en la plataforma de PostMan, con nuestro API desplegado para mostrar los pacientes.
+![GET-Patients](./PostManDeploy/PostManPatient2.png)
+
+A continuación se muestra un ejemplo de test en la plataforma de PostMan, con nuestro API desplegado para mostrar los médicos.
+![GET-Medics](./PostManDeploy/PostManMedics2.png)
 
 ### 5.2.4.5. Execution Evidence for Sprint Review
 Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión de los servicios de autorización y autenticación en el backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de doctores, pacientes y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos de pacientes, así como la gestión de la información de los doctores, junto con la autenticación y autorización de usuarios para proteger el acceso a estas funcionalidades.
