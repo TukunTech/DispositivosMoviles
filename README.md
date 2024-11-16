@@ -2314,16 +2314,20 @@ Vista general de los endpoints generados vía Swagger: se observan los endpoints
 Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
 A continuación se mostrarán capturas que evidencian los avances.
 Vista General:
+![OpenAPI1](./OpenApiSprint3/OpenApi1.png)
 
 Ejemplo POST-Medics:
+![OpenAPI2](./OpenApiSprint3/OpenApi2.png)
 
 Ejemplo POST-Patient:
+![OpenAPI3](./OpenApiSprint3/OpenApi3.png)
 
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review
 El despliegue del backend de la solución se realiza siguiendo un proceso definido que permite la publicación exitosa del producto digital. A continuación, se describen los pasos clave:
 Repositorio de Código Fuente
 El código fuente del backend se encuentra alojado en un repositorio Git en GitHub. Este contiene todos los archivos necesarios, como el código, configuraciones y dependencias, organizados para facilitar su despliegue.
+![GitHub](./DeployRender/GitHub.png)
 
 Configuración del Contenedor Docker
 En el proyecto se utilizó un archivo Dockerfile para facilitar la creación de un contenedor que garantice la portabilidad y consistencia del entorno de ejecución del backend. Este archivo define un flujo automatizado para compilar, empaquetar y ejecutar la aplicación en cualquier sistema compatible con Docker, eliminando dependencias del entorno local.
@@ -2331,34 +2335,39 @@ El Dockerfile implementado dentro del proyecto está diseñado para construir la
 Etapa de Construcción: Utilizando una imagen base de Maven con soporte para Java 22 (maven:3-eclipse-temurin-22), el proyecto se compila y empaqueta. Se copian todos los archivos del proyecto al contenedor y se ejecuta el proceso de empaquetado mediante Maven, excluyendo las pruebas para optimizar la velocidad de construcción.
 Etapa de Ejecución: Para la etapa de ejecución, se utiliza una imagen base ligera (eclipse-temurin:22-alpine) que incluye únicamente lo necesario para ejecutar la aplicación empaquetada. El archivo JAR generado en la etapa anterior se copia al contenedor final, se expone el puerto 8080 y se configura el punto de entrada para que la aplicación se inicie automáticamente cuando se ejecute el contenedor.
 El uso de este Dockerfile dentro del proyecto permite simplificar el despliegue y garantiza que la aplicación sea ejecutable de manera uniforme en diferentes entornos, mejorando la eficiencia y reduciendo problemas relacionados con configuraciones de sistema variables.
-
-
+![DockerFile](./DeployRender/DockerFile.png)
 
 Base de Datos Aiven para MySQL
 La base de datos se gestiona mediante Aiven para MySQL, un servicio administrado en la nube que garantiza alta disponibilidad y conexión segura mediante certificados SSL. La configuración de conexión incluye credenciales, rutas seguras y los parámetros necesarios para la integración con el backend.
+![Aiven](./DeployRender/Aiven.png)
 
 Plataforma de Despliegue Render
 Render se utiliza como plataforma para el despliegue continuo del backend. A través de esta plataforma, el código se extrae directamente desde el repositorio Git y se configura para ejecutarse en un entorno preparado con soporte para contenedores. La configuración incluye la exposición de puertos y la provisión de variables de entorno para asegurar la correcta operación de la aplicación en producción. A continuación se muestra el paso a paso.
 Conexión con el repositorio:
-
-
+![Render](./DeployRender/Render5.png)
 
 Se selecciona Docker como lenguaje para poder interpretarlo.
+![Render](./DeployRender/Render6.png)
 
 Se definen las variables necesaria para la conexión con la base de datos en la nube:
+![Render](./DeployRender/Render7.png)
 
 Se inicial el despliegue mediante Render:
+![Render](./DeployRender/Render1.png)
 
 Detecta que se trabaja con el framework de SpringBoot:
+![Render](./DeployRender/Render2.png)
 
 Indica la señal que el servicio funciona:
-
+![Render](./DeployRender/Render3.png)
 
 Verificación de la Base de Datos con MySQL Workbench
 Durante el despliegue, se utiliza MySQL Workbench para garantizar que la base de datos está configurada correctamente, verificando conectividad, integridad de datos y la ejecución de consultas necesarias para pruebas. En donde se configura de acuerdo a los parámetros establecidos por Aiven.
+![MySQL](./DeployRender/MySQL1.png)
 
 Este proceso asegura un despliegue ordenado y confiable del backend, manteniendo la calidad y accesibilidad del producto digital en todo momento.
 Muestra del despliegue:
+![Render](./DeployRender/Render8.png)
 
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
