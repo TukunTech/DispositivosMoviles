@@ -2281,6 +2281,89 @@ Vista por contribuyente:
 ![PlatformEspecifico](./CommitsBack/Especifico.png)
 
 
+### 5.2.4. Sprint 4
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 4. Este sprint se enfocará en la realización de mejoras significativas en el backend, incorporando ajustes en la lógica y optimización del sistema para mejorar el rendimiento general. Además, se corregirán ciertos aspectos teóricos previamente detectados para asegurar la coherencia y precisión del marco de trabajo. Como uno de los objetivos principales de este sprint, se implementará el servicio de autorización y autenticación, reforzando la seguridad y garantizando el acceso controlado a los recursos del sistema. A continuación, se presenta un cuadro resumen que organiza la información discutida durante la planificación, detallando las tareas y objetivos consensuados para este ciclo.
+
+### 5.2.4.1. Sprint Planning 4
+
+
+### 5.2.4.2. Sprint Backlog 4
+En este sprint, el equipo se enfocará en la implementación de los servicios de autorización y autenticación, fundamentales para garantizar que solo usuarios autorizados tengan acceso a las funcionalidades críticas del sistema. Además, se abordarán correcciones en errores previamente identificados en el backend para asegurar un funcionamiento más robusto y confiable. El objetivo principal es establecer un sistema de seguridad sólido, mejorando la integridad y protección de los datos, mientras se optimizan los procesos de manejo de usuarios. Este trabajo incluye no solo la creación de los servicios de autenticación, sino también ajustes y optimizaciones en la lógica del backend, contribuyendo a una base más estable para futuras funcionalidades del sistema.
+
+
+### 5.2.4.3. Development Evidence for Sprint Review
+En esta sección se detallan los avances logrados en la implementación del producto durante el sprint, enfocados en la incorporación de los servicios de autorización y autenticación, así como en la corrección de errores identificados en el backend. El enfoque principal ha sido fortalecer la seguridad y confiabilidad del sistema, estableciendo una estructura que asegura que solo los usuarios autorizados tengan acceso a las funcionalidades críticas. Además, se han realizado ajustes en la lógica del backend para resolver problemas previos, lo que contribuye a una base más sólida y preparada para futuras implementaciones. Este trabajo permitirá una experiencia de usuario más segura y estable, alineada con los objetivos planteados para este ciclo.
+A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, ofreciendo una visión clara del progreso técnico alcanzado durante este sprint.
+
+
+
+### 5.2.4.4. Testing Suite Evidence for Sprint Review
+En esta sección se explica y documenta el conjunto de mejoras implementadas en el backend durante el sprint. Para garantizar la correcta funcionalidad de los servicios de autorización y autenticación, así como la corrección de errores previos, se han desarrollado y ejecutado pruebas automatizadas que incluyen Acceptance Tests. Estas pruebas se llevan a cabo utilizando herramientas como Postman y Swagger, lo que permite validar que cada endpoint cumpla con los requisitos de las User Stories definidas.
+En Postman, se ha configurado una suite de pruebas para evaluar el correcto funcionamiento de los nuevos servicios, verificando el rendimiento y la precisión de las respuestas en diferentes escenarios. Además, se utiliza Swagger para documentar y ejecutar pruebas de los endpoints, asegurando que las rutas y parámetros funcionen según lo esperado.
+
+
+
+### 5.2.4.5. Execution Evidence for Sprint Review
+Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión de los servicios de autorización y autenticación en el backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de doctores, pacientes y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos de pacientes, así como la gestión de la información de los doctores, junto con la autenticación y autorización de usuarios para proteger el acceso a estas funcionalidades.
+Además, se realizaron correcciones a errores previos en el backend, optimizando el rendimiento y asegurando una interacción más confiable con el sistema. Se presentan capturas de pantalla de las principales vistas implementadas en el frontend que interactúan con estos endpoints, permitiendo una navegación más fluida y eficiente. También se incluye un enlace a un video que ilustra la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar de manera segura e intuitiva con las funcionalidades disponibles.
+Vista general de los endpoints generados vía Swagger: se observan los endpoints con sus respectivos títulos, incluyendo aquellos dedicados a la autenticación y autorización de usuarios.
+
+
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.(AGREGAR AUTORIZACION)
+Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
+A continuación se mostrarán capturas que evidencian los avances.
+Vista General:
+
+Ejemplo POST-Medics:
+
+Ejemplo POST-Patient:
+
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
+El despliegue del backend de la solución se realiza siguiendo un proceso definido que permite la publicación exitosa del producto digital. A continuación, se describen los pasos clave:
+Repositorio de Código Fuente
+El código fuente del backend se encuentra alojado en un repositorio Git en GitHub. Este contiene todos los archivos necesarios, como el código, configuraciones y dependencias, organizados para facilitar su despliegue.
+
+Configuración del Contenedor Docker
+En el proyecto se utilizó un archivo Dockerfile para facilitar la creación de un contenedor que garantice la portabilidad y consistencia del entorno de ejecución del backend. Este archivo define un flujo automatizado para compilar, empaquetar y ejecutar la aplicación en cualquier sistema compatible con Docker, eliminando dependencias del entorno local.
+El Dockerfile implementado dentro del proyecto está diseñado para construir la imagen en dos etapas:
+Etapa de Construcción: Utilizando una imagen base de Maven con soporte para Java 22 (maven:3-eclipse-temurin-22), el proyecto se compila y empaqueta. Se copian todos los archivos del proyecto al contenedor y se ejecuta el proceso de empaquetado mediante Maven, excluyendo las pruebas para optimizar la velocidad de construcción.
+Etapa de Ejecución: Para la etapa de ejecución, se utiliza una imagen base ligera (eclipse-temurin:22-alpine) que incluye únicamente lo necesario para ejecutar la aplicación empaquetada. El archivo JAR generado en la etapa anterior se copia al contenedor final, se expone el puerto 8080 y se configura el punto de entrada para que la aplicación se inicie automáticamente cuando se ejecute el contenedor.
+El uso de este Dockerfile dentro del proyecto permite simplificar el despliegue y garantiza que la aplicación sea ejecutable de manera uniforme en diferentes entornos, mejorando la eficiencia y reduciendo problemas relacionados con configuraciones de sistema variables.
+
+
+
+Base de Datos Aiven para MySQL
+La base de datos se gestiona mediante Aiven para MySQL, un servicio administrado en la nube que garantiza alta disponibilidad y conexión segura mediante certificados SSL. La configuración de conexión incluye credenciales, rutas seguras y los parámetros necesarios para la integración con el backend.
+
+Plataforma de Despliegue Render
+Render se utiliza como plataforma para el despliegue continuo del backend. A través de esta plataforma, el código se extrae directamente desde el repositorio Git y se configura para ejecutarse en un entorno preparado con soporte para contenedores. La configuración incluye la exposición de puertos y la provisión de variables de entorno para asegurar la correcta operación de la aplicación en producción. A continuación se muestra el paso a paso.
+Conexión con el repositorio:
+
+
+
+Se selecciona Docker como lenguaje para poder interpretarlo.
+
+Se definen las variables necesaria para la conexión con la base de datos en la nube:
+
+Se inicial el despliegue mediante Render:
+
+Detecta que se trabaja con el framework de SpringBoot:
+
+Indica la señal que el servicio funciona:
+
+
+Verificación de la Base de Datos con MySQL Workbench
+Durante el despliegue, se utiliza MySQL Workbench para garantizar que la base de datos está configurada correctamente, verificando conectividad, integridad de datos y la ejecución de consultas necesarias para pruebas. En donde se configura de acuerdo a los parámetros establecidos por Aiven.
+
+Este proceso asegura un despliegue ordenado y confiable del backend, manteniendo la calidad y accesibilidad del producto digital en todo momento.
+Muestra del despliegue:
+
+
+### 5.2.4.8. Team Collaboration Insights during Sprint.
+En esta sección, el equipo describe el desarrollo de las actividades de implementación, resaltando el uso de herramientas colaborativas como GitHub, Trello, Discord y WhatsApp para optimizar la comunicación y el seguimiento del progreso. GitHub ha sido esencial para gestionar el código y registrar los commits de cada miembro, mientras que Trello ha facilitado la organización de tareas y el monitoreo del avance en los distintos productos del Sprint, como la página de aterrizaje, las aplicaciones web y los servicios backend. Discord y WhatsApp han sido clave para la comunicación en tiempo real, permitiendo a los integrantes resolver dudas y coordinar actividades de manera ágil. A continuación, se muestran capturas de pantalla de los análisis de colaboración y de los commits en GitHub, demostrando la participación activa de todos los miembros en la implementación del proyecto.
+
 
 #### 5.3. Validation Interviews.
 En esta sección, el equipo registra y explica las actividades realizadas durante las entrevistas de validación a lo largo del proyecto. Estas entrevistas son fundamentales para obtener retroalimentación directa de los usuarios pertenecientes a los segmentos objetivo, quienes interactúan con la Landing Page y las aplicaciones desarrolladas. Se han estructurado diversas secciones, que incluyen el Diseño de Entrevistas, el Registro de Entrevistas y las Evaluaciones según heurísticas, lo que permitirá un análisis exhaustivo de la experiencia del usuario. Además, se aplicará el formato de evaluación heurística indicado para el proyecto, asegurando que se identifiquen áreas de mejora y se validen las decisiones de diseño tomadas. A través de este proceso, buscamos garantizar que nuestras soluciones satisfacen las necesidades y expectativas de los usuarios finales.
