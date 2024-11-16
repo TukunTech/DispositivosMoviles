@@ -2281,7 +2281,7 @@ Vista por contribuyente:
 ![PlatformEspecifico](./CommitsBack/Especifico.png)
 
 
-### 5.2.4. Sprint 4
+## 5.2.4. Sprint 4
 En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 4. Este sprint se enfocará en la realización de mejoras significativas en el backend, incorporando ajustes en la lógica y optimización del sistema para mejorar el rendimiento general. Además, se corregirán ciertos aspectos teóricos previamente detectados para asegurar la coherencia y precisión del marco de trabajo. Como uno de los objetivos principales de este sprint, se implementará el servicio de autorización y autenticación, reforzando la seguridad y garantizando el acceso controlado a los recursos del sistema. A continuación, se presenta un cuadro resumen que organiza la información discutida durante la planificación, detallando las tareas y objetivos consensuados para este ciclo.
 
 ### 5.2.4.1. Sprint Planning 4
