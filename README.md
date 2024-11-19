@@ -2336,6 +2336,24 @@ Login: verificar el TOKEN
 Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión de los servicios de autorización y autenticación en el backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de doctores, pacientes y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos de pacientes, así como la gestión de la información de los doctores, junto con la autenticación y autorización de usuarios para proteger el acceso a estas funcionalidades.
 Además, se realizaron correcciones a errores previos en el backend, optimizando el rendimiento y asegurando una interacción más confiable con el sistema. Se presentan capturas de pantalla de las principales vistas implementadas en el frontend que interactúan con estos endpoints, permitiendo una navegación más fluida y eficiente. También se incluye un enlace a un video que ilustra la visualización y navegación logradas en este Sprint, mostrando cómo los usuarios pueden interactuar de manera segura e intuitiva con las funcionalidades disponibles.
 Vista general de los endpoints generados vía Swagger: se observan los endpoints con sus respectivos títulos, incluyendo aquellos dedicados a la autenticación y autorización de usuarios.
+Se muestra la validación en el login, al no ser correcto los datos aparece un mensaje de error.
+![Login](./ProgramaEjecutado/LoginErroneo.png)
+
+Crear un doctor:
+![Doctor](./ProgramaEjecutado/CreacionDoctor.png)
+![Doctor](./ProgramaEjecutado/ConfirmacionDoctor.png)
+
+Listar Doctores:
+![Doctor](./ProgramaEjecutado/Doctores.png)
+
+Crear un paciente:
+![Paciente](./ProgramaEjecutado/CreacionPaciente.png)
+
+Listar Pacientes:
+![Paciente](./ProgramaEjecutado/Pacientes.png)
+
+Panel de pacientes por operatorios:
+![Panel](./ProgramaEjecutado/PostPatient.png)
 
 
 
@@ -2401,7 +2419,17 @@ Muestra del despliegue:
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
 En esta sección, el equipo describe el desarrollo de las actividades de implementación, resaltando el uso de herramientas colaborativas como GitHub, Trello, Discord y WhatsApp para optimizar la comunicación y el seguimiento del progreso. GitHub ha sido esencial para gestionar el código y registrar los commits de cada miembro, mientras que Trello ha facilitado la organización de tareas y el monitoreo del avance en los distintos productos del Sprint, como la página de aterrizaje, las aplicaciones web y los servicios backend. Discord y WhatsApp han sido clave para la comunicación en tiempo real, permitiendo a los integrantes resolver dudas y coordinar actividades de manera ágil. A continuación, se muestran capturas de pantalla de los análisis de colaboración y de los commits en GitHub, demostrando la participación activa de todos los miembros en la implementación del proyecto.
+Landing page:
+![LandingPage](./CommitsSprint4/LandingG.png)
+![LandingPage](./CommitsSprint4/LandingE.png)
 
+FrontEnd:
+![FrontEnd](./CommitsSprint4/FrontG.png)
+![FrontEnd](./CommitsSprint4/FrontE.png)
+
+BackEnd:
+![BackEnd](./CommitsSprint4/BackG.png)
+![BackEnd](./CommitsSprint4/BackE.png)
 
 #### 5.3. Validation Interviews.
 En esta sección, el equipo registra y explica las actividades realizadas durante las entrevistas de validación a lo largo del proyecto. Estas entrevistas son fundamentales para obtener retroalimentación directa de los usuarios pertenecientes a los segmentos objetivo, quienes interactúan con la Landing Page y las aplicaciones desarrolladas. Se han estructurado diversas secciones, que incluyen el Diseño de Entrevistas, el Registro de Entrevistas y las Evaluaciones según heurísticas, lo que permitirá un análisis exhaustivo de la experiencia del usuario. Además, se aplicará el formato de evaluación heurística indicado para el proyecto, asegurando que se identifiquen áreas de mejora y se validen las decisiones de diseño tomadas. A través de este proceso, buscamos garantizar que nuestras soluciones satisfacen las necesidades y expectativas de los usuarios finales.
