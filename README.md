@@ -187,7 +187,7 @@ El uso adecuado de lenguajes de programación y herramientas, junto con buenas p
 
 ### TF1
 
-#### Comunica por oralmente con efectividad a diferentes rangos de audiencia
+### Comunica por oralmente con efectividad a diferentes rangos de audiencia
 
 ### TF1
 # Comunica por oralmente con efectividad a diferentes rangos de audiencia
