@@ -106,7 +106,29 @@
 |          | 02/11/2024  | Quiroz Zambrano, Fabrizio Javier    | Actualizar product backlog y user stories                                     |
 |          | 01/11/2024  | Quiroz Zambrano, Fabrizio Javier | Participación en video about the team       |
 |          | 02/11/2024  | Quiroz Zambrano, Fabrizio Javier | Actualizar product backlog y user stories   |
-
+| TF1 | Fecha       | Responsable                         | Tarea                                            |
+|-----|-------------|-------------------------------------|-------------------------------------------------|
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Implementación de la introducción a la sección User Persona |
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Implementación de la sección About the Product  |
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Implementación de la sección About the Team     |
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Corrección de las imágenes del Empathy Mapping de los User Persona |
+|     | 14/11/2024  | Nicolich Alvis, Fabio              | Numeración y orden de los anexos               |
+|     | 14/11/2024  | Bravo Gavilano, Jorge Rafael       | Corrección de imágenes User Persona            |
+|     | 18/11/2024  | Bravo Gavilano, Jorge Rafael       | Agregación de commits propios en la tabla      |
+|     | 16/11/2024  | Soto Zorrilla, Oscar Eduardo       | Creación de Technical stories                  |
+|     | 17/11/2024  | Soto Zorrilla, Oscar Eduardo       | Creación de user goal sprint 4                 |
+|     | 19/11/2024  | Soto Zorrilla, Oscar Eduardo       | Agregué los test                               |
+|     | 18/11/2024  | Soto Zorrilla, Oscar Eduardo       | Generación de documentación API                |
+|     | 17/11/2024  | Soto Zorrilla, Oscar Eduardo       | Generación del despliegue                      |
+|     | 18/11/2024  | Palomares Chavez, Adriana Giovanna | Creación de Technical stories                  |
+|     | 14/11/2024  | Palomares Chavez, Adriana Giovanna | Corrección de user stories                     |
+|     | 18/11/2024  | Palomares Chavez, Adriana Giovanna | Lista de commits del sprint 4                  |
+|     | 18/11/2024  | Quiroz Zambrano, Fabrizio Javier   | Corrección de User Stories                     |
+|     | 18/11/2024  | Quiroz Zambrano, Fabrizio Javier   | Creación de Technical Stories                  |
+|     | 18/11/2024  | Maraza Pedemonte, Erick            | Corrección user stories                        |
+|     | 18/11/2024  | Maraza Pedemonte, Erick            | Corrección Epics                               |
+|     | 18/11/2024  | Maraza Pedemonte, Erick            | Implementación de Us en trello                 |
+|     | 18/11/2024  | Maraza Pedemonte, Erick            | Agregación de tabla de commits propios         |
 
 
 ---
@@ -161,6 +183,20 @@ El uso adecuado de lenguajes de programación y herramientas, junto con buenas p
 |                                                 | **Soto Zorrilla, Oscar Eduardo**: Comunicación continua mediante diversos medios con el equipo. Participación en video "About the Team". | La comunicación constante permitió una mejor integración en el equipo, asegurando la comprensión de los objetivos y el progreso del proyecto.                            |
 |                                                 | **Nicolich Alvis, Fabio Maurizio**: Participación en videos "About the Product" y "About the Team". Comunicación constante mediante WhatsApp y Discord con el equipo. | La comunicación a través de canales digitales garantizó la alineación del equipo y facilitó la colaboración en el desarrollo del proyecto.                              |
 |                                                 | **Quiroz Zambrano, Fabrizio Javier**: Participación en videos "About the Product" y "About the Team". Comunicación constante mediante WhatsApp y Discord con el equipo. | La comunicación fluida mediante herramientas digitales ayudó a mantener la cohesión del equipo y a cumplir con los objetivos de comunicación y desarrollo.              |
+
+
+### TF1
+
+# Comunica por oralmente con efectividad a diferentes rangos de audiencia
+
+| **Criterio específico**                       | **Acciones Realizadas**                                                                                                                 | **Conclusiones**                                                                                                                                                                                                                                       |
+|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Bravo Gavilano, Jorge Rafael**              | Participación en video de exposición. Comunicación constante mediante Discord con el equipo.                                            | La comunicación efectiva dentro del equipo fue clave para el éxito del TF1. A través de herramientas como Discord, WhatsApp y reuniones presenciales, se garantizó una coordinación fluida entre los integrantes, facilitando la organización y ejecución de las tareas. La participación en los videos de exposición permitió a cada miembro demostrar claridad y precisión en la presentación del proyecto, adaptándose a diferentes rangos de audiencia. Además, la colaboración activa en la documentación y las demostraciones del programa aseguraron que todos los aspectos técnicos y funcionales fueran comunicados de manera comprensible y profesional. En resumen, la combinación de una comunicación constante y el compromiso de todos los miembros contribuyó significativamente al logro de los objetivos del TF1, fortaleciendo tanto el trabajo en equipo como la calidad de la entrega final. |
+| **Soto Zorrilla, Oscar Eduardo**             | Participación en video de exposición. Comunicación constante mediante Discord con el equipo. Participación en el video donde se muestra la ejecución del programa. |                                                                                                                                                                                                                                                        |
+| **Maraza Pedemonte, Erick**                  | Participación en video de exposición. Comunicación constante con el equipo por Discord y de manera presencial.                          |                                                                                                                                                                                                                                                        |
+| **Quiroz Zambrano, Fabrizio Javier**         | Participación en video de exposición. Comunicación constante mediante Discord con el equipo.                                            |                                                                                                                                                                                                                                                        |
+| **Palomares Chavez, Adriana Giovanna**       | Participación en video de exposición. Comunicación constante mediante Discord con el equipo.                                            |                                                                                                                                                                                                                                                        |
+| **Nicolich Alvis, Fabio Maurizio**           | Participación en video de exposición. Comunicación activa mediante Discord y WhatsApp.                                                  |                                                                                                                                                                                                                                                        |
 
 
 # Capítulo I: Introducción
@@ -2759,38 +2795,24 @@ La más práctica es incluir una ventana emergente de confirmación al finalizar
 
 
 # Conclusiones
+# Capítulo 1: Introducción
+La solución planteada por TukunTech aborda una problemática crítica en el monitoreo de signos vitales mediante una plataforma innovadora basada en IoT. Esta solución ofrece monitoreo continuo, alertas automáticas y mejora la capacidad de respuesta médica, marcando una diferencia significativa respecto a los sistemas tradicionales.
 
-1. **Aplicación del Lean UX y UX Research**: El uso de estas metodologías permitió entender profundamente las necesidades de los usuarios, facilitando la creación de historias de usuario y un diseño visual adecuado que responde a los requerimientos del proyecto.
-   
-2. **Integración de Tecnología IoT**: La plataforma se centra en el monitoreo continuo y en tiempo real de signos vitales, lo que es crucial para mejorar la atención médica en pacientes críticos, especialmente en cuidados intensivos y postoperatorios.
+# Capítulo 2: Elicitación y Análisis de Requisitos
+El análisis competitivo y las entrevistas revelaron necesidades específicas en el monitoreo médico, como la falta de integración y supervisión en tiempo real. Esto permitió definir requisitos claros y orientar el desarrollo hacia una solución adaptada a usuarios y entornos locales.
 
-3. **Enfoque en la Eficiencia Médica**: La solución desarrollada busca optimizar la capacidad de respuesta del personal médico, reduciendo tiempos de reacción mediante alertas automáticas y centralización de datos.
+# Capítulo 3: Diseño de la Solución
+Se desarrollaron diagramas y prototipos que integran dispositivos IoT con una interfaz intuitiva. Estos diseños aseguran que los usuarios puedan interactuar con el sistema de manera eficiente, facilitando el monitoreo de signos vitales y mejorando la experiencia médica.
 
-4. **Adopción de Buenas Prácticas de Programación**: El equipo siguió convenciones de estilo y nomenclatura en el desarrollo del código, lo que facilita la comprensión y mantenimiento del sistema.
+# Capítulo 4: Implementación
+El uso de tecnologías modernas y la implementación de buenas prácticas aseguraron una solución robusta y funcional. La integración con sistemas existentes y la generación de servicios backend fortalecieron la propuesta técnica.
 
-5. **Documentación Completa y Colaborativa**: La generación de una documentación detallada de procesos y decisiones en cada fase del proyecto aseguró claridad y alineación entre todos los miembros del equipo.
+# Capítulo 5: Validación y Pruebas
+Las pruebas realizadas confirmaron que el sistema cumple con los requisitos planteados, destacando la eficiencia del monitoreo en tiempo real y la capacidad de alertar ante anomalías. La retroalimentación de usuarios potenciales permitió afinar la solución y garantizar su viabilidad.
 
-6. **Validación de Usuario Continua**: A través de entrevistas y validación con personas representativas de los segmentos objetivo, se obtuvieron valiosas retroalimentaciones que guiaron el desarrollo de la solución.
+# Conclusión General
+El proyecto TukunTech se consolidó como una solución integral y funcional para el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y en cuidados intensivos. Su enfoque innovador basado en IoT, junto con un diseño centrado en el usuario, mejora significativamente la eficiencia médica, optimiza la atención al paciente y establece un modelo escalable para futuras implementaciones.
 
-7. **Enfoque en la Mejora Continua**: El equipo se comprometió a iterar y refinar los artefactos del proyecto, como prototipos y pruebas, basado en hallazgos y recomendaciones.
-
-8. **Compromiso del Equipo**: La comunicación constante entre los integrantes, usando plataformas como Discord y WhatsApp, fomentó una colaboración efectiva que contribuyó al éxito del proyecto.
-
-9. **Uso del Domain-Driven Design (DDD)**: La integración de los endpoints se estructuró mediante el patrón DDD, lo que facilitó la organización de las funcionalidades del backend en torno a los dominios clave del sistema.
-
-10. **Estandarización de Rutas y Métodos HTTP**: Cada endpoint fue diseñado con convenciones claras de rutas y métodos (GET, POST, etc.), lo que garantiza una estructura consistente y entendible para futuros desarrolladores.
-
-11. **Implementación de Endpoints para Acceso en Tiempo Real**: Los endpoints de monitoreo permiten al personal médico acceder a datos críticos en tiempo real, mejorando así la calidad del seguimiento y la capacidad de respuesta en emergencias.
-
-12. **Documentación de los Endpoints**: La documentación exhaustiva de cada endpoint garantiza que los desarrolladores comprendan las funcionalidades y el flujo de datos esperado en el sistema.
-
-13. **Validación y Manejo de Errores en Endpoints**: Se incluyó un manejo robusto de errores y validaciones en los endpoints, lo que asegura que las solicitudes incorrectas sean gestionadas adecuadamente, mejorando la estabilidad del sistema.
-
-14. **Endpoints de Creación y Visualización de Recursos Médicos**: Los endpoints permiten la creación y consulta de recursos como pacientes, doctores y alertas críticas, lo cual facilita una gestión integral de los datos en el sistema.
-
-15. **Pruebas de Integración con Postman**: Las pruebas realizadas con Postman ayudaron a verificar que los endpoints funcionan como se espera, asegurando la consistencia y confiabilidad del backend.
-
-16. **Escalabilidad del Backend**: La implementación de los endpoints fue realizada pensando en la escalabilidad futura del sistema, permitiendo agregar nuevas funcionalidades y ampliar el alcance del monitoreo de pacientes en diferentes entornos.
 
 # About the Product
 La sección ofrece una visión general del producto, destacando su propósito, funcionalidades clave y el valor que aporta a sus usuarios. Esta introducción permite comprender el contexto del producto y su enfoque en satisfacer las necesidades de los usuarios, alineando sus atributos y capacidades con los objetivos de la solución propuesta. 
