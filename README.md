@@ -2286,7 +2286,6 @@ En esta sección se detallan los aspectos clave del Sprint Planning Meeting del 
 
 ### 5.2.4.1. Sprint Planning 4
 
-
 ### 5.2.4.2. Sprint Backlog 4
 En este sprint, el equipo se enfocará en la implementación de los servicios de autorización y autenticación, fundamentales para garantizar que solo usuarios autorizados tengan acceso a las funcionalidades críticas del sistema. Además, se abordarán correcciones en errores previamente identificados en el backend para asegurar un funcionamiento más robusto y confiable. El objetivo principal es establecer un sistema de seguridad sólido, mejorando la integridad y protección de los datos, mientras se optimizan los procesos de manejo de usuarios. Este trabajo incluye no solo la creación de los servicios de autenticación, sino también ajustes y optimizaciones en la lógica del backend, contribuyendo a una base más estable para futuras funcionalidades del sistema.
 
@@ -2311,6 +2310,13 @@ A continuación se muestra un ejemplo de test en la plataforma de PostMan, con n
 
 A continuación se muestra un ejemplo de test en la plataforma de PostMan, con nuestro API desplegado para mostrar los médicos.
 ![GET-Medics](./PostManDeploy/PostManMedics2.png)
+
+Creación de cuentas: genera el TOKEN
+![Register](./PostManDeploy/PostManRegister.png)
+
+Login: verificar el TOKEN
+![Login](./PostManDeploy/PostManLogin.png)
+
 
 ### 5.2.4.5. Execution Evidence for Sprint Review
 Esta sección inicia con un resumen de los logros alcanzados en este Sprint, donde se ha implementado la primera versión de los servicios de autorización y autenticación en el backend de la aplicación. Durante este período, se han desarrollado endpoints fundamentales para gestionar la información de doctores, pacientes y otros elementos clave del sistema. Esto incluye la creación de endpoints para agregar, actualizar y consultar datos de pacientes, así como la gestión de la información de los doctores, junto con la autenticación y autorización de usuarios para proteger el acceso a estas funcionalidades.
