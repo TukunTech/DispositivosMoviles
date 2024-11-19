@@ -172,7 +172,7 @@ Nos enfocamos en cuidados intensivos, postoperatorios y en el monitoreo de adult
 
 ### 1.1.2. Team Member Profiles.
 #### Nicolich Alvis, Fabio Maurizio
-Soy estudiante de Ingeniería de Software, actualmente en mi quinto ciclo. Me considero responsable, proactivo y con buenas habilidades de liderazgo. Estoy comprometido a trabajar en equipo para asegurar que nuestro proyecto sea impecable. Aportaré todo lo que esté en mis manos.
+Soy estudiante de Ingeniería de Software, cursando actualmente el quinto ciclo de la carrera. Me destaco por ser responsable, proactivo y poseer sólidas habilidades de liderazgo. Estoy comprometido con el trabajo en equipo, fomentando una comunicación efectiva y colaborativa para alcanzar resultados sobresalientes. Mi enfoque está en garantizar la calidad y el éxito de los proyectos, aportando creatividad, esfuerzo y dedicación en cada etapa del desarrollo. Cuento con conocimientos en lenguajes como C++, HTML, CSS, JavaScript y Python, y estoy enfocado en aprender a crear proyectos utilizando frameworks como Angular y Vue.
 
 ![Nicolich Alvis, Fabio Maurizio](./Nosotros-img/Fabio.png)
 
