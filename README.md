@@ -2799,22 +2799,22 @@ La más práctica es incluir una ventana emergente de confirmación al finalizar
 
 
 # Conclusiones
-# Capítulo 1: Introducción
+### Capítulo 1: Introducción
 La solución planteada por TukunTech aborda una problemática crítica en el monitoreo de signos vitales mediante una plataforma innovadora basada en IoT. Esta solución ofrece monitoreo continuo, alertas automáticas y mejora la capacidad de respuesta médica, marcando una diferencia significativa respecto a los sistemas tradicionales.
 
-# Capítulo 2: Elicitación y Análisis de Requisitos
+### Capítulo 2: Elicitación y Análisis de Requisitos
 El análisis competitivo y las entrevistas revelaron necesidades específicas en el monitoreo médico, como la falta de integración y supervisión en tiempo real. Esto permitió definir requisitos claros y orientar el desarrollo hacia una solución adaptada a usuarios y entornos locales.
 
-# Capítulo 3: Diseño de la Solución
+### Capítulo 3: Diseño de la Solución
 Se desarrollaron diagramas y prototipos que integran dispositivos IoT con una interfaz intuitiva. Estos diseños aseguran que los usuarios puedan interactuar con el sistema de manera eficiente, facilitando el monitoreo de signos vitales y mejorando la experiencia médica.
 
-# Capítulo 4: Implementación
+### Capítulo 4: Implementación
 El uso de tecnologías modernas y la implementación de buenas prácticas aseguraron una solución robusta y funcional. La integración con sistemas existentes y la generación de servicios backend fortalecieron la propuesta técnica.
 
-# Capítulo 5: Validación y Pruebas
+### Capítulo 5: Validación y Pruebas
 Las pruebas realizadas confirmaron que el sistema cumple con los requisitos planteados, destacando la eficiencia del monitoreo en tiempo real y la capacidad de alertar ante anomalías. La retroalimentación de usuarios potenciales permitió afinar la solución y garantizar su viabilidad.
 
-# Conclusión General
+### Conclusión General
 El proyecto TukunTech se consolidó como una solución integral y funcional para el monitoreo de signos vitales en adultos mayores, pacientes postoperatorios y en cuidados intensivos. Su enfoque innovador basado en IoT, junto con un diseño centrado en el usuario, mejora significativamente la eficiencia médica, optimiza la atención al paciente y establece un modelo escalable para futuras implementaciones.
 
 
