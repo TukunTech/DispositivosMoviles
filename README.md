@@ -2251,6 +2251,7 @@ Vista general de los endpoints generados via Swagger: Se observan los endopoints
 ![Swagger2](./swagger-op/2.jpg)
 ![Swagger3](./swagger-op/3.jpg)
 
+URL del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EXrg7NK4JBJEkBeq_z0SXW0BGLRNsQcN7wJpc0yA81oLAA?e=q0a2So&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
@@ -2465,8 +2466,7 @@ Listar Pacientes:
 
 Panel de pacientes por operatorios:
 ![Panel](./ProgramaEjecutado/PostPatient.png)
-
-
+ 
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review.(AGREGAR AUTORIZACION)
 Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
@@ -2797,21 +2797,21 @@ La sección ofrece una visión general del producto, destacando su propósito, f
 
 A continuación, se presenta el link que redirige a un video que explica el servicio de monitoreo de signos vitales que ofrece TukunTech. Este sistema permite una supervisión continua y precisa de los datos vitales, tanto en clínicas privadas como en el hogar, y está dirigido a pacientes postoperatorios y adultos mayores. A través del video, mostramos cómo la tecnología de TukunTech facilita el cuidado de la salud al ofrecer alertas en tiempo real y registros detallados, ayudando tanto a personal médico como a cuidadores a garantizar la seguridad y bienestar del paciente en todo momento.
 ![About The Product Screenshoot](./Img%20-%20AboutTheProduct/Captura-About-the-Product.png)
-URL en Microsoft Teams: [Video About the product - Microsoft Teams](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EdNsk6Adla1LhhdXPXH-ojwBlLqf_kdsS0Kn8o1fFxdo5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euptKd)
+URL en Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EdNsk6Adla1LhhdXPXH-ojwBlLqf_kdsS0Kn8o1fFxdo5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euptKd
 
 Duración: 3:14 min
 
-Url en Youtube:  [Video About the Product - Youtube](https://youtu.be/qr0E_qO3SK8?si=c93JFfRLYBXuXDZS)
+Url en Youtube: https://youtu.be/qr0E_qO3SK8?si=c93JFfRLYBXuXDZS
 
 Duración: 3:15 min
 
 # About the Team
 Esta sección permitirá conocer al equipo detrás del proyecto, presentando un video que captura la esencia de nuestro proceso de trabajo, en donde se destaca cómo cada miembro contribuyó con sus habilidades y esfuerzos. Además, cada participante comparte en cámara su experiencia personal, describiendo las actividades que realizó, los logros obtenidos y las competencias que desarrolló a lo largo del proceso. Algunos de los logros que se alzanzaron en equipo incluyen una comunicación efectiva que permitió mantenernos alineados en cada etapa del proyecto, asegurando que todas las ideas y aportes fueran escuchados y considerados. También logramos un alto nivel de organización y orden, lo cual fue fundamental para gestionar eficientemente el tiempo y los recursos, permitiendo cumplir con los plazos establecidos. A lo largo del proceso, desarrollamos soluciones innovadoras mediante colaboración constante y retroalimentación constructiva, lo que no solo fortaleció nuestras habilidades técnicas, sino que también consolidó la confianza y cohesión del equipo. Estos logros, combinados, nos permitieron entregar resultados de calidad y alcanzar los objetivos propuestos en el proyecto.
 
-URL en Microsoft Teams: [Video About the Team ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/EW1f95lc54dClova30xXAG0BQUpsnBNDmurp6seLm_xhVA?e=dwx0qP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+URL en Microsoft Teams: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/EW1f95lc54dClova30xXAG0BQUpsnBNDmurp6seLm_xhVA?e=dwx0qP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Duración: 6:30 min.
-Url en Youtube: [Video About the Team ](https://www.youtube.com/watch?v=t7DiETrnHpA)
+Url en Youtube: Video About the Team https://www.youtube.com/watch?v=t7DiETrnHpA
 
 Duración: 6:30 min.
 ## Anexos
@@ -2826,6 +2826,7 @@ Duración: 6:30 min.
 9) Video exposición del avance TP: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EaeaHUxjSzNMncj7o-29ThIBl5Ow7Fk1a8h8f595mHZExg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=OQUFwo
 10) Video presentación About the Product: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EdNsk6Adla1LhhdXPXH-ojwBlLqf_kdsS0Kn8o1fFxdo5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euptKd
 11) Video presentación About the Team: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/EW1f95lc54dClova30xXAG0BQUpsnBNDmurp6seLm_xhVA?e=dwx0qP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+12) Execution Evidence for Sprint Review: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EXrg7NK4JBJEkBeq_z0SXW0BGLRNsQcN7wJpc0yA81oLAA?e=xdIe0a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ## Bibliografía:
 
