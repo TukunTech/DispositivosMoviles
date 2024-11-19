@@ -574,10 +574,10 @@ La sección de Needfindings tiene como objetivo identificar las necesidades y pr
 A través de un perfil detallado, esta sección explora las características demográficas, necesidades, deseos, comportamientos y problemas específicos de los usuarios de los segmentos objetivos predefinidos, facilitando el diseño de soluciones que se alineen mejor con sus expectativas y desafíos.
 
 **Segmento 1**: Encargados de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
-![User persona 1](./img-user-personas/userpersona2.png)
+![User persona 1](./img-user-personas/User%20persona%201.png)
 
 **Segmento 2**: Personal médico y pacientes postoperatorios UCI de clínicas privadas 
-![User persona 2](./img-user-personas/userpersona1.png)
+![User persona 2](./img-user-personas/User%20persona%202.png)
 
 ### 2.3.2 User Task Matrix
 **Segmento 1**
