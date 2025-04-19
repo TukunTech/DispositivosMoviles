@@ -1,4 +1,4 @@
-# DesarrolloOP-SW57 
+# Aplicaciones para Dispositivos Móviles 
 
 # TUKUNTECH
 
@@ -12,7 +12,6 @@
 - **Maraza Pedemonte, Erick** U202213372
 - **Palomares Chávez, Adriana Giovanna** U20221f23
 - **Soto Zorrilla, Oscar Eduardo** U201811767
-- **Quiroz Zambrano, Fabrizio Javier** U202213406
 
 **Fecha:** 2024-02
 
@@ -23,112 +22,6 @@
 ### Registro de Versiones del Informe
 | Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
 |----------|-------------|-------------------------------------|-------------------------------------------------------------------------------|
-| TB1      | 27/08/2024  | Palomares Chavez, Adriana Giovanna  | Redacción del startup profile                                                 |
-|          | 06/09/2024  | Palomares Chavez, Adriana Giovanna  | Creación y organización del product backlog                                   |
-|          | 05/09/2024  | Palomares Chavez, Adriana Giovanna  | Implementación del análisis de entrevistas                                    |
-|          | 06/09/2024  | Palomares Chavez, Adriana Giovanna  | Redacción y definición de los Searching Systems                               |
-|          | 04/09/2024  | Palomares Chavez, Adriana Giovanna  | Implementación de los Web Applications Wireflow Diagrams en Figma             |
-|          | 03/09/2024  | Palomares Chavez, Adriana Giovanna  | Creación de los web applications Mock-ups con la herramienta Figma para los segmentos |
-|          | 05/09/2024  | Palomares Chavez, Adriana Giovanna  | Creación del Database diagram con la herramienta SQL Server                   |
-|          | 07/09/2024  | Palomares Chavez, Adriana Giovanna  | Redacción del cuadro de development evidence for Sprint Review evidenciando los commits importantes de github |
-|          | 07/09/2024  | Palomares Chavez, Adriana Giovanna  | Redacción del services documentation evidence for sprint review.              |
-|          | 27/08/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Lean UX Canvas                                                   |
-|          | 03/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del diseño de entrevistas                                            |
-|          | 03/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación de los segmentos objetivos                                           |
-|          | 05/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Empathy Mapping                                                  |
-|          | 05/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación de las General Style Guidelines                                      |
-|          | 05/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Navigation Systems                                               |
-|          | 05/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Landing Page Wireframe                                           |
-|          | 06/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación de los Web Applications User Flow Diagrams                           |
-|          | 07/09/2024  | Nicolich Alvis, Fabio Maurizio      | Creación del Testing Suite Evidence for Sprint Review                         |
-|          | 07/09/2024  | Nicolich Alvis, Fabio Maurizio      | Desarrollo del Team Collaboration Insights during Sprint                      |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de antecedentes y problemática                                     |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de Lean UX assumptions                                             |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de registro de entrevistas                                         |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de User Personas                                                   |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de User stories                                                    |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo de labeling systems                                                |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Desarrollo Landing Page Mock-up                                               |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Web Application prototyping                                                   |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Software Architecture Components Diagrams                                     |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Class dictionary                                                              |
-|          | 07/09/2024  | Maraza Pedemonte, Erick             | Sprint Planning                                                               |
-|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Desarrollo Problem Statements                                                 |
-|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Entrevistas                                                                   |
-|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | As-Is Scenario Mapping                                                        |
-|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Redacción Ubiquitous Language                                                 |
-|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Aplicación Impact Mapping                                                     |
-|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Corrección Impact Map                                                         |
-|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Corrección Sprint Backlog 1                                                   |
-|          | 07/09/2024  | Soto Zorrilla, Oscar Eduardo        | Correción Evidence for Sprint review 1                                        |
-|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Lean UX Hypothesis Statements                                                 |
-|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Análisis de Competitivo                                                       |
-|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | User Journey Mapping                                                          |
-|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | To be Scenario Mapping                                                        |
-|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Web Applications Wireframes                                                   |
-|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Software Architecture Container Diagrams                                      |
-|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Software Development Environment Configuration                                |
-|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Source Code Style Guide & Conventions.                                        |
-|          | 07/09/2024  | Bravo Gavilano, Jorge Rafael        | Software Deployment Evidence for Sprint Review                                |
-| TP1      | 22/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Diagram database con la herramienta Lucidchart                 |
-|          | 24/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Product Backlog                                                |
-|          | 24/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Wireflow Diagram Mockup con la herramienta Lucidchart          |
-|          | 25/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Development Evidence for Sprint Review                         |
-|          | 25/09/2024  | Palomares Chavez, Adriana Giovanna  | Corrección del Searching systeam                                              |
-|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del diseño de entrevistas                                          |
-|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del Empathy Map                                                    |
-|          | 23/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del User Flow                                                      |
-|          | 26/09/2024  | Nicolich Alvis, Fabio Maurizio      | Desarrollo frontend de los “Patients Update Data & History”                   |
-|          | 27/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del Evidence for Sprint Review                                     |
-|          | 27/09/2024  | Nicolich Alvis, Fabio Maurizio      | Corrección del desarrollo del Team Collaboration Insights during Sprint       |
-|          | 24/09/2024  | Bravo Gavilano, Jorge Rafael        | Corrección del formato de Análisis de Competitivo                             |
-|          | 25/09/2024  | Bravo Gavilano, Jorge Rafael        | Corrección del formato de Software Deployment Evidence for Sprint Review      |
-|          | 25/09/2024  | Bravo Gavilano, Jorge Rafael        | Se añadió texto que introduce a cada sub-título                               |
-|          | 26/09/2024  | Bravo Gavilano, Jorge Rafael        | Desarrollo frontend de los “appointments”                                     |
-|          | 25/09/2024  | Maraza Pedemonte, Erick             | Corrección Lean UX assumptions                                                |
-|          | 25/09/2024  | Maraza Pedemonte, Erick             | Corrección user personas                                                      |
-|          | 25/09/2024  | Maraza Pedemonte, Erick             | Agregar descripción Mockup                                                    |
-|          | 26/09/2024  | Maraza Pedemonte, Erick             | Corrección video Prototyping de Web Application                               |
-|          | 26/09/2024  | Maraza Pedemonte, Erick             | Corrección  Software Architecture Components Diagrams                         |
-| TB2      | 30/10/2024  | Palomares Chavez, Adriana Giovanna  | Creación de las 42 technical stories           			       |
-|          | 01/10/2024  | Palomares Chavez, Adriana Giovanna  | Participación en video about the team.                                        |
-|          | 31/10/2024  | Nicolich Alvis, Fabio Maurizio      | Entrevista a los segmentos                                       	       |
-|          | 31/10/2024  | Nicolich Alvis, Fabio Maurizio      | Realización del análisis de entrevistas                                       |
-|          | 01/11/2024  | Nicolich Alvis, Fabio Maurizio      | Participación en video About the product                                      |
-|          | 29/10/2024  | Bravo Gavilano, Jorge Rafael        | Agregación de los Technical - Stories en el Sprint Backlog                    |
-|          | 30/10/2024  | Bravo Gavilano, Jorge Rafael        | Identificar los problemas y realizar heuristicas    			       |
-|          | 31/10/2024  | Bravo Gavilano, Jorge Rafael        | Participación en video About the team                             	       |
-|          | 31/10/2024  | Maraza Pedemonte, Erick             | Sprint Planning 3                                                             |
-|          | 31/10/2024  | Maraza Pedemonte, Erick             | User Stories                                                                  |
-|          | 31/10/2024  | Soto Zorrilla, Oscar Eduardo        | Desarrollo y Análisis de Heurística                                           |
-|          | 01/11/2024  | Soto Zorrilla, Oscar Eduardo        | Participación en video About the team                                         |
-|          | 01/11/2024  | Quiroz Zambrano, Fabrizio Javier    | Participación en video about the team                                         |
-|          | 02/11/2024  | Quiroz Zambrano, Fabrizio Javier    | Actualizar product backlog y user stories                                     |
-|          | 01/11/2024  | Quiroz Zambrano, Fabrizio Javier | Participación en video about the team       |
-|          | 02/11/2024  | Quiroz Zambrano, Fabrizio Javier | Actualizar product backlog y user stories   |
-| TF1 | Fecha       | Responsable                         | Tarea                                            |
-|-----|-------------|-------------------------------------|-------------------------------------------------|
-|     | 14/11/2024  | Nicolich Alvis, Fabio              | Implementación de la introducción a la sección User Persona |
-|     | 14/11/2024  | Nicolich Alvis, Fabio              | Implementación de la sección About the Product  |
-|     | 14/11/2024  | Nicolich Alvis, Fabio              | Implementación de la sección About the Team     |
-|     | 14/11/2024  | Nicolich Alvis, Fabio              | Corrección de las imágenes del Empathy Mapping de los User Persona |
-|     | 14/11/2024  | Nicolich Alvis, Fabio              | Numeración y orden de los anexos               |
-|     | 14/11/2024  | Bravo Gavilano, Jorge Rafael       | Corrección de imágenes User Persona            |
-|     | 18/11/2024  | Bravo Gavilano, Jorge Rafael       | Agregación de commits propios en la tabla      |
-|     | 16/11/2024  | Soto Zorrilla, Oscar Eduardo       | Creación de Technical stories                  |
-|     | 17/11/2024  | Soto Zorrilla, Oscar Eduardo       | Creación de user goal sprint 4                 |
-|     | 19/11/2024  | Soto Zorrilla, Oscar Eduardo       | Agregué los test                               |
-|     | 18/11/2024  | Soto Zorrilla, Oscar Eduardo       | Generación de documentación API                |
-|     | 17/11/2024  | Soto Zorrilla, Oscar Eduardo       | Generación del despliegue                      |
-|     | 18/11/2024  | Palomares Chavez, Adriana Giovanna | Creación de Technical stories                  |
-|     | 14/11/2024  | Palomares Chavez, Adriana Giovanna | Corrección de user stories                     |
-|     | 18/11/2024  | Palomares Chavez, Adriana Giovanna | Lista de commits del sprint 4                  |
-|     | 18/11/2024  | Quiroz Zambrano, Fabrizio Javier   | Corrección de User Stories                     |
-|     | 18/11/2024  | Quiroz Zambrano, Fabrizio Javier   | Creación de Technical Stories                  |
-|     | 18/11/2024  | Maraza Pedemonte, Erick            | Corrección user stories                        |
-|     | 18/11/2024  | Maraza Pedemonte, Erick            | Corrección Epics                               |
-|     | 18/11/2024  | Maraza Pedemonte, Erick            | Implementación de Us en trello                 |
-|     | 18/11/2024  | Maraza Pedemonte, Erick            | Agregación de tabla de commits propios         |
 
 
 ---
@@ -139,65 +32,6 @@
 **Comunica oralmente con efectividad a diferentes rangos de audiencia**
 
 | Acción Realizada | Participantes          | Descripción |
-|------------------|------------------------|-------------|
-| TB1              | Bravo Gavilano, Jorge Rafael | Identificación de Problemáticas:<br>Realicé una investigación preliminar para entender los problemas y necesidades del usuario.<br>Analicé el contexto y el mercado para identificar desafíos y oportunidades.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
-| TB1              | Maraza Pedemonte, Erick | Definición de Requisitos:<br>User Stories: Redacté historias de usuario que detallan los requisitos funcionales.<br>Modelado de Solución: Representé la solución visualmente con diagramas y otros artefactos.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
-| TB1              | Palomares Chávez, Adriana Giovanna | Diseño Visual y Prototipado:<br>Principios de Diseño: Creé una propuesta visual coherente.<br>Prototipos: Creé y refiné diseños interactivos.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
-| TB1              | Soto Zorrilla, Oscar Eduardo | Implementación de Landing Page:<br>Desarrollo: Implementé la Landing Page, servicios del servidor y aplicaciones web con los lenguajes, frameworks y herramientas especificados.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
-| TB1              | Nicolich Alvis, Fabio Maurizio | Aplicación del Proceso Lean UX:<br>Segmentación de Objetivos: Definí objetivos según las necesidades.<br>Lean UX Canvas: Resumí la información en un Lean UX Canvas para una visión general y hoja de ruta del proyecto.<br>Documentación y Comunicación:<br>Generación de Documentación: Creé documentación completa de procesos, decisiones y resultados. |
-
-#### Conclusiones
-La aplicación de Lean UX y UX Research nos permitió entender mejor las necesidades del usuario y definir claramente los requisitos del proyecto. Esto facilitó la creación de User Stories y un diseño visual efectivo para el Landing Page y las Web Apps. La implementación del patrón Domain Driven Design y el uso de nuevas tecnologías aseguraron que cumpliéramos con los objetivos del product backlog y los requisitos del sprint, garantizando así una solución completa y funcional.
-
-
-### Criterio específico
-**Comunica por escrito con efectividad a diferentes rangos de audiencia**
-
-| Acción Realizada | Participantes          | Descripción |
-|------------------|------------------------|-------------|
-| TB1              | Bravo Gavilano, Jorge Rafael | Ejecución y Documentación de Procesos:<br>Lean UX y UX Research: Documenté procesos como User Personas, Task Matrix y Journey Maps.<br> |
-| TB1              | Maraza Pedemonte, Erick | Validación y Retroalimentación:<br>Validation Interviews: Entrevisté a representantes de User Personas para obtener feedback.<br>Identificación de Hallazgos: Documenté y abordé problemas encontrados en las entrevistas. |
-| TB1              | Palomares Chávez, Adriana Giovanna | Ejecución y Documentación de Procesos:<br>Design y Prototyping: Desarrollé y documenté el diseño visual y los prototipos. |
-| TB1              | Soto Zorrilla, Oscar Eduardo | Aplicación de Buenas Prácticas de Programación:<br>Convenciones y Nomenclatura: Seguí las convenciones de nomenclatura para consistencia y claridad. |
-| TB1              | Nicolich Alvis, Fabio Maurizio | Ejecución y Documentación de Procesos:<br>Lean UX y UX Research: Documenté y ejecuté Lean UX y UX Research, incluyendo User Personas, Task Matrix y Journey Maps.<br>Design y Prototyping: Desarrollé y documenté el diseño visual y los prototipos. |
-
-
-#### Conclusiones
-El uso adecuado de lenguajes de programación y herramientas, junto con buenas prácticas y convenciones, facilitó una implementación efectiva y colaborativa del proyecto. La aplicación rigurosa de Lean UX, UX Research, y otros procesos ágiles, tanto en documentación escrita aseguró una solución robusta y bien validada mediante entrevistas con User Personas. La orientación hacia la mejora continua permitirá actualizar y perfeccionar los artefactos basados en hallazgos y recomendaciones. La comunicación clara y objetiva de la propuesta.
-
-### TB2
-
-| Criterio específico                             | Acciones Realizadas                                                                                                                      | Conclusiones                                                                                                                         |
-|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Comunica por escrito con efectividad a diferentes rangos de audiencia | **Bravo Gavilano, Jorge Rafael**: Aplicación de Buenas Prácticas de Programación para los archivos backend. Seguimiento de convenciones de nomenclatura para consistencia y comprensión de archivos. Implementación del video "About-The-Team". Definición de las technical stories en el sprint backlog. Integración de Lean UX y UX Research para una solución centrada en el usuario, validada a través de entrevistas con User Personas.  | El enfoque estratégico en lenguajes y herramientas facilitó un desarrollo ágil y colaborativo. La documentación clara ayudó en la comprensión y aceptación de la propuesta. |
-|                                                 | **Maraza Pedemonte, Erick**: Implementación de testimonios en la sección home. Definición del Sprint Planning 3. Uso de Gherkin para el Testing Suite Evidence para el Sprint Review e implementación de endpoints para el desarrollo del backend utilizando buenas prácticas y DDD. | La aplicación de Gherkin y DDD optimizó la claridad en la documentación y la efectividad en los procesos de revisión del Sprint.                                  |
-|                                                 | **Palomares Chavez, Adriana Giovanna**: Implementación de la sección "About the Product" en la landing page. Creación de endpoints en el desarrollo backend, aplicando el Domain Driven Design. | La aplicación de DDD en el backend facilitó la organización del código y la integración con el equipo, mejorando la eficiencia y la coherencia del proyecto.         |
-|                                                 | **Soto Zorrilla, Oscar Eduardo**: Programación e implementación de diversos endpoints para el desarrollo del programa, aplicando las buenas prácticas y uso del DDD. | La implementación de endpoints en DDD fortaleció la estructura del backend y su alineación con las necesidades del usuario.                                              |
-|                                                 | **Nicolich Alvis, Fabio Maurizio**: Entrevista a los segmentos objetivos. Registro de entrevistas de los segmentos objetivo. Implementación del video "About the Product" en la landing page. Creación de endpoints en el desarrollo backend, aplicando el Domain Driven Design. | Las entrevistas documentadas aseguraron un entendimiento profundo del usuario, ayudando a enfocar el desarrollo en la landing page y el backend.                      |
-
-| Criterio específico                             | Acciones Realizadas                                                                                                                      | Conclusiones                                                                                                                         |
-|-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia | **Bravo Gavilano, Jorge Rafael**: Participación en videos "About the Product" y "About the Team". Comunicación continua con el equipo con fines de organización. Integración de Lean UX y UX Research para identificar las necesidades del usuario, facilitando la creación de User Stories y diseño visual. Implementación de Domain Driven Design para cumplir con los objetivos del sprint. | La comunicación continua y el enfoque en UX Research contribuyeron a una solución funcional que alineaba bien los objetivos del sprint con las necesidades del usuario. |
-|                                                 | **Maraza Pedemonte, Erick**: Participación en videos "About the Product" y "About the Team". Comunicación continua con el equipo con fines de organización. | La comunicación efectiva entre el equipo ayudó a mantener la organización y la alineación de objetivos.                                                                   |
-|                                                 | **Palomares Chavez, Adriana Giovanna**: Organización y comunicación entre los integrantes del grupo por diferentes medios. Participación en video "About the Team". | La comunicación organizada facilitó la coordinación en el equipo, promoviendo la eficiencia en el desarrollo y asegurando la alineación en las tareas.                  |
-|                                                 | **Soto Zorrilla, Oscar Eduardo**: Comunicación continua mediante diversos medios con el equipo. Participación en video "About the Team". | La comunicación constante permitió una mejor integración en el equipo, asegurando la comprensión de los objetivos y el progreso del proyecto.                            |
-|                                                 | **Nicolich Alvis, Fabio Maurizio**: Participación en videos "About the Product" y "About the Team". Comunicación constante mediante WhatsApp y Discord con el equipo. | La comunicación a través de canales digitales garantizó la alineación del equipo y facilitó la colaboración en el desarrollo del proyecto.                              |
-|                                                 | **Quiroz Zambrano, Fabrizio Javier**: Participación en videos "About the Product" y "About the Team". Comunicación constante mediante WhatsApp y Discord con el equipo. | La comunicación fluida mediante herramientas digitales ayudó a mantener la cohesión del equipo y a cumplir con los objetivos de comunicación y desarrollo.              |
-
-
-### TF1
-
-### Comunica por oralmente con efectividad a diferentes rangos de audiencia
-
-
-| **Criterio específico**                       | **Acciones Realizadas**                                                                                                                 | **Conclusiones**                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Bravo Gavilano, Jorge Rafael**              | Participación en video de exposición. Comunicación constante mediante Discord con el equipo.                                            | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
-| **Soto Zorrilla, Oscar Eduardo**             | Participación en video de exposición. Comunicación constante mediante Discord con el equipo. Participación en el video donde se muestra la ejecución del programa. | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
-| **Maraza Pedemonte, Erick**                  | Participación en video de exposición. Comunicación constante con el equipo por Discord y de manera presencial.                          | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
-| **Quiroz Zambrano, Fabrizio Javier**         | Participación en video de exposición. Comunicación constante mediante Discord con el equipo.                                            | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
-| **Palomares Chavez, Adriana Giovanna**       | Participación en video de exposición. Comunicación constante mediante Discord con el equipo.                                            | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |
-| **Nicolich Alvis, Fabio Maurizio**           | Participación en video de exposición. Comunicación activa mediante Discord y WhatsApp.                                                  | La comunicación efectiva en el equipo permitió cumplir con los objetivos del TF1, garantizando coordinación y claridad en la presentación del proyecto mediante herramientas digitales como Discord y WhatsApp.                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 
 
