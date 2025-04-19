@@ -699,9 +699,9 @@ Una vez redactadas todas las User Stories (US), es fundamental priorizarlas. El 
 
 #### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 
-#### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 
-#### 4.2.X.6.2. Bounded Context Database Design Diagram
+##### 4.2.X.6.2. Bounded Context Database Design Diagram
 
 
 
