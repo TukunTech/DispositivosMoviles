@@ -696,6 +696,22 @@ Una vez redactadas todas las User Stories (US), es fundamental priorizarlas. El 
 #### 4.2.X.4. Infrastructure Layer
 
 #### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+A continuación, se mostrará el diagrama de componentes que conforma la arquitectura de nuestro software. Este diagrama proporciona un desglose detallado de los componentes que integran nuestros contenedores, especificando sus funciones, responsabilidades y los aspectos técnicos relacionados con su implementación, así como las tecnologías empleadas en cada uno de ellos. Además, cada **bounded context** contará con su propio diagrama de componentes, lo que permitirá una mejor comprensión y visualización de la estructura específica de cada contexto.
+
+## Contexto de Pacientes
+
+Este módulo se encarga de gestionar los datos relacionados con los pacientes. Aquí se encuentran la información personal (nombre, edad, dirección, contacto) y su historial médico. La actualización de datos, consulta de perfiles y el almacenamiento de información relevante sobre los pacientes
+![Components diagram 1](./img-DDD/diagrama1.png)
+
+## Contexto de Gestion  de Medicos
+
+Responsable de gestionar la información de los médicos que están monitoreando a los pacientes. Este módulo incluye el acceso al historial de pacientes, la asignación de médicos a ciertos pacientes y la configuración de permisos de acceso. Además, los médicos pueden recibir alertas y notificaciones sobre cambios importantes en los datos de los pacientes bajo su supervisión.
+![Components diagram 2](./img-DDD/diagrama2.png)
+
+## Contexto de Agendamiento de Consultas
+
+Encargado de gestionar la planificación de citas y consultas entre médicos y pacientes. Permite a los médicos agendar revisiones con los pacientes que monitorean y a los pacientes solicitar asistencia médica según sea necesario. Este módulo también gestiona la integración con videollamadas o consultas presenciales.
+![Components diagram 3](./img-DDD/diagrama3.png)
 
 #### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 
