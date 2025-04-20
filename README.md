@@ -715,10 +715,15 @@ Encargado de gestionar la planificación de citas y consultas entre médicos y p
 
 #### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
 
+
 ##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+A continuación se presenta el diagrama de clases de TukunTech, el cual permite una representación visual fundamental en la programación orientada a objetos, utilizada para ilustrar la estructura estática de nuestro sistema. Este tipo de diagrama permite visualizar las clases que componen el sistema, sus atributos, métodos, y las relaciones que existen entre ellas, como asociaciones, herencia y composiciones.
+![Class Diagrams](./Software%20Object-Oriented%20Design/Diagram%20class.drawio.png)
 
 ##### 4.2.X.6.2. Bounded Context Database Design Diagram
+En este apartado se puede visualizar la estructura y las relaciones entre las tablas de la base de datos, lo que permite comprender de manera clara cómo se organiza y conecta la información. Esta representación gráfica es esencial para garantizar la integridad de los datos, ya que facilita la identificación de las claves primarias y foráneas, también se muestran las cardinalidades entre las entidades. Además se ha utilizado la normalización de tablas, esto es clave para mantener la consistencia y evitar redundancias en los datos almacenados
 
+![DatabaseDiagram](./img-Mock-ups-DataBase/database_diagram.jpeg)
 
 
 
