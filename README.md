@@ -714,7 +714,7 @@ Encargado de gestionar la planificación de citas y consultas entre médicos y p
 ![Components diagram 3](./img-DDD/diagrama3.png)
 
 #### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
-
+A continuación, se mostrarán los diagramas de clases y el diagrama de base de datos que conformará la aplicación de TukunTech. Estos elementos representan visualmente la arquitectura del sistema, permitiendo comprender la organización de los datos, las relaciones entre las entidades y la lógica de funcionamiento de la aplicación. La finalidad de estos diagramas es proporcionar una guía clara y detallada para el desarrollo, facilitando la implementación eficiente de las funcionalidades clave de TukunTech, tanto en su versión clínica como en su versión familiar.
 
 ##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
 A continuación se presenta el diagrama de clases de TukunTech, el cual permite una representación visual fundamental en la programación orientada a objetos, utilizada para ilustrar la estructura estática de nuestro sistema. Este tipo de diagrama permite visualizar las clases que componen el sistema, sus atributos, métodos, y las relaciones que existen entre ellas, como asociaciones, herencia y composiciones.
