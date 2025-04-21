@@ -677,6 +677,9 @@ Una vez redactadas todas las User Stories (US), es fundamental priorizarlas. El 
 
 ### 4.1.3. Software Architecture
 
+En esta sección se presenta y explica la representación arquitectónica de la solución propuesta, aplicando el C4 Model como marco de referencia. Esta metodología permite modelar la arquitectura de software en distintos niveles de detalle, facilitando la comprensión tanto para stakeholders técnicos como no técnicos.
+A continuación, se presentan los Context Levels y Container del C4 Model, para describir cómo nuestros segmentos objetivos interactúan con nuestro sistema y los sistemas externos involucrados.
+
 #### 4.1.3.1. Software Architecture Context Level Diagrams
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams
