@@ -682,6 +682,14 @@ A continuación, se presentan los Context Levels y Container del C4 Model, para 
 
 #### 4.1.3.1. Software Architecture Context Level Diagrams
 
+En el siguiente diagrama se explica cómo médicos y enfermeros interactúan tanto con nuestro sistema de software como con servicios externos, entre los que se incluyen:
+
+- **Microsoft Exchange**, utilizado para la gestión y envío de correos electrónicos.
+- La **pasarela de pago**, encargada de procesar las transacciones.
+- **Firebase Cloud Messaging** (FCM), empleado para enviar notificaciones push y actualizaciones en tiempo real a los dispositivos móviles del personal de salud.
+
+![Context Diagram](./img-DDD/oscar1.png)
+
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
