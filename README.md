@@ -682,7 +682,7 @@ A continuación, se presentan los Context Levels y Container del C4 Model, para 
 
 #### 4.1.3.1. Software Architecture Context Level Diagrams
 
-En el siguiente diagrama se explica cómo médicos y enfermeros interactúan tanto con nuestro sistema de software como con servicios externos, entre los que se incluyen:
+En el siguiente diagrama se explica cómo el personal médico interactúan tanto con nuestro sistema de software como con servicios externos, entre los que se incluyen:
 
 - **Microsoft Exchange**, utilizado para la gestión y envío de correos electrónicos.
 - La **pasarela de pago**, encargada de procesar las transacciones.
@@ -691,6 +691,10 @@ En el siguiente diagrama se explica cómo médicos y enfermeros interactúan tan
 ![Context Diagram](./img-DDD/oscar1.png)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams
+
+En este diagrama se muestra cómo el personal médico se conectan con el sistema de software de TukunTech y diversos servicios externos, facilitando y mejorando la supervisión y atención médica. La plataforma permite a los profesionales vigilar en tiempo real los signos vitales de los pacientes, mediante el uso de componentes y servicios integrados que trabajan de forma conjunta.
+
+![ContainerDiagram](./imgs%20Domain%20Driven%20Design/Software%20Architecture%20Container%20Diagrams.png)
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
