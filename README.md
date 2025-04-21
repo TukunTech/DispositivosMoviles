@@ -698,6 +698,8 @@ En este diagrama se muestra cómo el personal médico se conectan con el sistema
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
+En esta sección se presenta el Deployment Diagram del sistema, cuyo propósito es mostrar la distribución física de los componentes de software sobre la infraestructura de hardware y servicios en la nube. Este diagrama permite comprender dónde se ejecuta cada componente y cómo se comunican entre sí a través de redes y servicios externos.
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.X. Bounded Context: <Bounded Context Name>
