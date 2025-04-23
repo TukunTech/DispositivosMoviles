@@ -761,6 +761,63 @@ Para cada agregado principal, se define una interfaz de repositorio que abstrae 
 
 #### 4.2.X.2. Interface Layer
 
+**Controllers**  
+Estos componentes reciben las solicitudes HTTP, validan los datos entrantes y delegan la lógica de negocio a los servicios de la capa de aplicación. También formatean las respuestas al cliente.
+
+- **PatientController**  
+  Expone endpoints para registrar nuevos pacientes, obtener información por DNI o ID, y actualizar datos personales.
+  
+  - *GET /api/patients/{id}*  
+  - *POST /api/patients*  
+  - *PUT /api/patients/{id}*
+
+- **VitalSignsController**  
+  Permite registrar y consultar registros de signos vitales por paciente.
+  
+  - *GET /api/vital-signs/patient/{patientId}*  
+  - *POST /api/vital-signs*
+
+- **MedicalExaminationController**  
+  Gestiona la creación y consulta de resultados de exámenes médicos.
+  
+  - *GET /api/medical-examinations/patient/{patientId}*  
+  - *POST /api/medical-examinations*
+
+- **TreatmentController**  
+  Permite registrar tratamientos médicos y consultar los históricos de tratamiento por paciente.
+  
+  - *GET /api/treatments/patient/{patientId}*  
+  - *POST /api/treatments*
+
+- **ConsultationHistoryController**  
+  Expone la información de las consultas previas realizadas por un paciente.
+  
+  - *GET /api/consultations/patient/{patientId}*  
+  - *POST /api/consultations*
+
+- **MedicController**  
+  Provee endpoints para el registro y consulta de información de médicos.
+  
+  - *GET /api/medics/{id}*  
+  - *POST /api/medics*
+
+**DTOs (Data Transfer Objects)**  
+Para cada operación que interactúa con el frontend o dispositivos, se definen DTOs que validan y organizan los datos.
+
+- **CreatePatientRequest**, **PatientResponse**  
+- **RegisterVitalSignsRequest**, **VitalSignsResponse**  
+- **CreateMedicalExaminationRequest**, **MedicalExaminationResponse**  
+- **CreateTreatmentRequest**, **TreatmentResponse**  
+- **CreateConsultationHistoryRequest**, **ConsultationResponse**  
+- **RegisterMedicRequest**, **MedicResponse**
+
+Los DTOs aseguran que la capa de dominio reciba solo información limpia y validada, y permiten que el frontend consuma las respuestas en un formato estructurado.
+
+**Adaptadores IoT (a futuro)**  
+TukunTech contempla la integración con dispositivos IoT de monitoreo de signos vitales.  
+Para esto, podrían implementarse adaptadores que traduzcan las señales o paquetes recibidos desde los sensores hacia los DTOs utilizados por el **VitalSignsController**.
+
+
 #### 4.2.X.3. Application Layer
 
 #### 4.2.X.4. Infrastructure Layer
