@@ -708,65 +708,56 @@ En esta sección se presenta el Deployment Diagram del sistema, cuyo propósito 
 
 En esta capa, el equipo define las clases que conforman el núcleo del sistema TukunTech, centrado en el monitoreo de salud y la gestión de evaluaciones clínicas para pacientes. Esta capa modela el dominio a partir del análisis del negocio, definiendo entidades, objetos de valor, agregados, interfaces de repositorio y servicios de dominio. A continuación, se detallan los elementos principales:
 
-#### Entities
-
+**Entities**  
 Las entidades representan conceptos del dominio con identidad propia que persiste a lo largo del tiempo:
 
-- Patient: Representa al paciente dentro del sistema, incluye atributos como name, lastName, dni, age, y relaciones con otras entidades como gender, bloodGroup, nationality, allergy, y medicalInsurance.
+*Patient*: Representa al paciente dentro del sistema, incluye atributos como name, lastName, dni, age, y relaciones con otras entidades como gender, bloodGroup, nationality, allergy, y medicalInsurance.
 
-- Medic: Representa al médico encargado de realizar las evaluaciones clínicas. Incluye atributos como code_cmp, contact, y relaciones con specialization y nationality.
+*Medic*: Representa al médico encargado de realizar las evaluaciones clínicas. Incluye atributos como code_cmp, contact, y relaciones con specialization y nationality.
 
-- VitalSigns: Registra los signos vitales tomados a un paciente en un momento específico (date, time). Contiene valores como hr_bpm, systolic, dia, spo2, y temperature.
+*VitalSigns*: Registra los signos vitales tomados a un paciente en un momento específico (date, time). Contiene valores como hr_bpm, systolic, dia, spo2, y temperature.
 
-- MedicalExamination: Almacena los resultados de un examen clínico realizado al paciente. Se relaciona con una consulta y un tipo de examen específico (tipe_exam), y guarda atributos como results y date.
+*MedicalExamination*: Almacena los resultados de un examen clínico realizado al paciente. Se relaciona con una consulta y un tipo de examen específico (tipe_exam), y guarda atributos como results y date.
 
-- Treatment: Define el tratamiento asignado a un paciente a partir de una consulta, incluyendo description, startDate, y endDate.
+*Treatment*: Define el tratamiento asignado a un paciente a partir de una consulta, incluyendo description, startDate, y endDate.
 
-- ConsultationHistory: Representa una consulta médica previa entre el paciente y un médico. Registra date y description.
+*ConsultationHistory*: Representa una consulta médica previa entre el paciente y un médico. Registra date y description.
 
-#### Value Objects
-
+**Value Objects**  
 Los objetos de valor representan conceptos del dominio sin identidad propia. Aunque la base de datos no los diferencia directamente, podrían modelarse como objetos de valor en la implementación:
 
-- Contact (en Medic): Puede ser representado como un objeto de valor si se necesita validar y encapsular su lógica.
+*Contact* (en *Medic*): Puede ser representado como un objeto de valor si se necesita validar y encapsular su lógica.
 
-- DNI y edad (en Patient): Pueden encapsularse en objetos de valor con reglas de validación específicas (por ejemplo, edad mayor a cero, formato del DNI).
+*DNI* y *edad* (en *Patient*): Pueden encapsularse en objetos de valor con reglas de validación específicas (por ejemplo, edad mayor a cero, formato del DNI).
 
-#### Aggregates
-
+**Aggregates**  
 Un agregado es un clúster de entidades y objetos de valor con una raíz que garantiza su consistencia:
 
-- PatientAggregate: Tiene como raíz a Patient. Incluye entidades relacionadas como VitalSigns, MedicalExamination, ConsultationHistory, y Treatment. Cualquier operación que afecte al paciente y sus datos clínicos debe pasar por este agregado.
+*PatientAggregate*: Tiene como raíz a *Patient*. Incluye entidades relacionadas como *VitalSigns*, *MedicalExamination*, *ConsultationHistory*, y *Treatment*. Cualquier operación que afecte al paciente y sus datos clínicos debe pasar por este agregado.
 
-- MedicAggregate: Tiene como raíz a Medic. Puede incluir especialización, nacionalidad y validaciones de contacto o código profesional (CMP).
+*MedicAggregate*: Tiene como raíz a *Medic*. Puede incluir especialización, nacionalidad y validaciones de contacto o código profesional (CMP).
 
-#### Factories
+**Factories**  
+Se podrían definir *Factories* para encapsular la lógica de creación de pacientes o registros de signos vitales, validando reglas de dominio como:
 
-Se podrían definir Factories para encapsular la lógica de creación de pacientes o registros de signos vitales, validando reglas de dominio como:
-
-- La edad del paciente debe estar dentro de un rango permitido.
-
+- La edad del paciente debe estar dentro de un rango permitido.  
 - Los signos vitales deben estar dentro de rangos médicos aceptables.
 
-#### Domain Services
-
+**Domain Services**  
 Cuando una lógica de negocio no pertenece naturalmente a una sola entidad, se encapsula en un servicio de dominio. Ejemplos:
 
-- ClinicalEvaluationService: Procesa la información de signos vitales y resultados médicos para emitir un diagnóstico preliminar.
+*ClinicalEvaluationService*: Procesa la información de signos vitales y resultados médicos para emitir un diagnóstico preliminar.
 
-- AlertService: Detecta patrones anormales en los signos vitales y emite alertas.
+*AlertService*: Detecta patrones anormales en los signos vitales y emite alertas.
 
-#### Repositories (Interfaces)
-
+**Repositories (Interfaces)**  
 Para cada agregado principal, se define una interfaz de repositorio que abstrae el acceso a la persistencia:
 
-- IPatientRepository: Métodos como save, findById, findByDni, etc.
+*IPatientRepository*: Métodos como save, findById, findByDni, etc.  
+*IMedicRepository*: Para registrar y recuperar datos de médicos.  
+*IVitalSignsRepository*: Para almacenar y consultar registros de signos vitales.  
+*IMedicalExaminationRepository*: Para registrar y consultar evaluaciones médicas.
 
-- IMedicRepository: Para registrar y recuperar datos de médicos.
-
-- IVitalSignsRepository: Para almacenar y consultar registros de signos vitales.
-
-- IMedicalExaminationRepository: Para registrar y consultar evaluaciones médicas.
 
 #### 4.2.X.2. Interface Layer
 
