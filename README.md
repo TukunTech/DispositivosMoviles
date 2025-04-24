@@ -713,17 +713,141 @@ Obtener una comprensión profunda y colaborativa del dominio de TukunTech median
 
 
 El siguiente gráfico representa la convención de colores utilizada durante nuestra sesión de EventStorming para **TukunTech**. Cada color corresponde a un tipo específico de elemento dentro del modelado del dominio, permitiendo una organización visual clara y una comprensión más precisa del flujo del sistema.
-
 Esta codificación facilita la identificación de procesos de negocio, eventos de dominio, comandos, políticas, sistemas externos y agregados, asegurando una estructura coherente para el análisis y diseño posterior.
 
+![EventStorming](./EventStorming/EventStorming1.PNG)
+
+
+De iogual manera se muestra la reunión que tuvo el equipo, la cual fue virtual mediante la plataforma de Discord
+
+![Reunión](./EventStorming/EventStorming2.jpg)
 
 #### 4.1.1.1. Candidate Context Discovery
+Tras la realización del EventStorming de **TukunTech**, se llevó a cabo una sesión de **Candidate Context Discovery**, con el objetivo de identificar y delimitar los posibles *bounded contexts* del sistema. Esta práctica busca dividir el dominio en regiones funcionales con alto grado de cohesión interna y bajo acoplamiento con otros contextos, facilitando así un diseño modular y escalable.
+
+## Estrategias Aplicadas
+
+- **Start-with-value:**  
+  Enfocarse en las áreas de mayor valor e impacto para el negocio.
+
+- **Look-for-pivotal-events:**  
+  Localizar eventos clave que actúan como puntos de transición entre procesos o responsabilidades.
+
+## Detalles de la Sesión
+
+- **Herramienta utilizada:** Miro  
+- **Duración:** Aproximadamente 1 hora  
+
+## Actividades
+
+### Identificación de Puntos de Alto Valor
+
+Se discutió con el equipo cuáles eran las funcionalidades más críticas para el éxito de TukunTech. Se definieron como áreas *core* del dominio:
+
+- La detección en tiempo real de anomalías en los signos vitales.  
+- La generación de alertas automáticas y su notificación al personal médico.  
+- La visualización y análisis clínico de los datos históricos.  
+
+### Análisis de Eventos Clave
+
+Durante la exploración del EventStorming, se observaron eventos pivote que generaban transiciones entre responsabilidades o estados del sistema:
+
+- **“Signos vitales actualizados”**  
+- **“Alerta generada”**  
+- **“Paciente estabilizado”**  
+- **“Indicaciones médicas registradas”**  
+
+### División Preliminar en Contextos
+
+A partir del análisis, se definieron los siguientes contextos funcionales preliminares:
+
+- **Monitoreo IoT**  
+- **Gestor Médico**  
+- **Evaluación Clínica**
+![EventStorming](./EventStorming/EventStorming3.PNG)
 
 #### 4.1.1.2. Domain Message Flows Modeling
+Una vez identificados los bounded contexts de TukunTech, el siguiente paso fue modelar cómo interactúan entre sí mediante el intercambio de mensajes del dominio. Para ello, se utilizó la técnica de Domain Message Flows Modeling, con apoyo visual en forma de diagramas narrativos que muestran flujos de interacción entre los distintos contextos, actores y eventos que componen el sistema.
+Esta técnica permite visualizar con claridad los casos de uso principales del negocio, centrándose en cómo fluyen las acciones entre contextos y en qué puntos se produce colaboración o transferencia de responsabilidad. Se utilizaron herramientas de Domain Storytelling, adaptadas para ilustrar estos flujos de extremo a extremo.
+![Domain Message Flows Modeling](./EventStorming/EventStorming4.PNG)
 
 #### 4.1.1.3. Bounded Context Canvases
+Después de identificar los bounded contexts de TukunTech, el siguiente paso fue profundizar en el diseño estratégico de cada uno mediante la técnica de Bounded Context Canvas. Esta herramienta permite documentar con mayor detalle el propósito, los límites, las reglas de negocio, el lenguaje ubicuo, las capacidades internas y las dependencias externas de cada contexto.
+Este análisis es fundamental para asegurar que cada contexto pueda evolucionar de manera autónoma y coherente, especialmente en una arquitectura modular basada en microservicios. También permite alinear mejor el diseño técnico con las necesidades del negocio.
+![Bounded Context Canvases](./EventStorming/EventStorming5.jpg)
 
 ### 4.1.2. Context Mapping
+En el proceso de diseño estratégico de **TukunTech**, se aplicaron diversos patrones de **Context Mapping** propuestos por **DDD-Crew** para modelar las relaciones estructurales entre los *bounded contexts*. Estos patrones definen cómo los contextos se comunican, comparten datos, evolucionan en conjunto o mantienen independencia.
+
+## Patrones Aplicados y Justificación
+
+### 1. Open / Host Service
+- **Contexto Aplicado:** Evaluación Clínica
+- **Descripción:** Exposición de un servicio REST para consultar informes clínicos ya generados.
+- **Uso en TukunTech:**  
+  Gestión Médica consume estos informes directamente, sin necesidad de traducción del modelo de dominio, facilitando una integración eficiente y sin acoplamiento profundo.
+
+---
+
+### 2. Conformist
+- **Contexto Aplicado:** Interacción con Pacientes
+- **Descripción:** Adopción directa del modelo de datos de Gestión Médica.
+- **Uso en TukunTech:**  
+  La aplicación móvil muestra recomendaciones médicas sin reinterpretación, lo cual simplifica el desarrollo pero aumenta el acoplamiento con el modelo clínico.
+
+---
+
+### 3. Anticorruption Layer
+- **Contexto Aplicado:** Gestión Médica
+- **Descripción:** Implementación de una capa que traduce datos provenientes de Monitoreo IoT.
+- **Uso en TukunTech:**  
+  Protege la lógica médica del ruido técnico de los sensores, asegurando claridad clínica y consistencia en la toma de decisiones.
+
+---
+
+### 4. Shared Kernel
+- **Contextos Involucrados:** Evaluación Clínica e Interacción con Pacientes
+- **Descripción:** Compartición de un modelo común del paciente.
+- **Uso en TukunTech:**  
+  Se utilizan identificadores únicos y estructura base del historial clínico, garantizando consistencia y evitando redundancias o errores de sincronización.
+
+---
+
+### 5. Published Language
+- **Contextos Involucrados:** Monitoreo IoT y Gestión Médica
+- **Descripción:** Definición de un lenguaje común para representar datos biométricos.
+- **Uso en TukunTech:**  
+  Términos como HR, SPO2, SYS/DIA se documentan y comparten para facilitar la interoperabilidad sin necesidad de compartir código fuente.
+
+---
+
+## Relaciones de Equipos
+
+### 1. Mutually Dependent
+- **Contextos:** Gestión Médica y Evaluación Clínica
+- **Descripción:** Ambos contextos dependen mutuamente para generar respuestas clínicas fundamentadas.
+- **Consecuencia:**  
+  Requiere coordinación constante para mantener consistencia técnica y semántica.
+
+---
+
+### 2. Free
+- **Contextos:** Interacción con Pacientes y futuro módulo de analítica
+- **Descripción:** Desarrollos completamente independientes.
+- **Consecuencia:**  
+  Permite evolución autónoma sin impactos cruzados ni bloqueos entre equipos.
+
+---
+
+### 3. Upstream / Downstream
+- **Relación:** Monitoreo IoT (Upstream) → Gestión Médica (Downstream)
+- **Descripción:** Monitoreo IoT condiciona decisiones clínicas sin recibir influencia directa.
+- **Consecuencia:**  
+  Gestión Médica debe adaptarse a la estructura de datos del upstream; cambios allí pueden tener impacto directo.
+
+La siguiente imagen representa el Context Map de TukunTech, resultado del proceso de modelado estratégico aplicado con Domain-Driven Design. A través de esta visualización, se identifican los principales Bounded Contexts del sistema y las relaciones estructurales que existen entre ellos, empleando patrones como Anticorruption Layer (ACL), Conformist (CF), Shared Kernel (SK) y Customer/Supplier (CUS/SUP). Este mapa permite comprender cómo colaboran los distintos subsistemas, cuáles son sus dependencias y cómo se preserva la autonomía entre equipos, guiando el diseño modular y sostenible de la plataforma.
+![ Context Map](./EventStorming/EventStorming7.jpg)
+
 
 ### 4.1.3. Software Architecture
 
