@@ -664,8 +664,58 @@ Una vez redactadas todas las User Stories (US), es fundamental priorizarlas. El 
 
 # Capítulo IV: Solution Software Design
 ## 4.1. Strategic-Level Domain-Driven Design
+En esta sección se describe el proceso estratégico seguido por el equipo de TukunTech para descomponer el sistema en Bounded Contexts utilizando los principios de Domain-Driven Design (DDD). A través de una sesión de EventStorming, se identificaron eventos clave, actores y flujos del dominio que sirvieron como base para delimitar responsabilidades funcionales.
+Con esta información, se definieron contextos candidatos que fueron profundizados mediante el uso del Bounded Context Canvas, permitiendo capturar reglas de negocio, lenguaje ubicuo y dependencias. Finalmente, se aplicaron patrones de Context Mapping como Anticorruption Layer, Conformist, Shared Kernel y Customer/Supplier para establecer relaciones claras y estratégicas entre los contextos. Esta aproximación facilita una arquitectura modular, alineada al dominio del sistema.
 
 ### 4.1.1. EventStorming
+#### Sesión de EventStorming - TukunTech
+
+Como parte del proceso de diseño estratégico para **TukunTech**, nuestra solución de monitoreo de signos vitales en tiempo real basada en IoT, se llevó a cabo una sesión de **EventStorming**. Esta actividad permitió al equipo identificar eventos clave, actores principales y relaciones entre componentes dentro del dominio, con el fin de estructurar una visión inicial y general del sistema.
+
+- **Duración:** 1 hora y 45 minutos (Virtual)  
+- **Herramienta utilizada:** Miro  
+
+##### Participantes
+
+- Adriana Palomares Chavez  
+- Erick Maraza Pedemonte  
+- Fabio Nicolich Alvis  
+- Rafael Bravo Gavilano  
+- Oscar Soto Zorrilla  
+
+##### Objetivo
+
+Obtener una comprensión profunda y colaborativa del dominio de TukunTech mediante un mapeo visual de eventos de negocio.
+
+##### Actividades
+
+- **Domain Event (Naranja):**  
+  - Signos vitales actualizados  
+  - Anomalía detectada  
+
+- **Command (Azul):**  
+  - Generar alertas  
+  - Actualizar signos vitales  
+
+- **User/Actor (Amarillo):**  
+  - Paciente  
+  - Adultos mayores  
+  - Médico  
+  - Dispositivos IoT  
+
+- **Question Marks/Risks (Rojo):**  
+  - Desconexión del sensor  
+  - Fallo en la comunicación  
+
+- **View/Read Model (Verde):**  
+  - Ver historial de signos vitales  
+  - Ver alertas  
+
+
+El siguiente gráfico representa la convención de colores utilizada durante nuestra sesión de EventStorming para **TukunTech**. Cada color corresponde a un tipo específico de elemento dentro del modelado del dominio, permitiendo una organización visual clara y una comprensión más precisa del flujo del sistema.
+
+Esta codificación facilita la identificación de procesos de negocio, eventos de dominio, comandos, políticas, sistemas externos y agregados, asegurando una estructura coherente para el análisis y diseño posterior.
+
 
 #### 4.1.1.1. Candidate Context Discovery
 
