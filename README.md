@@ -1109,6 +1109,8 @@ En este apartado se puede visualizar la estructura y las relaciones entre las ta
 
 ![DatabaseDiagram](./img-Mock-ups-DataBase/Database-Diagram.png)
 ## Anexos
+**Video de Exposiciones**
+- TB1: [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EYXEG50XjYZKr12kaeuYBrQB1WmCVV3RydJ31beCvV9XcQ?e=rmcmWQ)
 
 ## Bibliografía:
 
