@@ -995,8 +995,56 @@ Para esto, podrían implementarse adaptadores que traduzcan las señales o paque
 
 
 #### 4.2.X.3. Application Layer
+En esta capa se gestiona el flujo de procesos del negocio a través de clases específicas denominadas **Command Handlers**, que representan operaciones concretas o *capabilities* dentro de cada *bounded context* de la solución. Estas clases orquestan la lógica de aplicación y coordinan las interacciones entre el dominio y la infraestructura.
 
+### Command Handlers
+
+#### `EmergencyNumbersCommandService`
+- **Ubicación:** `Tukun/Application/Internal/CommandServices/EmergencyNumbers`
+- **Responsabilidad:** Maneja la creación de números de emergencia, asegurando que no existan duplicados. Orquesta la validación del comando, la creación del agregado y la persistencia mediante `UnitOfWork`.
+- **Capabilidad cubierta:** Registro de números de contacto de emergencia para pacientes.
+- **Bounded Context:** `Tukun → EmergencyNumbers`
+
+#### `CriticalAlertsCommandService`
+- **Ubicación:** `Tukun/Application/Internal/CommandServices/CriticalAlerts`
+- **Responsabilidad:** Administra la lógica para registrar alertas críticas, validando que no exista previamente una con el mismo ID. Si es válida, se persiste y se confirma la transacción.
+- **Capabilidad cubierta:** Generación de alertas críticas ante eventos anormales en signos vitales.
+- **Bounded Context:** `Tukun → CriticalAlerts`
+
+#### `DoctorCommandService`
+- **Ubicación:** `Tukun/Application/Internal/CommandServices/Doctors`
+- **Responsabilidad:** Gestiona el proceso de alta de doctores, validando que no exista uno con el mismo nombre y apellido. Si se valida, se registra como nuevo agregado.
+- **Capabilidad cubierta:** Gestión de personal médico.
+- **Bounded Context:** `Tukun → Doctors`
+
+#### `ElderCommandService`
+- **Ubicación:** `Tukun/Application/Internal/CommandServices/Elders`
+- **Responsabilidad:** Orquesta el flujo de creación de adultos mayores dentro del sistema. Valida, crea el agregado y lo persiste mediante el repositorio y `UnitOfWork`.
+- **Capabilidad cubierta:** Registro de pacientes adultos mayores en el sistema de monitoreo.
+- **Bounded Context:** `Tukun → Elders`
 #### 4.2.X.4. Infrastructure Layer
+En esta capa se encuentran las clases responsables de interactuar con servicios externos, como bases de datos, y de implementar las interfaces definidas en la capa de dominio.  
+La implementación de los *Repositories* sigue el patrón **Repository**, y se apoya en **Entity Framework Core** para el acceso a datos persistentes.
+
+### Repositories implementados (Bounded Context: Tukun)
+
+#### `CriticalAlertsRepository`
+- **Responsabilidad:** Gestiona el acceso a la base de datos para las alertas críticas.
+- **Interfaz implementada:** `ICriticalAlertsRepository` (extiende de `IBaseRepository`)
+- **Métodos clave:** `FindCriticalAlertByIdAsync`
+
+#### `DoctorRepository`
+- **Responsabilidad:** Administra la persistencia de los médicos registrados.
+- **Interfaz implementada:** `IDoctorRepository`
+- **Métodos clave:** 
+  - `FindByDniAsync`
+  - `FindByNameAsync`
+  - `FindByCmpAsync`
+
+#### `ElderRepository`
+- **Responsabilidad:** Permite el acceso a datos relacionados con personas adultas mayores.
+- **Interfaz implementada:** `IEldersRepository`
+- **Herencia:** Hereda métodos de `BaseRepository`
 
 #### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
 A continuación, se mostrará el diagrama de componentes que conforma la arquitectura de nuestro software. Este diagrama proporciona un desglose detallado de los componentes que integran nuestros contenedores, especificando sus funciones, responsabilidades y los aspectos técnicos relacionados con su implementación, así como las tecnologías empleadas en cada uno de ellos. Además, cada **bounded context** contará con su propio diagrama de componentes, lo que permitirá una mejor comprensión y visualización de la estructura específica de cada contexto.
