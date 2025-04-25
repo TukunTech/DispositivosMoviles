@@ -20,19 +20,42 @@
 ## CARÁTULA
 
 ### Registro de Versiones del Informe
-| Versión  | Fecha       | Autor                              | Descripción de modificación                                                    |
-|----------|-------------|-------------------------------------|-------------------------------------------------------------------------------|
+### Responsabilidades por Autor - TB1
+
+| Versión | Fecha       | Autor                             | Descripción de modificación             |
+|---------|-------------|------------------------------------|------------------------------------------|
+| TB1     | 11/04/2025  | Soto Zorrilla, Oscar Eduardo       | EventStorming                            |
+| TB1     | 12/04/2025  | Soto Zorrilla, Oscar Eduardo       | Candidate Context Discovery              |
+| TB1     | 13/04/2025  | Soto Zorrilla, Oscar Eduardo       | Domain Message Flows Modeling            |
+| TB1     | 14/04/2025  | Soto Zorrilla, Oscar Eduardo       | Bounded Context Canvases                 |
+| TB1     | 15/04/2025  | Soto Zorrilla, Oscar Eduardo       | Context Mapping                          |
+| TB1     | 16/04/2025  | Nicolich Alvis, Fabio Maurizio     | Software Architecture                    |
+| TB1     | 17/04/2025  | Nicolich Alvis, Fabio Maurizio     | Context Level Diagrams                   |
+| TB1     | 18/04/2025  | Nicolich Alvis, Fabio Maurizio     | Container Level Diagrams                 |
+| TB1     | 19/04/2025  | Nicolich Alvis, Fabio Maurizio     | Deployment Diagrams                      |
+| TB1     | 20/04/2025  | Palomares Chavez, Adriana Giovanna | Domain Layer                             |
+| TB1     | 21/04/2025  | Palomares Chavez, Adriana Giovanna | Interface Layer                          |
+| TB1     | 22/04/2025  | Maraza Pedemonte, Erick            | Application Layer                        |
+| TB1     | 23/04/2025  | Maraza Pedemonte, Erick            | Infrastructure Layer                     |
+| TB1     | 24/04/2025  | Bravo Gavilano, Jorge Rafael       | Component Level Diagrams                 |
+| TB1     | 11/04/2025  | Bravo Gavilano, Jorge Rafael       | Code Level Diagrams                      |
+| TB1     | 12/04/2025  | Bravo Gavilano, Jorge Rafael       | Domain Layer Class Diagrams              |
+| TB1     | 13/04/2025  | Bravo Gavilano, Jorge Rafael       | Database Design Diagram                  |
 
 
----
 
 ## Student Outcome
 
 ### Criterio específico
-**Comunica oralmente con efectividad a diferentes rangos de audiencia**
+**Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software**
 
-| Acción Realizada | Participantes          | Descripción |
-
+| Acción Realizada | Participantes                        | Descripción | Conclusiones |
+|------------------|--------------------------------------|-------------|--------------|
+| TB1              | **Soto Zorrilla, Oscar Eduardo**     | **Desarrollo de conocimientos en modelado estratégico:**<br>Aplicó EventStorming para profundizar en el entendimiento del dominio.<br>Implementó técnicas avanzadas de DDD como Candidate Context Discovery y Context Mapping.<br>Adoptó patrones como ACL y Shared Kernel, fortaleciendo su criterio de diseño modular en soluciones escalables. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
+| TB1              | **Nicolich Alvis, Fabio Maurizio**   | **Fortalecimiento en arquitectura de software:**<br>Estudió y aplicó el C4 Model para representar múltiples niveles de abstracción.<br>Desarrolló diagramas de contexto, containers y despliegue usando herramientas profesionales.<br>Amplió sus conocimientos sobre infraestructura de sistemas y su integración. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
+| TB1              | **Palomares Chávez, Adriana Giovanna** | **Mejora de habilidades en diseño de software orientado a dominio:**<br>Diseñó la capa de dominio con principios de DDD, incluyendo entidades, agregados y servicios.<br>Desarrolló habilidades en la implementación de interfaces REST y patrones DTO para facilitar la comunicación entre sistemas. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
+| TB1              | **Maraza Pedemonte, Erick**          | **Especialización en flujos de aplicación y persistencia:**<br>Implementó Command Handlers y Application Services con enfoque en orquestación de negocio.<br>Fortaleció conocimientos en infraestructura de software mediante implementación de Repositories con EF Core. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
+| TB1              | **Bravo Gavilano, Jorge Rafael**     | **Profundización en diseño técnico detallado:**<br>Elaboró diagramas de componentes y clases detalladas basadas en UML.<br>Diseñó estructuras de base de datos relacional para persistencia robusta.<br>Aplicó convenciones de arquitectura para asegurar coherencia técnica en bounded contexts. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
 
 
 # Capítulo I: Introducción
