@@ -48,13 +48,15 @@
 
 ### Criterio específico
 **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software**
+
 | Acción Realizada | Participantes                        | Descripción | Conclusiones |
 |------------------|--------------------------------------|-------------|--------------|
-| TB1              | **Soto Zorrilla, Oscar Eduardo**     | Modelado estratégico: EventStorming, context mapping y diseño colaborativo de soluciones. | rowspan: 5 →<br>**La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software.** |
-| TB1              | **Nicolich Alvis, Fabio Maurizio**   | Arquitectura del sistema: Aplicación del C4 Model para diseño estructural y despliegue. | |
-| TB1              | **Palomares Chávez, Adriana Giovanna** | Diseño táctico: Modelado de dominio y diseño de interfaces RESTful. | |
-| TB1              | **Maraza Pedemonte, Erick**          | Lógica de aplicación e infraestructura: Command Handlers y Repositories. | |
-| TB1              | **Bravo Gavilano, Jorge Rafael**     | Diseño técnico: Diagramas de componentes, clases y modelo de base de datos. | |
+| TB1              | **Soto Zorrilla, Oscar Eduardo**     | **Desarrollo de conocimientos en modelado estratégico:**<br>Aplicó EventStorming para profundizar en el entendimiento del dominio.<br>Implementó técnicas avanzadas de DDD como Candidate Context Discovery y Context Mapping.<br>Adoptó patrones como ACL y Shared Kernel. |              |
+| TB1              | **Nicolich Alvis, Fabio Maurizio**   | **Fortalecimiento en arquitectura de software:**<br>Aplicó el C4 Model para representar niveles de abstracción.<br>Desarrolló diagramas contextuales y de despliegue. |              |
+| TB1              | **Palomares Chávez, Adriana Giovanna** | **Diseño de software orientado a dominio:**<br>Modeló entidades, agregados y servicios.<br>Diseñó interfaces REST y estructuró DTOs. |              |
+| TB1              | **Maraza Pedemonte, Erick**          | **Aplicación e infraestructura:**<br>Implementó Application Services y Command Handlers.<br>Desarrolló Repositories con EF Core. |              |
+| TB1              | **Bravo Gavilano, Jorge Rafael**     | **Diseño técnico detallado:**<br>Creó diagramas de componentes, clases y estructuras de BD.<br>Aplicó convenciones arquitectónicas en bounded contexts. |              |
+|                  |                                      |             | **La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software.** |
 
 
 # Capítulo I: Introducción
