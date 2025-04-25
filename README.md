@@ -56,6 +56,19 @@
 | TB1              | **Maraza Pedemonte, Erick**          | **Aplicación e infraestructura:**<br>Desarrolló Command Handlers y Repositories con EF Core. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
 | TB1              | **Bravo Gavilano, Jorge Rafael**     | **Diseño técnico detallado:**<br>Realizó diagramas de componentes, clases y base de datos. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
 
+
+### Criterio específico
+**Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software**
+| Acción Realizada | Participantes                        | Descripción | Conclusiones |
+|------------------|--------------------------------------|-------------|--------------|
+| TB1              | **Soto Zorrilla, Oscar Eduardo**     | **Modelado estratégico:**<br>Participó en sesiones de EventStorming y análisis de contexto, enfrentando desafíos que exigieron investigar nuevas técnicas y herramientas de DDD. | **El equipo demostró un compromiso constante con el aprendizaje autónomo y colaborativo, investigando activamente marcos metodológicos como Domain-Driven Design, C4 Model y herramientas de prototipado y arquitectura. La experiencia evidenció que el aprendizaje continuo no solo es necesario para afrontar la complejidad técnica de los proyectos modernos, sino que también es esencial para adaptarse a la evolución constante de las tecnologías de ingeniería de software.** |
+| TB1              | **Nicolich Alvis, Fabio Maurizio**   | **Arquitectura del sistema:**<br>Exploró el C4 Model y herramientas como Structurizr, aplicando nuevas estrategias de diseño estructural. | |
+| TB1              | **Palomares Chávez, Adriana Giovanna** | **Diseño táctico – Dominio e interfaz:**<br>Investigó patrones de diseño, estructuración de DTOs y validación de entrada en arquitecturas limpias. | |
+| TB1              | **Maraza Pedemonte, Erick**          | **Aplicación e infraestructura:**<br>Se familiarizó con el patrón Command-Handler y el uso de Entity Framework para persistencia limpia. | |
+| TB1              | **Bravo Gavilano, Jorge Rafael**     | **Diseño técnico detallado:**<br>Aprendió sobre buenas prácticas en modelado UML, diseño de base de datos y convenciones arquitectónicas. | |
+
+
+
 # Capítulo I: Introducción
 ## 1.1. Startup Profile.
 ### 1.1.1. Descripción de la Startup. 
