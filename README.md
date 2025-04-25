@@ -1108,10 +1108,7 @@ A continuación se presenta el diagrama de clases de TukunTech, el cual permite 
 En este apartado se puede visualizar la estructura y las relaciones entre las tablas de la base de datos, lo que permite comprender de manera clara cómo se organiza y conecta la información. Esta representación gráfica es esencial para garantizar la integridad de los datos, ya que facilita la identificación de las claves primarias y foráneas, también se muestran las cardinalidades entre las entidades. Además se ha utilizado la normalización de tablas, esto es clave para mantener la consistencia y evitar redundancias en los datos almacenados
 
 ![DatabaseDiagram](./img-Mock-ups-DataBase/Database-Diagram.png)
-
-
-
-
+## Anexos
 
 ## Bibliografía:
 
