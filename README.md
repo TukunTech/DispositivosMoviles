@@ -862,17 +862,19 @@ En el siguiente diagrama se explica cómo el personal médico interactúan tanto
 - La **pasarela de pago**, encargada de procesar las transacciones.
 - **Firebase Cloud Messaging** (FCM), empleado para enviar notificaciones push y actualizaciones en tiempo real a los dispositivos móviles del personal de salud.
 
-![Context Diagram](./img-DDD/oscar1.png)
+![Context Diagram](./img-DDD/Context.png)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams
 
 En este diagrama se muestra cómo el personal médico se conectan con el sistema de software de TukunTech y diversos servicios externos, facilitando y mejorando la supervisión y atención médica. La plataforma permite a los profesionales vigilar en tiempo real los signos vitales de los pacientes, mediante el uso de componentes y servicios integrados que trabajan de forma conjunta.
 
-![ContainerDiagram](./imgs%20Domain%20Driven%20Design/Software%20Architecture%20Container%20Diagrams.png)
+![ContainerDiagram](./img-DDD/Container.png)
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams
 
 En esta sección se presenta el Deployment Diagram del sistema, cuyo propósito es mostrar la distribución física de los componentes de software sobre la infraestructura de hardware y servicios en la nube. Este diagrama permite comprender dónde se ejecuta cada componente y cómo se comunican entre sí a través de redes y servicios externos.
+
+![ContainerDiagram](./img-DDD/Deployment.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
