@@ -13,7 +13,7 @@
 - **Palomares Chávez, Adriana Giovanna** U20221f23
 - **Soto Zorrilla, Oscar Eduardo** U201811767
 
-**Fecha:** 2024-02
+**Fecha:** 2025-10
 
 ---
 
