@@ -424,7 +424,7 @@ Nombre y Apellidos: Flavio Nicolich
 Edad: 67
 Segmento: Personal médico
 Evidencias de reunión:
-![entrevista 3](./imgs%20entrevista/entrevista2.png)
+![entrevista 3](./imgs%20entrevista/entrevista3.png)
 
 Inicio de entrevista: 27:04
 Tiempo: 8.54 min
