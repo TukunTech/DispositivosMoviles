@@ -1106,6 +1106,7 @@ A continuación se presenta el diagrama de clases de TukunTech, el cual permite 
 
 ##### 4.2.X.6.2. Bounded Context Database Design Diagram
 En este apartado se puede visualizar la estructura y las relaciones entre las tablas de la base de datos, lo que permite comprender de manera clara cómo se organiza y conecta la información. Esta representación gráfica es esencial para garantizar la integridad de los datos, ya que facilita la identificación de las claves primarias y foráneas, también se muestran las cardinalidades entre las entidades. Además se ha utilizado la normalización de tablas, esto es clave para mantener la consistencia y evitar redundancias en los datos almacenados
+![DatabaseDiagram](./img-Mock-ups-DataBase/Database-Diagram.png)
 
 # Capítulo V: Solution UI/UX Design
 ## 5.1. Product Design
@@ -1366,7 +1367,6 @@ Además, la página permite a los usuarios contactarse fácilmente mediante un f
 ![landing-page-mock-up](./img%20landing%20page%20mock-up/landing1.png)
 Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1)
 
-![DatabaseDiagram](./img-Mock-ups-DataBase/Database-Diagram.png)
 ## Anexos
 **Video de Exposiciones**
 - TB1: [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EYXEG50XjYZKr12kaeuYBrQB1WmCVV3RydJ31beCvV9XcQ?e=rmcmWQ)
