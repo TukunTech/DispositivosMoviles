@@ -1404,6 +1404,7 @@ User Goal: Como parte del equipo médico deseo visualizar la lista de pacientes.
 Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la lista de pacientes en el proyecto. En el inicio tendrá que seleccionar el botón de “Patient”, luego se nos mostrará la información de todos los pacientes registrados. 
 ![diagrama4](./wireflow-img/captura4.png)
 
+Realizado en LucidChart: [https://lucid.app/lucidchart/21a5723d-7054-4f7c-b74a-49699f25979a/edit?view_items=P8HfNhLn6cbY&invitationId=inv_7f16de25-735e-4f4a-878e-1b3d91cb581c](https://lucid.app/lucidchart/21a5723d-7054-4f7c-b74a-49699f25979a/edit?view_items=P8HfNhLn6cbY&invitationId=inv_7f16de25-735e-4f4a-878e-1b3d91cb581c)
 ### 5.1.4.3. Mobile Applications Mock-ups
 Esta sección presenta y explica los Mock-ups desarrollados para las aplicaciones que forman parte del proyecto Tukuntech. Estas representaciones visuales de alta fidelidad reflejan la integración coherente de los principios y elementos de diseño, el enfoque en un diseño inclusivo, y una arquitectura de información bien estructurada.
 Los mock-ups evidencian también la aplicación del Design System establecido para los productos digitales de Tukuntech, lo que garantiza consistencia visual, accesibilidad y una experiencia de usuario clara y eficiente en todas las interfaces.
