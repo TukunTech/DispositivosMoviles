@@ -580,7 +580,7 @@ Tras analizar las *Epics* definidas, procedimos a desglosarlas en *User Stories*
 | 02      | Personalización y perfil de usuario (actualizar datos paciente, historial)         |
 | 03      | Landing (desarrollo y experiencia de usuario)                                      |
 | 04      | Web Application (desarrollo y experiencia de usuario)                              |
-| 04¿5    | Backend API (Integración y gestión de API)                              |
+| 05    | Backend API (Integración y gestión de API)                              |
 
 ![UserStorie1](./user-stories-new/1.png)
 ![UserStorie2](./user-stories-new/2.png)
