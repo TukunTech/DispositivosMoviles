@@ -1387,20 +1387,22 @@ La elaboración de estos diagramas se realizó utilizando las herramientas indic
 Diagrama 1
 User Goal: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.
 Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Postoperative Patient” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
-
+![diagrama1](./wireflow%img/captura1.PNG)
 
 Diagrama 2
 User Goal: Como parte del equipo médico deseo visualizar el panel de pacientes UCI.
 Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes UCI. En el inicio tendrá que seleccionar el botón de “Patient ICU” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
-
+![diagrama2](./wireflow%img/captura2.PNG)
 
 Diagrama 3
 User Goal: Como usuario deseo registrar nuevos pacientes en la aplicación.
 Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para registrar nuevos pacientes en el proyecto. En el inicio tendrá que seleccionar el botón de “+” que se encuentra en el apartado de “Patients”, finalmente tenemos el registro de pacientes y el usuario debe completar los datos correspondientes.
+![diagrama3](./wireflow%img/captura3.PNG)
 
 Diagrama 4
 User Goal: Como parte del equipo médico deseo visualizar la lista de pacientes.
 Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la lista de pacientes en el proyecto. En el inicio tendrá que seleccionar el botón de “Patient”, luego se nos mostrará la información de todos los pacientes registrados. 
+![diagrama4](./wireflow%img/captura4.PNG)
 
 ### 5.1.4.3. Mobile Applications Mock-ups
 Esta sección presenta y explica los Mock-ups desarrollados para las aplicaciones que forman parte del proyecto Tukuntech. Estas representaciones visuales de alta fidelidad reflejan la integración coherente de los principios y elementos de diseño, el enfoque en un diseño inclusivo, y una arquitectura de información bien estructurada.
