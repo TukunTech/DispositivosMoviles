@@ -1378,6 +1378,8 @@ Segmento Adulto Mayor:
 Segmento Clínicas Privadas:
 ![Clínicas Privadas](./MobileWireframe/WireframeClinic.PNG)
 
+Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE---APP-WEB?node-id=866-1553&p=f&t=EnsZd2gtZ6ilYkXY-0](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE---APP-WEB?node-id=866-1553&p=f&t=EnsZd2gtZ6ilYkXY-0)
+
 ### 5.1.4.2. Mobile Applications Wireflow Diagrams
 En esta sección se presenta la propuesta de Wireflows desarrollada para las aplicaciones incluidas en el proyecto Tukuntech. Cada wireflow corresponde a un User Goal específico, considerando los perfiles definidos en los User Persona y el contexto particular de uso de cada aplicación dentro del alcance del proyecto.
 Como parte del proceso de diseño, se recomienda haber elaborado previamente los correspondientes Task Flows, con el fin de establecer una base consensuada sobre las rutas de interacción más representativas para cada objetivo del usuario. Los wireflows presentados reflejan no solo la secuencia de pantallas, sino también los cambios de estado que ocurren como resultado de la interacción del usuario, representados mediante nuevos pasos con wireframes actualizados.
@@ -1408,6 +1410,8 @@ Segmento Adulto Mayor:
 ![Adulto Mayor](./MobileWireframe/MockUpsElder.PNG)
 Segmento Clínica Privada:
 ![Clínica Privada](./MobileWireframe/MockUpsClinic.PNG)
+
+Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE---APP-WEB?node-id=866-1553&p=f&t=EnsZd2gtZ6ilYkXY-0](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE---APP-WEB?node-id=866-1553&p=f&t=EnsZd2gtZ6ilYkXY-0)
 
 ### 5.1.4.4. Mobile Applications User Flow Diagrams
 Esta sección presenta la propuesta de User Flows desarrollada para las aplicaciones del proyecto Tukuntech. Cada diagrama de flujo está orientado a representar un User Goal específico, teniendo en cuenta los User Persona definidos y el contexto de uso particular de cada aplicación incluida en el alcance del proyecto.
