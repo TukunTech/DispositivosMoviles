@@ -1535,13 +1535,14 @@ Lo que nos redirige al Landing Page desplegado:
 
 #### 6.2.1.3 Development Evidence for Sprint Review
 
-#### 6.2.1.4 Testing Suite Evidence for Sprint Review
+#### 6.2.1.4 Execution Evidence for Sprint Review
 
-#### 6.2.1.5 Execution Evidence for Sprint Review
+#### 6.2.1.5 Services Documentation Evidence for Sprint Review
 
-#### 6.2.1.6 Services Documentation Evidence for Sprint Review
+#### 6.2.1.6 Software Deployment Evidence for Sprint Review
 
-#### 6.2.1.7 Software Deployment Evidence for Sprint Review
+#### 6.2.1.7 Team Collaboration Insights during Sprint
+
 
 
 ## Anexos
