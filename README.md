@@ -1367,6 +1367,48 @@ Además, la página permite a los usuarios contactarse fácilmente mediante un f
 ![landing-page-mock-up](./img%20landing%20page%20mock-up/landing1.png)
 Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1)
 
+## 5.1.3. Mobile Applications UX/UI Design.
+
+### 5.1.4.1. Mobile Applications Wireframes
+
+### 5.1.4.2. Mobile Applications Wireflow Diagrams
+
+### 5.1.4.3. Mobile Applications Mock-ups
+
+### 5.1.4.4. Mobile Applications User Flow Diagrams
+
+### 5.1.4.5. Mobile Applications Prototyping
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+### 6.1.2. Source Code Management
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+### 6.1.4. Software Deployment Configuration
+
+## 6.2. Landing Page & Mobile Application Implementation
+
+### 6.2.1 Sprint 1
+
+#### 6.2.1.1 Sprint Planning 1
+
+#### 6.2.1.2 Sprint Backlog n
+
+#### 6.2.1.3 Development Evidence for Sprint Review
+
+#### 6.2.1.4 Testing Suite Evidence for Sprint Review
+
+#### 6.2.1.5 Execution Evidence for Sprint Review
+
+#### 6.2.1.6 Services Documentation Evidence for Sprint Review
+
+#### 6.2.1.7 Software Deployment Evidence for Sprint Review
+
+
 ## Anexos
 **Video de Exposiciones**
 - TB1: [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EYXEG50XjYZKr12kaeuYBrQB1WmCVV3RydJ31beCvV9XcQ?e=rmcmWQ)
