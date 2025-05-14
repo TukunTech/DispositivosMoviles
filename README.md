@@ -1367,17 +1367,61 @@ Además, la página permite a los usuarios contactarse fácilmente mediante un f
 ![landing-page-mock-up](./img%20landing%20page%20mock-up/landing1.png)
 Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1)
 
-## 5.1.3. Mobile Applications UX/UI Design.
+## 5.1.3. Mobile Applications UX/UI Design
+En esta sección se presentan los lineamientos visuales y de interacción que definen la experiencia del usuario en los productos digitales. A través de sus diferentes apartados, se detallan las decisiones de diseño que dan forma a la apariencia, el comportamiento y la usabilidad de las aplicaciones, asegurando coherencia, funcionalidad y una experiencia centrada en el usuario.
 
 ### 5.1.4.1. Mobile Applications Wireframes
+Esta sección incluye un apartado específico en el que se presentan y explican los wireframes desarrollados para las aplicaciones móviles del proyecto Tukuntech. La propuesta visual aquí mostrada refleja la aplicación de principios y elementos de diseño, así como un enfoque centrado en el diseño inclusivo y una arquitectura de información clara y funcional. Los wireframes fueron maquetados utilizando la herramienta Figma, lo que permitió plasmar con precisión la estructura, funcionalidad y flujo de navegación de las interfaces propuestas.
+Segmento Clínica:
+
+Segmento Adulto Mayor:
+
+Segmento Clínicas Privadas:
 
 ### 5.1.4.2. Mobile Applications Wireflow Diagrams
+En esta sección se presenta la propuesta de Wireflows desarrollada para las aplicaciones incluidas en el proyecto Tukuntech. Cada wireflow corresponde a un User Goal específico, considerando los perfiles definidos en los User Persona y el contexto particular de uso de cada aplicación dentro del alcance del proyecto.
+Como parte del proceso de diseño, se recomienda haber elaborado previamente los correspondientes Task Flows, con el fin de establecer una base consensuada sobre las rutas de interacción más representativas para cada objetivo del usuario. Los wireflows presentados reflejan no solo la secuencia de pantallas, sino también los cambios de estado que ocurren como resultado de la interacción del usuario, representados mediante nuevos pasos con wireframes actualizados.
+La elaboración de estos diagramas se realizó utilizando las herramientas indicadas, en este caso, Figma, garantizando coherencia visual y precisión en la representación del comportamiento esperado. Cada wireflow está acompañado por la redacción clara del User Goal que aborda, así como una explicación del flujo que permite alcanzar dicho objetivo.
+Diagrama 1
+User Goal: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.
+Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Postoperative Patient” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
+
+
+Diagrama 2
+User Goal: Como parte del equipo médico deseo visualizar el panel de pacientes UCI.
+Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes UCI. En el inicio tendrá que seleccionar el botón de “Patient ICU” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
+
+
+Diagrama 3
+User Goal: Como usuario deseo registrar nuevos pacientes en la aplicación.
+Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para registrar nuevos pacientes en el proyecto. En el inicio tendrá que seleccionar el botón de “+” que se encuentra en el apartado de “Patients”, finalmente tenemos el registro de pacientes y el usuario debe completar los datos correspondientes.
+
+Diagrama 4
+User Goal: Como parte del equipo médico deseo visualizar la lista de pacientes.
+Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la lista de pacientes en el proyecto. En el inicio tendrá que seleccionar el botón de “Patient”, luego se nos mostrará la información de todos los pacientes registrados. 
 
 ### 5.1.4.3. Mobile Applications Mock-ups
+Esta sección presenta y explica los Mock-ups desarrollados para las aplicaciones que forman parte del proyecto Tukuntech. Estas representaciones visuales de alta fidelidad reflejan la integración coherente de los principios y elementos de diseño, el enfoque en un diseño inclusivo, y una arquitectura de información bien estructurada.
+Los mock-ups evidencian también la aplicación del Design System establecido para los productos digitales de Tukuntech, lo que garantiza consistencia visual, accesibilidad y una experiencia de usuario clara y eficiente en todas las interfaces.
+Los escenarios representados incluyen funcionalidades clave como el inicio de sesión (login), la visualización de signos vitales en pacientes postoperatorios y en unidades de cuidados intensivos (UCI), la consulta de datos detallados de cada paciente, y la opción para agregar nuevos pacientes al sistema. Estas pantallas fueron diseñadas utilizando la herramienta Figma, lo que permitió construir interfaces detalladas, realistas y alineadas con los flujos previamente definidos.
+Segmento Adulto Mayor:
+
+Segmento Clínica Privada:
 
 ### 5.1.4.4. Mobile Applications User Flow Diagrams
+Esta sección presenta la propuesta de User Flows desarrollada para las aplicaciones del proyecto Tukuntech. Cada diagrama de flujo está orientado a representar un User Goal específico, teniendo en cuenta los User Persona definidos y el contexto de uso particular de cada aplicación incluida en el alcance del proyecto.
+Los User Flows presentados mantienen coherencia con los Wireflows previamente desarrollados, de los cuales se derivan directamente. En esta etapa, se incorporan los Mock-ups de las vistas o pantallas involucradas, lo que permite visualizar con mayor precisión la interacción del usuario dentro de los flujos esperados.
+Cada flujo incluye tanto la ruta principal o happy path —que representa el recorrido ideal del usuario hacia el logro de su objetivo— como rutas alternativas o unhappy paths, que contemplan desviaciones o errores posibles durante la interacción. Estas representaciones fueron elaboradas utilizando la herramienta Figma, asegurando consistencia visual y funcional con el resto de los entregables de diseño.
+Cada User Flow diagram está acompañado por la redacción clara del User Goal correspondiente, así como una explicación detallada de los pasos, decisiones y condiciones consideradas en cada caso.
+Segmento objetivo 1: Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas
+
+User Goal: Como parte del personal médico, deseo registrar un paciente postoperado
+
+El usuario, que es parte del personal de salud, se loguea con el correo y la contraseña de la clínica en la opción Clinics e ingresa al Main Page de TukunTech. Seguidamente, selecciona el botón Patient y botón “+”, lo que dirige a una pantalla nueva para completar la información personal del paciente. En caso alguna sección a completar quede sin ser llenada, se presentará un aviso escrito; caso contrario, aparecerá una confirmación del paciente registrado correctamente como aviso.  
 
 ### 5.1.4.5. Mobile Applications Prototyping
+Esta sección presenta los prototipos interactivos de la aplicación móvil Tukuntech, diseñados para simular la navegación y los principales flujos definidos en los User Flow Diagrams. Las decisiones de interacción se basan en criterios de usabilidad móvil, accesibilidad y una arquitectura de información clara, con un sistema de navegación adaptado al personal de salud.
+El prototipo incluye la simulación de los siguientes flujos: pantalla de login, inicio de sesión, página principal (home), visualización de signos vitales en pacientes postoperatorios y en UCI, consulta del listado de pacientes y registro de nuevos pacientes. Cada caso se acompaña de una captura del prototipo y un video en Microsoft Stream que muestra la interacción correspondiente.
 
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management
