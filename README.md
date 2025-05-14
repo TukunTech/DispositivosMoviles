@@ -1383,12 +1383,147 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2
 ## 6.1. Software Configuration Management
 
 ### 6.1.1. Software Development Environment Configuration
+En esta sección se describirán los links de las aplicaciones que fueron utilizadas para el proyecto.  
+Para ello se clasificará en las siguientes secciones:
 
+#### Product UX/UI Design
+Esta herramienta permitió desarrollar el modelo de nuestro proyecto de manera digital.
+
+- **[Miro](https://miro.com/app/dashboard/)**: Es una pizarra digital colaborativa en línea, que puede ser usada para la investigación, la ideación, la creación de lluvias de ideas, mapas mentales y una variedad de otras actividades colaborativas.  
+- **[Figma](https://www.figma.com/design/)**: Es una herramienta de prototipo web y editor de gráficos vectorial.  
+- **[Structurizr](https://structurizr.com/)**: Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución.
+- **[Trello](https://trello.com/es)**: Es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos.
+
+#### Software Development
+Es una estructura aplicada al desarrollo de software. Se utilizó para el proceso de desarrollo de la aplicación, cada uno de ellos se enfocan en diferentes actividades que tienen lugar durante el proceso.
+
+- **[Github](https://github.com/TukunTech/DesarrolloOP-SW57)**: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git.  
+- **[Webstorm](https://www.jetbrains.com/webstorm/promo/?source=google&medium=cpc&campaign=AMER_en_AMER_WebStorm_Branded&term=webstorm&content=523833970748&gad_source=1&gclid=Cj0KCQjwr9m3BhDHARIsANut04Y0RqGO8x08l4Ay24BEOZOfibcNhhPtvn_nML5Ie2814li9xFGDnxMaAmCbEALw_wcB)**: Es un IDE profesional JavaScript que es compatible con una amplia gama de tecnologías modernas relacionadas con el lenguaje de programación web.
+- **[SQL Management](https://learn.microsoft.com/es-es/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)**: Es una aplicación utilizada para la gestión y administración de los componentes dentro de SQL Server.  
+- **[HTML](https://www.jetbrains.com/help/webstorm/editing-html-files.html)**: Es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Este lenguaje va a ser utilizado en el presente proyecto.  
+- **[CSS](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)**: Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​ Este lenguaje se utilizará para la implementación del diseño de nuestro proyecto.  
+- **[JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)**: Es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás.  
+
+#### Software Deployment
+Tiene la función de examinar los artefactos y el comportamiento del software, asimismo lo pone en prueba y lo verifica.
+
+- **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
+- 
 ### 6.1.2. Source Code Management
+La gestión de código fuente, también conocida como **SCM** (Source Code Management) en inglés, es una práctica crucial en el desarrollo de software. Su propósito es registrar y controlar las modificaciones que los miembros del equipo hacen en los repositorios de código a lo largo del ciclo de vida del proyecto. Este sistema permite rastrear los cambios introducidos por cada desarrollador, asegurando que todas las contribuciones estén documentadas y gestionadas de manera eficiente. En este caso, utilizaremos **GitHub** como la plataforma para implementar el control de versiones y garantizar una colaboración fluida entre los integrantes del equipo.
 
+
+
+**Landing Page: [LandingPAge](https://tukuntech.github.io/DesarrolloOP-SW57/)**
+
+![Repositorios](./imgs%20Software%20Configuration%20Management/Source-Code-Management1.JPG)
+
+En este proyecto, implementaremos **GitFlow** como la estrategia principal para la gestión de ramas y el control de versiones. GitFlow es un modelo estructurado que facilita la organización del desarrollo, permitiendo a los equipos trabajar en múltiples funcionalidades de manera simultánea y ordenada. Con GitFlow, seguiremos un flujo de trabajo definido que incluye ramas dedicadas para el desarrollo, las nuevas funcionalidades, las versiones de lanzamiento y las correcciones rápidas. Esta metodología nos permitirá mantener un control claro sobre el proceso de desarrollo, asegurando que las funcionalidades se integren de manera efectiva y minimizando los conflictos durante las fusiones.
+
+Como se indicó anteriormente, gracias a GitFlow se trabajará con **branches** (ramas) para realizar el desarrollo de manera progresiva. A continuación, se describirán las ramas que se emplearán y la función específica de cada una.
+
+- **Main Branches**: Son las ramas principales que estructuran y organizan el flujo de trabajo del desarrollo del proyecto. Las dos main branches fundamentales en GitFlow son:
+  - **Main**: La rama `main` es la línea principal de desarrollo y representa el estado estable del proyecto. Esta rama contiene el código que está listo para ser liberado o desplegado en producción. En GitFlow, `main` se mantiene siempre en un estado estable, lo que significa que solo se fusionan en ella cambios que han sido completamente probados y aprobados.
+  - **Develop**: La rama `develop` sirve como la base de desarrollo en curso. Es donde se integran todas las nuevas características y mejoras antes de que estén listas para ser lanzadas. En GitFlow, las ramas de **feature** (funcionalidades) se derivan de `develop` y, una vez completadas y probadas, se fusionan de nuevo en `develop`, preparándose para un eventual lanzamiento. Cuando el código en `develop` alcanza un punto estable y se decide liberar una nueva versión, se fusiona en `main` y se crea una nueva rama **release**.
+
+- **Support Branches**: Las ramas de soporte son aquellas que apoyan el desarrollo principal y permiten gestionar distintas etapas y necesidades del proyecto de manera efectiva. Estas ramas se crean temporalmente y cumplen funciones específicas antes de ser fusionadas o eliminadas. Las principales support branches en GitFlow son:
+  - **Feature Branches**: Las `feature branches` se crean a partir de la rama `develop` y se utilizan para desarrollar nuevas funcionalidades o mejoras.
+  - **Release Branches**: Las `release branches` se crean a partir de `develop` cuando el proyecto alcanza un estado en el que se considera listo para una nueva versión.
+  - **Hotfix Branches**: Las `hotfix branches` se crean a partir de `main` cuando es necesario corregir un error crítico en producción.
+
+![Ramas de publicación](./imgs%20Software%20Configuration%20Management/Source-Code-Management2.JPG)
+
+#### Conventional Commits:
+
+La especificación de **Conventional Commits** es una convención sencilla que se aplica a los “commits”. Este proporciona un conjunto claro de reglas para crear un historial de confirmaciones explícito. Esta convención se complementa con **Semantic Versioning** (SemVer), al describir las características, correcciones y cambios incompatibles realizados en los mensajes de confirmación.
+
+- **Estructura:**
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+
+#### Semantic Versioning:
+
+Proporciona una manera clara y consistente de numerar versiones de software para comunicar la naturaleza de los cambios realizados en cada nueva versión. La idea principal de SemVer es que los números de versión reflejan el tipo y el alcance de las modificaciones introducidas, lo que facilita la gestión de dependencias y la interoperabilidad entre diferentes versiones de un software.
+
+- **Esquema de versiones:**
+- **MAJOR**: Se incrementa cuando se realizan cambios incompatibles en la API.
+- **MINOR**: Se incrementa cuando se añaden nuevas funcionalidades de manera compatible con versiones anteriores.
+- **PATCH**: Se incrementa cuando se realizan correcciones de errores compatibles con versiones anteriores.
+
+- **Tipos de Commits:**
+- **feat**: Cuando se añade nueva funcionalidad.
+- **fix**: Cuando se arregla un error.
+- **chore**: Tareas rutinarias no específicas.
+- **test**: Al añadir o arreglar tests.
+- **docs**: Al modificar sólo documentación.
+- **build**: Cuando el cambio afecta al compilado del proyecto.
+- **ci**: Cuando el cambio afecta a ficheros de configuración y scripts.
+- **style**: Cambios en la organización del código que no afectan la funcionalidad.
+- **refactor**: Cambio en el código que no corrige errores, pero mejora el código.
+- **perf**: Cuando hay mejoras de rendimiento.
+- **revert**: Revertir al commit anterior.
+  
 ### 6.1.3. Source Code Style Guide & Conventions
+En esta sección se mostrarán las convenciones y estilos que se emplearán en la creación del proyecto. A continuación, se van a mencionar las reglas y recomendaciones generales que tendremos en cuenta para el desarrollo.
+
+#### **Nomenclatura General**
+Se le designarán términos en inglés al nombre de las variables, variables, objetos, elementos y funciones que se utilicen. Además, no se usarán mayúsculas porque de acuerdo con W3Schools (s.f.), la mezcla de estas con las letras minúsculas luce desagradable y el uso exclusivo de minúsculas otorga mayor legibilidad al código.
+
+#### **Sangría**
+En el caso de utilizar HTML, CSS y/o JavaScript se utilizará un espaciado antes de cada línea dentro de un bloque. Este espacio debe ser de dos y según W3Schools (s.f.) no se debe utilizar la tecla “TAB”.
+
+#### **HTML**
+Es un lenguaje de marcado que define la estructura de una página web, este cuenta con funciones que determinan el comportamiento del contenido de la página. Para el proyecto empleamos HTML5, y las pautas para el correcto uso del lenguaje de programación son las siguientes:
+
+- Declare Document Type
+- Blank Lines
+- Quote Attribute Values
+- Multimedia Fallback
+- Never Skip the Element
+
+#### **CSS**
+Es un lenguaje de marcado que permite definir y mejorar la presentación visual de un documento HTML, las pautas para el correcto uso del lenguaje de programación son las siguientes:
+- Shorthand Properties
+- Declaration Stops
+- Property Name Stops
+- Declaration Block Separation
+- CSS Quotation Marks
+
+#### **JavaScript**
+Es un lenguaje que otorga la posibilidad de establecer acciones para ser utilizadas al momento de ejecutar el navegador web,  las pautas para el correcto uso del lenguaje de programación son las siguientes:
+- Spaces around operators
+- Simple Statement’s End
+- Beginning and End of a Function
+- Object Rules
 
 ### 6.1.4. Software Deployment Configuration
+Tal como se ha indicado anteriormente, la gestión de nuestro código fuente se llevará a cabo a través de GitHub. Además, se empleará GitHub Pages para la publicación y el despliegue de la página. Cada sección del Landing Page creada estará disponible en el siguiente enlace: 
+
+El despliegue de la Landing Page de TukunTech fue posible gracias al uso de las siguientes tecnologías:
+  - **Git:** Sistema de control de versiones diseñado para garantizar la eficiencia y compatibilidad, el cual facilitó el trabajo en equipo durante el desarrollo de la Landing Page.
+  - **GitHub:** Plataforma para el desarrollo colaborativo.
+  - **Git Flow:** Herramienta que nos permitió controlar el progreso de cada integrante en el desarrollo de la Landing Page.
+  - **GitHub Pages:** Servicio de GitHub que nos permitió alojar la Landing Page de manera efectiva.
+
+Los pasos realizados fueron los siguientes:
+1) Acceder al repositorio de la página. Como se ha utilizado GitHub, debemos dirigirnos al repositorio creado en esta plataforma para publicar la Landing Page desarrollada por el equipo. Desde allí, se procede a configurar el enlace de la página en la sección de Settings.
+
+![captura1](Img%20-%20Software%20Deployment%20Configuration/captura%201.png)
+
+
+2) Acceder a la opción pages y configurar las opciones para obtener el link o vínculo del Landing Page
+
+![captura2](Img%20-%20Software%20Deployment%20Configuration/captura%202.png)
+
+
+Tras realizar el paso anterior, se obtuvo el siguiente link: [https://tukuntech.github.io/DesarrolloOP-SW57/](https://tukuntech.github.io/DesarrolloOP-SW57/)
+Lo que nos redirige al Landing Page desplegado:
+
+![landing](Img%20-%20Software%20Deployment%20Configuration/foto%20landing.png)
 
 ## 6.2. Landing Page & Mobile Application Implementation
 
