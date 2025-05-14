@@ -1372,11 +1372,11 @@ En esta sección se presentan los lineamientos visuales y de interacción que de
 
 ### 5.1.4.1. Mobile Applications Wireframes
 Esta sección incluye un apartado específico en el que se presentan y explican los wireframes desarrollados para las aplicaciones móviles del proyecto Tukuntech. La propuesta visual aquí mostrada refleja la aplicación de principios y elementos de diseño, así como un enfoque centrado en el diseño inclusivo y una arquitectura de información clara y funcional. Los wireframes fueron maquetados utilizando la herramienta Figma, lo que permitió plasmar con precisión la estructura, funcionalidad y flujo de navegación de las interfaces propuestas.
-Segmento Clínica:
-
 Segmento Adulto Mayor:
+![Adulto Mayor](./MobileWireframe/WireframeElder.PNG)
 
 Segmento Clínicas Privadas:
+![Clínicas Privadas](./MobileWireframe/WireframeClinic.PNG)
 
 ### 5.1.4.2. Mobile Applications Wireflow Diagrams
 En esta sección se presenta la propuesta de Wireflows desarrollada para las aplicaciones incluidas en el proyecto Tukuntech. Cada wireflow corresponde a un User Goal específico, considerando los perfiles definidos en los User Persona y el contexto particular de uso de cada aplicación dentro del alcance del proyecto.
@@ -1405,8 +1405,9 @@ Esta sección presenta y explica los Mock-ups desarrollados para las aplicacione
 Los mock-ups evidencian también la aplicación del Design System establecido para los productos digitales de Tukuntech, lo que garantiza consistencia visual, accesibilidad y una experiencia de usuario clara y eficiente en todas las interfaces.
 Los escenarios representados incluyen funcionalidades clave como el inicio de sesión (login), la visualización de signos vitales en pacientes postoperatorios y en unidades de cuidados intensivos (UCI), la consulta de datos detallados de cada paciente, y la opción para agregar nuevos pacientes al sistema. Estas pantallas fueron diseñadas utilizando la herramienta Figma, lo que permitió construir interfaces detalladas, realistas y alineadas con los flujos previamente definidos.
 Segmento Adulto Mayor:
-
+![Adulto Mayor](./MobileWireframe/MockUpsElder.PNG)
 Segmento Clínica Privada:
+![Clínica Privada](./MobileWireframe/MockUpsClinic.PNG)
 
 ### 5.1.4.4. Mobile Applications User Flow Diagrams
 Esta sección presenta la propuesta de User Flows desarrollada para las aplicaciones del proyecto Tukuntech. Cada diagrama de flujo está orientado a representar un User Goal específico, teniendo en cuenta los User Persona definidos y el contexto de uso particular de cada aplicación incluida en el alcance del proyecto.
