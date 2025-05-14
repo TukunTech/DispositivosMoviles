@@ -1107,6 +1107,265 @@ A continuación se presenta el diagrama de clases de TukunTech, el cual permite 
 ##### 4.2.X.6.2. Bounded Context Database Design Diagram
 En este apartado se puede visualizar la estructura y las relaciones entre las tablas de la base de datos, lo que permite comprender de manera clara cómo se organiza y conecta la información. Esta representación gráfica es esencial para garantizar la integridad de los datos, ya que facilita la identificación de las claves primarias y foráneas, también se muestran las cardinalidades entre las entidades. Además se ha utilizado la normalización de tablas, esto es clave para mantener la consistencia y evitar redundancias en los datos almacenados
 
+# Capítulo V: Solution UI/UX Design
+## 5.1. Product Design
+### 5.1.1. Style Guidelines.
+#### 5.1.1.1. General Style Guidelines.
+Una guía de estilo para sitios web establece un conjunto integral de estándares que aseguran que la identidad de marca de una empresa se refleje en su LandingPage. Además, incluye reglas para elementos visuales, la creación de contenido, mensajes y otros aspectos clave.
+
+- _**Brand Name**_
+Tras una lluvia de ideas, se decidió colocar Tukun porque es sencillo de recordar y se nos hizo amigable. Así mismo, agregamos tech refiriéndonos a la palabra tecnología en el idioma inglés porque resulta más corto de leer y pronunciar. Juntando ambas palabras, creamos el nombre de nuestra startup. Es fundamental darle importancia a este aspecto para tener un posicionamiento alto frente a la competencia, ya que, de esta manera, nuestro sitio web será más atractivo a vistas de nuestro público objetivo, de modo que sea más probable que adquieran el servicio, es decir, la aplicación.
+
+A continuación se presenta el logo de TukunTech:
+![logo](./Imgs%20-%20Guidelines/Logo.png)
+
+- _**Typography**_
+La tipografía juega un papel clave en la organización y estructuración del lenguaje visual en todas las plataformas que se desarrollarán para satisfacer las principales características de la aplicación. Una buena tipografía por sí sola puede definir casi toda la estética de un sitio web y aplicación móvil. Así mismo, se trata de hacer más llevadero el proceso de diseño y no utilizar elementos que puedan ralentizar la carga de la web. 
+
+Por todo lo mencionado, se seleccionó el siguiente tipo de letra:
+
+![typography](./Imgs%20-%20Guidelines/font.png)
+
+- _**Colors**_
+El color es un elemento muy trascendental en cualquier campo del diseño, incluido el diseño web y de aplicaciones móviles. Los colores establecen estados de ánimo a las personas. Usar los colores correctos no solo lleva a los usuarios a diferentes sitios web, sino que también ayuda a fortalecer la marca.
+  -_Brand Colors:_
+  
+  ![brandColors](./Imgs%20-%20Guidelines/Brand%20color.png)
+  
+  -_State Colors:_
+  
+  ![stateColors](./Imgs%20-%20Guidelines/State%20Colors.png)
+  
+  -_Grey Colors:_
+  
+  ![greyColors](./Imgs%20-%20Guidelines/Gray%20Color.png)
+
+- _**Spacing:**_
+El uso del espacio es crucial en cualquier diseño. Una buena distribución del espacio mejora la legibilidad del texto, separa las imágenes de otros elementos y ofrece a los usuarios una sensación de "descanso" a la vista. Esto contribuye a que la página se perciba menos saturada, evitando que resulte molesta o abrumadora. El espaciado se aplica entre gráficos, columnas, imágenes, texto, bordes y otros componentes, aportando equilibrio y fluidez al diseño. Además, es una manera efectiva de organizar el contenido y dirigir la atención del usuario hacia puntos clave.
+
+![spacing](./Imgs%20-%20Guidelines/Spacing.png)
+
+- _**Tone & Language:**_
+  - _Color Primario:_ Simboliza calma y confianza, sensaciones importantes vinculadas a la salud. Al utilizar la aplicación, el contratante percibirá este color como amigable y relajante.
+  - _Color Secundario:_ Tiene un efecto relajante sobre la vista y la mente. Este color transmite tranquilidad y sobre todo un contraste pacífico con el primario.
+  - _Gris:_ Representa sencillez y es comúnmente utilizado cuando se quiere colocar textos largos a modo de explicación.
+  - _Negro:_ Evoca seriedad y elegancia.
+    
+En cuanto al lenguaje, se optará por un tono formal, respetuoso, pero también impregnado de entusiasmo. Se incluirán experiencias y recomendaciones que inspiren al usuario. Además, se han considerado elementos de diseño enfocados en optimizar la interfaz pensando en los usuarios finales.
+
+### 4.1.2 Web Style Guidelines. 
+Desarrollaremos una aplicación altamente adaptable que se ajustará a cualquier dispositivo tecnológico sin comprometer el diseño del contenido. La aplicación será **responsive**, garantizando una experiencia óptima en smartphones, tablets y ordenadores, y respetará las heurísticas de usabilidad para asegurar una interfaz intuitiva y eficiente. Cada tipo de dispositivo será considerado cuidadosamente para que el contenido esté estructurado de manera óptima y coherente en todas las plataformas.
+
+![Responsive Design](./web-style-guidelines-img/responsive-system.JPG)
+
+Utilizaremos el **patrón Z** para guiar la interacción del usuario de manera efectiva. Este enfoque comenzará en la esquina superior izquierda, donde se ubicará nuestra marca o logo, lo que ayudará a reforzar nuestra identidad visual desde el primer contacto. Desde allí, el usuario se desplazará hacia la derecha para explorar opciones clave como “Nosotros”, “Servicios”, “Planes” y “Noticias”. A continuación, el usuario se moverá verticalmente hacia abajo, interactuando con el contenido principal de la aplicación. Finalmente, en la parte inferior se encontrarán enlaces a nuestras redes sociales y otros medios de contacto, completando así un recorrido fluido y organizado por toda la aplicación.
+
+![Patrón Z](./web-style-guidelines-img/patron-z.JPG)
+
+El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosamente seleccionada para motivar al usuario a seguir interactuando con la plataforma, teniendo en cuenta el contraste adecuado para evitar el cansancio visual de los posibles clientes. Además, utilizaremos **sombras** y **espacios bien definidos** que no solo mejorarán la lectura de la información, sino que también limitarán el contenido para evitar abrumar al usuario. Prestaremos especial atención a la distribución de los espacios para delimitar claramente las áreas, asegurando una experiencia de navegación fluida y agradable. Para ello se emplearán algunos de los siguientes elementos:
+
+![Botones](./web-style-guidelines-img/buttons.JPG)
+
+![Cuadros de Seleeción](./web-style-guidelines-img/selection-charts.JPG)
+
+![Elementos Grandes](./web-style-guidelines-img/large-elements.JPG)
+
+## 5.1.2. Information Architecture.
+### 5.1.2.1. Organization Systems.
+En esta sección se presentan los distintos sistemas de organización que se implementarán tanto para el Landing Page como para las Web Applications, junto con los esquemas de categorización que ayudarán a estructurar la información de manera eficiente. Definir estos sistemas permite establecer claramente cómo se organizará el contenido, facilitando la navegación y mejorando la experiencia del usuario. Además, esto asegura que la arquitectura de la información esté alineada con los objetivos del proyecto, garantizando una estructura coherente y fácil de mantener a lo largo del tiempo.
+
+#### Segmento 1: Cuidadores de adultos mayores
+
+**Jerárquica**:
+
+- **Panel de control de signos vitales**: El usuario podrá acceder a un panel donde se muestran los signos vitales en tiempo real, organizados jerárquicamente. Primero se mostrarán los datos más críticos como la frecuencia cardíaca y la presión arterial, seguidos de otros indicadores como la oxigenación en sangre.
+
+#### Segmento 2:  Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas
+
+**Jerárquica**:
+- **Panel de monitoreo (pacientes postoperatorios o cuidados intensivos)**: El equipo médico encargado tendrá acceso a un sistema que proporciona una vista integral de todos los pacientes postoperatorios o de cuidados intensivos y sus signos vitales en tiempo real. Este panel estará diseñado jerárquicamente, destacando de manera prioritaria aquellos con condiciones críticas o signos vitales fuera de los rangos normales. Los pacientes que requieran atención inmediata se mostrarán en la parte superior, facilitando una respuesta rápida y eficiente por parte del personal médico, además de alertar a los médicos de turno. Esta organización permite que los pacientes reciban la atención necesaria.
+
+- **Historial de intervenciones médicas**: Este historial permitirá revisar las intervenciones realizadas del paciente, organizadas por categorías (medicación, procedimientos, ajustes en el soporte vital, etc.).
+
+**Secuencial (step-by-step to accomplish)**:
+- **Alta médica (pacientes postoperatorios o cuidados intensivos)**: Para realizar el proceso de alta de un paciente postoperatorio, se deberá seguir una secuencia de pasos e informes, los cuales incluyen observaciones médicas, programación de citas de seguimiento y entrega de recetas médicas.
+  
+- **Alertas médicas (pacientes postoperatorios o cuidados intensivos)**: El cuerpo médico encargado tendrá acceso al historial de alertas del turno, organizadas por gravedad y cronológicamente.
+
+### Funcionalidades compartidas
+
+**Jerárquica**:
+
+- **Landing Page**: Esta sección será visible para todos los usuarios y presentará la información clave del sistema, como la descripción del servicio, beneficios principales y contacto. La organización será jerárquica, destacando primero la información más relevante y general.
+
+- **Menú de opciones**: Cada segmento objetivo tendrá acceso a un menú principal donde podrán seleccionar las funciones específicas que desean utilizar. Este menú estará categorizado por tópicos, permitiendo un acceso rápido y organizado a las diferentes funcionalidades según la necesidad del usuario.
+
+**Secuencial (step-by-step to accomplish)**:
+Esta estructura asegura que cada segmento objetivo tenga acceso a la información de manera organizada y adaptada a sus necesidades específicas, facilitando la eficiencia del sistema y la experiencia del usuario.
+
+- **Configuración inicial de la aplicación**: Este proceso será un mini tutorial para el usuario, ayudando a familiarizarse con la app y configurarla. Este proceso se realiza de forma secuencial.
+
+---
+
+Esta estructura asegura que cada segmento objetivo tenga acceso a la información de manera organizada y adaptada a sus necesidades específicas, facilitando la eficiencia del sistema y la experiencia del usuario.
+### 5.1.2.2. Labeling Systems
+A continuación, presentaremos el sistema de etiquetado que nos permitirá dar a los visitantes de nuestra Landing page un vistazo de lo que ofrecemos con una sola palabra.
+
+La Landing page cuenta con 4 "headings" con fuente **QuickSand** ubicados en la parte superior de la misma.
+
+- **Servicios**: Sección seleccionada por defecto donde los usuarios observarán los distintos servicios que ofrecemos.
+- **Noticias**: Sección donde el usuario observará noticias nuevas relacionada a la plataforma.
+- **Nosotros**: Sección donde el usuario podrá conocer más sobre nuestro equipo, misión, y los servicios que ofrecemos.
+- **Membresía**: Sección donde el usuario podrá visualizar e informarse de los diferentes paquetes de membresías con su respectivo precio.
+
+En la Plataforma Web contamos con 6 "headings" con fuente **QuickSand** ubicados en la parte superior derecha.
+
+- **Pacientes postoperatorios**: Sección seleccionada donde se encuentran los signos vitales de los pacientes en postoperatorio.
+- **Pacientes UCI**: Sección seleccionada donde se encuentran los signos vitales de los pacientes en cuidados intensivos (UCI).
+- **Registro**: Sección donde se pueden registrar pacientes y doctores dentro de la plataforma web.
+- **Pacientes**: Sección donde se puede apreciar el listado de pacientes registrados y sus datos.
+- **Médicos**: Sección donde se puede apreciar el listado de doctores, sus rubros y datos.
+- **Citas**: Sección donde los pacientes podrán programar o reprogramar sus citas con su médico designado.
+
+### 5.1.2.3 SEO Tags and Meta Tags.
+La optimización para motores de búsqueda (SEO, por sus siglas en inglés) es la práctica de mejorar la cantidad y calidad del tráfico a un sitio web mediante resultados orgánicos en los motores de búsqueda.
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Monitorea en tiempo real los signos vitales de pacientes mediante una aplicación avanzada y equipos IoT. Detecta y responde rápidamente a emergencias médicas con alertas automáticas y análisis predictivo.">
+    <meta name="keywords" content="monitoreo de signos vitales, IoT, aplicación de salud, monitoreo en tiempo real, alertas médicas, análisis predictivo, salud digital, telemedicina, seguimiento de pacientes, salud conectada">
+    <meta name="author" content="TukunTech">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Monitoreo en Tiempo Real de Signos Vitales con IoT">
+    <meta property="og:description" content="Mantén el control de la salud de tus pacientes con nuestra aplicación de monitoreo de signos vitales en tiempo real mediante dispositivos IoT.">
+    <meta property="og:url" content="https://www.TukunTech.com/monitoreo-signos-vitales">
+    <meta property="og:image" content="https://www.TukunTech.com/images/monitoreo-vitales-og-image.jpg">
+    
+    <!-- SEO Tags -->
+    <title>Monitoreo en Tiempo Real de Signos Vitales | Salud IoT | Tu Empresa</title>
+    <link rel="canonical" href="https://www.TukunTech.com/monitoreo-signos-vitales">
+    <link rel="alternate" hreflang="es" href="https://www.TukunTech.com/monitoreo-signos-vitales">
+
+</head>
+<body>
+    <!-- Landing Page -->
+</body>
+</html>
+```
+
+
+### 5.1.2.4. Searching Systems.
+
+En esta sección, describiremos los sistemas de búsqueda implementados en nuestra plataforma para garantizar que los usuarios, tanto el personal médico como los pacientes, puedan acceder de manera eficiente a la información que necesitan, evitando que se sientan abrumados por la cantidad de datos disponibles.
+
+### Segmento 1: Cuidadores de adultos mayores
+
+#### Historial de signos vitales:
+Los cuidadores de adultos mayores podrán buscar y revisar el historial de sus signos vitales a lo largo del tiempo. Para facilitar la búsqueda, se implementará un sistema de filtrado por fecha, permitiendo seleccionar un rango de tiempo específico (por ejemplo, la última semana, el último mes, o un período personalizado). Los datos filtrados se mostrarán en un formato de lista cronológica, con una vista previa de los valores clave. Al hacer clic en un registro, se desplegará información detallada, incluyendo gráficos de tendencias y notas adicionales del personal médico.
+
+#### Consejos de salud personalizados:
+La sección de consejos de salud personalizada permitirá a los usuarios buscar recomendaciones específicas mediante palabras clave (por ejemplo, "hipertensión", "diabetes", etc.). Los resultados se mostrarán categorizados por tópicos relevantes, y los usuarios podrán ordenar las recomendaciones por fecha de publicación o relevancia. Cada entrada mostrará un resumen inicial, con la opción de expandir para ver el contenido completo.
+
+### Segmento 2: Personal médico que atiende a pacientes postoperatorios y pacientes UCI en clínicas
+
+#### Panel de monitoreo de pacientes:
+Los profesionales de la salud podrán utilizar una barra de búsqueda para localizar rápidamente a un paciente postoperatorio en particular. Para mejorar la precisión, el sistema ofrecerá filtros avanzados que incluyen el nombre del paciente, su número de identificación y el tipo de cirugía realizada. Los resultados se presentarán en una lista organizada cronológicamente por la fecha de la última intervención. Además, cada entrada mostrará un resumen del estado actual del paciente, con acceso directo a su panel de signos vitales.
+
+#### Alta médica:
+Durante el proceso de alta médica, el sistema permitirá buscar y filtrar informes previos del paciente, tales como observaciones médicas y programaciones de citas de seguimiento. Los usuarios podrán utilizar filtros basados en la fecha del informe o el tipo de observación. Los resultados se mostrarán en una lista estructurada, destacando los informes más recientes o relevantes en la parte superior. Esto permitirá al personal médico asegurar que todos los requisitos de seguimiento estén cumplidos antes de proceder con el alta del paciente.
+
+#### Lista de pacientes:
+El equipo de médicos podrá buscar pacientes específicos en su base de datos mediante filtros. Esta información se mostrará en una lista con datos breves como su nombre, edad y última atención.
+
+#### Historial de intervenciones:
+Los médicos tendrán acceso a un sistema de búsqueda dentro del historial de intervenciones realizadas en pacientes de cuidados intensivos o pacientes postoperatorios. Este sistema permitirá filtrar por tipo de intervención, fecha, o resultados esperados. Los datos se mostrarán en una lista, con la opción de expandir cada entrada para ver detalles adicionales y notas médicas, facilitando así la revisión de los tratamientos aplicados y la planificación de futuras intervenciones.
+
+### Funcionalidades compartidas para todos los segmentos
+
+#### Centro de ayuda y documentación:
+Para todos los segmentos, se ofrecerá un centro de ayuda con una barra de búsqueda que permite a los usuarios encontrar rápidamente respuestas a preguntas frecuentes y documentación sobre el uso de la plataforma. Los resultados estarán categorizados por tópicos (por ejemplo, "uso de dispositivos", "interpretación de datos", "configuración de alertas"), y se presentarán en orden de relevancia o fecha de actualización.
+
+Este formato asegura que cada segmento objetivo tenga acceso a herramientas de búsqueda adaptadas a sus necesidades específicas, mejorando la experiencia del usuario y facilitando el acceso rápido a información crítica.
+
+### 5.1.2.5. Navigation Systems.
+A continuación, se presentarán los sistemas de navegación que facilitarán a nuestros usuarios desplazarse por las diferentes secciones de contenido o información disponibles.
+
+_**Sección Landing Page:**_
+Tal y como se describió en el Labeling Systems, el Landing Page cuenta con 4 headings: “Nosotros”, “Servicios”, “Planes” y “Noticias”. Las secciones se encuentran ubicadas como un menú global de forma horizontal a lo largo de la parte superior del Landing page. La información se organizó en cuatro secciones para evitar que el cliente tenga que desplazarse hacia abajo usando la barra de desplazamiento vertical y enfrentarse a un exceso de contenido. Esto facilita la navegación por nuestro sitio. La idea es que primero explore el Home, donde encontrará la información más importante y llamativa, para luego continuar navegando por el resto del menú de izquierda a derecha.
+
+_**Sección :**_
+Se optó por mantener un diseño muy similar al usado en el Landing Page, de modo que las secciones también se encuentran ubicadas como un menú global de forma horizontal a lo largo de la parte superior. A continuación se dará una breve descripción de la información que se puede visualizar en cada una de las secciones según el usuario logueado.
+
+- Login Adulto Mayor:
+	- Home: Sección a la que se accede automáticamente al iniciar sesión. Presenta las opciones de panel de signos vitales, perfil adulto mayor, números de emergencia, recordatorios, soporte técnico y citas.
+	- Panel SV: Muestra un resumen en tiempo real de los signos vitales del usuario, con gráficos y alertas que indican cualquier cambio significativo en su salud
+	- Perfil de Adulto Mayor: Contiene información detallada del paciente, incluyendo su medicación preexistente, para una gestión personalizada de su salud.
+	- Números de emergencia: Proporciona acceso rápido a números de contacto de emergencia, incluyendo servicios médicos, familiares o cuidadores designados, para una respuesta inmediata en caso de cualquier alerta crítica.
+	- Recordatorios: Permite configurar y gestionar recordatorios para la toma de medicamentos, asegurando que el usuario cumpla con su plan de cuidado.
+	- Soporte Técnico: Ofrece asistencia y solución de problemas técnicos, con opciones para contactar al equipo de soporte a través de chat o llamada telefónica.
+
+- Login Clínica:
+	- Home: Sección a la que se accede automáticamente al iniciar sesión. Presenta las opciones de Pacientes Postoperatorios, Pacientes UCI, Registro, Pacientes, Médicos y Citas.
+	- Pacientes Postoperatorios: Lista y detalles de los pacientes que están en recuperación tras una cirugía, con acceso a sus datos de monitoreo.
+	- Pacientes UCI: Lista y detalles de los pacientes que están en recuperación tras una cirugía, con acceso a sus datos de monitoreo.
+	- Registro: Permite registrar doctores y nuevos pacientes, y actualizar información existente.
+	- Pacientes: Vista general de todos los pacientes, incluyendo información básica.
+	- Médicos: Vista general de todos los médicos, incluyendo información básica.
+	- Citas: Sección para gestionar y agendar o reagendar citas.
+
+## 5.1.3. Landing Page UI Design.
+Las Landing Pages son herramientas diseñadas para transformar a los visitantes en posibles clientes, utilizando elementos como mensajes atractivos e información relevante sobre el producto, entre otros. Por esta razón, se optó por emplear esta estrategia, y se creó una versión preliminar tanto para dispositivos móviles como para computadoras.
+
+Para la versión de computadora, se diseñaron ventanas con opciones claramente especificadas que facilitan la comprensión del usuario, acompañadas de descripciones detalladas de cada función del sitio web para evitar cualquier dificultad. Además, la barra de navegación se ha colocado en una posición fija, de manera que esté siempre accesible, permitiendo al usuario navegar cómodamente por la Landing Page.
+
+### 5.1.3.1. Landing Page Wireframe.
+En esta sección se presentarán los wireframes de la versión de escritorio del Landing Page. Es fundamental identificar claramente los distintos tipos de componentes presentes en los diseños.
+
+- Desktop Web Browser
+  En esta primera parte, se presenta la página de inicio de la plataforma web. Se incluyen botones para que el usuario tenga acceso a otras páginas de nuestro sitio web. En el pie de página, se visualizan las opciones que te llevan a los diversas secciones.
+
+![inicio](./Imgs%20-%20Landing%20Page%20Wireframe/inicio.png)
+ 
+- Sección Nosotros:
+
+  ![nosotros](./Imgs%20-%20Landing%20Page%20Wireframe/nosotros.png)
+  
+- Sección Servicios:
+  
+  ![servicios](./Imgs%20-%20Landing%20Page%20Wireframe/servicios.png)
+
+- Sección Membresía:
+  
+  ![membresia](./Imgs%20-%20Landing%20Page%20Wireframe/membresia.png)
+
+- Sección Noticias:
+  
+  ![noticias](./Imgs%20-%20Landing%20Page%20Wireframe/noticias.png)
+
+Figma:
+[https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0 ](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=35-225&node-type=CANVAS&t=kLzqYnjp2JaO3Bys-0 )
+
+### 5.1.3.2. Landing Page Mock-up. 
+A continuación, se presenta el mockup de la landing page diseñado en Figma, que incluye una estructura clara y amigable. La página está organizada en varias secciones clave:
+
+Inicio: Introduce el propósito principal del sitio, destacando los servicios de monitoreo de salud y cuidados.
+Nosotros: Presenta información sobre la empresa y su equipo profesional.
+Servicios: Detalla los servicios ofrecidos, incluyendo opciones de monitoreo y soporte médico.
+Planes de Membresía: Ofrece diferentes opciones de suscripción para los usuarios.
+Noticias: Muestra actualizaciones y noticias destacadas del sector.
+
+Además, la página permite a los usuarios contactarse fácilmente mediante un formulario en la sección de contacto, facilitando el acceso a la atención personalizada.
+
+![landing-page-mock-up](./img%20landing%20page%20mock-up/landing1.png)
+Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1](https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE-%2F-APP-WEB?node-id=173-1502&t=6aMGgAcB2OYd1KU2-1)
+
 ![DatabaseDiagram](./img-Mock-ups-DataBase/Database-Diagram.png)
 ## Anexos
 **Video de Exposiciones**
