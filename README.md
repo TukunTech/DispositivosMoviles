@@ -1526,7 +1526,6 @@ Lo que nos redirige al Landing Page desplegado:
 ![landing](Img%20-%20Software%20Deployment%20Configuration/foto%20landing.png)
 
 ## 6.2. Landing Page & Mobile Application Implementation
-
 ### 6.2.1 Sprint 1
 
 #### 6.2.1.1 Sprint Planning 1
@@ -1536,13 +1535,149 @@ Lo que nos redirige al Landing Page desplegado:
 #### 6.2.1.3 Development Evidence for Sprint Review
 
 #### 6.2.1.4 Execution Evidence for Sprint Review
+En este primer Sprint del proyecto TukunTech, hemos sentado las bases del sistema de monitoreo de signos vitales en tiempo real mediante la implementación de componentes clave en el frontend, backend y mobile, así como el despliegue inicial de nuestra plataforma al público.
+
+- Landing Page
+Se diseñó, desarrolló y desplegó una Landing Page funcional que introduce a los usuarios a nuestra solución. Utilizando tecnologías como HTML, CSS y JavaScript, se creó una interfaz simple, visualmente atractiva y orientada a comunicar de manera clara el valor de nuestra plataforma.
+
+La Landing Page incluye las siguientes secciones:
+
+Encabezado (Header): con logo, menú de navegación y un título claro que expresa la propuesta de valor.
+Imagen o video principal (Hero): elemento visual de impacto para captar la atención.
+![Home](./img-landing/landing1.JPG)
+Formulario de captura (Lead form): para recoger información de contacto de los usuarios interesados.
+Llamado a la acción (CTA): botones destacados que invitan al usuario a interactuar.
+![Form](./img-landing/LeadForm.JPG)
+Planes o membresías: secciones donde se comparan diferentes niveles de servicio.
+![Plans](./img-landing/plans.JPG)
+Pie de página (Footer): con enlaces a políticas, redes sociales y datos de contacto.
+![Footer](./img-landing/landing5.JPG)
+Sección sobre nosotros: una breve presentación del proyecto y de los integrantes del equipo.
+![AboutUs](./img-landing/landing-about.JPG)
+
+El despliegue fue realizado mediante GitHub Pages, asegurando accesibilidad inmediata desde cualquier dispositivo con conexión a internet.
+
+- Backend – Servicios de Autenticación y Gestión de Datos
+En paralelo, se desarrolló la primera versión de los servicios del backend, centrados principalmente en:
+
+Autenticación y autorización de usuarios, garantizando un acceso seguro.
+Creación y gestión de doctores y pacientes, incluyendo endpoints para agregar, actualizar, listar y consultar información clave.
+Optimización del rendimiento y corrección de errores en la estructura previa del backend, asegurando una mayor fiabilidad en la comunicación con el frontend.
+
+Los endpoints fueron documentados y visualizados mediante Swagger, donde se incluyen funcionalidades como:
+
+Crear y listar doctores.
+Crear y listar pacientes.
+Visualizar el panel de pacientes post operatorios.
+Validaciones de login con mensajes de error cuando los datos son incorrectos.
+
+- Aplicación Móvil – Maquetación Inicial
+Además, se trabajó en la maquetación inicial de la aplicación móvil en Android Studio, construyendo las primeras pantallas que representarán el flujo de uso por parte de doctores y pacientes. Esta maquetación busca anticipar la experiencia de usuario en dispositivos móviles, asegurando coherencia visual con la plataforma general y sentando la base para futuras integraciones funcionales.
 
 #### 6.2.1.5 Services Documentation Evidence for Sprint Review
+Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
+A continuación se mostrarán capturas que evidencian los avances.
+Vista General:
+![OpenAPI1](./OpenApiSprint3/OpenApi1.png)
+
+Ejemplo POST-Medics:
+![OpenAPI2](./OpenApiSprint3/OpenApi2.png)
+
+Ejemplo POST-Patient:
+![OpenAPI3](./OpenApiSprint3/OpenApi3.png)
+
+A continuación se muestra mediante una tabla una lista de todos los endpoints implementados durante el Sprint 1, especificando las acciones (GET, POST, PUT y DELETE) y un enlace a la documentación o a la URL local de cada uno.
+| Endpoint                | Acción                    | HTTP   | Enlace                                                                 |
+|------------------------|---------------------------|--------|------------------------------------------------------------------------|
+| /doctors               | Obtener todos los doctores| GET    | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| /doctors               | Crear un nuevo doctor     | POST   | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| /doctors/{doctorsId}   | Actualizar un doctor      | PUT    | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| /doctors/{doctorsId}   | Eliminar un doctor        | DELETE | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| /patients              | Obtener todos los pacientes| GET   | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| /patients              | Crear un nuevo paciente   | POST   | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| /patients/{patientId}  | Actualizar un paciente    | PUT    | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| /patients/{patientId}  | Eliminar un paciente      | DELETE | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
 
 #### 6.2.1.6 Software Deployment Evidence for Sprint Review
+En esta sección, se redactará el proceso de implementación del software en un entorno de producción. Asimismo, se mostrarán los hitos clave que servirán para el despliegue del proyecto y la disponibilidad de este para los usuarios finales.
+
+- Para el Landing Page:
+Nuestro equipo de trabajo creó una rama en el repositorio llamada “develop”, en esta pusimos todos los archivos que pertenecieran a la creación del landing page.
+![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/1.png)
+
+Luego, utilizamos “Github Pages”, el servicio de alojamiento de sitio estático de Github, para despegar nuestra Landing Page. 
+
+![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/2.png)
+
+Seleccionamos la rama previamente creada y desplegamos la página.
+
+![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/3.png)
+
+Finalmente tenemos el link, el cual nos permitirá visualizar la landing page.
+
+![Software Deployment Evidence for Sprint Review](./imgs%20Software%20Deployment%20Evidence%20for%20Sprint%20Review/4.png)
+
+El despliegue del backend de la solución se realiza siguiendo un proceso definido que permite la publicación exitosa del producto digital. A continuación, se describen los pasos clave:
+Repositorio de Código Fuente
+El código fuente del backend se encuentra alojado en un repositorio Git en GitHub. Este contiene todos los archivos necesarios, como el código, configuraciones y dependencias, organizados para facilitar su despliegue.
+![GitHub](./DeployRender/GitHub.png)
+
+Configuración del Contenedor Docker
+En el proyecto se utilizó un archivo Dockerfile para facilitar la creación de un contenedor que garantice la portabilidad y consistencia del entorno de ejecución del backend. Este archivo define un flujo automatizado para compilar, empaquetar y ejecutar la aplicación en cualquier sistema compatible con Docker, eliminando dependencias del entorno local.
+El Dockerfile implementado dentro del proyecto está diseñado para construir la imagen en dos etapas:
+Etapa de Construcción: Utilizando una imagen base de Maven con soporte para Java 22 (maven:3-eclipse-temurin-22), el proyecto se compila y empaqueta. Se copian todos los archivos del proyecto al contenedor y se ejecuta el proceso de empaquetado mediante Maven, excluyendo las pruebas para optimizar la velocidad de construcción.
+Etapa de Ejecución: Para la etapa de ejecución, se utiliza una imagen base ligera (eclipse-temurin:22-alpine) que incluye únicamente lo necesario para ejecutar la aplicación empaquetada. El archivo JAR generado en la etapa anterior se copia al contenedor final, se expone el puerto 8080 y se configura el punto de entrada para que la aplicación se inicie automáticamente cuando se ejecute el contenedor.
+El uso de este Dockerfile dentro del proyecto permite simplificar el despliegue y garantiza que la aplicación sea ejecutable de manera uniforme en diferentes entornos, mejorando la eficiencia y reduciendo problemas relacionados con configuraciones de sistema variables.
+![DockerFile](./DeployRender/DockerFile.png)
+
+Base de Datos Aiven para MySQL
+La base de datos se gestiona mediante Aiven para MySQL, un servicio administrado en la nube que garantiza alta disponibilidad y conexión segura mediante certificados SSL. La configuración de conexión incluye credenciales, rutas seguras y los parámetros necesarios para la integración con el backend.
+![Aiven](./DeployRender/Aiven.png)
+
+Plataforma de Despliegue Render
+Render se utiliza como plataforma para el despliegue continuo del backend. A través de esta plataforma, el código se extrae directamente desde el repositorio Git y se configura para ejecutarse en un entorno preparado con soporte para contenedores. La configuración incluye la exposición de puertos y la provisión de variables de entorno para asegurar la correcta operación de la aplicación en producción. A continuación se muestra el paso a paso.
+Conexión con el repositorio:
+![Render](./DeployRender/Render5.png)
+
+Se selecciona Docker como lenguaje para poder interpretarlo.
+![Render](./DeployRender/Render6.png)
+
+Se definen las variables necesaria para la conexión con la base de datos en la nube:
+![Render](./DeployRender/Render7.png)
+
+Se inicial el despliegue mediante Render:
+![Render](./DeployRender/Render1.png)
+
+Detecta que se trabaja con el framework de SpringBoot:
+![Render](./DeployRender/Render2.png)
+
+Indica la señal que el servicio funciona:
+![Render](./DeployRender/Render3.png)
+
+Verificación de la Base de Datos con MySQL Workbench
+Durante el despliegue, se utiliza MySQL Workbench para garantizar que la base de datos está configurada correctamente, verificando conectividad, integridad de datos y la ejecución de consultas necesarias para pruebas. En donde se configura de acuerdo a los parámetros establecidos por Aiven.
+![MySQL](./DeployRender/MySQL1.png)
+
+Este proceso asegura un despliegue ordenado y confiable del backend, manteniendo la calidad y accesibilidad del producto digital en todo momento.
+Muestra del despliegue:
+![Render](./DeployRender/Render8.png)
 
 #### 6.2.1.7 Team Collaboration Insights during Sprint
+Durante el Sprint 1 del proyecto TukunTech, el equipo llevó a cabo las actividades de implementación de los tres productos definidos para esta etapa: la Landing Page, los Web Services (backend) y la maquetación inicial de la aplicación móvil. Estas tareas se desarrollaron en paralelo, con una distribución equilibrada del trabajo y una participación activa de todos los miembros del equipo, cumpliendo así con los objetivos técnicos y de colaboración definidos para el Sprint.
+Colaboración y Distribución de Actividades
+El desarrollo de las actividades se organizó de manera que todos los integrantes contribuyeron en al menos uno de los productos del Sprint, asegurando una participación equitativa. Las responsabilidades se asignan de la siguiente manera:
+- Landing Page: todos los miembros participaron en tareas de diseño, estructura visual, estilo y despliegue en GitHub Pages.
+- Web Services: se trabajó en conjunto en la implementación de endpoints para gestión de usuarios, autenticación y autorización, así como en la validación y mejora del rendimiento del backend.
+- Aplicación móvil: el equipo Clinic se encargó de la maquetación inicial utilizando Android Studio, diseñando las pantallas principales que formarán parte de la experiencia del usuario.
 
+Herramientas Utilizadas
+Para facilitar la coordinación y el seguimiento del trabajo, el equipo utilizó herramientas colaborativas clave:
+- GitHub: para el control de versiones y almacenamiento de código fuente.
+- Trello: como tablero de organización de tareas, con seguimiento por estado y prioridad.
+- Discord y WhatsApp: para la comunicación diaria, coordinación de actividades y resolución rápida de dudas técnicas.
+
+Análisis de Commits y Participación
+A continuación se presentan las capturas de pantalla de los analíticos de colaboración en GitHub, donde se puede observar la cantidad y distribución de commits realizados por cada integrante. Estos datos reflejan la contribución activa de todos los miembros a lo largo del Sprint.
 
 
 ## Anexos
