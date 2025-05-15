@@ -71,38 +71,38 @@
 A continuación, cada miembro del equipo ha planteado dos objetivos SMART que guían su crecimiento profesional una vez finalizada la carrera.
 
 **Integrante 1 – Oscar Soto**
-Objetivo 1.1:
+- Objetivo 1.1:
 Actualizar y mejorar mi portafolio personal en línea incluyendo al menos 2 proyectos realizados con Flutter durante el primer semestre después de egresar, para aumentar mis oportunidades de empleabilidad.
 
-Objetivo 1.2:
+- Objetivo 1.2:
 Postular a prácticas profesionales o posiciones junior en empresas de tecnología móvil dentro de los primeros 3 meses después de la graduación, enfocándome en roles relacionados con Flutter o desarrollo frontend.
 
 **Integrante 2 – Adriana Palomares**
-Objetivo 2.1:
+- Objetivo 2.1:
 Participar en al menos un curso en línea (gratuito o de bajo costo) sobre Kotlin o desarrollo backend durante los primeros 4 meses después de egresar, con el fin de reforzar mis conocimientos prácticos.
 
-Objetivo 2.2:
+- Objetivo 2.2:
 Crear un proyecto personal simple (como una app de notas o lista de tareas) utilizando Kotlin y publicarlo en GitHub antes de cumplir 6 meses como egresado, para demostrar mis habilidades en entrevistas laborales.
 
 **Integrante 3 – Rafael Bravo**
-Objetivo 3.1:
+- Objetivo 3.1:
 Unirme a una comunidad local o virtual de desarrolladores (como un grupo de Discord) durante el primer trimestre tras la graduación, con el objetivo de mantenerme actualizado y generar redes profesionales.
 
-Objetivo 3.2:
+- Objetivo 3.2:
 Ver al menos un video tutorial o curso completo mensual sobre desarrollo móvil o nuevas tecnologías durante los primeros 8 meses, con el fin de mantener un aprendizaje continuo.
 
 **Integrante 4 – Erick Maraza**
-Objetivo 4.1:
+- Objetivo 4.1:
 Realizar prácticas personales de pruebas unitarias en al menos 2 de mis proyectos desarrollados con Flutter o Kotlin antes de cumplir 10 meses egresado, con el objetivo de mejorar la calidad de mi código.
 
-Objetivo 4.2:
+- Objetivo 4.2:
 Escribir y compartir un post en LinkedIn sobre mi experiencia desarrollando una app móvil, en los 12 meses posteriores a la graduación, para mostrar mi iniciativa y capacidad de comunicación técnica.
 
 **Integrante 5 – Fabio Nicolich**
-Objetivo 5.1:
+- Objetivo 5.1:
 Aprender los fundamentos de metodologías ágiles a través de recursos gratuitos y aplicarlos en un proyecto personal dentro de los primeros 6 meses después de egresar.
 
-Objetivo 5.2:
+- Objetivo 5.2:
 Desarrollar una versión funcional de una app móvil básica (por ejemplo, una app de gestión de gastos o tareas) y compartir el archivo con amigos antes de finalizar el primer año, para practicar despliegue y recibir retroalimentación.
 
 # Capítulo I: Introducción
