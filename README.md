@@ -2132,6 +2132,14 @@ Para facilitar la coordinación y el seguimiento del trabajo, el equipo utilizó
 
 Análisis de Commits y Participación
 A continuación se presentan las capturas de pantalla de los analíticos de colaboración en GitHub, donde se puede observar la cantidad y distribución de commits realizados por cada integrante. Estos datos reflejan la contribución activa de todos los miembros a lo largo del Sprint.
+- Commits Landing Page
+![LandingPage](./Sprint1Commits/Landing.png)
+
+- Commits BackEnd
+![BackEnd](./Sprint1Commits/Back.png)
+
+- Commits Mobile
+![Mobile](./Sprint1Commits/Mobile.PNG)
 
 
 ## Anexos
