@@ -43,22 +43,23 @@
 | TB1     | 13/04/2025  | Bravo Gavilano, Jorge Rafael       | Database Design Diagram                  |
 
 ### Responsabilidades por Autor - TP
-| Versión | Fecha       | Autor                             | Descripción de modificación                          |
-|---------|-------------|----------------------------------|-----------------------------------------------------|
-| TP      | 02/05/2025  | Soto Zorrilla, Oscar Eduardo     | Corrección y refinamiento de user stories           |
-| TP      | 03/05/2025  | Soto Zorrilla, Oscar Eduardo     | Ajustes y mejora en las sesiones de EventStorming   |
-| TP      | 04/05/2025  | Soto Zorrilla, Oscar Eduardo     | Introducción y enfoque general de diseño UI/UX      |
-| TP      | 05/05/2025  | Soto Zorrilla, Oscar Eduardo     | Desarrollo inicial del diseño del producto          |
-| TP      | 06/05/2025  | Soto Zorrilla, Oscar Eduardo     | Definición de lineamientos visuales para la interfaz|
-| TP      | 07/05/2025  | Nicolich Alvis, Fabio Maurizio   | Establecimiento de pautas de estilo general         |
-| TP      | 08/05/2025  | Nicolich Alvis, Fabio Maurizio   | Organización estructural de la información          |
-| TP      | 09/05/2025  | Nicolich Alvis, Fabio Maurizio   | Diseño de sistemas para la organización del contenido|
-| TP      | 10/05/2025  | Nicolich Alvis, Fabio Maurizio   | Creación de sistemas de etiquetado y nomenclatura   |
-| TP      | 11/05/2025  | Nicolich Alvis, Fabio Maurizio   | Incorporación de elementos para optimización web    |
-| TP      | 12/05/2025  | Palomares Chavez, Adriana Giovanna | Desarrollo de mecanismos para búsqueda interna      |
-| TP      | 13/05/2025  | Palomares Chavez, Adriana Giovanna | Diseño y estructuración de sistemas de navegación   |
-| TP      | 14/05/2025  | Palomares Chavez, Adriana Giovanna | Conceptualización y diseño inicial de la página principal |
-| TP      | 15/05/2025  | Maraza Pedemonte, Erick          | Elaboración de bocetos para la página de aterrizaje |
+| Versión | Fecha       | Autor                            | Descripción de modificación                          |
+|---------|-------------|---------------------------------|-----------------------------------------------------|
+| TP      | 02/05/2025  | Soto Zorrilla, Oscar Eduardo    | Revisión y ajuste de historias de usuario           |
+| TP      | 03/05/2025  | Soto Zorrilla, Oscar Eduardo    | Mejoras en la dinámica y resultados de EventStorming|
+| TP      | 04/05/2025  | Nicolich Alvis, Fabio Maurizio  | Definición y desarrollo de lineamientos visuales    |
+| TP      | 05/05/2025  | Nicolich Alvis, Fabio Maurizio  | Organización y estructura de la información         |
+| TP      | 06/05/2025  | Palomares Chavez, Adriana Giovanna | Diseño de sistemas de etiquetado y navegación      |
+| TP      | 07/05/2025  | Palomares Chavez, Adriana Giovanna | Elaboración de prototipos iniciales para página principal |
+| TP      | 08/05/2025  | Maraza Pedemonte, Erick         | Desarrollo de wireframes para la página de aterrizaje|
+| TP      | 09/05/2025  | Maraza Pedemonte, Erick         | Creación de diagramas de flujo para experiencia móvil|
+| TP      | 10/05/2025  | Bravo Gavilano, Jorge Rafael    | Diseño y revisión de diagramas a nivel componente   |
+| TP      | 11/05/2025  | Bravo Gavilano, Jorge Rafael    | Modelado y ajuste de diagramas a nivel de código    |
+| TP      | 12/05/2025  | Soto Zorrilla, Oscar Eduardo    | Ajustes finales en el diseño general UI/UX          |
+| TP      | 13/05/2025  | Nicolich Alvis, Fabio Maurizio  | Optimización y mejoras en sistemas de búsqueda      |
+| TP      | 14/05/2025  | Palomares Chavez, Adriana Giovanna | Refinamiento de interfaces y navegación             |
+| TP      | 15/05/2025  | Maraza Pedemonte, Erick         | Presentación final de prototipos y experiencia móvil|
+
 
 
 ## Student Outcome
