@@ -1560,38 +1560,82 @@ Proporciona una manera clara y consistente de numerar versiones de software para
 - **perf**: Cuando hay mejoras de rendimiento.
 - **revert**: Revertir al commit anterior.
   
-### 6.1.3. Source Code Style Guide & Conventions
-En esta sección se mostrarán las convenciones y estilos que se emplearán en la creación del proyecto. A continuación, se van a mencionar las reglas y recomendaciones generales que tendremos en cuenta para el desarrollo.
+### 6.1.3. Source Code Style Guide & Conventions  
+En esta sección se mostrarán las convenciones y estilos que se emplearán en la creación del proyecto. A continuación, se van a mencionar las reglas y recomendaciones generales que tendremos en cuenta para el desarrollo. Todas las nomenclaturas se definirán en inglés y se utilizarán convenciones estándar de la industria según el lenguaje y la herramienta utilizada.
 
-#### **Nomenclatura General**
-Se le designarán términos en inglés al nombre de las variables, variables, objetos, elementos y funciones que se utilicen. Además, no se usarán mayúsculas porque de acuerdo con W3Schools (s.f.), la mezcla de estas con las letras minúsculas luce desagradable y el uso exclusivo de minúsculas otorga mayor legibilidad al código.
+Las referencias tomadas para estas convenciones incluyen:  
+- [HTML Style Guide and Coding Conventions - W3Schools](https://www.w3schools.com/html/html5_syntax.asp)  
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)  
+- [Spring Boot Features](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html)  
+- [Gherkin Conventions](https://cucumber.io/docs/gherkin/reference/)  
 
-#### **Sangría**
-En el caso de utilizar HTML, CSS y/o JavaScript se utilizará un espaciado antes de cada línea dentro de un bloque. Este espacio debe ser de dos y según W3Schools (s.f.) no se debe utilizar la tecla “TAB”.
+#### **Nomenclatura General**  
+Todos los elementos serán nombrados en inglés, incluyendo variables, funciones, clases, archivos y carpetas.  
+- No se usarán letras mayúsculas en nombres de variables u objetos dentro de archivos HTML, CSS o JavaScript.  
+- Se seguirá la convención camelCase para variables y funciones, y PascalCase para clases (según lenguaje).  
+- Se evita el uso de abreviaciones innecesarias para mantener la claridad del código.
 
-#### **HTML**
-Es un lenguaje de marcado que define la estructura de una página web, este cuenta con funciones que determinan el comportamiento del contenido de la página. Para el proyecto empleamos HTML5, y las pautas para el correcto uso del lenguaje de programación son las siguientes:
+#### **Sangría**  
+Se utilizará una indentación de **2 espacios** en archivos HTML, CSS y JavaScript, evitando el uso de la tecla **TAB**, siguiendo lo recomendado por W3Schools. En archivos Java y Kotlin se usará indentación de **4 espacios**, como sugiere el estándar de Google Java Style Guide.
 
-- Declare Document Type
-- Blank Lines
-- Quote Attribute Values
-- Multimedia Fallback
-- Never Skip the Element
+---
 
-#### **CSS**
-Es un lenguaje de marcado que permite definir y mejorar la presentación visual de un documento HTML, las pautas para el correcto uso del lenguaje de programación son las siguientes:
-- Shorthand Properties
-- Declaration Stops
-- Property Name Stops
-- Declaration Block Separation
-- CSS Quotation Marks
+#### **HTML**  
+Lenguaje de marcado usado para estructurar el contenido de las páginas web. Se emplea **HTML5** en este proyecto. Las convenciones que se siguen incluyen:  
+- Declarar el tipo de documento (`<!DOCTYPE html>`)  
+- Mantener líneas en blanco entre secciones lógicas del código  
+- Utilizar comillas para todos los valores de atributos  
+- Incluir contenido alternativo para elementos multimedia  
+- No omitir etiquetas HTML necesarias como `<html>`, `<head>`, `<body>`
 
-#### **JavaScript**
-Es un lenguaje que otorga la posibilidad de establecer acciones para ser utilizadas al momento de ejecutar el navegador web,  las pautas para el correcto uso del lenguaje de programación son las siguientes:
-- Spaces around operators
-- Simple Statement’s End
-- Beginning and End of a Function
-- Object Rules
+#### **CSS**  
+Lenguaje de estilo utilizado para definir la presentación visual de documentos HTML. Se siguen las siguientes convenciones:  
+- Uso de propiedades abreviadas (`shorthand`) siempre que sea posible  
+- Incluir punto y coma al final de cada declaración  
+- Separar el nombre de propiedad de su valor con un espacio  
+- Separar bloques de declaraciones con líneas en blanco si es necesario  
+- Uso consistente de comillas dobles para valores de atributos o selectores
+
+#### **JavaScript**  
+Lenguaje utilizado para definir el comportamiento dinámico en la interfaz web. Se aplican las siguientes convenciones:  
+- Uso de espacios alrededor de operadores (`a + b`, no `a+b`)  
+- Finalizar sentencias simples con punto y coma  
+- Definir claramente el inicio y fin de funciones  
+- Declaración de objetos con propiedades ordenadas y separadas por comas  
+- Se sigue el estilo de [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
+
+---
+
+#### **Java y Spring Boot**  
+El backend del proyecto está desarrollado utilizando **Java** con el framework **Spring Boot**. Las convenciones adoptadas incluyen:  
+- Uso de **PascalCase** para clases y **camelCase** para métodos y variables  
+- Separación de capas (controller, service, repository) siguiendo principios de arquitectura limpia  
+- Organización del proyecto en paquetes coherentes con el dominio  
+- Uso de anotaciones estándar de Spring (`@RestController`, `@Service`, `@Repository`)  
+- Se sigue la [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+
+---
+
+#### **Android (Kotlin / Android Studio)**  
+Para el desarrollo móvil se utilizó **Android Studio**, empleando convenciones estándar de Kotlin y Android:  
+- Uso de **camelCase** para variables y métodos  
+- Archivos nombrados según el componente que representan (por ejemplo, `MainActivity.kt`)  
+- Separación lógica en paquetes por funcionalidad (e.g. `ui`, `data`, `domain`)  
+- Uso de `ViewBinding` o `Jetpack Compose` según el enfoque definido  
+- Se sigue el [Kotlin Coding Conventions](https://kotlinlang.org/docs/coding-conventions.html)
+
+---
+
+#### **Despliegue (Render y Aiven)**  
+- El despliegue del backend se realiza mediante **[Render](https://render.com/)**, manteniendo consistencia en los nombres de servicios y repositorios.  
+- Las bases de datos utilizadas en producción se alojan en **[Aiven](https://aiven.io/)**, configuradas con acceso seguro, conexión SSL y variables de entorno.  
+- Los entornos (`dev`, `prod`) están diferenciados mediante archivos `.env` y perfiles de Spring.
+
+---
+
+Estas convenciones aseguran un código limpio, legible, mantenible y colaborativo durante el desarrollo del proyecto, alineado con los estándares aceptados en la industria.
+
 
 ### 6.1.4. Software Deployment Configuration
 Tal como se ha indicado anteriormente, la gestión de nuestro código fuente se llevará a cabo a través de GitHub. Además, se empleará GitHub Pages para la publicación y el despliegue de la página. Cada sección del Landing Page creada estará disponible en el siguiente enlace: 
