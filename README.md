@@ -1260,7 +1260,7 @@ El diseño de nuestra aplicación incluirá una **paleta de colores** cuidadosam
 
 ## 5.1.2. Information Architecture.
 ### 5.1.2.1. Organization Systems.
-En esta sección se presentan los distintos sistemas de organización que se implementarán tanto para el Landing Page como para las Web Applications, junto con los esquemas de categorización que ayudarán a estructurar la información de manera eficiente. Definir estos sistemas permite establecer claramente cómo se organizará el contenido, facilitando la navegación y mejorando la experiencia del usuario. Además, esto asegura que la arquitectura de la información esté alineada con los objetivos del proyecto, garantizando una estructura coherente y fácil de mantener a lo largo del tiempo.
+En esta sección se presentan los distintos sistemas de organización que se implementarán tanto para el Landing Page como para el Backend y App Mobile, junto con los esquemas de categorización que ayudarán a estructurar la información de manera eficiente. Definir estos sistemas permite establecer claramente cómo se organizará el contenido, facilitando la navegación y mejorando la experiencia del usuario. Además, esto asegura que la arquitectura de la información esté alineada con los objetivos del proyecto, garantizando una estructura coherente y fácil de mantener a lo largo del tiempo.
 
 #### Segmento 1: Cuidadores de adultos mayores
 
