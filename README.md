@@ -1554,6 +1554,13 @@ El usuario, que es parte del personal de salud, se loguea con el correo y la con
 Esta sección presenta los prototipos interactivos de la aplicación móvil Tukuntech, diseñados para simular la navegación y los principales flujos definidos en los User Flow Diagrams. Las decisiones de interacción se basan en criterios de usabilidad móvil, accesibilidad y una arquitectura de información clara, con un sistema de navegación adaptado al personal de salud.
 El prototipo incluye la simulación de los siguientes flujos: pantalla de login, inicio de sesión, página principal (home), visualización de signos vitales en pacientes postoperatorios y en UCI, consulta del listado de pacientes y registro de nuevos pacientes. Cada caso se acompaña de una captura del prototipo y un video en Microsoft Stream que muestra la interacción correspondiente.
 
+Video clinica:
+![clinica1](./prototype-img/capturaclinica.png)
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213372_upc_edu_pe/EQPa7GC414lOjppk8EszUJQB3EryRNSyUIvRx_SHhdQDgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vSXKgE ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213372_upc_edu_pe/EQPa7GC414lOjppk8EszUJQB3EryRNSyUIvRx_SHhdQDgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vSXKgE)
+Video Elder:
+![elder1](./prototype-img/capturaelder.png)
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213372_upc_edu_pe/EQ83yySkqNRKgSp5EBCyZE4BswyQWUww17hP4w99h_AKWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NW2gUd ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213372_upc_edu_pe/EQ83yySkqNRKgSp5EBCyZE4BswyQWUww17hP4w99h_AKWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NW2gUd)
+
 # Capítulo VI: Product Implementation, Validation & Deployment
 ## 6.1. Software Configuration Management
 
