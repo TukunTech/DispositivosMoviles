@@ -1472,32 +1472,36 @@ El prototipo incluye la simulación de los siguientes flujos: pantalla de login,
 ## 6.1. Software Configuration Management
 
 ### 6.1.1. Software Development Environment Configuration
-En esta sección se describirán los links de las aplicaciones que fueron utilizadas para el proyecto.  
-Para ello se clasificará en las siguientes secciones:
+En esta sección el equipo especifica, describe e indica los nombres de productos, el propósito de uso en el proyecto, la ruta de referencia (para software basado en modelos SaaS) o ruta de descarga (para productos que se ejecutan en el computador del miembro del equipo) de cada uno de los productos de software que deben utilizar los miembros del equipo para colaborar en el ciclo de vida de los productos digitales que forman la solución con IoT, considerando todos los tipos de actividades como Project Management, Requirements Management, Product UX/UI Design, Software Development, Software Testing, Software Deployment, Software Documentation, respetando las restricciones indicadas sobre productos de software y herramientas que se pueden utilizar.
 
-#### Product UX/UI Design
+#### Product UX/UI Design  
 Esta herramienta permitió desarrollar el modelo de nuestro proyecto de manera digital.
 
 - **[Miro](https://miro.com/app/dashboard/)**: Es una pizarra digital colaborativa en línea, que puede ser usada para la investigación, la ideación, la creación de lluvias de ideas, mapas mentales y una variedad de otras actividades colaborativas.  
 - **[Figma](https://www.figma.com/design/)**: Es una herramienta de prototipo web y editor de gráficos vectorial.  
-- **[Structurizr](https://structurizr.com/)**: Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución.
-- **[Trello](https://trello.com/es)**: Es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos.
+- **[Structurizr](https://structurizr.com/)**: Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución.  
+- **[Trello](https://trello.com/es)**: Es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos.  
 
-#### Software Development
-Es una estructura aplicada al desarrollo de software. Se utilizó para el proceso de desarrollo de la aplicación, cada uno de ellos se enfocan en diferentes actividades que tienen lugar durante el proceso.
+#### Software Development  
+Es una estructura aplicada al desarrollo de software. Se utilizó para el proceso de desarrollo de la aplicación, cada uno de ellos se enfoca en diferentes actividades que tienen lugar durante el proceso.
 
 - **[Github](https://github.com/TukunTech/DesarrolloOP-SW57)**: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git.  
-- **[Webstorm](https://www.jetbrains.com/webstorm/promo/?source=google&medium=cpc&campaign=AMER_en_AMER_WebStorm_Branded&term=webstorm&content=523833970748&gad_source=1&gclid=Cj0KCQjwr9m3BhDHARIsANut04Y0RqGO8x08l4Ay24BEOZOfibcNhhPtvn_nML5Ie2814li9xFGDnxMaAmCbEALw_wcB)**: Es un IDE profesional JavaScript que es compatible con una amplia gama de tecnologías modernas relacionadas con el lenguaje de programación web.
+- **[Webstorm](https://www.jetbrains.com/webstorm/promo/?source=google&medium=cpc&campaign=AMER_en_AMER_WebStorm_Branded&term=webstorm&content=523833970748&gad_source=1&gclid=Cj0KCQjwr9m3BhDHARIsANut04Y0RqGO8x08l4Ay24BEOZOfibcNhhPtvn_nML5Ie2814li9xFGDnxMaAmCbEALw_wcB)**: Es un IDE profesional JavaScript que es compatible con una amplia gama de tecnologías modernas relacionadas con el lenguaje de programación web.  
 - **[SQL Management](https://learn.microsoft.com/es-es/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)**: Es una aplicación utilizada para la gestión y administración de los componentes dentro de SQL Server.  
 - **[HTML](https://www.jetbrains.com/help/webstorm/editing-html-files.html)**: Es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Este lenguaje va a ser utilizado en el presente proyecto.  
 - **[CSS](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)**: Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​ Este lenguaje se utilizará para la implementación del diseño de nuestro proyecto.  
 - **[JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)**: Es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás.  
+- **[Spring Boot](https://spring.io/projects/spring-boot)**: Es un framework que facilita el desarrollo de aplicaciones Java basadas en Spring. Fue utilizado para el desarrollo del backend de nuestra solución.  
+- **[Java](https://www.oracle.com/java/technologies/javase-downloads.html)**: Lenguaje de programación en el que está implementado el backend del proyecto.  
+- **[Android Studio](https://developer.android.com/studio)**: Es el entorno de desarrollo oficial para aplicaciones Android. Se utilizó para crear la aplicación móvil del proyecto.
 
-#### Software Deployment
+#### Software Deployment  
 Tiene la función de examinar los artefactos y el comportamiento del software, asimismo lo pone en prueba y lo verifica.
 
-- **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.
-- 
+- **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.  
+- **[Render](https://render.com/)**: Plataforma en la nube utilizada para desplegar el backend desarrollado en Spring Boot.  
+- **[Aiven](https://aiven.io/)**: Plataforma en la nube que se usó para desplegar y gestionar servicios de bases de datos de forma escalable y segura.
+
 ### 6.1.2. Source Code Management
 La gestión de código fuente, también conocida como **SCM** (Source Code Management) en inglés, es una práctica crucial en el desarrollo de software. Su propósito es registrar y controlar las modificaciones que los miembros del equipo hacen en los repositorios de código a lo largo del ciclo de vida del proyecto. Este sistema permite rastrear los cambios introducidos por cada desarrollador, asegurando que todas las contribuciones estén documentadas y gestionadas de manera eficiente. En este caso, utilizaremos **GitHub** como la plataforma para implementar el control de versiones y garantizar una colaboración fluida entre los integrantes del equipo.
 
