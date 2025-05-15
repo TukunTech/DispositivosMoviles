@@ -42,6 +42,23 @@
 | TB1     | 12/04/2025  | Bravo Gavilano, Jorge Rafael       | Domain Layer Class Diagrams              |
 | TB1     | 13/04/2025  | Bravo Gavilano, Jorge Rafael       | Database Design Diagram                  |
 
+### Responsabilidades por Autor - TP
+| Versión | Fecha       | Autor                             | Descripción de modificación                          |
+|---------|-------------|----------------------------------|-----------------------------------------------------|
+| TP      | 02/05/2025  | Soto Zorrilla, Oscar Eduardo     | Introducción y enfoque general de diseño UI/UX      |
+| TP      | 03/05/2025  | Soto Zorrilla, Oscar Eduardo     | Desarrollo inicial del diseño del producto          |
+| TP      | 04/05/2025  | Soto Zorrilla, Oscar Eduardo     | Definición de lineamientos visuales para la interfaz|
+| TP      | 05/05/2025  | Soto Zorrilla, Oscar Eduardo     | Establecimiento de pautas de estilo general         |
+| TP      | 06/05/2025  | Soto Zorrilla, Oscar Eduardo     | Organización estructural de la información          |
+| TP      | 07/05/2025  | Nicolich Alvis, Fabio Maurizio   | Diseño de sistemas para la organización del contenido|
+| TP      | 08/05/2025  | Nicolich Alvis, Fabio Maurizio   | Creación de sistemas de etiquetado y nomenclatura   |
+| TP      | 09/05/2025  | Nicolich Alvis, Fabio Maurizio   | Incorporación de elementos para optimización web    |
+| TP      | 10/05/2025  | Nicolich Alvis, Fabio Maurizio   | Desarrollo de mecanismos para búsqueda interna      |
+| TP      | 11/05/2025  | Palomares Chavez, Adriana Giovanna | Diseño y estructuración de sistemas de navegación   |
+| TP      | 12/05/2025  | Palomares Chavez, Adriana Giovanna | Conceptualización y diseño inicial de la página principal |
+| TP      | 13/05/2025  | Palomares Chavez, Adriana Giovanna | Elaboración de bocetos para la página de aterrizaje |
+| TP      | 14/05/2025  | Maraza Pedemonte, Erick          | Desarrollo de propuestas visuales para la página principal |
+| TP      | 15/05/2025  | Maraza Pedemonte, Erick          | Diseño de interfaces y experiencia para aplicaciones móviles |
 
 
 ## Student Outcome
