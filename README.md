@@ -1601,15 +1601,14 @@ El despliegue de la Landing Page de TukunTech fue posible gracias al uso de las 
 Los pasos realizados fueron los siguientes:
 1) Acceder al repositorio de la página. Como se ha utilizado GitHub, debemos dirigirnos al repositorio creado en esta plataforma para publicar la Landing Page desarrollada por el equipo. Desde allí, se procede a configurar el enlace de la página en la sección de Settings.
 
-![captura1](Img%20-%20Software%20Deployment%20Configuration/captura%201.png)
+![captura1](MobileDeploy/LandingDeploy.png)
 
 
 2) Acceder a la opción pages y configurar las opciones para obtener el link o vínculo del Landing Page
 
-![captura2](Img%20-%20Software%20Deployment%20Configuration/captura%202.png)
+![captura2](MobileDeploy/LandingDeploy2.PNG)
 
-
-Tras realizar el paso anterior, se obtuvo el siguiente link: [https://tukuntech.github.io/DesarrolloOP-SW57/](https://tukuntech.github.io/DesarrolloOP-SW57/)
+Tras realizar el paso anterior, se obtuvo el siguiente link: [https://tukuntech.github.io/DispositivosMoviles/](https://tukuntech.github.io/DispositivosMoviles/)
 Lo que nos redirige al Landing Page desplegado:
 
 ![landing](Img%20-%20Software%20Deployment%20Configuration/foto%20landing.png)
@@ -1709,7 +1708,7 @@ Finalmente tenemos el link, el cual nos permitirá visualizar la landing page.
 El despliegue del backend de la solución se realiza siguiendo un proceso definido que permite la publicación exitosa del producto digital. A continuación, se describen los pasos clave:
 Repositorio de Código Fuente
 El código fuente del backend se encuentra alojado en un repositorio Git en GitHub. Este contiene todos los archivos necesarios, como el código, configuraciones y dependencias, organizados para facilitar su despliegue.
-![GitHub](./DeployRender/GitHub.png)
+![GitHub](MobileDeploy/BackDeploy.png)
 
 Configuración del Contenedor Docker
 En el proyecto se utilizó un archivo Dockerfile para facilitar la creación de un contenedor que garantice la portabilidad y consistencia del entorno de ejecución del backend. Este archivo define un flujo automatizado para compilar, empaquetar y ejecutar la aplicación en cualquier sistema compatible con Docker, eliminando dependencias del entorno local.
