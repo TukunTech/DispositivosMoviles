@@ -1713,10 +1713,30 @@ Lo que nos redirige al Landing Page desplegado:
 
 ## 6.2. Landing Page & Mobile Application Implementation
 ### 6.2.1 Sprint 1
+En esta sección se documenta el progreso del Sprint 1, tanto en desarrollo del producto como en trabajo colaborativo del equipo. Incluye las siguientes subsecciones: Sprint Planning 1, Sprint Backlog 1, Evidencias de Desarrollo para la Revisión del Sprint, Evidencias de Ejecución para la Revisión, Documentación de Servicios, y Perspectivas sobre la Colaboración del Equipo durante el Sprint.
 
 #### 6.2.1.1 Sprint Planning 1
+En esta sección se describen los puntos clave tratados durante la reunión de planificación del Sprint. Se presenta una introducción seguida del cuadro resumen con los detalles más importantes del Sprint Planning Meeting.
+| **Sprint #**             | Sprint 1                                                                                           |
+|-------------------------|--------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                          |
+| Date                    | 2025-05-08                                                                                       |
+| Time                    | 03:00 PM                                                                                        |
+| Location                | Discord                                                                                         |
+| Prepared By             | Palomares Chavez, Adriana                                                                       |
+| Attendees               | Palomares Chavez, Adriana / Maraza Pedemonte, Erick / Bravo Gavilano, Rafel / Nicolich Alvis Fabio / Soto Zorrilla, Oscar |
+| **Sprint 1 - 1 Review Summary**    | No hay sprint anterior                                                               |
+| **Sprint 1 - 1 Retrospective Summary** | No hay sprint anterior                                                            |
+| **Sprint Goal & User Stories**      |                                                                                      |
+| Sprint 1 Goal           | Our focus is on introducing users to our health monitoring service through a simple first version of our platform. We believe it delivers early trust and interest from people who want to monitor vital signs in real time. This will be confirmed when someone can visit our website and understand how the service works through the initial mobile experience. |
+| Sprint 1 Velocity       | 309                                                                                            |
+| Sum of Story Points     | 309                                                                                            |
 
 #### 6.2.1.2 Sprint Backlog 1
+Este Sprint Backlog recoge las tareas y User Stories que el equipo abordará en el Sprint, enfocándose en cumplir los objetivos clave del ciclo. Se incluye una imagen del tablero de gestión (por ejemplo, Trello) y su enlace público para seguimiento. La tabla muestra los User Stories asignados junto con las tareas derivadas y otras actividades necesarias para el Sprint.
+
+
+
 | Sprint # | User Story Id | User Story Title                                      | Work Item Id | Work Item Title                                     | Description                                                                                                                                      | Estimation | Assigned To | Status |
 |----------|----------------|-------------------------------------------------------|---------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|--------|
 | Sprint 1 | US 18          | Interactividad con JavaScript en el Landing Page     | 1             | Interactividad con JavaScript en el Landing Page    | Como Developer de TukunTech, quiero implementar interacciones en el Landing Page usando JavaScript, para mejorar la reactividad ante acciones. | 5h         | Oscar        | Done   |
