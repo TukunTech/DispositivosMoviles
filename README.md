@@ -1846,6 +1846,147 @@ Este Sprint Backlog recoge las tareas y User Stories que el equipo abordará en 
 
 
 #### 6.2.1.3 Development Evidence for Sprint Review
+En esta sección, se presentará la evidencia del progreso y desarrollo del software. Se incluirán detalles sobre las características específicas que se han implementado durante el sprint actual, destacando cualquier avance significativo en el Landing Page, BackEnd y Maquetación Mobile.
+| Repository                         | Branch | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
+|----------------------------------|--------|-----------|-----------------------------------------------------------------|---------------------|--------------------|
+| Oscaredu1/DispositivosMoviles    | main   | 98fa44d   | feat: add HTML structure for the landing page                   | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 053477d   | fix(images): update outdated images on product page             | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | eeab6ff   | chore(images): remove deprecated images from assets folder      | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 38c9e1e   | feat: add CSS styles for the landing page                       | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 617af5c   | feat: add project team members photos                           | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 2f39717   | fix(images): update outdated images on product page             |                     | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 6882ec7   | fix: update content in the News section                          | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | b2f3438   | feat: add images to the Services section                        | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 233bdac   | docs: update appointment scheduling text in Services section   | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 12683a4   | chore: remove unnecessary photos                               | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 55575db   | feat: add CSS styles for the landing page                       | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 46a0ec4   | feat: implement navigation for Home section on landing page    | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | cab2225   | chore: reposition landing page files to a new folder            | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 613005f   | fix: correct typos in text                                       | empty               | 24/04//2025        |
+| Oscaredu1/DispositivosMoviles    | main   | 33c07b9   | feat(i18n): switch content language from Spanish to English    | empty               | 24/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | f78a6f9   | chore: add project properties                                    | empty               | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | ee35a2a   | chore: add project Aplication                                    | empty               | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | e59188a   | feat(patient): add aggregate and entitys                        | empty               | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | 6502b15   | feat(patient): add base classes implementation                  | empty               | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | a36ef1d   | feat(patient): add services                                      | empty               | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | d83f616   | feat(patient): add repositories                                  | empty               | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | 057f7d5   | feat(patient): add controllers                                   | empty               | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | 232bef9   | feat: add dependencies                                          | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 525b90a   | chore: rename project to tukun.                                | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 8c22d77   | refactor: move Medic.java to a new folder                      | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | c1c274a   | feat: add MedicRepository interface for JPA persistence        | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 4a27976   | feat: add MedicService interface for managing medic operations  | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 6d2c98d   | feat: add DoctorServiceImpl with MedicService implementation    | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | fcd5c11   | feat: add MedicController with CRUD endpoints for Medic         | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 0e54878   | feat: add new fields to Medic aggregate                         | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 62a5390   | feat: enhance JSON serialization of Medic by ignoring Hibernate properties | empty        | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | b2c9f8f   | feat: add TypeAppointment entity for managing appointment types | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 0660308   | feat: add Appointment entity for managing medical appointments | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 45d7f78   | feat: add AppointmentRepository for managing Appointment entities | empty             | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 26d055d   | feat: add AppointmentService interface for managing appointments | empty              | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | a14568e   | feat: implement AppointmentService with AppointmentServiceImpl | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | a00d295   | feat: add AppointmentController for managing appointments      | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 8f644a4   | fix: remove folders to resolve errors in the project           | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 85bf5b3   | feat: create Appointment entity with relationships to Patient, Medic, TypeAppointment, and PaymentMethod | empty | 25/04//2025 |
+| oscaredu1226/tukun-tech-platform | main   | 77a4ebf   | chore: move files to reorganize project structure              | empty               | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | f1f4a8e   | feat: add AppointmentRepository for CRUD operations on Appointment entities | empty          | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 6f973af   | feat: define AppointmentService interface for appointment management |                     | 25/04//2025        |
+| oscaredu1226/tukun-tech-platform | main   | 34c0131   | feat: create AppointmentController for managing appointment endpoints | empty              | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | 05ecd76   | feat: fix routes de los aggregates                             | empty               | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | 66e4540   | feat: fix routes                                               | empty               | 25/04//2025        |
+| AdriPCH/tukun-tech-platform      | main   | 5083373   | feat(bed): fix controller and implement                        | empty               | 25/04//2025        |
+| fabrizio/tukun-tech-platform     | main   | 40a1eca   | feat(appointment): add CRUD endpoints in AppointmentController for appointment management | empty              | 27/04//2025        |
+| fabrizio/tukun-tech-platform     | main   | c4234f7   | feat(clinical-history): add ClinicalHistory entity for managing clinical histories | empty           | 27/04//2025        |
+| fabrizio/tukun-tech-platform     | main   | b13c602   | feat(clinical-history): add ClinicalHistoryRepository for data access | empty             | 27/04//2025        |
+| fabrizio/tukun-tech-platform     | main   | 3e3cd94   | feat(clinical-history): define ClinicalHistoryService interface for clinical history logic | empty          | 27/04//2025        |
+| fabrizio/tukun-tech-platform     | main   | 9f1929b   | feat(clinical-history): implement ClinicalHistoryService with ClinicalHistoryImpl | empty           | 27/04//2025        |
+| fabrizio/tukun-tech-platform     | main   | 9f690e6   | feat(clinical-history): add ClinicalHistoryController to handle API requests for clinical histories | empty        | 27/04//2025        |
+| Ericksnpaii/tukun-tech-platform  | main   | f44210a   | feat(elder):add aggregate and entitys                         | empty               | 30/04//2025        |
+| Ericksnpaii/tukun-tech-platform  | main   | 26974ee   | feat(elder):add ElderRepository interface JPA persistence     | empty               | 30/04//2025        |
+| Ericksnpaii/tukun-tech-platform  | main   | fd2f28e   | feat(elder): add ElderService interface                        | empty               | 30/04//2025        |
+| Ericksnpaii/tukun-tech-platform  | main   | 62f16cd   | feat: add ElderController with CRUD endpoints for Elder       | empty               | 30/04//2025        |
+| Ericksnpaii/tukun-tech-platform  | main   | 75a11fe   | feat: add ElderServiceImpl with ElderService implementation    | empty               | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | bbc49f4   | feat(pendingmedicine): add PendingMedicine entity with fields and relationships |                   | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 4e7f354   | feat(status): add Status entity with fields                   |                     | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 10014e1   | feat(pendingmedicine): add PendingMedicineController with endpoints for CRUD operations |               | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | bf7a87c   | feat(pendingmedicine): add PendingMedicineRepository for database interactions |                  | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 37bfb70   | feat(pendingmedicine): add PendingMedicineService interface for CRUD operations |                  | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 3232b1f   | feat(pendingmedicine): implement PendingMedicineService with PendingMedicineServiceImpl |             | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | d9d4bf3   | feat(elder): add Elder entity with some fields               |                     | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | fc398f3   | fix(pending-medicine): fix bug in PendingMedicineController endpoint logic |                  | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 9b214d3   | feat(entity): add TechnicalSupport entity with some fields     | empty               | 30/04//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 64a58b3   | feat(controller): add TechnicalSupportController for handling requests | empty             | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 90f9cdc   | feat(service-impl): add TechnicalSupportImpl with business logic | empty              | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | eb4fe9c   | feat(repository): add TechnicalSupportRepository for data access | empty              | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 27abf87   | feat(service): define TechnicalSupportService interface        | empty               | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 46a885f   | feat(critical-alerts): add CriticalAlerts entity for managing critical alerts | empty          | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 43c36b5   | feat(critical-alerts): add CriticalAlertsController to handle API requests for critical alerts | empty        | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 46f20e0   | feat(critical-alerts): add CriticalAlertsRepository for database operations |                   | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 5c8d4e6   | feat(critical-alerts): define CriticalAlertsService interface for critical alerts logic |              | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 15ec4b6   | feat(critical-alerts): implement CriticalAlertsService with CriticalAlertsServiceImpl | empty          | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | c028ce2   | feat(type-alert): add TypeAlert entity to define alert types   |                     | 01/05//2025        |
+| Rafooo6/tukun-tech-platform      | main   | 049451a   | feat(pending-medicine): update files                           |                     | 01/05//2025        |
+| Ericksnpaii/tukun-tech-platform-open-source | main | c52ecb7 | feat:add aggregate and entitys ofr ElderBed                   | empty               | 01/05//2025        |
+| Ericksnpaii/tukun-tech-platform  | main   | cc9fe27   | feat:add ElderBedRepository interface JPA persistence          | empty               | 01/05//2025        |
+| Ericksnpaii/tukun-tech-platform  | main   | 566d833   | feat: add ElderBedService interface                            | empty               | 01/05//2025        |
+| Ericksnpaii/tukun-tech-platform  | main   | 896690b   | feat: add ElderServiceImpl with ElderService implementation    | empty               | 01/05//2025        |
+| Ericksnpaii/tukun-tech-platform  | main   | 77b43af   | feat: add ElderBedController with CRUD endpoints for ElderBed  | empty               | 01/05//2025        |
+| Fabio/tukun-tech-platform        | main   | 1fa1f7e   | feat(emergency-numbers): add EmergencyNumbers entity for managing emergency numbers | empty       | 02/05//2025        |
+| Fabio/tukun-tech-platform        | main   | 5c9e4c0   | feat(emergency-numbers): add EmergencyNumbersRepository for data access | empty             | 02/05//2025        |
+| Fabio/tukun-tech-platform        | main   | 3672939   | feat(emergency-numbers): define EmergencyNumbersService interface for emergency numbers logic | empty     | 02/05//2025        |
+| Fabio/tukun-tech-platform        | main   | cedeb45   | feat(emergency-numbers): implement EmergencyNumbersService with EmergencyNumbersImpl | empty             | 02/05//2025        |
+| Fabio/tukun-tech-platform        | main   | 3f6d08f   | feat(emergency-numbers): add EmergencyNumbersController to handle API requests for emergency numbers | empty    | 02/05//2025        |
+| Fabio/tukun-tech-platform        | main   | 2514efe   | feat(emergency-numbers): Update ContactName.java               | empty               | 02/05//2025        |
+| Fabio/tukun-tech-platform        | main   | 37194a9   | feat(emergency-numbers): update EmergencyNumbersController to handle API requests for emergency numbers | main        | 02/05//2025        |
+| Fabio/tukun-tech-platform        | main   | f1fae83   | feat(emergency-numbers): update EmergencyNumbersService interface for emergency numbers logic numbers | empty | 02/05//2025        |
+| Fabio/tukun-tech-platform        | main   | 7071532   | feat(emergency-numbers): update EmergencyNumbersServiceLmpl    | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | cd0e4b1 | feat(iam): added domain layer.                                | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | 5e31f92 | feat(iam): added iam context object-relational mapping rules. | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | 48987e3 | feat(iam): added user aggregate outbound service implementation | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | e2416f4 | feat(iam): added application layer.                           | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | 088a633 | feat(iam): added hashing service implementation.              | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | e648ba4 | chore: add token settings.                                    | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | 60fed1f | feat(iam): added token service implementation.                | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | ae24dec | feat(iam): added interface layer resources.                   | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | 127bd42 | feat(iam): added interface layer assemblers.                  | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | 47fd70  | feat(iam): added interface layer inbound services.            | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | fc0b114 | feat(iam): added iam side acl layer.                          | empty               | 02/05//2025        |
+| oscaredu1226/tukun-tech-platform-web | main | c2e90c1 | feat(iam): added main configuration for iam dependency injection, middleware addition to pipeline, and open api authorization configuration. | empty | 02/05//2025        |
+| oscaredu1226/tukuntechClinic-android | main | b391159 | chore: add required dependencies for Android project          | empty               | 13/05/2025         |
+| oscaredu1226/tukuntechClinic-android | main | 74dcffe | chore: add INTERNET permission to AndroidManifest.xml          | empty               | 13/05/2025         |
+| oscaredu1226/tukuntechClinic-android | main | 12e502a | chore(build): add dependencies to build.gradle.kts             | empty               | 13/05/2025         |
+| oscaredu1226/tukuntechClinic-android | main | ef0d51e | feat(navigation): redirect MainActivity to Home screen          | empty               | 13/05/2025         |
+| oscaredu1226/tukuntechClinic-android | main | 783510a | feat(routing): configure Home.kt and add navigation routes      | empty               | 13/05/2025         |
+| oscaredu1226/tukuntechClinic-android | main | e0d939e | feat(domain): add Patient model to represent vital signs        | empty               | 13/05/2025         |
+| oscaredu1226/tukuntechClinic-android | main | 53896b5 | chore(sample): add sample patient data for UI/testing           | empty               | 13/05/2025         |
+| oscaredu1226/tukuntechClinic-android | main | 3445aa6 | feat(ui): create ClinicHomeView with navigation to ICU and postoperative screens | empty              | 13/05/2025         |
+| oscaredu1226/tukuntechClinic-android | main | 1df931b | feat(ui): create PostOperativeView to display patient vital signs | empty              | 13/05/2025         |
+| oscaredu1226/tukuntechClinic-android | main | 7e0536f | feat(ui): add ICUView to display ICU patient data               | empty               | 13/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | 544de3b   | feat: add icon images.                                          | empty               | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | 2d7d6ed   | feat(login): create and design login screen.                   | empty               | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | 9e19102   | feat(login): update the login screen with new buttons.         | empty               | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | cc5ce6f   | feat(login): update the login screen with new buttons.         | empty               | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | e0c3d22   | feat(ui): add login screen to navigation flow                  | empty               | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | 13339f4   | feat(login): add buttons features.                             | empty               | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | 78f8bfe   | feat(post-operative): add buttons features.                    | empty               | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | 4af3728   | feat(assets): add login screen background image and tukuntech logo. | empty             | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | 40afabc   | feat(clinic-home): implement log out button feature.           | empty               | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | 6198585   | feat(login): update code.                                      | empty               | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | e71c928   | feat(clinic-view): add some buttons features.                  |                     | 14/05/2025         |
+| Rafooo6/tukuntechClinic-android   | main   | c64581d   | style(versions): reorder entries in libs.versions.toml.        |                     | 15/05/2025         |
+| Nicolini03/tukuntechClinic-android | main | 64e8165   | feat: Updated ClinicHomeView.kt                                | empty               | 15/05/2025         |
+| Nicolini03/tukuntechClinic-android | main | 5052a60   | feat: Updated Home.kt                                          | empty               | 15/05/2025         |
+| Nicolini03/tukuntechClinic-android | main | 8412284   | feat: Added PatientRegistrationView.kt                        | empty               | 15/05/2025         |
+| Nicolini03/tukuntechClinic-android | main | db13e28   | fix: Error version                                            | empty               | 15/05/2025         |
+| Ericksnpaii/tukuntechClinic-android | main | 1f39823   | feat: add CreateAccountScreen for user account creation      | empty               | 15/05/2025         |
+| Ericksnpaii/tukuntechClinic-android | main | 1b17832   | feat: implement Home screen UI and navigation                 |                     | 15/05/2025         |
+| Ericksnpaii/tukuntechClinic-android | main | 981549b   | chore: update libs.versions.toml dependencies versions        | empty               | 15/05/2025         |
+| AdriPCH/tukuntechClinic-android   | main   | 7a2925d   | feat(ui): implement PatientListView displaying patients with bed info and navigation to registration | empty | 15/05/2025 |
+| AdriPCH/tukuntechClinic-android   | main   | c786bbc   | feat(domain): add Patient2 model with name and bed attributes | empty               | 15/05/2025         |
+| AdriPCH/tukuntechClinic-android   | main   | 13ec359   | chore(sample): add samplePatients2 list with mock patient names and beds | empty               | 15/05/2025         |
+| AdriPCH/tukuntechClinic-android   | main   | 2615665   | feat(ui): create PatientRegistrationView with input fields and save button navigating back to list | empty        | 15/05/2025         |
+| AdriPCH/tukuntechClinic-android   | main   | de6765a   | feat(navigation): implement BottomAppBar with navigation routes and integrate PatientListView and PatientRegistrationView | empty  | 15/05/2025         |
+
 
 #### 6.2.1.4 Execution Evidence for Sprint Review
 En este primer Sprint del proyecto TukunTech, hemos sentado las bases del sistema de monitoreo de signos vitales en tiempo real mediante la implementación de componentes clave en el frontend, backend y mobile, así como el despliegue inicial de nuestra plataforma al público.
