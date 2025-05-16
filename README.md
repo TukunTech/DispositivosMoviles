@@ -1076,9 +1076,9 @@ En esta sección se presenta el Deployment Diagram del sistema, cuyo propósito 
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.X. Bounded Context: <Bounded Context Name>
+### 4.2.1. Bounded Context: <Bounded Context Name>
 
-### 4.2.X.1. Domain Layer
+### 4.2.1.1. Domain Layer
 
 En esta capa, el equipo define las clases que conforman el núcleo del sistema TukunTech, centrado en el monitoreo de salud y la gestión de evaluaciones clínicas para pacientes. Esta capa modela el dominio a partir del análisis del negocio, definiendo entidades, objetos de valor, agregados, interfaces de repositorio y servicios de dominio. A continuación, se detallan los elementos principales:
 
@@ -1133,7 +1133,7 @@ Para cada agregado principal, se define una interfaz de repositorio que abstrae 
 *IMedicalExaminationRepository*: Para registrar y consultar evaluaciones médicas.
 
 
-#### 4.2.X.2. Interface Layer
+#### 4.2.1.2. Interface Layer
 
 **Controllers**  
 Estos componentes reciben las solicitudes HTTP, validan los datos entrantes y delegan la lógica de negocio a los servicios de la capa de aplicación. También formatean las respuestas al cliente.
@@ -1192,7 +1192,7 @@ TukunTech contempla la integración con dispositivos IoT de monitoreo de signos 
 Para esto, podrían implementarse adaptadores que traduzcan las señales o paquetes recibidos desde los sensores hacia los DTOs utilizados por el **VitalSignsController**.
 
 
-#### 4.2.X.3. Application Layer
+#### 4.2.1.3. Application Layer
 En esta capa se gestiona el flujo de procesos del negocio a través de clases específicas denominadas **Command Handlers**, que representan operaciones concretas o *capabilities* dentro de cada *bounded context* de la solución. Estas clases orquestan la lógica de aplicación y coordinan las interacciones entre el dominio y la infraestructura.
 
 ### Command Handlers
@@ -1220,7 +1220,8 @@ En esta capa se gestiona el flujo de procesos del negocio a través de clases es
 - **Responsabilidad:** Orquesta el flujo de creación de adultos mayores dentro del sistema. Valida, crea el agregado y lo persiste mediante el repositorio y `UnitOfWork`.
 - **Capabilidad cubierta:** Registro de pacientes adultos mayores en el sistema de monitoreo.
 - **Bounded Context:** `Tukun → Elders`
-#### 4.2.X.4. Infrastructure Layer
+  
+#### 4.2.1.4. Infrastructure Layer
 En esta capa se encuentran las clases responsables de interactuar con servicios externos, como bases de datos, y de implementar las interfaces definidas en la capa de dominio.  
 La implementación de los *Repositories* sigue el patrón **Repository**, y se apoya en **Entity Framework Core** para el acceso a datos persistentes.
 
@@ -1244,7 +1245,7 @@ La implementación de los *Repositories* sigue el patrón **Repository**, y se a
 - **Interfaz implementada:** `IEldersRepository`
 - **Herencia:** Hereda métodos de `BaseRepository`
 
-#### 4.2.X.5. Bounded Context Software Architecture Component Level Diagrams
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams
 A continuación, se mostrará el diagrama de componentes que conforma la arquitectura de nuestro software. Este diagrama proporciona un desglose detallado de los componentes que integran nuestros contenedores, especificando sus funciones, responsabilidades y los aspectos técnicos relacionados con su implementación, así como las tecnologías empleadas en cada uno de ellos. Además, cada **bounded context** contará con su propio diagrama de componentes, lo que permitirá una mejor comprensión y visualización de la estructura específica de cada contexto.
 
 ## Contexto de Pacientes
@@ -1262,14 +1263,14 @@ Responsable de gestionar la información de los médicos que están monitoreando
 Encargado de gestionar la planificación de citas y consultas entre médicos y pacientes. Permite a los médicos agendar revisiones con los pacientes que monitorean y a los pacientes solicitar asistencia médica según sea necesario. Este módulo también gestiona la integración con videollamadas o consultas presenciales.
 ![Components diagram 3](./img-DDD/diagrama3.png)
 
-#### 4.2.X.6. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams
 A continuación, se mostrarán los diagramas de clases y el diagrama de base de datos que conformará la aplicación de TukunTech. Estos elementos representan visualmente la arquitectura del sistema, permitiendo comprender la organización de los datos, las relaciones entre las entidades y la lógica de funcionamiento de la aplicación. La finalidad de estos diagramas es proporcionar una guía clara y detallada para el desarrollo, facilitando la implementación eficiente de las funcionalidades clave de TukunTech, tanto en su versión clínica como en su versión familiar.
 
-##### 4.2.X.6.1. Bounded Context Domain Layer Class Diagrams
+##### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams
 A continuación se presenta el diagrama de clases de TukunTech, el cual permite una representación visual fundamental en la programación orientada a objetos, utilizada para ilustrar la estructura estática de nuestro sistema. Este tipo de diagrama permite visualizar las clases que componen el sistema, sus atributos, métodos, y las relaciones que existen entre ellas, como asociaciones, herencia y composiciones.
 ![Class Diagrams](./Software%20Object-Oriented%20Design/Diagram%20class.drawio.png)
 
-##### 4.2.X.6.2. Bounded Context Database Design Diagram
+##### 4.2.1.6.2. Bounded Context Database Design Diagram
 En este apartado se puede visualizar la estructura y las relaciones entre las tablas de la base de datos, lo que permite comprender de manera clara cómo se organiza y conecta la información. Esta representación gráfica es esencial para garantizar la integridad de los datos, ya que facilita la identificación de las claves primarias y foráneas, también se muestran las cardinalidades entre las entidades. Además se ha utilizado la normalización de tablas, esto es clave para mantener la consistencia y evitar redundancias en los datos almacenados
 ![DatabaseDiagram](./img-Mock-ups-DataBase/Database-Diagram.png)
 
@@ -1626,7 +1627,7 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE---
 ### 5.1.4.4. Mobile Applications User Flow Diagrams
 Esta sección presenta la propuesta de User Flows desarrollada para las aplicaciones del proyecto Tukuntech. Cada diagrama de flujo está orientado a representar un User Goal específico, teniendo en cuenta los User Persona definidos y el contexto de uso particular de cada aplicación incluida en el alcance del proyecto.
 Los User Flows presentados mantienen coherencia con los Wireflows previamente desarrollados, de los cuales se derivan directamente. En esta etapa, se incorporan los Mock-ups de las vistas o pantallas involucradas, lo que permite visualizar con mayor precisión la interacción del usuario dentro de los flujos esperados.
-Cada flujo incluye tanto la ruta principal o happy path —que representa el recorrido ideal del usuario hacia el logro de su objetivo— como rutas alternativas o unhappy paths, que contemplan desviaciones o errores posibles durante la interacción. Estas representaciones fueron elaboradas utilizando la herramienta Figma, asegurando consistencia visual y funcional con el resto de los entregables de diseño.
+Cada flujo incluye tanto la ruta principal o happy path —que representa el recorrido ideal del usuario hacia el logro de su objetivo— como rutas alternativas o unhappy paths, que contemplan desviaciones o errores posibles durante la interacción. Estas representaciones fueron elaboradas utilizando la herramienta LucidChart, asegurando consistencia visual y funcional con el resto de los entregables de diseño.
 Cada User Flow diagram está acompañado por la redacción clara del User Goal correspondiente, así como una explicación detallada de los pasos, decisiones y condiciones consideradas en cada caso.
 
 ### Segmento objetivo 1: Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas
