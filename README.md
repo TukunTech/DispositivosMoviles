@@ -1507,25 +1507,67 @@ Figma: [https://www.figma.com/design/BlZ9CoeTGDXM9Pn3d5prvN/FIGMA-OPEN-SOURCE---
 En esta sección se presenta la propuesta de Wireflows desarrollada para las aplicaciones incluidas en el proyecto Tukuntech. Cada wireflow corresponde a un User Goal específico, considerando los perfiles definidos en los User Persona y el contexto particular de uso de cada aplicación dentro del alcance del proyecto.
 Como parte del proceso de diseño, se recomienda haber elaborado previamente los correspondientes Task Flows, con el fin de establecer una base consensuada sobre las rutas de interacción más representativas para cada objetivo del usuario. Los wireflows presentados reflejan no solo la secuencia de pantallas, sino también los cambios de estado que ocurren como resultado de la interacción del usuario, representados mediante nuevos pasos con wireframes actualizados.
 La elaboración de estos diagramas se realizó utilizando las herramientas indicadas, en este caso, Figma, garantizando coherencia visual y precisión en la representación del comportamiento esperado. Cada wireflow está acompañado por la redacción clara del User Goal que aborda, así como una explicación del flujo que permite alcanzar dicho objetivo.
+
 Diagrama 1
+
 User Goal: Como parte del equipo médico deseo visualizar el panel de pacientes postoperatorios.
+
 Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes postoperatorios. En el inicio tendrá que seleccionar el botón de “Postoperative Patient” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
 ![diagrama1](./wireflow-img/captura1.png)
 
 Diagrama 2
+
 User Goal: Como parte del equipo médico deseo visualizar el panel de pacientes UCI.
+
 Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar el panel de pacientes UCI. En el inicio tendrá que seleccionar el botón de “Patient ICU” y se visualizará el panel de signos vitales de los pacientes postoperatorios.
 ![diagrama2](./wireflow-img/captura2.png)
 
 Diagrama 3
+
 User Goal: Como usuario deseo registrar nuevos pacientes en la aplicación.
+
 Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para registrar nuevos pacientes en el proyecto. En el inicio tendrá que seleccionar el botón de “+” que se encuentra en el apartado de “Patients”, finalmente tenemos el registro de pacientes y el usuario debe completar los datos correspondientes.
 ![diagrama3](./wireflow-img/captura3.png)
 
 Diagrama 4
+
 User Goal: Como parte del equipo médico deseo visualizar la lista de pacientes.
+
 Descripción: En el presente Wireflow, se evidencia un flujo que seguirá el usuario para visualizar la lista de pacientes en el proyecto. En el inicio tendrá que seleccionar el botón de “Patient”, luego se nos mostrará la información de todos los pacientes registrados. 
 ![diagrama4](./wireflow-img/captura4.png)
+
+Diagrama 5
+
+User Goal:
+Como cuidador de un adulto mayor, deseo visualizar sus signos vitales en tiempo real.
+ 
+Descripción: En este Wireflow se muestra el flujo que seguirá el usuario para acceder al panel “Vital Signs”, donde se visualizarán en tiempo real los signos vitales del adulto mayor que se encuentra en monitoreo.
+
+![diagrama5](./wireflow-img/captura5.png)
+ 
+Diagrama 6
+
+User Goal: Como cuidador de un adulto mayor, deseo ver el perfil médico del adulto mayor.
+
+Descripción:En este Wireflow se representa el flujo que seguirá el usuario para acceder al panel “Elder Profile”, donde se mostrará la información médica relevante del adulto mayor, incluyendo datos personales, historial clínico y observaciones generales.
+
+![diagrama6](./wireflow-img/captura6.png)
+ 
+Diagrama 7
+ 
+User Goal: Como cuidador de un adulto mayor, deseo revisar los números de emergencia asignados al adulto mayor.
+ 
+Descripción: En este Wireflow se detalla el flujo que seguirá el usuario para acceder al panel “Emergency Numbers”, donde se visualizarán los contactos de emergencia y los números de familiares o responsables asignados.
+
+![diagrama7](./wireflow-img/captura7.png)
+ 
+Diagrama 8
+
+User Goal: Como cuidador de un adulto mayor, deseo verificar las medicinas pendientes del adulto mayor.
+ 
+Descripción: En este Wireflow se presenta el flujo que seguirá el usuario para acceder al panel “Reminders”, donde se mostrarán las medicinas pendientes por tomar, así como las ya administradas, permitiendo un seguimiento adecuado del tratamiento.
+
+![diagrama8](./wireflow-img/captura8.png)
 
 Realizado en LucidChart: [https://lucid.app/lucidchart/21a5723d-7054-4f7c-b74a-49699f25979a/edit?view_items=P8HfNhLn6cbY&invitationId=inv_7f16de25-735e-4f4a-878e-1b3d91cb581c](https://lucid.app/lucidchart/21a5723d-7054-4f7c-b74a-49699f25979a/edit?view_items=P8HfNhLn6cbY&invitationId=inv_7f16de25-735e-4f4a-878e-1b3d91cb581c)
 ### 5.1.4.3. Mobile Applications Mock-ups
