@@ -2031,9 +2031,24 @@ Crear y listar doctores.
 Crear y listar pacientes.
 Visualizar el panel de pacientes post operatorios.
 Validaciones de login con mensajes de error cuando los datos son incorrectos.
+![BackEnd](./ExecutionEvidenceSprint1/Back.PNG)
+
 
 - Aplicación Móvil – Maquetación Inicial
 Además, se trabajó en la maquetación inicial de la aplicación móvil en Android Studio, construyendo las primeras pantallas que representarán el flujo de uso por parte de doctores y pacientes. Esta maquetación busca anticipar la experiencia de usuario en dispositivos móviles, asegurando coherencia visual con la plataforma general y sentando la base para futuras integraciones funcionales.
+A continuación se visuliza el login:
+![Login](./ExecutionEvidenceSprint1/Mobile1.PNG)
+Home de la aplicación
+![HomePostOperativ](./ExecutionEvidenceSprint1/Mobile2.PNG)
+Visualización de signos vitales de pacientes post operatorios
+![PostOperative](./ExecutionEvidenceSprint1/Mobile3.PNG)
+Visualización de signos vitales de pacientes UCI
+![ICU](./ExecutionEvidenceSprint1/Mobile4.PNG)
+Listado de Pacientes
+![Patients](./ExecutionEvidenceSprint1/Mobile5.PNG)
+Registro de Pacientes
+![RegistrationPatients](./ExecutionEvidenceSprint1/Mobile65.PNG)
+
 
 #### 6.2.1.5 Services Documentation Evidence for Sprint Review
 Esta sección documenta los endpoints desarrollados durante el Sprint para la gestión de doctores y pacientes en la plataforma Tukun Tech. Se detallan las acciones implementadas (GET, POST, PUT) con ejemplos de llamadas y respuestas, así como enlaces a la documentación desplegada. Además, se incluyen capturas de pantalla que ilustran la interacción con los Web Services, y los enlaces al repositorio junto con los commits relevantes para este Sprint. Todo esto se basará en la documentación realizada mediante OpenAPI. 
