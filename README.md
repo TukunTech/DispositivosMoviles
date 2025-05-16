@@ -907,7 +907,7 @@ El objetivo principal fue identificar los eventos de negocio, actores, comandos,
 El siguiente gráfico representa la convención de colores utilizada durante nuestra sesión de EventStorming para **TukunTech**. Cada color corresponde a un tipo específico de elemento dentro del modelado del dominio, permitiendo una organización visual clara y una comprensión más precisa del flujo del sistema.
 Esta codificación facilita la identificación de procesos de negocio, eventos de dominio, comandos, políticas, sistemas externos y agregados, asegurando una estructura coherente para el análisis y diseño posterior.
 
-![EventStorming](./EventStorming/EventStorming8.png)
+![EventStorming](./EventStorming/EventStorming9.png)
 
 
 De igual manera se muestra la reunión que tuvo el equipo, la cual fue virtual mediante la plataforma de Discord
@@ -962,7 +962,7 @@ Durante la exploración del EventStorming, se observaron eventos pivote que gene
 
 A partir del análisis, se definieron los siguientes contextos funcionales preliminares:
 
-![EventStorming](./EventStorming/EventStorming9.png)
+![EventStorming](./EventStorming/EventStorming8.png)
 
 #### 4.1.1.2. Domain Message Flows Modeling
 Una vez identificados los bounded contexts de TukunTech, el siguiente paso fue modelar cómo interactúan entre sí mediante el intercambio de mensajes del dominio. Para ello, se utilizó la técnica de Domain Message Flows Modeling, con apoyo visual en forma de diagramas narrativos que muestran flujos de interacción entre los distintos contextos, actores y eventos que componen el sistema.
