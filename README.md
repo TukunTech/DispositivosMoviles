@@ -1653,6 +1653,7 @@ Es una estructura aplicada al desarrollo de software. Se utilizaron distintas te
 - **[Spring Boot](https://spring.io/projects/spring-boot)**: Es un framework que facilita el desarrollo de aplicaciones Java basadas en Spring. Fue utilizado para el desarrollo del backend de nuestra solución.  
 - **[Java](https://www.oracle.com/java/technologies/javase-downloads.html)**: Lenguaje de programación en el que está implementado el backend del proyecto.  
 - **[Android Studio](https://developer.android.com/studio)**: Es el entorno de desarrollo oficial para aplicaciones Android. Se utilizó para crear la aplicación móvil del proyecto.
+- **[Kotlin](https://kotlinlang.org)**: Es un lenguaje de programación moderno y multiplataforma desarrollado por JetBrains. Fue utilizado para crear la aplicación móvil del proyecto.
 
 #### Software Deployment  
 Tiene la función de examinar los artefactos y el comportamiento del software, asimismo lo pone en prueba y lo verifica.
