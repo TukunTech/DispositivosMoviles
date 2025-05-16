@@ -1544,8 +1544,6 @@ Esta sección presenta la propuesta de User Flows desarrollada para las aplicaci
 Los User Flows presentados mantienen coherencia con los Wireflows previamente desarrollados, de los cuales se derivan directamente. En esta etapa, se incorporan los Mock-ups de las vistas o pantallas involucradas, lo que permite visualizar con mayor precisión la interacción del usuario dentro de los flujos esperados.
 Cada flujo incluye tanto la ruta principal o happy path —que representa el recorrido ideal del usuario hacia el logro de su objetivo— como rutas alternativas o unhappy paths, que contemplan desviaciones o errores posibles durante la interacción. Estas representaciones fueron elaboradas utilizando la herramienta Figma, asegurando consistencia visual y funcional con el resto de los entregables de diseño.
 Cada User Flow diagram está acompañado por la redacción clara del User Goal correspondiente, así como una explicación detallada de los pasos, decisiones y condiciones consideradas en cada caso.
-Segmento objetivo 1: Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas
-
 
 ### Segmento objetivo 1: Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas
 
