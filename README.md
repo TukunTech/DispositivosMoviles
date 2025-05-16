@@ -649,11 +649,11 @@ Tras analizar las *Epics* definidas, procedimos a desglosarlas en *User Stories*
 
 | Epic ID | Título de la Epic                                                                 |
 |---------|-----------------------------------------------------------------------------------|
-| 01      | Funcionalidades de sistema (agendar y agendar, ver lista pacientes y médicos, paneles de monitoreo) |
-| 02      | Personalización y perfil de usuario (actualizar datos paciente, historial)         |
-| 03      | Landing (desarrollo y experiencia de usuario)                                      |
-| 04      | Mobile Application (desarrollo y experiencia de usuario)                              |
-| 05    | Backend API (Integración y gestión de API)                              |
+| 01      | Funcionalidades de sistema 							|
+| 02      | Personalización y perfil de usuario         				|
+| 03      | Landing Page (desarrollo y experiencia de usuario)                               |
+| 04      | Mobile Application (desarrollo y experiencia de usuario)                         |
+| 05      | Backend API (Integración y gestión de API)                              |
 
 | Epic / Story ID | Título                                                   | Descripción                                                                                                                                                                                                                                                           | Criterios de Aceptación                                                                                               | Relacionado con (Epic ID) |
 |------------------|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|----------------------------|
