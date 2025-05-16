@@ -1561,14 +1561,14 @@ El usuario, que es parte del personal de salud, se loguea con el correo y la con
 #### User Goal: Como parte del personal médico, deseo visualizar el panel de un paciente ICU
 
 El usuario, que es parte del personal de salud, se loguea con el correo y la contraseña de la clínica en la opción Clinics e ingresa al Home de TukunTech. Seguidamente, selecciona el botón Postoperative ICU y lo dirige a la respectiva pantalla. De lo contrario se dirige a cualquier otro panel no deseado.
-![Flujo 3](/img-user-flow-dagram/img3.png)
+![Flujo 3](/img-user-flow-dagram/mg3.png)
 
 ### Segmento objetivo 2: Cuidadores de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
 
 #### User Goal: Como cuidador de un adulto mayor, deseo registrarlo en la app móvil
 
 En el presente User Flow, se evidencia el flujo que seguirá el usuario cuidador de un adulto mayor para registrarlo en el sistema de TukunTech movil. Empezará en el login y seleccionará la opción Create an account. A continuación, seleccionará la opción Elders e ingresará los datos del paciente. Después, creará la cuenta y será redireccionado al Login. Por último, al ingresar el correo y la contraseña correcta, ingresará al Main Page de TukunTech, de lo contrario recibirá mensajes de error.
-![Flujo 4](/img-user-flow-dagram/mg4-.png.png)
+![Flujo 4](/img-user-flow-dagram/mg4.-png.png)
 
 #### User Goal: Como cuidador de un adulto mayor, deseo llenar sus datos personales
 
