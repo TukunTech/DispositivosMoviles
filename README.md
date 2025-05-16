@@ -46,7 +46,7 @@
 | Versión | Fecha       | Autor                            | Descripción de modificación                          |
 |---------|-------------|---------------------------------|-----------------------------------------------------|
 | TP      | 02/05/2025  | Soto Zorrilla, Oscar Eduardo    | Revisión y ajuste de historias de usuario           |
-| TP      | 03/05/2025  | Soto Zorrilla, Oscar Eduardo    | Mejoras en la dinámica y resultados de EventStorming|
+| TP      | 03/05/2025  | Soto Zorrilla, Oscar Eduardo    | Mejoras en la dinámica y resultados de Eventing|
 | TP      | 04/05/2025  | Nicolich Alvis, Fabio Maurizio  | Definición y desarrollo de lineamientos visuales    |
 | TP      | 05/05/2025  | Nicolich Alvis, Fabio Maurizio  | Organización y estructura de la información         |
 | TP      | 06/05/2025  | Palomares Chavez, Adriana Giovanna | Diseño de sistemas de etiquetado y navegación      |
@@ -68,7 +68,7 @@
 **Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de ingeniería de software**
 | Acción Realizada | Participantes                        | Descripción | Conclusiones |
 |------------------|--------------------------------------|-------------|--------------|
-| TB1              | **Soto Zorrilla, Oscar Eduardo**     | **Modelado estratégico:**<br>Aplicó EventStorming, Candidate Context Discovery y mapeo de contextos con DDD. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
+| TB1              | **Soto Zorrilla, Oscar Eduardo**     | **Modelado estratégico:**<br>Aplicó Eventing, Candidate Context Discovery y mapeo de contextos con DDD. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
 | TB1              | **Nicolich Alvis, Fabio Maurizio**   | **Arquitectura del sistema:**<br>Aplicó C4 Model para diseñar niveles de contexto, contenedores y despliegue del sistema. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
 | TB1              | **Palomares Chávez, Adriana Giovanna** | **Diseño táctico – Dominio e interfaz:**<br>Modeló entidades, agregados y controladores REST con DTOs. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
 | TB1              | **Maraza Pedemonte, Erick**          | **Aplicación e infraestructura:**<br>Desarrolló Command Handlers y Repositories con EF Core. | La experiencia permitió a todos los participantes integrar conceptos clave de ingeniería de software, fortaleciendo sus competencias técnicas en modelado, diseño y arquitectura. El enfoque Domain-Driven Design, combinado con herramientas profesionales y prácticas colaborativas, promovió un aprendizaje aplicado y alineado con estándares actuales de la industria. Esto no solo contribuyó al desarrollo del proyecto TukunTech, sino que también potenció su preparación profesional para enfrentar desafíos reales en el ámbito del desarrollo de software. |
@@ -87,7 +87,7 @@
 **Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de tecnologías de ingeniería de software**
 | Acción Realizada | Participantes                        | Descripción | Conclusiones |
 |------------------|--------------------------------------|-------------|--------------|
-| TB1              | **Soto Zorrilla, Oscar Eduardo**     | **Modelado estratégico:**<br>Participó en sesiones de EventStorming, identificando contextos clave con enfoque en aprendizaje colaborativo. | El equipo demostró un compromiso constante con el aprendizaje autónomo y colaborativo, investigando activamente marcos metodológicos como Domain-Driven Design, C4 Model y herramientas de arquitectura y modelado. Reconocer la necesidad del aprendizaje continuo permitió afrontar eficazmente los desafíos técnicos del proyecto y fortalecer las competencias necesarias para adaptarse al ritmo de innovación en la ingeniería de software. |
+| TB1              | **Soto Zorrilla, Oscar Eduardo**     | **Modelado estratégico:**<br>Participó en sesiones de Eventing, identificando contextos clave con enfoque en aprendizaje colaborativo. | El equipo demostró un compromiso constante con el aprendizaje autónomo y colaborativo, investigando activamente marcos metodológicos como Domain-Driven Design, C4 Model y herramientas de arquitectura y modelado. Reconocer la necesidad del aprendizaje continuo permitió afrontar eficazmente los desafíos técnicos del proyecto y fortalecer las competencias necesarias para adaptarse al ritmo de innovación en la ingeniería de software. |
 | TB1              | **Nicolich Alvis, Fabio Maurizio**   | **Arquitectura del sistema:**<br>Profundizó en el C4 Model y utilizó nuevas herramientas como Structurizr y Lucidchart para definir la arquitectura de solución. | El equipo demostró un compromiso constante con el aprendizaje autónomo y colaborativo, investigando activamente marcos metodológicos como Domain-Driven Design, C4 Model y herramientas de arquitectura y modelado. Reconocer la necesidad del aprendizaje continuo permitió afrontar eficazmente los desafíos técnicos del proyecto y fortalecer las competencias necesarias para adaptarse al ritmo de innovación en la ingeniería de software. |
 | TB1              | **Palomares Chávez, Adriana Giovanna** | **Diseño de dominio e interfaz:**<br>Estudió patrones de diseño de software y aplicó prácticas modernas para la construcción de APIs REST. | El equipo demostró un compromiso constante con el aprendizaje autónomo y colaborativo, investigando activamente marcos metodológicos como Domain-Driven Design, C4 Model y herramientas de arquitectura y modelado. Reconocer la necesidad del aprendizaje continuo permitió afrontar eficazmente los desafíos técnicos del proyecto y fortalecer las competencias necesarias para adaptarse al ritmo de innovación en la ingeniería de software. |
 | TB1              | **Maraza Pedemonte, Erick**          | **Aplicación e infraestructura:**<br>Implementó lógica de negocio con Command Handlers, y gestionó persistencia con tecnologías nuevas como EF Core. | El equipo demostró un compromiso constante con el aprendizaje autónomo y colaborativo, investigando activamente marcos metodológicos como Domain-Driven Design, C4 Model y herramientas de arquitectura y modelado. Reconocer la necesidad del aprendizaje continuo permitió afrontar eficazmente los desafíos técnicos del proyecto y fortalecer las competencias necesarias para adaptarse al ritmo de innovación en la ingeniería de software. |
@@ -826,7 +826,7 @@ Con esta información, se definieron contextos candidatos que fueron profundizad
 ### 4.1.1. EventStorming
 #### Sesión de EventStorming - TukunTech
 
-Como parte del proceso de diseño estratégico para **TukunTech**, nuestra solución de monitoreo de signos vitales en tiempo real basada en IoT, se llevó a cabo una sesión de **EventStorming**. Esta actividad permitió al equipo identificar eventos clave, actores principales y relaciones entre componentes dentro del dominio, con el fin de estructurar una visión inicial y general del sistema.
+En esta sección se detalla el proceso de EventStorming realizado por el equipo para comprender y modelar de forma colaborativa el dominio del problema, es decir, la monitorización de signos vitales para dos segmentos: cuidadores de adultos mayores y personal médico de clínicas privadas (pacientes UCI y postoperatorio).
 
 - **Duración:** 1 hora y 45 minutos (Virtual)  
 - **Herramienta utilizada:** Miro  
@@ -841,42 +841,87 @@ Como parte del proceso de diseño estratégico para **TukunTech**, nuestra soluc
 
 ##### Objetivo
 
-Obtener una comprensión profunda y colaborativa del dominio de TukunTech mediante un mapeo visual de eventos de negocio.
+El objetivo principal fue identificar los eventos de negocio, actores, comandos, agregados y reglas de negocio clave para el dominio, generando una visión integral y detallada que sirva como base para el diseño y desarrollo de la aplicación TukunTech.
 
-##### Actividades
+##### Identificación de Componentes
 
 - **Domain Event (Naranja):**  
-  - Signos vitales actualizados  
-  - Anomalía detectada  
+  - Paciente agregado
+  - Adulto mayor registrado
+  - Signo vital medido
+  - Alerta generada
+  - Medicamento recordatorio enviado
+  - Emergencia registrada
+  - Usuario inició sesión (personal médico o cuidador)
+  - Acción registrada en auditoría
+ 
+- **User/Actor (Turquesa):**  
+  - Personal médico (clínica privada)
+  - Cuidador de adulto mayor
 
-- **Command (Azul):**  
-  - Generar alertas  
-  - Actualizar signos vitales  
+- **Business Process (Morado):** 
+  - Proceso de agregar paciente siguiendo reglas clínicas
+  - Evaluación de signos vitales para alerta (si valores fuera de rango)
+  - Gestión de recordatorios de medicamentos
+  - Notificación de alertas y emergencia
+  - Login y control de acceso según rol
+  - Registro automático de acciones para auditoría
 
-- **User/Actor (Amarillo):**  
-  - Paciente  
-  - Adultos mayores  
-  - Médico  
-  - Dispositivos IoT  
+- **Command (Celeste):**  
+  - Agregar paciente
+  - Registrar signos vitales
+  - Generar alerta
+  - Agregar adulto mayor
+  - Configurar recordatorio de medicamento
+  - Registrar números de emergencia
+  - Iniciar sesión
+  - Registrar acción en auditoría 
+
+- **Aggregate (Amarillo):**  
+  - Paciente (datos, cama, signos vitales)
+  - Adulto mayor (datos personales, medicación)
+  - Alerta (estado, tipo)
+  - Recordatorio de medicamento
+  - Usuario (personal médico o cuidador)
+  - Audit Record (registro de auditoría)
+ 
+- **External System (Rosado):**  
+  - Servicios de notificación push para alertas (Firebase Cloud Messaging)
+ 
+- **View/Read Model (Verde):**  
+  - Pantalla para visualizar signos vitales por paciente
+  - Lista de pacientes con número de cama
+  - Pantalla para agregar paciente o adulto mayor
+  - Panel de alertas activas
+  - Sección para configurar números de emergencia
+  - Pantallas de login (personal médico / cuidador)
 
 - **Question Marks/Risks (Rojo):**  
-  - Desconexión del sensor  
-  - Fallo en la comunicación  
-
-- **View/Read Model (Verde):**  
-  - Ver historial de signos vitales  
-  - Ver alertas  
+  - ¿Cómo se definen los rangos normales para cada signo vital?
+  - ¿Qué parámetros exactos deben activar una alerta?
+  - ¿Qué hacer en caso de falla en notificación?
+  - ¿Permisos y restricciones específicas según roles?
+  - ¿Qué datos exactos deben registrarse en la auditoría y con qué nivel de detalle?  
 
 
 El siguiente gráfico representa la convención de colores utilizada durante nuestra sesión de EventStorming para **TukunTech**. Cada color corresponde a un tipo específico de elemento dentro del modelado del dominio, permitiendo una organización visual clara y una comprensión más precisa del flujo del sistema.
 Esta codificación facilita la identificación de procesos de negocio, eventos de dominio, comandos, políticas, sistemas externos y agregados, asegurando una estructura coherente para el análisis y diseño posterior.
 
-![EventStorming](./EventStorming/EventStorming1.PNG)
+![EventStorming](./EventStorming/EventStorming8.PNG)
 
 
-De iogual manera se muestra la reunión que tuvo el equipo, la cual fue virtual mediante la plataforma de Discord
+De igual manera se muestra la reunión que tuvo el equipo, la cual fue virtual mediante la plataforma de Discord
 
 ![Reunión](./EventStorming/EventStorming2.jpg)
+
+**Conclusiones preliminares**
+- La sesión permitió identificar con claridad las principales interacciones y procesos que debe soportar la aplicación para cada segmento.
+
+- Se descubrieron eventos críticos, especialmente la generación de alertas y el manejo de recordatorios, que serán la base para el diseño de la lógica de negocio.
+
+- Se evidenció la necesidad de diferenciar los flujos para los dos tipos de usuarios (personal médico y cuidadores), lo que se traduce en funcionalidades específicas y distintos permisos de acceso.
+
+- Esta aproximación facilita la posterior división del dominio en contextos delimitados y orienta el desarrollo de la arquitectura del sistema.
 
 #### 4.1.1.1. Candidate Context Discovery
 Tras la realización del EventStorming de **TukunTech**, se llevó a cabo una sesión de **Candidate Context Discovery**, con el objetivo de identificar y delimitar los posibles *bounded contexts* del sistema. Esta práctica busca dividir el dominio en regiones funcionales con alto grado de cohesión interna y bajo acoplamiento con otros contextos, facilitando así un diseño modular y escalable.
@@ -917,10 +962,7 @@ Durante la exploración del EventStorming, se observaron eventos pivote que gene
 
 A partir del análisis, se definieron los siguientes contextos funcionales preliminares:
 
-- **Monitoreo IoT**  
-- **Gestor Médico**  
-- **Evaluación Clínica**
-![EventStorming](./EventStorming/EventStorming3.PNG)
+![EventStorming](./EventStorming/EventStorming9.PNG)
 
 #### 4.1.1.2. Domain Message Flows Modeling
 Una vez identificados los bounded contexts de TukunTech, el siguiente paso fue modelar cómo interactúan entre sí mediante el intercambio de mensajes del dominio. Para ello, se utilizó la técnica de Domain Message Flows Modeling, con apoyo visual en forma de diagramas narrativos que muestran flujos de interacción entre los distintos contextos, actores y eventos que componen el sistema.
