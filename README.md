@@ -1642,7 +1642,7 @@ Esta herramienta permitió desarrollar el modelo de nuestro proyecto de manera d
 - **[Trello](https://trello.com/es)**: Es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos.  
 
 #### Software Development  
-Es una estructura aplicada al desarrollo de software. Se utilizó para el proceso de desarrollo de la aplicación, cada uno de ellos se enfoca en diferentes actividades que tienen lugar durante el proceso.
+Es una estructura aplicada al desarrollo de software. Se utilizaron distintas tecnologías para el proceso del desarrollo del proyecto, cada uno de ellos se enfoca en diferentes actividades que tienen lugar durante el proceso de creación de diferentes herramientas.
 
 - **[Github](https://github.com/TukunTech/DesarrolloOP-SW57)**: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git.  
 - **[Webstorm](https://www.jetbrains.com/webstorm/promo/?source=google&medium=cpc&campaign=AMER_en_AMER_WebStorm_Branded&term=webstorm&content=523833970748&gad_source=1&gclid=Cj0KCQjwr9m3BhDHARIsANut04Y0RqGO8x08l4Ay24BEOZOfibcNhhPtvn_nML5Ie2814li9xFGDnxMaAmCbEALw_wcB)**: Es un IDE profesional JavaScript que es compatible con una amplia gama de tecnologías modernas relacionadas con el lenguaje de programación web.  
