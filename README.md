@@ -1546,9 +1546,30 @@ Cada flujo incluye tanto la ruta principal o happy path —que representa el rec
 Cada User Flow diagram está acompañado por la redacción clara del User Goal correspondiente, así como una explicación detallada de los pasos, decisiones y condiciones consideradas en cada caso.
 Segmento objetivo 1: Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas
 
-User Goal: Como parte del personal médico, deseo registrar un paciente postoperado
+# Segmento objetivo 1: Personal de salud que atienden pacientes postoperatorios o en cuidados intensivos (UCI) en clínicas privadas
 
-El usuario, que es parte del personal de salud, se loguea con el correo y la contraseña de la clínica en la opción Clinics e ingresa al Main Page de TukunTech. Seguidamente, selecciona el botón Patient y botón “+”, lo que dirige a una pantalla nueva para completar la información personal del paciente. En caso alguna sección a completar quede sin ser llenada, se presentará un aviso escrito; caso contrario, aparecerá una confirmación del paciente registrado correctamente como aviso.  
+## User Goal: Como parte del personal médico, deseo registrar un paciente postoperado
+
+El usuario, que es parte del personal de salud, se loguea con el correo y la contraseña de la clínica en la opción Clinics e ingresa al Main Page de TukunTech. Seguidamente, selecciona el botón Patient y botón “+”, lo que dirige a una pantalla nueva para completar la información personal del paciente. En caso alguna sección a completar quede sin ser llenada, se presentará un aviso escrito; caso contrario, aparecerá una confirmación del paciente registrado correctamente como aviso.
+
+## User Goal: Como parte del personal médico, deseo visualizar el panel de un paciente postoperatorio
+
+El usuario, que es parte del personal de salud, se loguea con el correo y la contraseña de la clínica en la opción Clinics e ingresa al Home de TukunTech. Seguidamente, selecciona el botón Postoperative Patients y lo dirige a la respectiva pantalla. De lo contrario se dirige a cualquier otro panel no deseado.
+
+## User Goal: Como parte del personal médico, deseo visualizar el panel de un paciente ICU
+
+El usuario, que es parte del personal de salud, se loguea con el correo y la contraseña de la clínica en la opción Clinics e ingresa al Home de TukunTech. Seguidamente, selecciona el botón Postoperative ICU y lo dirige a la respectiva pantalla. De lo contrario se dirige a cualquier otro panel no deseado.
+
+# Segmento objetivo 2: Cuidadores de adultos mayores que necesitan un monitoreo continuo de sus signos vitales
+
+## User Goal: Como cuidador de un adulto mayor, deseo registrarlo en la app móvil
+
+En el presente User Flow, se evidencia el flujo que seguirá el usuario cuidador de un adulto mayor para registrarlo en el sistema de TukunTech movil. Empezará en el login y seleccionará la opción Create an account. A continuación, seleccionará la opción Elders e ingresará los datos del paciente. Después, creará la cuenta y será redireccionado al Login. Por último, al ingresar el correo y la contraseña correcta, ingresará al Main Page de TukunTech, de lo contrario recibirá mensajes de error.
+
+## User Goal: Como cuidador de un adulto mayor, deseo llenar sus datos personales
+
+El usuario cuidador de un adulto mayor se loguea con su correo y contraseña e ingresa al Main Page de TukunTech. Seguidamente, selecciona un botón del Home. Si selecciona el botón Elder Profile, será dirigido al respectivo panel y llenará los datos de su paciente, de lo contrario ingresará a un panel distinto.
+
 
 ### 5.1.4.5. Mobile Applications Prototyping
 Esta sección presenta los prototipos interactivos de la aplicación móvil Tukuntech, diseñados para simular la navegación y los principales flujos definidos en los User Flow Diagrams. Las decisiones de interacción se basan en criterios de usabilidad móvil, accesibilidad y una arquitectura de información clara, con un sistema de navegación adaptado al personal de salud.
