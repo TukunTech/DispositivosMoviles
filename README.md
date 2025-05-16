@@ -1845,6 +1845,10 @@ En esta sección se describen los puntos clave tratados durante la reunión de p
 #### 6.2.1.2 Sprint Backlog 1
 Este Sprint Backlog recoge las tareas y User Stories que el equipo abordará en el Sprint, enfocándose en cumplir los objetivos clave del ciclo. Se incluye una imagen del tablero de gestión (por ejemplo, Trello) y su enlace público para seguimiento. La tabla muestra los User Stories asignados junto con las tareas derivadas y otras actividades necesarias para el Sprint.
 
+A continuación presente un screenshot del Board para el Sprint
+![Trello](./Imgs%20-%20Empathy%20Mappings/trello.png)
+
+Link: [Trello Link](https://trello.com/invite/b/67101f83a145fc45e584fcf5/ATTIa5829de90fbf941dc19da3185daf4e6fB4DA66F9/sprint-backlog-1)
 
 
 | Sprint # | User Story Id | User Story Title                                      | Work Item Id | Work Item Title                                     | Description                                                                                                                                      | Estimation | Assigned To | Status |
