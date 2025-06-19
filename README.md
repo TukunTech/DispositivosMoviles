@@ -2288,6 +2288,307 @@ A continuación se presentan las capturas de pantalla de los analíticos de cola
 - Commits Mobile
 ![Mobile](./Sprint1Commits/Mobile.PNG)
 
+### 6.2.2 Sprint 2
+En esta sección se documenta el progreso alcanzado durante el Sprint 2, tanto en el desarrollo técnico del producto como en la dinámica de trabajo colaborativo del equipo. Se incluyen las siguientes subsecciones: Sprint Planning 2, Sprint Backlog 2, Evidencias de Desarrollo para la Revisión del Sprint, Evidencias de Ejecución para la Revisión, Documentación de Servicios Web, y Perspectivas sobre la Colaboración y Participación del Equipo durante este segundo ciclo de trabajo.
+
+
+#### 6.2.2.1 Sprint Planning 2
+En esta segunda iteración, tuvimos como objetivo corregir la estructura del backend para asegurar una mejor integración con el frontend y comenzar el desarrollo de la sección Elder en Flutter. Al finalizar el Sprint, se espera contar con una visualización funcional de la información del adulto mayor, lo cual representa un paso clave para el monitoreo de signos vitales en tiempo real.
+
+
+#### 6.2.2.2 Development Evidence for Sprint Review. 
+En esta sección se presenta la evidencia del progreso y desarrollo del software realizado durante el segundo sprint. Se incluyen detalles sobre las características implementadas, destacando los siguientes avances:
+- Backend: Se corrigieron errores estructurales que impedían la comunicación adecuada con el frontend, mejorando la base para el monitoreo de datos en tiempo real.
+- Mobile (Flutter): Se inició la maquetación de la sección Elder, creando la interfaz que permitirá visualizar información clave del adulto mayor.
+- Integración: Se avanzó en conectar correctamente los datos del backend con la nueva estructura en Flutter, preparando el camino para mostrar signos vitales en próximas iteraciones.
+
+
+#### 6.2.2.3 Testing Suite Evidence for Sprint Review. 
+
+
+#### 6.2.2.4 Execution Evidence for Sprint Review. 
+En este primer Sprint del proyecto TukunTech, sentamos las bases del sistema de monitoreo de signos vitales en tiempo real mediante la implementación de componentes clave en el frontend, backend y plataforma móvil. Además, se realizó el despliegue inicial de la plataforma al público, marcando un primer paso importante hacia una solución funcional y accesible.
+
+#### Backend – Servicios de Gestión Clínica y Soporte a Pacientes
+Durante este sprint se continuó con el desarrollo del backend, ampliando sus funcionalidades para cubrir aspectos clave del monitoreo de pacientes postoperatorios. Las mejoras se enfocaron en:
+- Gestión de adultos mayores (elders): Creación, actualización y consulta de la información del paciente.
+- Registro de medicamentos: Endpoints para añadir, listar y actualizar los tratamientos indicados para cada paciente.
+- Alertas clínicas: Implementación de un sistema para registrar y consultar alertas relacionadas a los signos vitales.
+- Contactos de emergencia: Gestión de números de contacto asociados a cada paciente en caso de emergencia.
+- Autenticación de usuarios: Se mantiene el sistema de login seguro con validaciones y mensajes claros en caso de error.
+
+Los endpoints fueron documentados y visualizados mediante Swagger, permitiendo consultar fácilmente las rutas disponibles para:
+- Crear y listar pacientes (elders).
+- Registrar y visualizar medicamentos.
+- Consultar alertas clínicas por paciente.
+- Añadir y gestionar números de emergencia.
+- Validar credenciales de acceso.
+Estas funcionalidades fortalecen la base del sistema y preparan la plataforma para el monitoreo integral y seguro de pacientes en tiempo real.
+
+
+#### 6.2.2.5 Services Documentation Evidence for Sprint Review. 
+Durante este sprint se documentaron los servicios web relacionados con la entidad Elder, cubriendo funcionalidades clave para el monitoreo integral del paciente postoperatorio. La documentación fue elaborada con OpenAPI (Swagger) y desplegada para facilitar la consulta y pruebas de integración por parte del equipo frontend.
+
+Los recursos implementados incluyen gestión de datos personales del paciente, asignación de camas, números de emergencia, medicamentos pendientes, soporte técnico y alertas críticas.
+| Recurso           | Acción                           | HTTP  | Endpoint                                      | Enlace                                                                 |
+|-------------------|----------------------------------|-------|-----------------------------------------------|------------------------------------------------------------------------|
+| **Elder**         | Listar elders                    | GET   | /api/v1/elders                                | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Crear elder                      | POST  | /api/v1/elders                                | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Actualizar elder                 | PUT   | /api/v1/elders/{id}                           | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Eliminar elder                   | DELETE| /api/v1/elders/{id}                           | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **ElderBed**      | Listar camas                     | GET   | /api/v1/elder-bed                             | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Crear cama para elder            | POST  | /api/v1/elder-bed                             | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Actualizar cama                  | PUT   | /api/v1/elder-bed/{id}                        | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Eliminar cama                    | DELETE| /api/v1/elder-bed/{id}                        | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **EmergencyNumbers**| Listar contactos de emergencia | GET   | /api/v1/emergencyNumbers/emergencyNumbers     | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Crear contacto                   | POST  | /api/v1/emergencyNumbers                      | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Actualizar contacto              | PUT   | /api/v1/emergencyNumbers/{id}                 | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Eliminar contacto                | DELETE| /api/v1/emergencyNumbers/{id}                 | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **PendingMedicine**| Listar medicamentos pendientes  | GET   | /api/v1/pendingMedicine/pendingMedicines      | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Crear medicamento                | POST  | /api/v1/pendingMedicine                       | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Actualizar medicamento           | PUT   | /api/v1/pendingMedicine/{id}                  | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Eliminar medicamento             | DELETE| /api/v1/pendingMedicine/{id}                  | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **TechnicalSupport**| Enviar solicitud de soporte    | POST  | /api/v1/soporte                               | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Ver FAQs                         | GET   | /api/v1/soporte/faqs                          | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **CriticalAlerts**| Ver alertas críticas             | GET   | /api/v1/criticalAlert/criticalAlerts          | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+
+#### 6.2.2.6 Software Deployment Evidence for Sprint Review.
+Durante este Sprint, se definió el proceso de implementación del sistema TukunTech en un entorno de producción accesible para los usuarios finales. El objetivo es garantizar la disponibilidad, estabilidad y seguridad del sistema en su uso real por parte del personal médico.
+
+
+#### 6.2.2.7 Software Deployment Evidence for Sprint Review.
+## Colaboración del Equipo y Distribución de Actividades – Sprint 2
+
+Durante el Sprint 2, el equipo mantuvo una organización clara y equilibrada en la distribución de tareas, asegurando que todos los integrantes contribuyeran activamente al desarrollo de al menos uno de los productos priorizados. Las responsabilidades se asignaron de la siguiente manera:
+
+### Web Services
+Todos los miembros participaron en la implementación y documentación de endpoints relacionados con la entidad **Elder**, incluyendo recursos como **ElderBed**, **EmergencyNumbers**, **PendingMedicine**, **CriticalAlerts** y **TechnicalSupport**.  
+Se trabajó en la validación de datos, pruebas de respuestas y mejora del rendimiento del sistema backend.
+
+### Aplicación móvil (Flutter)
+El equipo responsable de la interfaz móvil inició la integración de los endpoints y la maquetación de la sección **Elder**, permitiendo visualizar datos básicos del paciente.  
+También se definieron patrones de navegación y estructura visual para futuras funcionalidades.
+
+---
+
+## Herramientas Utilizadas
+
+Para facilitar la colaboración, el equipo empleó herramientas clave para el desarrollo y la coordinación:
+
+- **GitHub:** Control de versiones y repositorio central del backend y del frontend móvil.
+- **Trello:** Gestión de tareas con seguimiento por columna (*To Do*, *In Progress*, *Done*) y asignación por responsable.
+- **Discord y WhatsApp:** Comunicación constante para coordinación de avances, resolución de dudas técnicas y reuniones breves.
+
+---
+
+## Análisis de Commits y Participación
+
+Se recopilaron capturas de pantalla desde GitHub para evidenciar la participación activa de todos los integrantes en este Sprint. Los datos muestran:
+
+- Todos los miembros realizaron commits relacionados con al menos uno de los recursos documentados o desarrollados.
+- Algunos integrantes concentraron su esfuerzo en los endpoints del backend, mientras que otros participaron en la implementación visual y lógica del frontend Flutter.
+- Las diferencias en número de commits se deben a la naturaleza de las tareas (por ejemplo, codificación de múltiples endpoints o construcción de componentes visuales complejos).
+- La utilización conjunta de Trello, reuniones en Discord y comunicación continua por WhatsApp permitió mantener claridad, transparencia y un alto nivel de coordinación.
+
+
+### 6.3. Validation Interviews.
+En esta sección, el equipo registra y explica las actividades realizadas durante las entrevistas de validación a lo largo del proyecto. Estas entrevistas son fundamentales para obtener retroalimentación directa de los usuarios pertenecientes a los segmentos objetivo, quienes interactúan con el Landing Page y con la aplicación móvil desarrollada.
+Se han estructurado diversas secciones que incluyen el Diseño de Entrevistas, el Registro de Entrevistas y las Evaluaciones según heurísticas, permitiendo un análisis exhaustivo de la experiencia del usuario.
+Además, se aplicará el formato de evaluación heurística definido para el proyecto, con el objetivo de identificar áreas de mejora y validar las decisiones de diseño tomadas en el desarrollo de la aplicación.
+A través de este proceso de validación, buscamos garantizar que las soluciones propuestas no solo funcionen correctamente, sino que realmente satisfagan las necesidades, expectativas y flujos de trabajo reales de los usuarios finales, tanto del personal médico como de los cuidadores de adultos mayores.
+
+
+#### 6.3.1. Diseño de Entrevistas. 
+# Modelo de Entrevistas de Validación
+
+## Personal Médico al Cuidado de Pacientes Postoperatorios/UCI
+
+### Interacción Inicial
+- ¿Qué te llamó la atención en la primera vista del Landing Page?
+- ¿La navegación es clara desde el inicio? ¿Dónde encontraste más dificultades?
+
+### Funcionalidades del Landing Page
+- ¿La información presentada en el Landing Page es relevante para tus necesidades? ¿Por qué sí o por qué no?
+- ¿Hay algún contenido en el Landing Page que consideres innecesario?
+- ¿Cómo te gustaría que se presentaran los recursos y herramientas disponibles en el Landing Page?
+
+### Usabilidad de la Aplicación Móvil
+- Al utilizar la aplicación móvil, ¿qué tan fácil fue registrarte o iniciar sesión?
+- ¿Cómo calificarías el proceso de recuperación de contraseña en caso de olvidarla?
+- ¿Te parece intuitiva la estructura de navegación de la aplicación móvil? Si no, ¿qué sugerencias tendrías?
+- ¿Hubo alguna sección de la aplicación móvil que encontraste poco clara o confusa? ¿Cuál?
+
+### Gestión de Pacientes
+- ¿El proceso para agregar un nuevo paciente es fácil de seguir? ¿Qué mejorarías?
+- Al actualizar la información de un paciente, ¿te resulta fácil encontrar los campos que necesitas?
+- ¿Cómo evalúas la función de búsqueda para encontrar pacientes? ¿Es efectiva?
+- ¿Hay información crítica que no esté siendo capturada en la aplicación móvil? Si es así, ¿cuál?
+
+### Acceso a Información Crítica
+- ¿Puedes acceder rápidamente a la información clínica que consideras esencial para tus pacientes?
+- ¿Qué tipo de reportes o estadísticas te gustaría generar a partir de la información almacenada?
+- ¿Cómo evalúas la visibilidad de alertas o recordatorios dentro de la aplicación móvil? ¿Son efectivos?
+
+### Integración y Comunicación
+- ¿La aplicación móvil facilita la comunicación con otros miembros del equipo de salud? ¿Cómo?
+- ¿Qué características de colaboración te gustaría ver implementadas en el futuro?
+- ¿Qué tan útil consideras que sería una función de chat interno dentro de la aplicación móvil para coordinar cuidados?
+
+### Feedback General
+- ¿Qué mejoras específicas sugerirías para el Landing Page?
+- ¿Qué funcionalidades adicionales crees que serían útiles en la aplicación móvil para mejorar tu trabajo?
+- ¿Cómo crees que esta aplicación móvil podría afectar positivamente la atención a tus pacientes postoperatorios?
+
+---
+
+## Personal Encargado de Adultos Mayores
+
+### Interacción Inicial
+- ¿Cuál fue tu primera impresión al ver el Landing Page? ¿Te resulta atractivo?
+- ¿La información en el Landing Page te parece relevante para el cuidado de los adultos mayores? ¿Por qué sí o por qué no?
+
+### Funcionalidades del Landing Page
+- ¿Hay algún contenido específico que te gustaría ver en el Landing Page que no esté presente?
+- ¿Qué partes del Landing Page consideras confusas o desorganizadas?
+
+### Usabilidad de la Aplicación Móvil
+- ¿Qué tan fácil fue para ti navegar por la aplicación móvil en general?
+- ¿Cómo calificarías la claridad de las instrucciones y mensajes en la aplicación móvil? ¿Hubo algo que no entendiste?
+- ¿Te parece sencillo el proceso para registrarte o iniciar sesión en la aplicación móvil?
+
+### Monitoreo de Pacientes
+- ¿Cómo evalúas la funcionalidad de monitoreo de salud de los adultos mayores en la aplicación móvil?
+- ¿Los informes de salud son fáciles de generar y entender? ¿Qué sugerencias tendrías para mejorarlos?
+- ¿Qué tipo de datos sobre los adultos mayores consideras imprescindibles que debería recopilar la aplicación móvil?
+
+### Acceso a Información Importante
+- ¿Puedes acceder fácilmente a la información sobre los cuidados y necesidades de los adultos mayores que gestionas?
+- ¿Cómo evalúas la claridad de las alertas y recordatorios en la aplicación móvil? ¿Son útiles?
+- ¿Hay información que crees que debería ser más accesible dentro de la aplicación móvil?
+
+### Integración y Comunicación
+- ¿La aplicación móvil facilita la comunicación con otros cuidadores o profesionales de la salud? Si es así, ¿cómo?
+- ¿Qué características de colaboración te gustaría ver implementadas en la aplicación móvil para el cuidado de adultos mayores?
+- ¿Te sería útil una función de chat para comunicarte con otros miembros del equipo de cuidado? ¿Por qué?
+
+### Feedback General
+- ¿Qué cambios sugerirías para mejorar la experiencia en el Landing Page?
+- ¿Qué funcionalidades adicionales crees que podrían ser valiosas para tu trabajo con adultos mayores?
+- ¿Cómo crees que esta herramienta podría impactar la calidad de la atención que ofreces a los adultos mayores?
+
+#### 6.3.2. Registro de Entrevistas. 
+
+
+
+#### 6.3.3. Evaluaciones según heurísticas.
+# UX Heuristics & Principles Evaluation  
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones para Dispositivos Móviles  
+**SECCIÓN:** 7128  
+**PROFESORES:** Jorge Luis Mayta Guillermo  
+
+**SITE o APP A EVALUAR:**  
+Tukun-Tech
+
+## TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Inicio de sesión.  
+2. Creación de cuenta.  
+3. Visualización de signos vitales de pacientes postoperatorios.  
+4. Visualización de signos vitales de pacientes críticos.  
+5. Registro de pacientes.  
+6. Visualización de pacientes.  
+7. Visualización de signos vitales de adultos mayores.  
+8. Visualización de perfil de adultos mayores.  
+9. Visualización y edición de contactos de emergencia.  
+10. Visualización de recordatorios.  
+11. Registro de solicitudes de soporte técnico.
+
+## ESCALA DE SEVERIDAD:
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+## TABLA RESUMEN:
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|----------|----------------------|----------------------------------|
+| 1 | La aplicación no dispone de un botón visible o funcional que permita al usuario cerrar sesión de forma explícita. | 3 | Usability: Libertad y control del usuario |
+| 2 | El proceso de creación de nuevos pacientes no incluye un mecanismo de confirmación que valide la correcta captura de los datos ingresados. | 3 | Usability: Consistencia y estándares |
+| 3 | El módulo de soporte técnico no contempla una notificación o mensaje de confirmación que indique que la solicitud ha sido registrada correctamente. | 1 | Inclusive Design: Proporciona experiencias comparables |
+
+---
+
+### Problema #1: Ausencia de botón para cerrar sesión
+
+**Severidad:** 3 (Problema importante que debe ser atendido)  
+**Heurística violada:** Libertad y control del usuario  
+
+**Descripción del problema:**  
+Actualmente, la aplicación no presenta una opción visible que permita al usuario cerrar su sesión de manera voluntaria. Esta omisión limita significativamente el control que el usuario tiene sobre su propia cuenta, impidiéndole salir de forma segura o cambiar de usuario cuando lo desee.
+
+**Impacto:**  
+La ausencia de esta funcionalidad compromete tanto la experiencia de uso como la seguridad de la información personal, especialmente en contextos clínicos donde distintos profesionales podrían utilizar el mismo dispositivo. Asimismo, aumenta la carga cognitiva del usuario al no ofrecerle un mecanismo claro para finalizar su sesión, lo que contradice el principio de libertad y control en interfaces usables.
+
+**Recomendación:**  
+La más práctica es agregar un botón de cierre de sesión visible en la barra de navegación o en un menú desplegable dentro de la aplicación. Esto permitiría a los usuarios cerrar su sesión en cualquier momento sin complicaciones, garantizando que tengan control sobre su acceso y puedan cambiar de usuario o salir cuando lo deseen.
+
+---
+
+### Problema #2: Ausencia de confirmación al registrar pacientes
+
+**Severidad:** 3 (Problema importante que debe ser resuelto)  
+**Heurística violada:** Consistencia y estándares  
+
+**Descripción del problema:**  
+Durante el proceso de creación de un perfil de paciente, la aplicación no proporciona una etapa de revisión o confirmación de los datos ingresados. Esto impide que el usuario verifique la información antes de registrarla de forma definitiva.
+
+**Impacto:**  
+La falta de un mecanismo de confirmación aumenta la probabilidad de errores en el ingreso de datos clínicos relevantes. Si el usuario comete una equivocación, deberá editar la información posteriormente, lo que representa una pérdida de tiempo y puede afectar la fiabilidad del sistema. Además, la ausencia de esta validación contradice estándares comunes de diseño, donde se espera una retroalimentación clara que confirme la acción realizada.
+
+**Recomendación:**  
+Se sugiere implementar una pantalla de confirmación al finalizar el proceso de registro de un paciente. Esta interfaz debe presentar un resumen claro y estructurado de todos los datos ingresados, permitiendo al usuario revisar la información antes de confirmar de forma definitiva. Además, debe ofrecer opciones explícitas para editar o confirmar los datos. Esta medida no solo reduce el riesgo de errores, sino que también mejora la precisión y confiabilidad de la información registrada, alineándose con buenas prácticas de usabilidad en sistemas clínicos.
+
+---
+
+### Problema #4: Falta de confirmación de datos en el módulo de soporte técnico
+
+**Severidad:** 1 (Problema menor con bajo impacto)  
+**Heurística violada:** Libertad y control del usuario  
+
+**Descripción del problema:**  
+En el módulo de soporte técnico, al completar y enviar un formulario de solicitud, no se presenta una opción que permita al usuario revisar o confirmar la información ingresada antes de su envío. Esto impide la validación previa de los datos, lo que puede derivar en errores o solicitudes incompletas.
+
+**Impacto:**  
+Aunque el impacto es limitado comparado con módulos clínicos, esta ausencia incrementa ligeramente la carga cognitiva del usuario, ya que lo obliga a repetir el proceso si detecta un error posteriormente. Esta falta de control puede afectar negativamente la percepción de confiabilidad y profesionalismo de la aplicación.
+
+**Recomendación:**  
+ Se recomienda implementar una ventana emergente de confirmación al concluir el ingreso de datos en el módulo de soporte técnico. Esta ventana debe permitir al usuario revisar la información introducida y realizar correcciones antes de enviar la solicitud. Esta funcionalidad contribuiría a minimizar errores en la comunicación con el equipo de soporte, mejorando la precisión de los datos proporcionados sin comprometer la fluidez de la experiencia de usuario.
+
+
+
+#### 6.3.4.  Video About-the-Product.
+En esta sección, el equipo presenta y describe el contenido del video About-the-Product, el cual está dirigido principalmente a los visitantes del Landing Page, quienes buscan comprender el modelo de negocio y conocer las principales funcionalidades del producto de software. Además, el video está orientado a los usuarios de la aplicación móvil, quienes desean familiarizarse con las tareas que podrán realizar mediante la solución propuesta.
+El enfoque comunicacional utilizado en el video mantiene coherencia con el tono general adoptado para el producto, garantizando una experiencia uniforme para el usuario. Dentro del contenido, se ha incluido al menos un testimonio positivo brindado por un usuario real que participó en las entrevistas de validación realizadas durante el proyecto, aportando autenticidad y respaldo a la propuesta.
+Asimismo, esta sección debe incorporar una captura de pantalla del video, junto con el enlace a la versión publicada en Microsoft Stream, así como el URL de la versión alojada en YouTube, la cual será utilizada para su incrustación en el Landing Page. También se debe registrar la duración total del video (timing) como parte de la documentación formal del entregable.
+
+
+### Conclusiones
+El proyecto TukunTech representa una solución tecnológica innovadora orientada al monitoreo en tiempo real de signos vitales en pacientes postoperatorios y adultos mayores. A lo largo del desarrollo, se ha mantenido un enfoque centrado en el usuario, priorizando la funcionalidad clínica, la usabilidad de la aplicación móvil y la claridad en la presentación de la información a través del Landing Page.
+Durante los distintos sprints, el equipo ha logrado avances consistentes tanto en el backend como en el frontend móvil, además de integrar buenas prácticas de diseño, documentación técnica y validación con usuarios reales. Las entrevistas y evaluaciones heurísticas permitieron identificar oportunidades de mejora clave, reforzando el compromiso del equipo con la calidad y la experiencia del usuario.
+El proyecto no solo ha demostrado viabilidad técnica, sino también un alto potencial de impacto en la atención médica, al facilitar el seguimiento oportuno de datos clínicos, mejorar la comunicación entre profesionales de la salud y reducir el riesgo de errores a través de una interfaz accesible y confiable.
+TukunTech se posiciona así como una herramienta sólida y escalable que responde a necesidades reales del entorno clínico, con una base sólida para futuras iteraciones y mejoras continuas.
+
 
 ## Anexos
 1) Link del Landing Page: https://tukuntech.github.io/DesarrolloOP-SW57/
