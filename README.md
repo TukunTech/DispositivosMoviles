@@ -2304,17 +2304,9 @@ En esta segunda iteración, tuvimos como objetivo corregir la estructura del bac
 | **Sprint 1 Review Summary**    | Desarrollo del informe y Android mobile app con el uso de Kotlin                     |
 | **Sprint 1 Retrospective Summary** | Correcciones de errores en la documentación.                                     |
 | **Sprint Goal & User Stories**      |                                                                                      |
-| Sprint 2 Goal           | Our focus is on improving the foundation of the app by fixing backend issues and creating the Elder section in the new Flutter interface.
-We believe it delivers a more stable and accessible experience for users who monitor patients' vital signs.
-This will be confirmed when medical staff can successfully view elder information through the updated application. |
+| Sprint 2 Goal           | Our focus is on improving the foundation of the app by fixing backend issues and creating the Elder section in the new Flutter interface. We believe it delivers a more stable and accessible experience for users who monitor patients' vital signs. This will be confirmed when medical staff can successfully view elder information through the updated application. |
 | Sprint 2 Velocity       | 38                                                                                            |
 | Sum of Story Points     | 38                                                                                            |
-
-
-A continuación presente un screenshot del Board para el Sprint
-![Trello](./Imgs%20-%20Empathy%20Mappings/trello.png)
-
-Link: [Trello Link](https://trello.com/invite/b/67101f83a145fc45e584fcf5/ATTIa5829de90fbf941dc19da3185daf4e6fB4DA66F9/sprint-backlog-1)
 
 #### 6.2.2.2.Sprint Backlog 2. 
 En esta segunda iteración, tuvimos como objetivo corregir la estructura del backend para asegurar una mejor integración con el frontend y comenzar el desarrollo de la sección Elder en Flutter. Al finalizar el Sprint, se espera contar con una visualización funcional de la información del adulto mayor, lo cual representa un paso clave para el monitoreo de signos vitales en tiempo real.
@@ -2343,7 +2335,6 @@ En esta sección se presenta la evidencia del progreso y desarrollo del software
 - Backend: Se corrigieron errores estructurales que impedían la comunicación adecuada con el frontend, mejorando la base para el monitoreo de datos en tiempo real.
 - Mobile (Flutter): Se inició la maquetación de la sección Elder, creando la interfaz que permitirá visualizar información clave del adulto mayor.
 - Integración: Se avanzó en conectar correctamente los datos del backend con la nueva estructura en Flutter, preparando el camino para mostrar signos vitales en próximas iteraciones.
-
 
 #### 6.2.2.3 Testing Suite Evidence for Sprint Review. 
 
@@ -2460,6 +2451,25 @@ Se recopilaron capturas de pantalla desde GitHub para evidenciar la participaci�
 - Las diferencias en número de commits se deben a la naturaleza de las tareas (por ejemplo, codificación de múltiples endpoints o construcción de componentes visuales complejos).
 - La utilización conjunta de Trello, reuniones en Discord y comunicación continua por WhatsApp permitió mantener claridad, transparencia y un alto nivel de coordinación.
 
+#### 6.2.2.8.Team Collaboration Insights during Sprint. 
+Durante el Sprint 2, el equipo mantuvo una organización clara y equilibrada en la distribución de tareas, asegurando que todos los integrantes contribuyeran activamente al desarrollo de al menos uno de los productos priorizados. Las responsabilidades se asignaron de la siguiente manera:
+- Web Services: Todos los miembros participaron en la implementación y documentación de endpoints relacionados con la entidad Elder, incluyendo recursos como ElderBed, EmergencyNumbers, PendingMedicine, CriticalAlerts y TechnicalSupport. Se trabajó en la validación de datos, pruebas de respuestas y mejora del rendimiento.
+- Aplicación móvil (Flutter): El equipo responsable de la interfaz móvil comenzó con la integración de los endpoints y la maquetación de la sección Elder, permitiendo visualizar datos básicos del paciente. Se establecieron patrones de navegación y estructura visual para futuras funcionalidades.
+Herramientas Utilizadas
+Para facilitar la colaboración, el equipo empleó herramientas clave para el desarrollo y la coordinación:
+- GitHub: Control de versiones y repositorio central del backend y del frontend móvil.
+- Trello: Gestión de tareas con seguimiento por columna (To Do, In Progress, Done) y asignación por responsable.
+- Discord y WhatsApp: Comunicación constante para coordinación de avances, dudas técnicas y reuniones breves.
+Análisis de Commits y Participación
+Se recopilaron capturas de pantalla desde GitHub para evidenciar la participación activa de todos los integrantes en este Sprint. Los datos muestran:
+- Todos los miembros realizaron commits relacionados con al menos uno de los recursos documentados o desarrollados.
+- Algunos integrantes concentraron su esfuerzo en los endpoints del backend, mientras que otros participaron en la implementación visual y lógica del frontend Flutter.
+- Las diferencias en número de commits se deben a la naturaleza de las tareas (por ejemplo, codificación de múltiples endpoints o construcción de componentes visuales complejos).
+- La utilización conjunta de Trello, reuniones en Discord y flujo constante por WhatsApp permitió mantener claridad, transparencia y un alto nivel de coordinación.
+A continuación presente un screenshot del Board para el Sprint
+![Trello](./Imgs%20-%20Empathy%20Mappings/trello.png)
+
+Link: [Trello Link](https://trello.com/invite/b/67101f83a145fc45e584fcf5/ATTIa5829de90fbf941dc19da3185daf4e6fB4DA66F9/sprint-backlog-1)
 
 ### 6.3. Validation Interviews.
 En esta sección, el equipo registra y explica las actividades realizadas durante las entrevistas de validación a lo largo del proyecto. Estas entrevistas son fundamentales para obtener retroalimentación directa de los usuarios pertenecientes a los segmentos objetivo, quienes interactúan con el Landing Page y con la aplicación móvil desarrollada.
