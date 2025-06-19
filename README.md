@@ -2567,7 +2567,7 @@ Actualmente, la aplicación no presenta una opción visible que permita al usuar
 
 **Impacto:**  
 La ausencia de esta funcionalidad compromete tanto la experiencia de uso como la seguridad de la información personal, especialmente en contextos clínicos donde distintos profesionales podrían utilizar el mismo dispositivo. Asimismo, aumenta la carga cognitiva del usuario al no ofrecerle un mecanismo claro para finalizar su sesión, lo que contradice el principio de libertad y control en interfaces usables.
-![Home](./Sprint2MovElder/Euristica1.jpg)
+![Home](./Sprint2MovElder/Euristica1.PNG)
 
 **Recomendación:**  
 La más práctica es agregar un botón de cierre de sesión visible en la barra de navegación o en un menú desplegable dentro de la aplicación. Esto permitiría a los usuarios cerrar su sesión en cualquier momento sin complicaciones, garantizando que tengan control sobre su acceso y puedan cambiar de usuario o salir cuando lo deseen.
@@ -2584,7 +2584,7 @@ Durante el proceso de creación de un perfil de paciente, la aplicación no prop
 
 **Impacto:**  
 La falta de un mecanismo de confirmación aumenta la probabilidad de errores en el ingreso de datos clínicos relevantes. Si el usuario comete una equivocación, deberá editar la información posteriormente, lo que representa una pérdida de tiempo y puede afectar la fiabilidad del sistema. Además, la ausencia de esta validación contradice estándares comunes de diseño, donde se espera una retroalimentación clara que confirme la acción realizada.
-![REgistro](./Sprint2MovElder/Euristica2.jpg)
+![REgistro](./Sprint2MovElder/Euristica1.PNG)
 
 **Recomendación:**  
 Se sugiere implementar una pantalla de confirmación al finalizar el proceso de registro de un paciente. Esta interfaz debe presentar un resumen claro y estructurado de todos los datos ingresados, permitiendo al usuario revisar la información antes de confirmar de forma definitiva. Además, debe ofrecer opciones explícitas para editar o confirmar los datos. Esta medida no solo reduce el riesgo de errores, sino que también mejora la precisión y confiabilidad de la información registrada, alineándose con buenas prácticas de usabilidad en sistemas clínicos.
