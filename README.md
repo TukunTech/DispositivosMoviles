@@ -2290,6 +2290,9 @@ A continuación se presentan las capturas de pantalla de los analíticos de cola
 
 ### 6.2.2 Sprint 2
 En esta sección se documenta el progreso alcanzado durante el Sprint 2, tanto en el desarrollo técnico del producto como en la dinámica de trabajo colaborativo del equipo. Se incluyen las siguientes subsecciones: Sprint Planning 2, Sprint Backlog 2, Evidencias de Desarrollo para la Revisión del Sprint, Evidencias de Ejecución para la Revisión, Documentación de Servicios Web, y Perspectivas sobre la Colaboración y Participación del Equipo durante este segundo ciclo de trabajo.
+
+#### 6.2.2.1 Sprint Planning 2
+En esta segunda iteración, tuvimos como objetivo corregir la estructura del backend para asegurar una mejor integración con el frontend y comenzar el desarrollo de la sección Elder en Flutter. Al finalizar el Sprint, se espera contar con una visualización funcional de la información del adulto mayor, lo cual representa un paso clave para el monitoreo de signos vitales en tiempo real.
 | **Sprint #**             | Sprint 2                                                                                           |
 |-------------------------|--------------------------------------------------------------------------------------------------|
 | **Sprint Planning Background** |                                                                                          |
@@ -2298,21 +2301,23 @@ En esta sección se documenta el progreso alcanzado durante el Sprint 2, tanto e
 | Location                | Discord                                                                                         |
 | Prepared By             | Palomares Chavez, Adriana                                                                       |
 | Attendees               | Palomares Chavez, Adriana / Maraza Pedemonte, Erick / Bravo Gavilano, Rafel / Nicolich Alvis Fabio / Soto Zorrilla, Oscar |
-| **Sprint 2 - 1 Review Summary**    | Desarrollo del informe y Android mobile app con el uso de Kotlin                     |
-| **Sprint 2 - 1 Retrospective Summary** | Correcciones de errores en la documentación.                                     |
+| **Sprint 1 Review Summary**    | Desarrollo del informe y Android mobile app con el uso de Kotlin                     |
+| **Sprint 1 Retrospective Summary** | Correcciones de errores en la documentación.                                     |
 | **Sprint Goal & User Stories**      |                                                                                      |
-| Sprint 2 Goal           | Our focus is on introducing users to our health monitoring service through a simple first version of our platform, developed in Flutter for a smooth and accessible mobile experience. We believe it delivers early trust and interest from people who want to monitor vital signs in real time. This will be confirmed when someone can visit our website and understand how the service works through the initial mobile experience. |
-| Sprint 2 Velocity       | 309                                                                                            |
-| Sum of Story Points     | 309                                                                                            |
+| Sprint 2 Goal           | Our focus is on improving the foundation of the app by fixing backend issues and creating the Elder section in the new Flutter interface.
+We believe it delivers a more stable and accessible experience for users who monitor patients' vital signs.
+This will be confirmed when medical staff can successfully view elder information through the updated application. |
+| Sprint 2 Velocity       | 38                                                                                            |
+| Sum of Story Points     | 38                                                                                            |
 
-
-#### 6.2.2.1 Sprint Planning 2
-En esta segunda iteración, tuvimos como objetivo corregir la estructura del backend para asegurar una mejor integración con el frontend y comenzar el desarrollo de la sección Elder en Flutter. Al finalizar el Sprint, se espera contar con una visualización funcional de la información del adulto mayor, lo cual representa un paso clave para el monitoreo de signos vitales en tiempo real.
 
 A continuación presente un screenshot del Board para el Sprint
 ![Trello](./Imgs%20-%20Empathy%20Mappings/trello.png)
 
 Link: [Trello Link](https://trello.com/invite/b/67101f83a145fc45e584fcf5/ATTIa5829de90fbf941dc19da3185daf4e6fB4DA66F9/sprint-backlog-1)
+
+#### 6.2.2.2.Sprint Backlog 2. 
+En esta segunda iteración, tuvimos como objetivo corregir la estructura del backend para asegurar una mejor integración con el frontend y comenzar el desarrollo de la sección Elder en Flutter. Al finalizar el Sprint, se espera contar con una visualización funcional de la información del adulto mayor, lo cual representa un paso clave para el monitoreo de signos vitales en tiempo real.
 
 
 | Sprint # | User Story Id | User Story Title                                      | Work Item Id | Work Item Title                                     | Description                                                                                                                                      | Estimation | Assigned To | Status |
