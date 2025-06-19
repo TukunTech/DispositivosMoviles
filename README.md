@@ -2336,6 +2336,18 @@ En esta sección se presenta la evidencia del progreso y desarrollo del software
 - Mobile (Flutter): Se inició la maquetación de la sección Elder, creando la interfaz que permitirá visualizar información clave del adulto mayor.
 - Integración: Se avanzó en conectar correctamente los datos del backend con la nueva estructura en Flutter, preparando el camino para mostrar signos vitales en próximas iteraciones.
 
+| Repository                         | Branch | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
+|----------------------------------|--------|-----------|-----------------------------------------------------------------|---------------------|--------------------|
+| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | 11eb2f6   | feat(emergency-numbers): add BLoC, service and DTO for emergency contacts  | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | bea6cf2   | feat(emergency-numbers): implement UI with form and page layout              | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | a75e2c1   | feat(emergency-numbers): add contact card with call and delete actions       | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | d50b093   | chore(deps): add url_launcher dependency for phone call functionality        | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | 88c0d0e   | feat(home): add navigation to EmergencyNumbersPage                           | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | 8baf7e6   | chore(pending-meds): remove unused pending medications logic and entities    | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | 876f591   | chore(deps): lock url_launcher version in pubspec.lock                       | empty               | 19/06/2025         |
+
+
+
 #### 6.2.2.3 Testing Suite Evidence for Sprint Review. 
 
 
