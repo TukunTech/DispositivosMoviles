@@ -2335,6 +2335,9 @@ En esta sección se presenta la evidencia del progreso y desarrollo del software
 - Backend: Se corrigieron errores estructurales que impedían la comunicación adecuada con el frontend, mejorando la base para el monitoreo de datos en tiempo real.
 - Mobile (Flutter): Se inició la maquetación de la sección Elder, creando la interfaz que permitirá visualizar información clave del adulto mayor.
 - Integración: Se avanzó en conectar correctamente los datos del backend con la nueva estructura en Flutter, preparando el camino para mostrar signos vitales en próximas iteraciones.
+
+
+
 | Usuario/Repo                             | Rama          | Commit    | Descripción                                                                 | Archivos | Fecha       |
 |-----------------------------------------|---------------|-----------|------------------------------------------------------------------------------|----------|-------------|
 | AdriPCH/tukuntechClinic-flutter         | main          | f753715   | setup project feat: add inital screems - Home, Login and Create Account     | empty    | 16/06/2025  |
