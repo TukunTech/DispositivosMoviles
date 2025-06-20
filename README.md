@@ -63,23 +63,18 @@
 ### Responsabilidades por Autor - TB2
 
 
-| Versión | Fecha       | Autor                              | Descripción de modificación                                                                 |
-|---------|-------------|------------------------------------|----------------------------------------------------------------------------------------------|
-| TB2     | 09/06/2025  | Soto Zorrilla, Oscar Eduardo       | Revisión y ajuste de historias de usuario                                                   |
-| TB2     | 09/06/2025  | Nicolich Alvis, Fabio Maurizio     | Evidencia del desarrollo de funcionalidades asignadas y registro de avances técnicos        |
-| TB2     | 09/06/2025  | Palomares Chavez, Adriana Giovanna | Implementación y ejecución de pruebas unitarias y de integración                           |
-| TB2     | 09/06/2025  | Maraza Pedemonte, Erick            | Documentación de la ejecución de tareas y validación funcional de componentes               |
-| TB2     | 09/06/2025  | Bravo Gavilano, Jorge Rafael       | Documentación de servicios REST implementados y ajustes en endpoints                        |
-| TB2     | 09/06/2025  | Soto Zorrilla, Oscar Eduardo       | Configuración e integración del entorno de despliegue en nube y pruebas finales             |
-| TB2     | 09/06/2025  | Nicolich Alvis, Fabio Maurizio     | Sistematización de reuniones técnicas y gestión colaborativa del equipo durante el sprint   |
-| TB2     | 09/06/2025  | Palomares Chavez, Adriana Giovanna | Diseño y planificación de entrevistas con usuarios finales para validación de entregables   |
-| TB2     | 09/06/2025  | Maraza Pedemonte, Erick            | Registro de resultados obtenidos en entrevistas y conclusiones para futuras iteraciones     |
-| TB2     | 09/06/2025  | Bravo Gavilano, Jorge Rafael       | Redacción de documentación técnica del sistema para facilitar mantenibilidad                |
-| TB2     | 09/06/2025  | Soto Zorrilla, Oscar Eduardo       | Optimización del rendimiento en módulos críticos del backend                                |
-| TB2     | 09/06/2025  | Nicolich Alvis, Fabio Maurizio     | Mejora de la experiencia de usuario en interfaz de pacientes                                |
-| TB2     | 09/06/2025  | Palomares Chavez, Adriana Giovanna | Configuración de flujo de integración continua para pruebas automáticas                     |
-| TB2     | 09/06/2025  | Maraza Pedemonte, Erick            | Manejo de errores y validaciones adicionales en formularios y servicios                     |
-| TB2     | 09/06/2025  | Bravo Gavilano, Jorge Rafael       | Revisión cruzada de código y estandarización de estilos en todo el proyecto                 |
+| Versión | Fecha       | Autor                              | Descripción de modificación                                                               |
+|---------|-------------|------------------------------------|--------------------------------------------------------------------------------------------|
+| TB2     | 09/06/2025  | Soto Zorrilla, Oscar Eduardo       | Revisión y ajuste de historias de usuario                                                  |
+| TB2     | 09/06/2025  | Nicolich Alvis, Fabio Maurizio     | Desarrollo de funcionalidades asignadas y documentación de avances técnicos               |
+| TB2     | 09/06/2025  | Palomares Chavez, Adriana Giovanna | Integración de funcionalidades en el sistema y validación de comportamiento esperado       |
+| TB2     | 09/06/2025  | Maraza Pedemonte, Erick            | Documentación de la ejecución de tareas y validación funcional de componentes              |
+| TB2     | 09/06/2025  | Bravo Gavilano, Jorge Rafael       | Documentación de servicios REST implementados y ajustes en endpoints                       |
+| TB2     | 09/06/2025  | Soto Zorrilla, Oscar Eduardo       | Configuración e integración del entorno de despliegue en nube y validación final del sistema |
+| TB2     | 09/06/2025  | Nicolich Alvis, Fabio Maurizio     | Sistematización de reuniones técnicas y coordinación colaborativa del equipo               |
+| TB2     | 09/06/2025  | Palomares Chavez, Adriana Giovanna | Diseño y organización de entrevistas con usuarios para evaluación funcional de entregables |
+| TB2     | 09/06/2025  | Maraza Pedemonte, Erick            | Registro de resultados obtenidos en entrevistas y aportes para próximas iteraciones        |
+
 
 
 
