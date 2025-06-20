@@ -2558,12 +2558,12 @@ Link: [Trello Link](https://trello.com/invite/b/67101f83a145fc45e584fcf5/ATTIa58
 De igual manera a continuación se muestran el trabajo mediante los commits en GitHub:
 Repositorio de Kotli:
 
-![Kotlin](./Sprint2MovElder/Kotlin.png)
+![Kotlin](./DeploySprint2Mov/Kotlin.PNG)
 
 
 Repositorio de Flutter:
 
-![Flutter](./Sprint2MovElder/Flutter.png)
+![Flutter](./DeploySprint2Mov/Flutter.PNG)
 
 
 ### 6.3. Validation Interviews.
