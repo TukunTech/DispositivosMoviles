@@ -2439,7 +2439,7 @@ A continuación se muestra un ejemplo de test en la plataforma de Postman, con n
 **Creación de cuentas:** genera el TOKEN
 ![i3](./testing/img3.PNG)
 **Login:** verificar el TOKEN
-![i4](./testing/img4.PNG)
+![i4](./testing/img4.png)
 A continuación se muestra un ejemplo de test en la plataforma de Postman, con nuestro API desplegado para mostrar los Adultos Mayores.
 ![i5](./testing/img5.PNG)
 ## Endpoints probados mediante Postman
