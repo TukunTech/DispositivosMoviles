@@ -2554,6 +2554,18 @@ A continuación presente un screenshot del Board para el Sprint
 
 Link: [Trello Link](https://trello.com/invite/b/67101f83a145fc45e584fcf5/ATTIa5829de90fbf941dc19da3185daf4e6fB4DA66F9/sprint-backlog-1)
 
+
+De igual manera a continuación se muestran el trabajo mediante los commits en GitHub:
+Repositorio de Kotli:
+
+![Kotlin](./Sprint2MovElder/Kotlin.png)
+
+
+Repositorio de Flutter:
+
+![Flutter](./Sprint2MovElder/Flutter.png)
+
+
 ### 6.3. Validation Interviews.
 En esta sección, el equipo registra y explica las actividades realizadas durante las entrevistas de validación a lo largo del proyecto. Estas entrevistas son fundamentales para obtener retroalimentación directa de los usuarios pertenecientes a los segmentos objetivo, quienes interactúan con el Landing Page y con la aplicación móvil desarrollada.
 Se han estructurado diversas secciones que incluyen el Diseño de Entrevistas, el Registro de Entrevistas y las Evaluaciones según heurísticas, permitiendo un análisis exhaustivo de la experiencia del usuario.
