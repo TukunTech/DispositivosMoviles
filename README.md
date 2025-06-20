@@ -2428,6 +2428,37 @@ En esta sección se presenta la evidencia del progreso y desarrollo del software
 #### 6.2.2.4 Testing Suite Evidence for Sprint Review. 
 
 
+En esta sección se explica y documenta el conjunto de mejoras implementadas en el backend durante el sprint. Para garantizar la correcta funcionalidad de los servicios de autorización y autenticación, así como la corrección de errores previos, se han desarrollado y ejecutado pruebas automatizadas que incluyen Acceptance Tests. Estas pruebas se llevan a cabo utilizando herramientas como Postman y Swagger, lo que permite validar que cada endpoint cumpla con los requisitos de las User Stories definidas.
+
+En Postman, se ha configurado una suite de pruebas para evaluar el correcto funcionamiento de los nuevos servicios, verificando el rendimiento y la precisión de las respuestas en diferentes escenarios. Además, se utiliza Swagger para documentar y ejecutar pruebas de los endpoints, asegurando que las rutas y parámetros funcionen según lo esperado.
+
+A continuación se muestra un ejemplo de test en la plataforma de Postman, con nuestro API desplegado para la creación de un paciente.
+![i1](./testing/img1.PNG)
+A continuación se muestra un ejemplo de test en la plataforma de Postman, con nuestro API desplegado para mostrar los pacientes.
+![i2](./testing/img2.PNG)
+**Creación de cuentas:** genera el TOKEN
+![i3](./testing/img3.PNG)
+**Login:** verificar el TOKEN
+![i4](./testing/img4.PNG)
+A continuación se muestra un ejemplo de test en la plataforma de Postman, con nuestro API desplegado para mostrar los Adultos Mayores.
+![i5](./testing/img5.PNG)
+## Endpoints probados mediante Postman
+
+| Endpoint probado                  | Método | Funcionalidad                | Resultado |
+|----------------------------------|--------|------------------------------|-----------|
+| `/api/v1/auth/login`             | POST   | Login de usuario             | ✅ OK     |
+| `/api/v1/auth/register`          | POST   | Registro de usuario          | ✅ OK     |
+| `/api/v1/patients/patients`      | GET    | Listar pacientes             | ✅ OK     |
+| `/api/v1/patients/patients`      | POST   | Crear paciente               | ✅ OK     |
+| `/api/v1/elder`                  | GET    | Listar adultos mayores       | ✅ OK     |
+
+## Conclusión
+
+Las pruebas ejecutadas con Postman y Swagger permitieron validar el correcto funcionamiento de los servicios backend implementados durante el sprint. Se verificaron las rutas, parámetros, estructura de respuestas y la correcta gestión de autenticación mediante JWT.
+
+Cada uno de los endpoints probados respondió conforme a lo esperado, cumpliendo con los criterios de aceptación definidos en las User Stories. Se adjuntan capturas de los resultados de Postman como evidencia técnica del comportamiento esperado.
+
+
 #### 6.2.2.5 Execution Evidence for Sprint Review. 
 En este primer Sprint del proyecto TukunTech, sentamos las bases del sistema de monitoreo de signos vitales en tiempo real mediante la implementación de componentes clave en el frontend, backend y plataforma móvil. Además, se realizó el despliegue inicial de la plataforma al público, marcando un primer paso importante hacia una solución funcional y accesible.
 
