@@ -2330,7 +2330,7 @@ En esta segunda iteración, tuvimos como objetivo corregir la estructura del bac
 | Sprint 2 | US 65          | Ver signos vitales de adultos mayores           | 14            | Ver signos vitales de adultos mayores       | Como desarrollador, quiero conectar el componente `elder-vital-signs` al API service para visualizar los signos vitales del adulto mayor.          | 3h         | Erick        | Done   |
 
 
-#### 6.2.2.2 Development Evidence for Sprint Review. 
+#### 6.2.2.3 Development Evidence for Sprint Review. 
 En esta sección se presenta la evidencia del progreso y desarrollo del software realizado durante el segundo sprint. Se incluyen detalles sobre las características implementadas, destacando los siguientes avances:
 - Backend: Se corrigieron errores estructurales que impedían la comunicación adecuada con el frontend, mejorando la base para el monitoreo de datos en tiempo real.
 - Mobile (Flutter): Se inició la maquetación de la sección Elder, creando la interfaz que permitirá visualizar información clave del adulto mayor.
@@ -2348,10 +2348,10 @@ En esta sección se presenta la evidencia del progreso y desarrollo del software
 
 
 
-#### 6.2.2.3 Testing Suite Evidence for Sprint Review. 
+#### 6.2.2.4 Testing Suite Evidence for Sprint Review. 
 
 
-#### 6.2.2.4 Execution Evidence for Sprint Review. 
+#### 6.2.2.5 Execution Evidence for Sprint Review. 
 En este primer Sprint del proyecto TukunTech, sentamos las bases del sistema de monitoreo de signos vitales en tiempo real mediante la implementación de componentes clave en el frontend, backend y plataforma móvil. Además, se realizó el despliegue inicial de la plataforma al público, marcando un primer paso importante hacia una solución funcional y accesible.
 
 #### Backend – Servicios de Gestión Clínica y Soporte a Pacientes
@@ -2398,7 +2398,7 @@ Visualización de signos vitales adultos mayores:
 ![Signos Vitales](./Sprint2MovElder/Testing4.jpg)
 
 
-#### 6.2.2.5 Services Documentation Evidence for Sprint Review. 
+#### 6.2.2.6 Services Documentation Evidence for Sprint Review. 
 Durante este sprint se documentaron los servicios web relacionados con la entidad Elder, cubriendo funcionalidades clave para el monitoreo integral del paciente postoperatorio. La documentación fue elaborada con OpenAPI (Swagger) y desplegada para facilitar la consulta y pruebas de integración por parte del equipo frontend.
 ![OpenApi](./Sprint2MovElder/OpenApi.PNG)
 
@@ -2425,7 +2425,7 @@ Los recursos implementados incluyen gestión de datos personales del paciente, a
 |                   | Ver FAQs                         | GET   | /api/v1/soporte/faqs                          | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
 | **CriticalAlerts**| Ver alertas críticas             | GET   | /api/v1/criticalAlert/criticalAlerts          | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
 
-#### 6.2.2.6 Software Deployment Evidence for Sprint Review
+#### 6.2.2.7 Software Deployment Evidence for Sprint Review
 
 Durante el Sprint 2 se configuraron y desplegaron las aplicaciones móviles desarrolladas en Flutter y Kotlin utilizando Firebase. Esta sección detalla las actividades realizadas para asegurar una distribución eficiente y controlada de los productos digitales mediante App Distribution.
 
@@ -2489,40 +2489,6 @@ Aplicación Kotlin:
 
 Aplicación Flutter:
 ![Aplicación en Emulador](./DeploySprint2Mov/Deploy8.PNG)
-
-#### 6.2.2.7 Software Deployment Evidence for Sprint Review.
-## Colaboración del Equipo y Distribución de Actividades – Sprint 2
-
-Durante el Sprint 2, el equipo mantuvo una organización clara y equilibrada en la distribución de tareas, asegurando que todos los integrantes contribuyeran activamente al desarrollo de al menos uno de los productos priorizados. Las responsabilidades se asignaron de la siguiente manera:
-
-### Web Services
-Todos los miembros participaron en la implementación y documentación de endpoints relacionados con la entidad **Elder**, incluyendo recursos como **ElderBed**, **EmergencyNumbers**, **PendingMedicine**, **CriticalAlerts** y **TechnicalSupport**.  
-Se trabajó en la validación de datos, pruebas de respuestas y mejora del rendimiento del sistema backend.
-
-### Aplicación móvil (Flutter)
-El equipo responsable de la interfaz móvil inició la integración de los endpoints y la maquetación de la sección **Elder**, permitiendo visualizar datos básicos del paciente.  
-También se definieron patrones de navegación y estructura visual para futuras funcionalidades.
-
----
-
-## Herramientas Utilizadas
-
-Para facilitar la colaboración, el equipo empleó herramientas clave para el desarrollo y la coordinación:
-
-- **GitHub:** Control de versiones y repositorio central del backend y del frontend móvil.
-- **Trello:** Gestión de tareas con seguimiento por columna (*To Do*, *In Progress*, *Done*) y asignación por responsable.
-- **Discord y WhatsApp:** Comunicación constante para coordinación de avances, resolución de dudas técnicas y reuniones breves.
-
----
-
-## Análisis de Commits y Participación
-
-Se recopilaron capturas de pantalla desde GitHub para evidenciar la participación activa de todos los integrantes en este Sprint. Los datos muestran:
-
-- Todos los miembros realizaron commits relacionados con al menos uno de los recursos documentados o desarrollados.
-- Algunos integrantes concentraron su esfuerzo en los endpoints del backend, mientras que otros participaron en la implementación visual y lógica del frontend Flutter.
-- Las diferencias en número de commits se deben a la naturaleza de las tareas (por ejemplo, codificación de múltiples endpoints o construcción de componentes visuales complejos).
-- La utilización conjunta de Trello, reuniones en Discord y comunicación continua por WhatsApp permitió mantener claridad, transparencia y un alto nivel de coordinación.
 
 #### 6.2.2.8.Team Collaboration Insights during Sprint. 
 Durante el Sprint 2, el equipo mantuvo una organización clara y equilibrada en la distribución de tareas, asegurando que todos los integrantes contribuyeran activamente al desarrollo de al menos uno de los productos priorizados. Las responsabilidades se asignaron de la siguiente manera:
