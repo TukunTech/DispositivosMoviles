@@ -2335,16 +2335,63 @@ En esta sección se presenta la evidencia del progreso y desarrollo del software
 - Backend: Se corrigieron errores estructurales que impedían la comunicación adecuada con el frontend, mejorando la base para el monitoreo de datos en tiempo real.
 - Mobile (Flutter): Se inició la maquetación de la sección Elder, creando la interfaz que permitirá visualizar información clave del adulto mayor.
 - Integración: Se avanzó en conectar correctamente los datos del backend con la nueva estructura en Flutter, preparando el camino para mostrar signos vitales en próximas iteraciones.
-
-| Repository                         | Branch | Commit Id | Commit Message                                                   | Commit Message Body | Commited on (Date) |
-|----------------------------------|--------|-----------|-----------------------------------------------------------------|---------------------|--------------------|
-| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | 11eb2f6   | feat(emergency-numbers): add BLoC, service and DTO for emergency contacts  | empty               | 19/06/2025         |
-| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | bea6cf2   | feat(emergency-numbers): implement UI with form and page layout              | empty               | 19/06/2025         |
-| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | a75e2c1   | feat(emergency-numbers): add contact card with call and delete actions       | empty               | 19/06/2025         |
-| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | d50b093   | chore(deps): add url_launcher dependency for phone call functionality        | empty               | 19/06/2025         |
-| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | 88c0d0e   | feat(home): add navigation to EmergencyNumbersPage                           | empty               | 19/06/2025         |
-| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | 8baf7e6   | chore(pending-meds): remove unused pending medications logic and entities    | empty               | 19/06/2025         |
-| Nicolini03/tukuntechClinic-flutter | feature/emergency_numbers | 876f591   | chore(deps): lock url_launcher version in pubspec.lock                       | empty               | 19/06/2025         |
+| Repository                           | Branch                 | Commit Id | Commit Message                                                                 | Commit Message Body | Commited on (Date) |
+|--------------------------------------|------------------------|-----------|---------------------------------------------------------------------------------|---------------------|--------------------|
+| Nicolini03/tukuntechClinic-flutter   | feature/emergency_numbers | 11eb2f6 | feat(emergency-numbers): add BLoC, service and DTO for emergency contacts       | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter   | feature/emergency_numbers | bea6cf2 | feat(emergency-numbers): implement UI with form and page layout                 | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter   | feature/emergency_numbers | a75e2c1 | feat(emergency-numbers): add contact card with call and delete actions          | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter   | feature/emergency_numbers | d50b093 | chore(deps): add url_launcher dependency for phone call functionality           | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter   | feature/emergency_numbers | 88c0d0e | feat(home): add navigation to EmergencyNumbersPage                              | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter   | feature/emergency_numbers | 8baf7e6 | chore(pending-meds): remove unused pending medications logic and entities       | empty               | 19/06/2025         |
+| Nicolini03/tukuntechClinic-flutter   | feature/emergency_numbers | 876f591 | chore(deps): lock url_launcher version in pubspec.lock                          | empty               | 19/06/2025         |
+| AdriPCH/tukuntechClinic-flutter      | main                   | f753715   | setup project feat: add inital screems - Home, Login and Create Account        | empty               | 16/06/2025         |
+| Oscaredu1/tukuntechClinic-flutter    | main                   | 1e39171   | refactor: rename folder from vital_signs to vital_signs_page                   | empty               | 18/06//2025        |
+| Oscaredu1/tukuntechClinic-flutter    | main                   | 213a836   | feat(vital-signs): add feature folder structure with DTO, service, and BLoC    | empty               | 18/06//2025        |
+| Oscaredu1/tukuntechClinic-flutter    | main                   | 350d5c3   | feat(vital-signs): implement initial UI layout and static display for vital... | empty               | 18/06//2025        |
+| Oscaredu1/tukuntechClinic-flutter    | main                   | 045651a   | style(core): redesign BottomBar with active tab highlight, icons and layout    | empty               | 18/06//2025        |
+| Oscaredu1/tukuntechClinic-flutter    | main                   | 543a353   | feat(vital-signs): add VitalBox widget to display vital sign data              | empty               | 18/06//2025        |
+| Oscaredu1/tukuntechClinic-flutter    | main                   | bd22a4b   | fix: correct routes                                                             | empty               | 18/06//2025        |
+| Oscaredu1/tukuntechClinic-flutter    | main                   | 6e72122   | chore(home): update imports to reflect new folder structure and routing        | empty               | 18/06//2025        |
+| Oscaredu1/tukuntechClinic-flutter    | main                   | 98ff5d9   | chore(deps): update pubspec with bloc, flutter_bloc, http and equatable        | empty               | 18/06//2025        |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | c8ac2ac   | feat(reminders): create template layout for reminders.                          | empty               | 18/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 05bd9f2   | feat(pendingMedications_dto): add DTO for handling pending medications.        | empty               | 18/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | cf4d572   | feat(pendingMedications_dto): migrate to new DTO structure.                    | empty               | 18/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 29692af   | feat(status): add Status entity.                                               | empty               | 18/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 7d19798   | feat(TimeToTake): add TimeToTake entity.                                       | empty               | 18/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 19962d0   | feat(PendingMedications): add PendingMedications entity.                       | empty               | 18/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | f930209   | feat(pendingMedications_dto): fix some issues with pending medications.        | empty               | 18/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | a146dac   | feat(pendingMedications_service): add pending medications service.             | empty               | 18/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 34af070   | chore: remove unused pendingMedications file.                                  | empty               | 18/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | d316cf8   | chore: add http version for features.                                          | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 6331f7b   | chore: Update pubspec.yaml and remove unused files.                            | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | d17694c   | feat: add bloc for reminders.                                                  | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 865e423   | feat(medicationsTaken): add repository for medications taken.                  | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | b25ff1f   | feat(medicationsTaken): add dto for medications taken.                         | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | d40605d   | feat(medicationsTaken): add MedicationTaken entity.                            | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 50eccd8   | feat(medicationsTaken): add database features.                                 | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 24bd097   | feat(reminders): add medication taken state management.                        | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 762e514   | chore: Add database.                                                           | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | f72ed96   | feat(medicationsTaken): add medication taken event.                            | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | c3d7163   | feat(medicationsTaken): add medication taken bloc.                             | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | c0f1ab9   | feat(reminders): refresh reminders page and add new features.                  | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 08a4d9b   | feat(pendingMedications_dto): move pendingMedications_dto to home module.     | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 099cd81   | feat(pendingMedications_service): remove unused DTO.                           | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | 7cea4ba   | feat(pendingMedications_dto): change location of DTO.                          | empty               | 19/05/2025         |
+| Rafooo6/tukuntechClinic-flutter      | reminders              | c415c11   | feat(reminders): Add reminders feature.                                        | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | fcdfd2b   | feat(profile): add ElderService for API integration                    | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | d4e6218   | feat(profile): add ElderDto for API integration                        | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | 078f681   | feat(profile): define domain entity for Elder                          | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | 67579b8   | feat(profile): implement ElderBloc for state management                | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | fd9d3f4   | feat(profile): define ElderEvents for profile actions                  | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | 6e8e6e3   | feat(profile): define ElderStates for UI representation                | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | a645de3   | style(profile): implement UI for Elder Profile screen                  | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | 271aff0   | refactor(home): update navigation to point to new profile screen       | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | 2062092   | refactor(home): remove obsolete profile screen                          | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | f012c21   | chore(deps): add dependencies required for Elder feature                | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | fe8d0db   | chore(deps): lock updated package versions                              | empty               | 19/05/2025         |
+| Ericksnpaii/tukuntechClinic-flutter  | elder_profile | 208d706   | refactor(home): update navigation to point to new profile screen       | empty               | 19/05/2025         |
+| AdriPCH/tukuntechClinic-flutter      | main          | e2e67671  | feat(home): add new view to home screen                                | empty               | 19/05/2025         |
+| AdriPCH/tukuntechClinic-flutter      | main          | 778c3d2   | feat(patient): connect PatientList screen to backend service           | empty               | 19/05/2025         |
 
 
 
