@@ -2433,15 +2433,15 @@ En esta sección se explica y documenta el conjunto de mejoras implementadas en 
 En Postman, se ha configurado una suite de pruebas para evaluar el correcto funcionamiento de los nuevos servicios, verificando el rendimiento y la precisión de las respuestas en diferentes escenarios. Además, se utiliza Swagger para documentar y ejecutar pruebas de los endpoints, asegurando que las rutas y parámetros funcionen según lo esperado.
 
 A continuación se muestra un ejemplo de test en la plataforma de Postman, con nuestro API desplegado para la creación de un paciente.
-![i1](./testing/img1.PNG)
+![i1](./testing/img1.png)
 A continuación se muestra un ejemplo de test en la plataforma de Postman, con nuestro API desplegado para mostrar los pacientes.
-![i2](./testing/img2.PNG)
+![i2](./testing/img2.png)
 **Creación de cuentas:** genera el TOKEN
-![i3](./testing/img3.PNG)
+![i3](./testing/img3.png)
 **Login:** verificar el TOKEN
 ![i4](./testing/img4.png)
 A continuación se muestra un ejemplo de test en la plataforma de Postman, con nuestro API desplegado para mostrar los Adultos Mayores.
-![i5](./testing/img5.PNG)
+![i5](./testing/img5.png)
 ## Endpoints probados mediante Postman
 
 | Endpoint probado                  | Método | Funcionalidad                | Resultado |
