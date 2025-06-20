@@ -2425,9 +2425,70 @@ Los recursos implementados incluyen gestión de datos personales del paciente, a
 |                   | Ver FAQs                         | GET   | /api/v1/soporte/faqs                          | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
 | **CriticalAlerts**| Ver alertas críticas             | GET   | /api/v1/criticalAlert/criticalAlerts          | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
 
-#### 6.2.2.6 Software Deployment Evidence for Sprint Review.
-Durante este Sprint, se definió el proceso de implementación del sistema TukunTech en un entorno de producción accesible para los usuarios finales. El objetivo es garantizar la disponibilidad, estabilidad y seguridad del sistema en su uso real por parte del personal médico.
+#### 6.2.2.6 Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 2 se configuraron y desplegaron las aplicaciones móviles desarrolladas en Flutter y Kotlin utilizando Firebase. Esta sección detalla las actividades realizadas para asegurar una distribución eficiente y controlada de los productos digitales mediante App Distribution.
+
+Cabe destacar que este proceso fue ejecutado por separado para ambas tecnologías (Kotlin y Flutter), pero se documenta una sola secuencia de pasos, ya que fueron idénticos en ambos casos.
+
+---
+
+**1. Creación del proyecto en Firebase**
+
+Se ingresó a la consola de Firebase para crear el proyecto general denominado **TukunTech**, con el fin de gestionar los despliegues internos y pruebas controladas de la app.
+
+![Deploy1 - Crear Proyecto](./DeploySprint2Mov/Deploy1.PNG)
+
+---
+
+**2. Confirmación del proyecto creado**
+
+Una vez creado el proyecto, Firebase notificó que el entorno estaba listo para continuar con la integración de las apps móviles.
+
+![Deploy2 - Proyecto Listo](./DeploySprint2Mov/Deploy2.PNG)
+
+---
+
+**3. Registro de la aplicación Android**
+
+Se procedió a registrar la aplicación Android ingresando el nombre del paquete (`pe.edu.upc.tukuntech`) y el sobrenombre de la app. Este paso también permite configurar certificados SHA-1.
+
+![Deploy3 - Registro App](./DeploySprint2Mov/Deploy3.PNG)
+
+---
+
+**4. Ingreso a App Distribution**
+
+Desde el panel principal, se accedió a la sección **App Distribution**, que permite gestionar versiones y distribuir builds internas de la aplicación a testers.
+
+![Deploy4 - App Distribution](./DeploySprint2Mov/Deploy4.PNG)
+
+---
+
+**5. Subida del archivo APK**
+
+Se seleccionó y subió el archivo `app-debug.apk` generado en Android Studio. Firebase confirmó que el archivo fue cargado correctamente.
+
+![Deploy5 - APK Subido](./DeploySprint2Mov/Deploy5.PNG)
+
+---
+
+**6. Agregar verificadores**
+
+Se añadieron los correos electrónicos de los integrantes del equipo para que puedan acceder a las versiones distribuidas y realizar pruebas de validación.
+
+![Deploy6 - Verificadores]./DeploySprint2Mov/(Deploy6.PNG)
+
+---
+
+**7. Pruebas en emulador**
+
+Una vez distribuido el APK, se descargó e instaló en un emulador Android a través de **NoxPlayer** para realizar pruebas de funcionalidad. Este proceso fue realizado dos veces: una para la app desarrollada en **Kotlin** y otra para la versión en **Flutter**, aplicando el mismo flujo descrito.
+Aplicación Kotlin:
+![Aplicación en Emulador](./DeploySprint2Mov/Deploy7.PNG)
+
+Aplicación Flutter:
+![Aplicación en Emulador](./DeploySprint2Mov/Deploy8.PNG)
 
 #### 6.2.2.7 Software Deployment Evidence for Sprint Review.
 ## Colaboración del Equipo y Distribución de Actividades – Sprint 2
