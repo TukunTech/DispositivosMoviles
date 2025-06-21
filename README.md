@@ -2737,6 +2737,23 @@ En cuanto a la experiencia visual, el cuidador comentó que tanto la landing pag
 En conclusión, el cuidador manifestó sentirse satisfecho con la solución propuesta y la consideró una herramienta útil y funcional para su labor de cuidado.
 
 
+Entrevistado 2 #: Segmento 1 
+Nombre y Apellidos: Angélica Ramires 
+Edad: 50 
+Evidencias de reunión:
+![entrevista 2](./imgs%20entrevista/Entrevista-kotlin.PNG)
+
+URL:
+[Entrevista 2 - Kotlin]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EU-5u40Z_1dPoiuamEugMxMB1FfAwq0fP_44YVoM6UuO8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fpc1A7](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/ERXVEwLkyPZHg1zWQJN6jYUBJ9bbh32xaBf61mIq71qNPg?e=uw0dWD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+
+Inicio de la Entrevista:00:03
+Tiempo: 08:17
+Resumen de la Entrevista:
+La señorita Angélica Ramírez, profesional del área de salud con experiencia en el manejo de pacientes postoperatorios y en UCI, evaluó nuestra landing page y aplicación móvil.
+Consideró que la experiencia general es cómoda y clara. Destacó la buena visibilidad del contenido, aunque sugirió ajustes en los colores de escritura dentro de la app móvil para mejorar la legibilidad. En la sección de postoperatorio, si bien valoró positivamente la información presentada, recomendó que el botón de "crítico" pudiera activarse de forma automática ante ciertas alertas clínicas.
+En cuanto a la sección de pacientes, sugirió que la ubicación sea más precisa, incluyendo detalles como piso, cama y sala. Valoró positivamente el diseño y funcionalidad del inicio de sesión, registro y acceso mediante clave de paciente. Finalmente, propuso implementar una función de chat entre médicos, útil especialmente en situaciones en las que el profesional de guardia no se encuentra disponible, ayudando así a prevenir emergencias.
+
+
 #### 6.3.3. Evaluaciones según heurísticas.
 # UX Heuristics & Principles Evaluation  
 **Usability – Inclusive Design – Information Architecture**
