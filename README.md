@@ -2894,6 +2894,8 @@ Aunque el impacto es limitado comparado con módulos clínicos, esta ausencia in
 #### 6.3.4.  Video About-the-Product.
 En esta sección, nuestro equipo presenta el contenido del video About-the-Product a las personas que buscan comprender el modelo de negocio y conocer las principales funcionalidades del producto de software.
 
+![Modelo clinica](about_the_product_imgs/clinics.png)
+![Modelo adultos mayores](about_the_product_imgs/elder.png)
 
 
 [Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/ERWJAttMhApBviZdp7kcfgoB70blYmUC3jUYrFBxJpf9HQ?e=GqUfpd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
