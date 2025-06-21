@@ -2892,9 +2892,7 @@ Aunque el impacto es limitado comparado con módulos clínicos, esta ausencia in
 
 
 #### 6.3.4.  Video About-the-Product.
-En esta sección, el equipo presenta y describe el contenido del video About-the-Product, el cual está dirigido principalmente a los visitantes del Landing Page, quienes buscan comprender el modelo de negocio y conocer las principales funcionalidades del producto de software. Además, el video está orientado a los usuarios de la aplicación móvil, quienes desean familiarizarse con las tareas que podrán realizar mediante la solución propuesta.
-El enfoque comunicacional utilizado en el video mantiene coherencia con el tono general adoptado para el producto, garantizando una experiencia uniforme para el usuario. Dentro del contenido, se ha incluido al menos un testimonio positivo brindado por un usuario real que participó en las entrevistas de validación realizadas durante el proyecto, aportando autenticidad y respaldo a la propuesta.
-Asimismo, esta sección debe incorporar una captura de pantalla del video, junto con el enlace a la versión publicada en Microsoft Stream, así como el URL de la versión alojada en YouTube, la cual será utilizada para su incrustación en el Landing Page. También se debe registrar la duración total del video (timing) como parte de la documentación formal del entregable.
+En esta sección, nuestro equipo presenta el contenido del video About-the-Product a las personas que buscan comprender el modelo de negocio y conocer las principales funcionalidades del producto de software.
 
 
 ### Conclusiones
