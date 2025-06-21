@@ -2895,6 +2895,11 @@ Aunque el impacto es limitado comparado con módulos clínicos, esta ausencia in
 En esta sección, nuestro equipo presenta el contenido del video About-the-Product a las personas que buscan comprender el modelo de negocio y conocer las principales funcionalidades del producto de software.
 
 
+
+[Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/ERWJAttMhApBviZdp7kcfgoB70blYmUC3jUYrFBxJpf9HQ?e=GqUfpd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Youtube](https://youtu.be/CUCnHqTLeRI)
+
+
 ### Conclusiones
 El proyecto TukunTech representa una solución tecnológica innovadora orientada al monitoreo en tiempo real de signos vitales en pacientes postoperatorios y adultos mayores. A lo largo del desarrollo, se ha mantenido un enfoque centrado en el usuario, priorizando la funcionalidad clínica, la usabilidad de la aplicación móvil y la claridad en la presentación de la información a través del Landing Page.
 Durante los distintos sprints, el equipo ha logrado avances consistentes tanto en el backend como en el frontend móvil, además de integrar buenas prácticas de diseño, documentación técnica y validación con usuarios reales. Las entrevistas y evaluaciones heurísticas permitieron identificar oportunidades de mejora clave, reforzando el compromiso del equipo con la calidad y la experiencia del usuario.
@@ -2907,6 +2912,8 @@ TukunTech se posiciona así como una herramienta sólida y escalable que respond
 **Video de Exposiciones**
 - TB1: [Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EYXEG50XjYZKr12kaeuYBrQB1WmCVV3RydJ31beCvV9XcQ?e=rmcmWQ)
 2) Video presentación del LandingPage: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZiwz8Vm9RtMvlOnevW4KbcB8LpYJNZow4fUzaLNPgsrFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IZHoP1
+3) Video about the product Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/ERWJAttMhApBviZdp7kcfgoBMW6r-k9xY1W_OQOVepfzEA?e=OsYaQI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+4) Video about the product Youtube: https://youtu.be/CUCnHqTLeRI
 
 ## Bibliografía:
 
