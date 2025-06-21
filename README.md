@@ -2737,21 +2737,59 @@ En cuanto a la experiencia visual, el cuidador comentó que tanto la landing pag
 En conclusión, el cuidador manifestó sentirse satisfecho con la solución propuesta y la consideró una herramienta útil y funcional para su labor de cuidado.
 
 
-Entrevistado 2 #: Segmento 1 
-Nombre y Apellidos: Angélica Ramires 
-Edad: 50 
-Evidencias de reunión:
+**Entrevistado 2 :** Segmento 1 
+**Nombre y Apellidos:** Angélica Ramires 
+**Edad:** 50 
+**Evidencias de reunión:**
 ![entrevista 2](./imgs%20entrevista/Entrevista-kotlin.PNG)
+**URL:**
+[Entrevista 2 - Kotlin](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/ERXVEwLkyPZHg1zWQJN6jYUBJ9bbh32xaBf61mIq71qNPg?e=tRLo5B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-URL:
-[Entrevista 2 - Kotlin]([https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EU-5u40Z_1dPoiuamEugMxMB1FfAwq0fP_44YVoM6UuO8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fpc1A7](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/ERXVEwLkyPZHg1zWQJN6jYUBJ9bbh32xaBf61mIq71qNPg?e=uw0dWD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D))
+**Inicio de la Entrevista:** 00:03
+**Tiempo:** 08:17
+**Resumen de la Entrevista:**
+La señorita Angélica Ramírez, profesional del área de salud con amplia experiencia en el cuidado de pacientes postoperatorios y en unidades de cuidados intensivos (UCI), participó en una entrevista destinada a evaluar la funcionalidad y experiencia de usuario de nuestra landing page y aplicación móvil. Su participación fue de gran valor, dado su conocimiento del entorno hospitalario y su contacto directo con herramientas digitales en contextos clínicos.
+Durante la entrevista, la señorita Ramírez indicó que la experiencia general con la plataforma fue positiva. Consideró que tanto la landing page como la aplicación ofrecen una interfaz clara, bien organizada y cómoda de utilizar. En relación con la aplicación móvil, destacó especialmente la visibilidad y el orden de la información, aunque sugirió realizar ajustes en los colores utilizados al momento de escribir o registrar información. Su recomendación apunta a mejorar la legibilidad en diversas condiciones de luz o estrés operativo, algo común en entornos hospitalarios.
+En cuanto a la sección de postoperatorio, señaló que la información presentada es adecuada y útil. Sin embargo, propuso una mejora clave relacionada con la gestión de pacientes en estado crítico. En su opinión, el botón que permite marcar a un paciente como "crítico" debería poder activarse de forma automática cuando se detecten ciertos parámetros de riesgo, lo que podría optimizar la atención inmediata y reducir tiempos de respuesta en situaciones delicadas.
+Respecto a la sección de pacientes, sugirió una mejora en la precisión de la ubicación del paciente. Específicamente, recomendó que la plataforma pueda detallar con exactitud el lugar del paciente dentro del centro médico, incluyendo el piso, número de cama y sala. Este nivel de especificidad sería especialmente útil para el personal médico que realiza rondas o recibe pacientes nuevos durante los cambios de turno.
+Adicionalmente, valoró muy positivamente la estructura del proceso de acceso: desde el inicio de sesión hasta el registro de nuevos usuarios y el uso de claves de pacientes. Consideró que estos elementos son intuitivos y funcionales para el personal médico. No obstante, subrayó la utilidad potencial de incorporar un sistema de mensajería o chat interno, que permita la comunicación rápida entre médicos. Esta función sería particularmente valiosa en situaciones donde el médico de guardia no se encuentra disponible, permitiendo consultas rápidas con otros profesionales y evitando posibles retrasos en la atención ante emergencias.
+**Conclusión**
+Las observaciones entregadas por la señorita Angélica Ramírez reflejan tanto una valoración positiva de la plataforma como una mirada crítica y constructiva para su mejora. Sus recomendaciones apuntan a fortalecer la funcionalidad, aumentar la precisión en la gestión de pacientes y optimizar la comunicación entre profesionales de salud. Estas sugerencias serán tomadas en cuenta en las próximas etapas de desarrollo, con el objetivo de ofrecer una herramienta más completa, segura y adaptada a las necesidades reales del entorno clínico. Agradecemos profundamente su tiempo, disposición y aporte profesional, que sin duda enriquecerá el proceso de mejora continua de nuestro producto.
 
-Inicio de la Entrevista:00:03
-Tiempo: 08:17
-Resumen de la Entrevista:
-La señorita Angélica Ramírez, profesional del área de salud con experiencia en el manejo de pacientes postoperatorios y en UCI, evaluó nuestra landing page y aplicación móvil.
-Consideró que la experiencia general es cómoda y clara. Destacó la buena visibilidad del contenido, aunque sugirió ajustes en los colores de escritura dentro de la app móvil para mejorar la legibilidad. En la sección de postoperatorio, si bien valoró positivamente la información presentada, recomendó que el botón de "crítico" pudiera activarse de forma automática ante ciertas alertas clínicas.
-En cuanto a la sección de pacientes, sugirió que la ubicación sea más precisa, incluyendo detalles como piso, cama y sala. Valoró positivamente el diseño y funcionalidad del inicio de sesión, registro y acceso mediante clave de paciente. Finalmente, propuso implementar una función de chat entre médicos, útil especialmente en situaciones en las que el profesional de guardia no se encuentra disponible, ayudando así a prevenir emergencias.
+
+**Entrevistado 3 :** Segmento 1 
+**Nombre y Apellidos:** Miguel Gutierres 
+**Edad:** 29
+**Evidencias de reunión:**
+![entrevista 3](./imgs%20entrevista/Entrevista-kotlin2.PNG)
+**URL:**
+[Entrevista 3 - Kotlin](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EYBI5nXFZaRFu1ssWtOFNO8Ba6Mk9UGYqWBalLOG4w8ZVQ?e=YIEmE8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Inicio de la Entrevista:** 00:04  
+**Duración:** 7:29  
+**Entrevistado:** Enfermero – Área Postoperatoria  
+**Rol:** Cuidador clínico directo de pacientes postquirúrgicos  
+**Ubicación:** Clínica privada – Área de hospitalización intermedia  
+
+**Resumen de la Entrevista**
+
+Durante la entrevista, el enfermero mostró un alto nivel de interés por la aplicación orientada al monitoreo de signos vitales en pacientes postoperatorios. Uno de los aspectos más destacados por él fue la posibilidad de visualizar múltiples pacientes al mismo tiempo, lo que considera fundamental en escenarios donde cada segundo cuenta, como la atención postquirúrgica inmediata.
+
+Valoró especialmente la monitorización en tiempo real, indicando que permite anticiparse a posibles complicaciones, como caídas bruscas de presión o saturación de oxígeno. Además, resaltó la utilidad de las alertas configurables por niveles de riesgo, ya que permiten priorizar la atención de los pacientes más críticos sin perder visibilidad del resto.
+
+En cuanto a la interfaz de la aplicación, el entrevistado expresó que le pareció intuitiva y bien organizada, y destacó que los pacientes con mayor riesgo aparecen primero, lo cual facilita la toma de decisiones. También sugirió que se podrían incluir filtros por tipo de cirugía o nivel de dependencia, lo cual considera clave para entornos clínicos.
+
+Sobre la funcionalidad de gestión de pacientes, indicó que el proceso de agregar nuevos ingresos es sencillo, pero sería útil tener plantillas por tipo de intervención quirúrgica. Mencionó que la búsqueda de pacientes es efectiva y rápida, aunque propuso incluir filtros por turno o médico tratante.
+
+Respecto a la colaboración con el equipo de salud, comentó que una función de chat interno por paciente sería muy beneficiosa para coordinar tareas entre enfermeros, médicos y terapistas sin depender de sistemas externos. También consideró útil tener notas rápidas entre turnos para garantizar continuidad de la atención.
+
+Finalmente, valoró positivamente la experiencia con la landing page, pero sugirió dividirla por perfiles (profesional médico vs. cuidadores familiares) para que cada usuario acceda a la información más relevante según su rol.
+
+---
+
+**Conclusión**
+
+El entrevistado consideró la aplicación una herramienta altamente funcional y necesaria en el entorno postoperatorio, ya que facilita el monitoreo clínico, optimiza la coordinación del equipo de salud y mejora la seguridad del paciente. Afirmó que el uso de este tipo de tecnología puede tener un impacto directo en la reducción de riesgos postquirúrgicos y en la calidad de la atención médica.
 
 
 #### 6.3.3. Evaluaciones según heurísticas.
