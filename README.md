@@ -2723,7 +2723,7 @@ Evidencias de reunión:
 ![entrevista 1](./imgs%20entrevista/Entrevista-Flutter.png)
 
 URL:
-[Entrevista 1 - Flutter]([https://www.canva.com/design/DAGQBsbxBN0/R_YFYeckkGyQdmnA7XVk0Q/edit?utm_content=DAGQBsbxBN0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EU-5u40Z_1dPoiuamEugMxMB1FfAwq0fP_44YVoM6UuO8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MxcPMG))
+[Entrevista 1 - Flutter](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EU-5u40Z_1dPoiuamEugMxMB1FfAwq0fP_44YVoM6UuO8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fpc1A7)
 
 Inicio de la Entrevista:00:02
 Tiempo: 12:22
