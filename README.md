@@ -2716,7 +2716,25 @@ A través de este proceso de validación, buscamos garantizar que las soluciones
 - ¿Cómo crees que esta herramienta podría impactar la calidad de la atención que ofreces a los adultos mayores?
 
 #### 6.3.2. Registro de Entrevistas. 
+Entrevistado 1 #: Segmento 2 
+Nombre y Apellidos: Silvia Perez 
+Edad: 52 
+Evidencias de reunión:
+![entrevista 1](./imgs%20entrevista/Entrevista-Flutter.png)
 
+URL:
+[Entrevista 1 - Flutter]([https://www.canva.com/design/DAGQBsbxBN0/R_YFYeckkGyQdmnA7XVk0Q/edit?utm_content=DAGQBsbxBN0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218791_upc_edu_pe/EU-5u40Z_1dPoiuamEugMxMB1FfAwq0fP_44YVoM6UuO8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MxcPMG))
+
+Inicio de la Entrevista:00:02
+Tiempo: 12:22
+Resumen de la Entrevista:
+Durante la entrevista, el cuidador expresó un alto nivel de interés y satisfacción con el uso de la aplicación diseñada para el monitoreo de adultos mayores. Destacó como uno de los aspectos más valiosos la funcionalidad de medición continua 24/7 de los signos vitales del paciente, ya que esto le permite tener un control constante y en tiempo real del estado de salud, lo cual considera fundamental para brindar una atención segura y oportuna.
+
+Asimismo, valoró positivamente la posibilidad de agregar recordatorios para la toma de medicamentos y otros eventos importantes, así como la opción de guardar números de emergencia, lo que incrementa la seguridad del adulto mayor en situaciones críticas.
+
+En cuanto a la experiencia visual, el cuidador comentó que tanto la landing page como la aplicación tienen una navegación intuitiva y fluida. Apreció el diseño de los botones y la elección de los colores, que le parecieron agradables y accesibles. Considera que todo el servicio en conjunto le facilita considerablemente su trabajo diario, aportando organización, tranquilidad y confianza.
+
+En conclusión, el cuidador manifestó sentirse satisfecho con la solución propuesta y la consideró una herramienta útil y funcional para su labor de cuidado.
 
 
 #### 6.3.3. Evaluaciones según heurísticas.
