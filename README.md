@@ -2630,6 +2630,191 @@ Repositorio de Flutter:
 ![Flutter](./DeploySprint2Mov/Flutter.PNG)
 
 
+### 6.2.3 Sprint 3
+#### 6.2.3.1 Sprint Planning 3
+
+#### 6.2.3.2.Sprint Backlog 3. 
+En esta tercera iteración, nos enfocamos en corregir errores visuales identificados durante pruebas anteriores, incorporar validaciones de datos para mejorar la confiabilidad del sistema, y completar la integración final conectando los últimos endpoints necesarios para el funcionamiento de la app. Como hito clave, se realizó el despliegue de la aplicación en formato APK, permitiendo su descarga y prueba en dispositivos Android. Tukuntech, desarrollada en Kotlin y Flutter, avanza así hacia una versión más estable y funcional, acercándose a su lanzamiento definitivo.
+
+
+#### 6.2.3.3 Development Evidence for Sprint Review. 
+En esta sección se presenta la evidencia del progreso y desarrollo del software realizado durante el tercer sprint. Se incluyen detalles sobre las características implementadas, destacando los siguientes avances:
+Backend: Se conectaron los últimos endpoints necesarios para el funcionamiento completo de la app, asegurando una comunicación fluida entre el servidor y la interfaz de usuario.
+Mobile (Flutter & Kotlin): Se corrigieron errores visuales y se agregaron validaciones de datos, mejorando la experiencia del usuario y la confiabilidad de la información ingresada. Además, se trabajó en ajustes de interfaz tanto en Flutter como en Kotlin, consolidando una versión más estable de la app.
+Despliegue: Se generó y publicó el archivo APK, permitiendo la descarga de la aplicación para pruebas en dispositivos reales. Esto representa un avance clave para validar el comportamiento del sistema en un entorno real.
+
+
+#### 6.2.3.4 Testing Suite Evidence for Sprint Review. 
+En esta sección se explica y documenta el conjunto de mejoras implementadas en el backend durante el Sprint 3. Para garantizar la correcta funcionalidad de los servicios de autenticación, autorización y conexión de datos, se desarrollaron y ejecutaron pruebas automatizadas, incluyendo Acceptance Tests, que permiten validar el cumplimiento de los requisitos definidos en las User Stories.
+Estas pruebas se realizaron utilizando herramientas como Postman y Swagger. En Postman, se configuró una suite de pruebas que evalúa el rendimiento y la precisión de las respuestas en distintos escenarios, especialmente enfocada en los endpoints nuevos o corregidos. Por su parte, Swagger se utilizó tanto para documentar los servicios como para verificar que las rutas, parámetros y respuestas funcionen de forma adecuada.
+A continuación, se muestra un ejemplo de prueba realizada en Postman utilizando el API desplegado, validando el correcto funcionamiento del endpoint para la creación de un paciente.
+
+
+#### 6.2.3.5 Execution Evidence for Sprint Review. 
+En este tercer sprint se enfocaron los esfuerzos en estabilizar y refinar la aplicación Tukuntech, consolidando el trabajo previo y acercando la plataforma a un estado funcional para pruebas reales. Se abordaron aspectos visuales, de validación y despliegue, tanto en el backend como en las plataformas móviles desarrolladas en Flutter y Kotlin.
+- Backend – Conexión Final y Validaciones
+ Se conectaron los últimos endpoints necesarios para el funcionamiento completo de la app, permitiendo una comunicación fluida entre la base de datos y la interfaz. Además, se realizaron ajustes para validar datos de entrada y mejorar la seguridad y consistencia del sistema.
+- Mobile (Flutter & Kotlin) – Correcciones y Mejora de UX
+ Se corrigieron errores visuales y se implementaron validaciones que optimizan la experiencia del usuario al interactuar con la app. Estos avances fueron aplicados tanto en Flutter como en Kotlin, asegurando coherencia visual y funcional entre ambas tecnologías.
+- Despliegue – Generación de APK
+ Uno de los principales logros del sprint fue la generación y publicación del APK de Tukuntech, lo que permitió al equipo y al Product Owner probar la aplicación en dispositivos reales, validar su comportamiento y recolectar feedback clave para futuras mejoras.
+Estas acciones consolidan una versión más estable del sistema y permiten avanzar hacia la validación completa en contextos reales de uso.
+- Validación de datos – Login
+Se implementó validación de campos vacíos y autenticación contra la base de datos.
+Si el usuario ingresa mal usuario o contraseña, se muestra un mensaje de error claro y no se permite el acceso.
+
+Clinic:
+![Kotlin](./Sprint3/Deployment1.PNG)
+
+Elder:
+![Flutter](./Sprint3/Deployment5.PNG)
+
+- Validación de datos – Registro
+Se validan campos como: Email con formato válido, contraseñas no vacías y nombres obligatorios
+
+Clinic:
+![Kotlin](./Sprint3/Deployment2.PNG)
+
+Elder:
+![Flutter](./Sprint3/Deployment6.PNG)
+
+- Mejora en módulo de signos vitales del adulto mayor
+Se refinó el diseño de las tarjetas, y ahora se muestran datos en tiempo real con mayor precisión y formato claro: Frecuencia cardíaca, saturación (SpO2), presión arterial y temperatura corporal.
+
+Elder:
+![Flutter](./Sprint3/Deployment7.PNG)
+
+- Creación de nuevos pacientes
+Validaciones incluidas: DNI numérico y único, edad entre rangos lógicos y  campos obligatorios para nacionalidad, género y tipo de sangre (desde endpoints)
+
+Clinic:
+![Kotlin](./Sprint3/Deployment4.PNG)
+
+Visualización de Pacientes:
+Clinic:
+![Kotlin](./Sprint3/Deployment3.PNG)
+
+#### 6.2.3.6 Services Documentation Evidence for Sprint Review. 
+Durante este sprint se documentaron los servicios web relacionados con las entidades Elder y Clinic, cubriendo funcionalidades clave para el monitoreo integral del paciente postoperatorio. La documentación fue elaborada utilizando OpenAPI (Swagger) y desplegada, permitiendo al equipo frontend consultar fácilmente los endpoints disponibles y realizar pruebas de integración de forma más eficiente.
+Los recursos implementados incluyen gestión de datos personales del paciente, asignación de camas, números de emergencia, medicamentos pendientes, soporte técnico y alertas críticas.
+
+- Clinic
+# Endpoints API - Tukun Tech Platform
+
+| Endpoint                    | Acción                    | Método HTTP | Enlace                                                                 |
+|----------------------------|---------------------------|--------------|------------------------------------------------------------------------|
+| `/doctors`                 | Obtener todos los doctores | `GET`        | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| `/doctors`                 | Crear un nuevo doctor      | `POST`       | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| `/doctors/{doctorsId}`     | Actualizar un doctor       | `PUT`        | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| `/doctors/{doctorsId}`     | Eliminar un doctor         | `DELETE`     | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| `/patients`                | Obtener todos los pacientes| `GET`        | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| `/patients`                | Crear un nuevo paciente    | `POST`       | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| `/patients/{patientId}`    | Actualizar un paciente     | `PUT`        | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| `/patients/{patientId}`    | Eliminar un paciente       | `DELETE`     | [Ver](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+
+
+
+
+- Elder
+
+| Recurso           | Acción                           | HTTP  | Endpoint                                      | Enlace                                                                 |
+|-------------------|----------------------------------|-------|-----------------------------------------------|------------------------------------------------------------------------|
+| **Elder**         | Listar elders                    | GET   | /api/v1/elders                                | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Crear elder                      | POST  | /api/v1/elders                                | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Actualizar elder                 | PUT   | /api/v1/elders/{id}                           | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Eliminar elder                   | DELETE| /api/v1/elders/{id}                           | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **ElderBed**      | Listar camas                     | GET   | /api/v1/elder-bed                             | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Crear cama para elder            | POST  | /api/v1/elder-bed                             | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Actualizar cama                  | PUT   | /api/v1/elder-bed/{id}                        | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Eliminar cama                    | DELETE| /api/v1/elder-bed/{id}                        | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **EmergencyNumbers**| Listar contactos de emergencia | GET   | /api/v1/emergencyNumbers/emergencyNumbers     | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Crear contacto                   | POST  | /api/v1/emergencyNumbers                      | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Actualizar contacto              | PUT   | /api/v1/emergencyNumbers/{id}                 | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Eliminar contacto                | DELETE| /api/v1/emergencyNumbers/{id}                 | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **PendingMedicine**| Listar medicamentos pendientes  | GET   | /api/v1/pendingMedicine/pendingMedicines      | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Crear medicamento                | POST  | /api/v1/pendingMedicine                       | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Actualizar medicamento           | PUT   | /api/v1/pendingMedicine/{id}                  | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Eliminar medicamento             | DELETE| /api/v1/pendingMedicine/{id}                  | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **TechnicalSupport**| Enviar solicitud de soporte    | POST  | /api/v1/soporte                               | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+|                   | Ver FAQs                         | GET   | /api/v1/soporte/faqs                          | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+| **CriticalAlerts**| Ver alertas críticas             | GET   | /api/v1/criticalAlert/criticalAlerts          | [Swagger](https://tukun-tech-platform.onrender.com/swagger-ui/index.html#/) |
+
+#### 6.2.3.7 Software Deployment Evidence for Sprint Review
+Durante este sprint se definió el proceso de implementación del sistema Tukuntech en un entorno de producción accesible para los usuarios finales. El objetivo principal es asegurar que la plataforma esté disponible, sea estable y segura para su uso real por parte del personal médico, sentando las bases para una adopción efectiva en entornos clínicos.
+- Generación del App Bundle: El proceso comenzó accediendo a la opción “Generate Signed Bundle / APK” desde el menú Build en Android Studio. En la ventana emergente se eligió el formato “Android App Bundle”, ya que este tipo de archivo es el requerido por Google Play y permite una distribución más eficiente gracias a su menor tamaño y soporte para características modulares. Una vez seleccionada esta opción, se continuó haciendo clic en “Next”.
+
+![App Bundle](./Sprint3/apk1.PNG)
+
+- Creación del Keystore: Para poder firmar digitalmente la aplicación, se creó un nuevo archivo Keystore, que es un almacén seguro que contiene la clave privada del desarrollador. En esta etapa se definió la ubicación del archivo, la contraseña del Keystore, un alias para la clave (en este caso, “key0”) y su contraseña correspondiente. Adicionalmente, se completaron los datos del certificado incluyendo el nombre completo del desarrollador, la organización, la ciudad, la provincia y el código del país. Esta información es utilizada para generar la firma digital que autentica la aplicación ante Google Play. Una vez completados los campos, se guardó el Keystore haciendo clic en “OK”.
+
+![App Bundle](./Sprint3/apk2.PNG)
+
+- Asociación del Keystore a la aplicación: Con el archivo Keystore ya creado, se procedió a ingresarlo en el asistente de generación de App Bundle. Se especificó la ruta del archivo, junto con la contraseña del Keystore, el alias de la clave y su contraseña. Esta configuración permite que Android Studio utilice dicha clave para firmar automáticamente el paquete generado. Se activó opcionalmente la opción para recordar las credenciales y se avanzó haciendo clic en “Next”.
+
+![App Bundle](./Sprint3/apk3.PNG)
+
+- Selección de la variante de compilación: En esta fase se eligió la variante de compilación “release”, que es la versión optimizada de la aplicación pensada para distribución al público. Esta variante excluye herramientas de depuración y puede incluir configuraciones de ofuscación y reducción de tamaño mediante Proguard, si se encuentra habilitado en el proyecto. Luego de confirmar esta selección, se finalizó el proceso presionando “Finish”. Android Studio compiló la aplicación y generó el archivo app-release.aab en la carpeta /app/release, dejándola lista para ser cargada en Google Play.
+
+![App Bundle](./Sprint3/apk4.PNG)
+
+
+**Términos y Condiciones de Uso – Aplicación TukunTech**
+- Introducción
+ El uso de la aplicación móvil TukunTech implica la aceptación plena de los presentes términos y condiciones. Si el usuario no está de acuerdo con alguna de las cláusulas aquí descritas, se recomienda no utilizar la aplicación.
+- Objetivo de la aplicación
+ TukunTech es una aplicación diseñada para el monitoreo en tiempo real de signos vitales de pacientes postoperatorios y adultos mayores mediante el uso de dispositivos IoT. La información mostrada tiene fines informativos y de apoyo médico, pero no reemplaza en ningún caso el diagnóstico, evaluación o tratamiento proporcionado por profesionales de la salud.
+- Condiciones de uso
+ El usuario se compromete a utilizar la aplicación de forma responsable, ética y únicamente para los fines para los cuales ha sido desarrollada. Se prohíbe expresamente el uso indebido de la información recolectada, así como la manipulación o distribución de datos médicos sin la autorización correspondiente. La aplicación está dirigida a personal médico autorizado y cuidadores responsables.
+- Limitación de responsabilidad
+ La empresa desarrolladora no se hace responsable por posibles fallos en la conectividad de los dispositivos IoT, errores en la interpretación de datos por parte del usuario, ni por consecuencias médicas derivadas del uso incorrecto o no supervisado de la información brindada por la app. Toda decisión médica debe ser tomada por un profesional de la salud calificado.
+- Modificaciones
+ La empresa se reserva el derecho de actualizar o modificar estos términos en cualquier momento, sin previo aviso. Las nuevas versiones serán publicadas dentro de la aplicación o mediante canales oficiales. El uso continuado de la app después de dichos cambios implicará la aceptación automática de los nuevos términos.
+
+
+**Política de Privacidad – Aplicación TukunTech**
+Fecha de entrada en vigencia: [colocar fecha actual]
+Finalidad de la presente política
+ Esta política tiene como objetivo informar al usuario sobre la manera en que la aplicación TukunTech recopila, utiliza, almacena y protege los datos personales y médicos que son procesados a través de su plataforma.
+Datos que se recopilan:
+La aplicación puede recolectar los siguientes datos:
+- Información personal: nombre, edad, género, nacionalidad.
+- Información médica: presión arterial, frecuencia cardíaca, temperatura corporal, nivel de oxigenación y otros signos vitales.
+- Datos técnicos: estado y código del dispositivo IoT, conexión activa, tipo de sensor.
+**Uso de la información**
+ Los datos recolectados son utilizados exclusivamente para fines médicos, específicamente para el monitoreo en tiempo real de la salud del paciente. Esta información puede ser visualizada por personal médico autorizado o cuidadores responsables con acceso permitido.
+**Seguridad y almacenamiento**
+ La información recopilada es almacenada en servidores protegidos, con medidas de seguridad técnicas y administrativas que garantizan la confidencialidad, integridad y disponibilidad de los datos. Se utilizan protocolos de cifrado y autenticación para impedir accesos no autorizados.
+**Acceso y derechos del usuario**
+ El usuario o paciente tiene derecho a solicitar el acceso a sus datos personales, así como a solicitar su corrección, actualización o eliminación. Estas solicitudes pueden realizarse mediante correo electrónico a la dirección designada por la organización: [correo@tukun.tech].
+**Divulgación a terceros**
+ Los datos personales no serán compartidos con terceros sin consentimiento previo del usuario, salvo en los casos en los que la ley lo exija o en situaciones de emergencia médica donde se requiera preservar la vida o integridad del paciente.
+**Cambios en la política**
+ La presente política de privacidad puede ser actualizada en cualquier momento. En caso de realizarse modificaciones sustanciales, estas serán notificadas dentro de la aplicación. Se recomienda revisar periódicamente esta política para estar informado sobre cómo se protege la información del usuario.
+
+#### 6.2.3.8.Team Collaboration Insights during Sprint. 
+Durante el Sprint 3, el equipo mantuvo una organización clara y efectiva en la distribución de tareas, garantizando la participación activa de todos los integrantes en al menos uno de los productos priorizados. Las responsabilidades se asignaron de forma equilibrada para avanzar tanto en funcionalidades clave como en la preparación para el despliegue de la aplicación.
+**Web Services:**
+ Todos los miembros participaron en la conexión de los últimos endpoints, validación de datos y corrección de errores en los servicios relacionados con las entidades Elder y Clinic. Se realizaron pruebas automatizadas, ajustes en la estructura de respuesta y mejoras en la documentación utilizando Swagger.
+**Aplicación móvil (Flutter & Kotlin):**
+ El equipo de desarrollo móvil trabajó en la corrección de errores visuales, integración de validaciones y mejoras en la experiencia de usuario. Además, se realizaron ajustes en la navegación y comportamiento de la app, tanto en la parte desarrollada en Flutter como en la construida con Kotlin.
+**Herramientas Utilizadas:**
+- GitHub: Control de versiones y seguimiento de contribuciones tanto en el backend como en la app móvil.
+- Trello: Organización de tareas por etapas del sprint (To Do, In Progress, Done), con responsables asignados.
+- Discord y WhatsApp: Canales de comunicación activos para coordinación diaria, resolución de dudas técnicas y reuniones rápidas.
+**Análisis de Commits y Participación:**
+ Las capturas de pantalla tomadas desde GitHub evidencian la participación activa de todo el equipo. Se observó que:
+- Todos los integrantes realizaron commits significativos, ya sea en conexión de servicios, validaciones o ajustes visuales.
+- Algunos miembros se enfocaron en backend y pruebas automatizadas, mientras que otros se centraron en mejorar la experiencia de usuario en la aplicación.
+- Las diferencias en número de commits reflejan la complejidad y duración variable de las tareas asignadas.
+La combinación de herramientas colaborativas y una comunicación fluida permitió mantener una visión clara del avance, facilitando la toma de decisiones y el cumplimiento del Sprint Goal.
+GitHub Kotlin:
+
+![Kotlin](./Sprint3/GitHubKotlin.PNG)
+
+GitHub Kotlin:
+
+![Flutter](./Sprint3/GitHubFlutter.PNG)
+
 ### 6.3. Validation Interviews.
 En esta sección, el equipo registra y explica las actividades realizadas durante las entrevistas de validación a lo largo del proyecto. Estas entrevistas son fundamentales para obtener retroalimentación directa de los usuarios pertenecientes a los segmentos objetivo, quienes interactúan con el Landing Page y con la aplicación móvil desarrollada.
 Se han estructurado diversas secciones que incluyen el Diseño de Entrevistas, el Registro de Entrevistas y las Evaluaciones según heurísticas, permitiendo un análisis exhaustivo de la experiencia del usuario.
