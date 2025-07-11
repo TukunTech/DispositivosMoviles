@@ -2761,6 +2761,17 @@ En esta sección se explica y documenta el conjunto de mejoras implementadas en 
 Estas pruebas se realizaron utilizando herramientas como Postman y Swagger. En Postman, se configuró una suite de pruebas que evalúa el rendimiento y la precisión de las respuestas en distintos escenarios, especialmente enfocada en los endpoints nuevos o corregidos. Por su parte, Swagger se utilizó tanto para documentar los servicios como para verificar que las rutas, parámetros y respuestas funcionen de forma adecuada.
 A continuación, se muestra un ejemplo de prueba realizada en Postman utilizando el API desplegado, validando el correcto funcionamiento del endpoint para la creación de un paciente.
 
+**Para evaluar el login para ambas versiones de la plataforma móvil:**
+![1](./testing/1.png)
+**Para validar el create an account para ambas plataformas móviles:**
+![1](./testing/2.png)
+
+**Para visualizar los medicamentos en la versión elder:**
+![1](./testing/3.png)
+
+**Para listar a los pacientes en la versión de clinic:**
+![1](./testing/4.png)
+
 
 #### 6.2.3.5 Execution Evidence for Sprint Review. 
 En este tercer sprint se enfocaron los esfuerzos en estabilizar y refinar la aplicación Tukuntech, consolidando el trabajo previo y acercando la plataforma a un estado funcional para pruebas reales. Se abordaron aspectos visuales, de validación y despliegue, tanto en el backend como en las plataformas móviles desarrolladas en Flutter y Kotlin.
