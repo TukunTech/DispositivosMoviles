@@ -2665,7 +2665,7 @@ En esta tercera iteración, nos enfocamos en corregir errores visuales identific
 | Sprint 3 | US 39          | Agregar un adulto mayor                          | 2            | Agregar de un adulto mayor                       | Como desarrollador, quiero registrar un adulto mayor a través de la API para guardar sus datos.                                        | 2h         | Adriana        | Done   |
 | Sprint 3 | US 63          | Ver perfil Adultos mayores                       | 3            | Ver perfil Adultos mayores                   | Como desarrollador, quiero conectar el componente `elder-profile` al API service para visualizar la información de adultos mayores registrados.     | 4h         | Rafael       | Done   |
 | Sprint 3 | US 29          | Sección Home del adulto mayor                       | 4            | Implementación de la sección Home del adulto mayor  | Como Developer de TukunTech, quiero estructurar la sección Home Elder para acceso a secciones relevantes al cuidado del adulto mayor.           | 2h         | Erick        | Done   |
-| Sprint 3 | US 68          | Inputs validades                       | 5            | Implementación de validaciones en los inputs  | Como Developer de TukunTech, quiero estructurar la sección Home Elder para acceso a secciones relevantes al cuidado del adulto mayor.           | 6h         | Erick        | Done   |
+| Sprint 3 | US 68          | Inputs validades                       | 5            | Implementación de validaciones en los inputs  | Como Developer de TukunTech, quiero estructurar la sección Home Elder para acceso a secciones relevantes al cuidado del adulto mayor.           | 6h         | Oscar        | Done   |
 
 
 #### 6.2.3.3 Development Evidence for Sprint Review. 
