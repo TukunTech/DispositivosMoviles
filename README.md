@@ -3213,6 +3213,8 @@ TukunTech se posiciona así como una herramienta sólida y escalable que respond
 2) Video presentación del LandingPage: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EZiwz8Vm9RtMvlOnevW4KbcB8LpYJNZow4fUzaLNPgsrFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IZHoP1
 3) Video about the product Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212535_upc_edu_pe/ERWJAttMhApBviZdp7kcfgoBMW6r-k9xY1W_OQOVepfzEA?e=OsYaQI&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 4) Video about the product Youtube: https://youtu.be/CUCnHqTLeRI
+5) Video About the Team: [About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201811767_upc_edu_pe/EVtAVpuBy5pJt81UR2dviVkBSh9AEVFX3ATtDkwwE8zvIg?e=Sknc4t)
+  
 
 ## Bibliografía:
 
