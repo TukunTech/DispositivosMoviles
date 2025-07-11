@@ -2763,14 +2763,15 @@ A continuación, se muestra un ejemplo de prueba realizada en Postman utilizando
 
 **Para evaluar el login para ambas versiones de la plataforma móvil:**
 ![1](./testing/1.png)
+
 **Para validar el create an account para ambas plataformas móviles:**
-![1](./testing/2.png)
+![2](./testing/2.png)
 
 **Para visualizar los medicamentos en la versión elder:**
-![1](./testing/3.png)
+![3](./testing/3.png)
 
 **Para listar a los pacientes en la versión de clinic:**
-![1](./testing/4.png)
+![4](./testing/4.png)
 
 
 #### 6.2.3.5 Execution Evidence for Sprint Review. 
