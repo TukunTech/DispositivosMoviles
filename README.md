@@ -757,6 +757,7 @@ Tras analizar las *Epics* definidas, procedimos a desglosarlas en *User Stories*
 | 65               | Ver signos vitales de adultos mayores                   | Como Desarrollador, quiero conectar el componente elder-vital-signs al API service, para que los usuarios puedan visualizar los signos vitales del adulto mayor.                                               | Escenario:<br>GET a '/api/v1/elder/:id/vital-signs' → muestra datos                  | EPIC 05 |
 | 66               | Visualización signos vitales pacientes post operatorios | Como Desarrollador, quiero crear una pantalla que muestre los signos vitales de pacientes post operatorios, para que médicos y usuarios autorizados puedan monitorear su estado de salud en tiempo real.       | Escenario:<br>GET a '/api/v1/elder-bed.' → muestra signos vitales                    | EPIC 05 |
 | 67               | Visualización signos vitales pacientes en UCI           | Como Desarrollador, quiero crear una pantalla que muestre los signos vitales de pacientes en cuidados intensivos, para que médicos y usuarios autorizados puedan monitorear su estado de salud en tiempo real. | Escenario:<br>GET a '/api/v1/bed.' → muestra signos vitales                          | EPIC 05 |
+| 68               | Implementación de validaciones en los inputs           | Como Desarrollador, quiero implementar validaciones en los inputs, para que los usuarios puedan ingresar sólo los datos que se soliciten. | Escenario 1:<br>Given que el Developer está desarrollando las validaciones en los inputs<br>When se ingresen datos erróneos<br>Then el sistema muestra una advertencia<br>Escenario 2:<br>Given que el Developer está desarrollando las validaciones en los inputs<br>When un input sea obligatorio y no se rellene<br>Then el sistema muestra una advertencia<br>| EPIC 04 |
 
 
 
@@ -847,8 +848,7 @@ Una vez redactadas todas las User Stories (US), es fundamental priorizarlas. El 
 | 65     | US 65           | Ver signos vitales de adultos mayores                   | Como Desarrollador, Quiero conectar el componente elder-vital-signs al API service, Para que los usuarios puedan visualizar los signos vitales del adulto mayor.                                                   | 5            |
 | 66     | US 66           | Visualización signos vitales pacientes post operatorios | Como Desarrollador, Quiero crear una pantalla que muestre los signos vitales de pacientes post operatorios, Para que los médicos y usuarios autorizados puedan monitorear su estado de salud en tiempo real.       | 5            |
 | 67     | US 67           | Visualización signos vitales pacientes en UCI           | Como Desarrollador, Quiero crear una pantalla que muestre los signos vitales de pacientes en cuidados intensivos, Para que los médicos y usuarios autorizados puedan monitorear su estado de salud en tiempo real. | 5            |
-
-
+| 68     | US 68           | Implementación de validaciones en los inputs          | Como Desarrollador, quiero implementar validaciones en los inputs, para que los usuarios puedan ingresar sólo los datos que se soliciten. | 8            |
 
 
 # Capítulo IV: Solution Software Design
@@ -2347,19 +2347,19 @@ En esta segunda iteración, tuvimos como objetivo corregir la estructura del bac
 
 | Sprint # | User Story Id | User Story Title                                      | Work Item Id | Work Item Title                                     | Description                                                                                                                                      | Estimation | Assigned To | Status |
 |----------|----------------|-------------------------------------------------------|---------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|--------|
-| Sprint 2 | US 29          | Sección Home del adulto mayor                       | 1            | Implementación de la sección Home del adulto mayor  | Como Developer de TukunTech, quiero estructurar la sección Home Elder para acceso a secciones relevantes al cuidado del adulto mayor.           | 2h         | Erick        | Done   |
+| Sprint 2 | US 29          | Sección Home del adulto mayor                       | 1            | Implementación de la sección Home del adulto mayor  | Como Developer de TukunTech, quiero estructurar la sección Home Elder para acceso a secciones relevantes al cuidado del adulto mayor.           | 2h         | Erick        | In progress   |
 | Sprint 2 | US 30          | Panel de signos vitales del adulto mayor            | 2            | Desarrollo del panel de signos vitales del adulto mayor| Como Developer de TukunTech, quiero mostrar los signos vitales del adulto mayor en tiempo real.                                                  | 3h         | Fabio        | Done   |
 | Sprint 2 | US 31          | Perfil del adulto mayor                             | 3            | Desarrollo del perfil del adulto mayor              | Como Developer de TukunTech, quiero gestionar información clínica y personal del adulto mayor.                                                   | 2h         | Adriana      | Done   |
 | Sprint 2 | US 32          | Panel de recordatorios del adulto mayor                             | 4            | Desarrollo del panel de recordatorios               | Como Developer de TukunTech, quiero implementar recordatorios para facilitar la gestión de medicación del adulto mayor.                          | 3h         | Oscar        | Done   |
 | Sprint 2 | US 33          | Monitoreo de signos vitales del adulto mayor                        | 5            | Desarrollo de funcionalidad de monitoreo de signos vitales | Como Developer de TukunTech, quiero generar alertas ante anomalías y conservar historial de signos vitales.                                      | 4h         | Erick        | Done   |
-| Sprint 2 | US 34          | Números de emergencia del adulto mayor                           | 6            | Desarrollo del agregado y gestión de los números del emergencia del adulto         | Como developer de TukunTech, quiero implementar la funcionalidad de visualización y gestión de números de emergencia, para asegurar que los cuidadores puedan acceder rápidamente a contactos clave en situaciones críticas.                                | 3h         | Fabio        | Done   |
-| Sprint 2 | US 39          | Agregar un adulto mayor                          | 7            | Agregar de un adulto mayor                       | Como desarrollador, quiero registrar un adulto mayor a través de la API para guardar sus datos.                                        | 2h         | Erick        | Done   |
+| Sprint 2 | US 34          | Números de emergencia del adulto mayor                           | 6            | Desarrollo del agregado y gestión de los números del emergencia del adulto         | Como developer de TukunTech, quiero implementar la funcionalidad de visualización y gestión de números de emergencia, para asegurar que los cuidadores puedan acceder rápidamente a contactos clave en situaciones críticas.                                | 3h         | Fabio        | In Progress   |
+| Sprint 2 | US 39          | Agregar un adulto mayor                          | 7            | Agregar de un adulto mayor                       | Como desarrollador, quiero registrar un adulto mayor a través de la API para guardar sus datos.                                        | 2h         | Erick        | In Progress   |
 | Sprint 2 | US 40          | Obtener datos personales del adulto mayor        | 8            | Obtener datos personales del perfil de un adulto mayor | Como desarrollador, quiero acceder a los datos personales del adulto mayor desde la API para mostrarlos en su perfil.            | 2h         | Fabio        | Done   |
 | Sprint 2 | US 41          | Obtener medicamentos pendientes                            | 9            | Obtener medicamentos pendientes                         | Como desarrollador, quiero obtener los medicamentos pendientes de un adulto mayor mediante una API para mostrarlos al personal médico o familiar.    | 3h         | Adriana      | Done   |
 | Sprint 2 | US 42          | Agregar medicamentos pendientes                            | 10            | Agregar medicamentos pendientes                         | Como desarrollador, quiero permitir al usuario crear medicamentos pendientes a través de una API para que puedan ser gestionados adecuadamente.      | 2h         |              | Done   |
 | Sprint 2 | US 43          | Alertas para adultos mayores                               | 11            | Obtener alertas de estado crítico (adultos mayores)     | Como desarrollador, quiero obtener alertas críticas de adultos mayores a través de una API para monitorear situaciones de riesgo en tiempo real.     | 2h         | Oscar        | Done   |
 | Sprint 2 | US 45          | Recordatorio de medicación                                 | 11            | Alerta para recordar tomar medicamento pendiente         | Como desarrollador, quiero enviar alertas de recordatorio de medicamentos a través de una API para que los cuidadores reciban recordatorios.         | 3h         | Fabio        | Done   |
-| Sprint 2 | US 63          | Ver perfil Adultos mayores                       | 13            | Ver perfil Adultos mayores                   | Como desarrollador, quiero conectar el componente `elder-profile` al API service para visualizar la información de adultos mayores registrados.     | 4h         | Rafael       | Done   |
+| Sprint 2 | US 63          | Ver perfil Adultos mayores                       | 13            | Ver perfil Adultos mayores                   | Como desarrollador, quiero conectar el componente `elder-profile` al API service para visualizar la información de adultos mayores registrados.     | 4h         | Rafael       | In progress   |
 | Sprint 2 | US 65          | Ver signos vitales de adultos mayores           | 14            | Ver signos vitales de adultos mayores       | Como desarrollador, quiero conectar el componente `elder-vital-signs` al API service para visualizar los signos vitales del adulto mayor.          | 3h         | Erick        | Done   |
 
 
@@ -2368,7 +2368,6 @@ En esta sección se presenta la evidencia del progreso y desarrollo del software
 - Backend: Se corrigieron errores estructurales que impedían la comunicación adecuada con el frontend, mejorando la base para el monitoreo de datos en tiempo real.
 - Mobile (Flutter): Se inició la maquetación de la sección Elder, creando la interfaz que permitirá visualizar información clave del adulto mayor.
 - Integración: Se avanzó en conectar correctamente los datos del backend con la nueva estructura en Flutter, preparando el camino para mostrar signos vitales en próximas iteraciones.
-
 
 
 | Usuario/Repo                             | Rama          | Commit    | Descripción                                                                 | Archivos | Fecha       |
@@ -2421,6 +2420,12 @@ En esta sección se presenta la evidencia del progreso y desarrollo del software
 | Ericksnpaii/tukuntechClinic-flutter     | elder_profile | 208d706   | refactor(home): update navigation                                           | empty    | 19/05/2025  |
 | AdriPCH/tukuntechClinic-flutter         | main          | e2e67671  | feat(home): add new view                                                    | empty    | 19/05/2025  |
 | AdriPCH/tukuntechClinic-flutter         | main          | 778c3d2   | feat(patient): connect PatientList screen to backend                         | empty    | 19/05/2025  |
+| Nicolini03/tukuntechClinic-flutter     | elder_profile | bea6cf2   | feat(emergency-numbers): implement UI with form and page layout             | empty    | 19/05/2025  |
+| Nicolini03/tukuntechClinic-flutter     | elder_profile | a75e2c1   | feat(emergency-numbers): add contact card with call and delete actions      | empty    | 19/05/2025  |
+| Nicolini03/tukuntechClinic-flutter     | elder_profile | d50b093   | chore(deps): add url_launcher dependency for phone call functionality       | empty    | 19/05/2025  |
+| Nicolini03/tukuntechClinic-flutter     | elder_profile | 88c0d0e   | feat(home): add navigation to EmergencyNumbersPage                          | empty    | 19/05/2025  |
+| Nicolini03/tukuntechClinic-flutter     | elder_profile | 2062092   | chore(pending-meds): remove unused pending medications logic and entities   | empty    | 19/05/2025  |
+| Nicolini03/tukuntechClinic-flutter     | elder_profile | 876f591   | chore(deps): lock url_launcher version in pubspec.lock                       | empty    | 19/05/2025  |
 
 
 
@@ -2631,10 +2636,36 @@ Repositorio de Flutter:
 
 
 ### 6.2.3 Sprint 3
+En esta sección se documenta el progreso alcanzado durante el Sprint 3, tanto en el desarrollo técnico del producto como en la dinámica de trabajo colaborativo del equipo. Se incluyen las siguientes subsecciones: Sprint Planning 3, Sprint Backlog 3, Evidencias de Desarrollo para la Revisión del Sprint, Evidencias de Ejecución para la Revisión, Documentación de Servicios Web, y Perspectivas sobre la Colaboración y Participación del Equipo durante este segundo ciclo de trabajo.
+
 #### 6.2.3.1 Sprint Planning 3
+En esta tercera iteración, tuvimos como objetivo finalizar la estructura de conectividad con el backend para asegurar una integración completa con el frontend con las validaciones respectivas en cada input. Al finalizar el Sprint, se espera contar con una visualización funcional y el primer prototipo de la aplicación móvil desarrollada con los lenguajes de programación Kotlin y Dart, lo cual representa un paso clave para el monitoreo de signos vitales en tiempo real.
+
+| **Sprint #**             | Sprint 3                                                                                           |
+|-------------------------|--------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                          |
+| Date                    | 2025-07-08                                                                                       |
+| Time                    | 08:00 PM                                                                                        |
+| Location                | Discord                                                                                         |
+| Prepared By             | Palomares Chavez, Adriana                                                                       |
+| Attendees               | Palomares Chavez, Adriana / Maraza Pedemonte, Erick / Bravo Gavilano, Rafel / Nicolich Alvis Fabio / Soto Zorrilla, Oscar |
+| **Sprint 2 Review Summary**    | Desarrollo del informe e integración parcial de la app con el backend                     |
+| **Sprint 2 Retrospective Summary** | Correcciones de errores en la documentación, mejora de estilos visuales e implementación de validaciones en cada uno de los inputs.                                     |
+| **Sprint Goal & User Stories**      |                                                                                      |
+| Sprint 3 Goal           | Our focus is on completing the backend integration with the mobile application, ensuring that all inputs have proper validations and that the data flow between frontend and backend is stable. We also aimed to deliver and deploy the first functional prototype of the app using Kotlin and Dart, which supports real-time vital signs monitoring. We believe this milestone represents a key step towards building a reliable and fully connected system that enables accurate health tracking and improves user interaction with the app. This will be confirmed when users are able to interact with the deployed mobile prototype, validate input data correctly, and visualize real-time vital signs through a seamless and consistent interface. |
+| Sprint 3 Velocity       | 29                                                                                            |
+| Sum of Story Points     | 29                                                                                            |
 
 #### 6.2.3.2.Sprint Backlog 3. 
 En esta tercera iteración, nos enfocamos en corregir errores visuales identificados durante pruebas anteriores, incorporar validaciones de datos para mejorar la confiabilidad del sistema, y completar la integración final conectando los últimos endpoints necesarios para el funcionamiento de la app. Como hito clave, se realizó el despliegue de la aplicación en formato APK, permitiendo su descarga y prueba en dispositivos Android. Tukuntech, desarrollada en Kotlin y Flutter, avanza así hacia una versión más estable y funcional, acercándose a su lanzamiento definitivo.
+
+| Sprint # | User Story Id | User Story Title                                      | Work Item Id | Work Item Title                                     | Description                                                                                                                                      | Estimation | Assigned To | Status |
+|----------|----------------|-------------------------------------------------------|---------------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------|--------------|--------|
+| Sprint 3 | US 34          | Números de emergencia del adulto mayor                           | 1            | Desarrollo del agregado y gestión de los números del emergencia del adulto         | Como developer de TukunTech, quiero implementar la funcionalidad de visualización y gestión de números de emergencia, para asegurar que los cuidadores puedan acceder rápidamente a contactos clave en situaciones críticas.                                | 3h         | Fabio        | Done   |
+| Sprint 3 | US 39          | Agregar un adulto mayor                          | 2            | Agregar de un adulto mayor                       | Como desarrollador, quiero registrar un adulto mayor a través de la API para guardar sus datos.                                        | 2h         | Adriana        | Done   |
+| Sprint 3 | US 63          | Ver perfil Adultos mayores                       | 3            | Ver perfil Adultos mayores                   | Como desarrollador, quiero conectar el componente `elder-profile` al API service para visualizar la información de adultos mayores registrados.     | 4h         | Rafael       | Done   |
+| Sprint 3 | US 29          | Sección Home del adulto mayor                       | 4            | Implementación de la sección Home del adulto mayor  | Como Developer de TukunTech, quiero estructurar la sección Home Elder para acceso a secciones relevantes al cuidado del adulto mayor.           | 2h         | Erick        | Done   |
+| Sprint 3 | US 68          | Inputs validades                       | 5            | Implementación de validaciones en los inputs  | Como Developer de TukunTech, quiero estructurar la sección Home Elder para acceso a secciones relevantes al cuidado del adulto mayor.           | 6h         | Erick        | Done   |
 
 
 #### 6.2.3.3 Development Evidence for Sprint Review. 
@@ -2694,6 +2725,8 @@ Despliegue: Se generó y publicó el archivo APK, permitiendo la descarga de la 
 | Nicolini03 | /tukuntechClinic-android | main   | 320d223     | feat(UtilViewModel): expose util lists to the UI                                       | empty               | 01/07/2025          |
 | Nicolini03 | /tukuntechClinic-android | main   | 1ffd71877   | chore(PresentationModule): register patient and util ViewModels                        | empty               | 01/07/2025          |
 | Nicolini03 | /tukuntechClinic-android | main   | b308d9e     | refactor: remove unused components from patient registration                           | empty               | 01/07/2025          |
+| Nicolini03 | /tukuntechClinic-flutter | main   | 5054f39   | feat(emergency_numbers): validate 9-digit phone number before creating contact                        | empty               | 07/07/2025          |
+
 
 #### 6.2.3.4 Testing Suite Evidence for Sprint Review. 
 En esta sección se explica y documenta el conjunto de mejoras implementadas en el backend durante el Sprint 3. Para garantizar la correcta funcionalidad de los servicios de autenticación, autorización y conexión de datos, se desarrollaron y ejecutaron pruebas automatizadas, incluyendo Acceptance Tests, que permiten validar el cumplimiento de los requisitos definidos en las User Stories.
