@@ -2811,6 +2811,17 @@ Durante este sprint se documentaron los servicios web relacionados con las entid
 Los recursos implementados incluyen gestión de datos personales del paciente, asignación de camas, números de emergencia, medicamentos pendientes, soporte técnico y alertas críticas.
 
 - Clinic
+
+ Vista General:
+![OpenAPI1](./OpenApiSprint3/OpenApi1.png)
+
+Ejemplo POST-Medics:
+![OpenAPI2](./OpenApiSprint3/OpenApi2.png)
+
+Ejemplo POST-Patient:
+![OpenAPI3](./OpenApiSprint3/OpenApi3.png)
+
+
 # Endpoints API - Tukun Tech Platform
 
 | Endpoint                    | Acción                    | Método HTTP | Enlace                                                                 |
@@ -2828,6 +2839,9 @@ Los recursos implementados incluyen gestión de datos personales del paciente, a
 
 
 - Elder
+
+![OpenApi](./Sprint2MovElder/OpenApi.PNG)
+
 
 | Recurso           | Acción                           | HTTP  | Endpoint                                      | Enlace                                                                 |
 |-------------------|----------------------------------|-------|-----------------------------------------------|------------------------------------------------------------------------|
